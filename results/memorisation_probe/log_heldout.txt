@@ -1,0 +1,54 @@
+raw_heldout.jsonl: 0 cached, 1000 to run (pass 1)
+  [50/1000] fails so far {}
+  [100/1000] fails so far {}
+  [150/1000] fails so far {}
+  [200/1000] fails so far {}
+  [250/1000] fails so far {}
+  [300/1000] fails so far {}
+  [350/1000] fails so far {}
+  [400/1000] fails so far {}
+  [450/1000] fails so far {}
+  [500/1000] fails so far {}
+  [550/1000] fails so far {}
+  [600/1000] fails so far {}
+  [650/1000] fails so far {}
+  [700/1000] fails so far {}
+  [750/1000] fails so far {}
+  [800/1000] fails so far {}
+  [850/1000] fails so far {}
+  [900/1000] fails so far {}
+  [950/1000] fails so far {}
+  [1000/1000] fails so far {}
+raw_heldout.jsonl: 1000 cached, 0 to run (pass 2)
+raw_heldout.jsonl: 1000 cached, 200 to run (pass 1)
+  [50/200] fails so far {'unparseable (is_error=True, api=429)': 39}
+  [100/200] fails so far {'unparseable (is_error=True, api=429)': 89}
+  [150/200] fails so far {'unparseable (is_error=True, api=429)': 139}
+  [200/200] fails so far {'unparseable (is_error=True, api=429)': 189}
+  failures: {'unparseable (is_error=True, api=429)': 189} | sample raw: You've hit your session limit · resets 1:10pm (Asia/Kolkata)
+raw_heldout.jsonl: 1011 cached, 189 to run (pass 2)
+  [50/189] fails so far {'unparseable (is_error=True, api=429)': 50}
+  [100/189] fails so far {'unparseable (is_error=True, api=429)': 100}
+  [150/189] fails so far {'unparseable (is_error=True, api=429)': 150}
+  failures: {'unparseable (is_error=True, api=429)': 189} | sample raw: You've hit your session limit · resets 1:10pm (Asia/Kolkata)
+raw_heldout.jsonl: 1011 cached, 189 to run (pass 3)
+  [50/189] fails so far {'unparseable (is_error=True, api=429)': 50}
+  [100/189] fails so far {'unparseable (is_error=True, api=429)': 100}
+  [150/189] fails so far {'unparseable (is_error=True, api=429)': 150}
+  failures: {'unparseable (is_error=True, api=429)': 189} | sample raw: You've hit your session limit · resets 1:10pm (Asia/Kolkata)
+raw_heldout.jsonl: 1011 cached, 189 to run (pass 4)
+  [50/189] fails so far {'unparseable (is_error=True, api=429)': 50}
+  [100/189] fails so far {'unparseable (is_error=True, api=429)': 100}
+  [150/189] fails so far {'unparseable (is_error=True, api=429)': 150}
+  failures: {'unparseable (is_error=True, api=429)': 189} | sample raw: You've hit your session limit · resets 1:10pm (Asia/Kolkata)
+run done heldout
+raw_heldout.jsonl: 1011 cached, 0 to run (pass 1)
+raw_heldout.jsonl: 1011 cached, 189 to run (pass 1)
+  [50/189] fails so far {'unparseable (is_error=True, api=None)': 4}
+  [100/189] fails so far {'unparseable (is_error=True, api=None)': 50, "launch failed: TimeoutExpired(['C:\\\\Users\\\\Lenovo\\\\AppData\\\\": 4}
+  [150/189] fails so far {'unparseable (is_error=True, api=None)': 85, "launch failed: TimeoutExpired(['C:\\\\Users\\\\Lenovo\\\\AppData\\\\": 4}
+  failures: {'unparseable (is_error=True, api=None)': 85, "launch failed: TimeoutExpired(['C:\\\\Users\\\\Lenovo\\\\AppData\\\\": 4} | sample raw: {"fact_at_issue": "Whether 128.4 million people watched the opening night of the 2020 Republican National Convention (Nielsen reported roughly 17 million TV viewers).", "relevant_entity": "Nielsen / Republican National Committee", "claim_kind": "official_statistic_or_data", "authority_situation": "m
+raw_heldout.jsonl: 1111 cached, 89 to run (pass 2)
+  [50/89] fails so far {}
+raw_heldout.jsonl: 1200 cached, 0 to run (pass 3)
+run done heldout

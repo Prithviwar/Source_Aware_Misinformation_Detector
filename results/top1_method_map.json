@@ -1,0 +1,650 @@
+{
+ "64|mediabiasfactcheck.com/left-action": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "64|thefader.com/2017/06/06/report-donald-trump-eric-foundation-charity-cancer-forbes": [
+  "dense"
+ ],
+ "64|factcheck.org/2019/12/social-posts-distort-facts-on-trump-charities": [
+  "hybrid"
+ ],
+ "64|ftc.gov/news-events/news/press-releases/2018/07/ftc-states-combat-fraudulent-charities-falsely-claim-help-veterans-servicemembers": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "74|rollcall.com/2019/06/06/national-democrats-take-sides-in-iowa-senate-primary": [
+  "bm25",
+  "bm25+wikidata_l0.25"
+ ],
+ "74|qctimes.com/news/state-and-regional/govt-and-politics/campaign-almanac-for-wednesday-september-9-2020/article_78f6dbc5-6272-547c-9de9-e2a78cefb8cf.html": [
+  "dense"
+ ],
+ "74|rollcall.com/2015/01/20/joni-ernsts-next-move": [
+  "hybrid"
+ ],
+ "74|time.com/5738141/dscc-early-primary-endorsements": [
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25"
+ ],
+ "74|iowafarmbureau.com/Article/Senator-Joni-Ernst-shares-updates-on-derecho-and-COVID19-relief-the-RFS-and-other-national-ag-issues-The-Spokesman-Speaks-Podcast-Episode-53": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "85|newsclick.in/aaj-tak-falsely-claims-congress-candidate-maskoor-usmani-hung-jinnah-portrait-AMU": [
+  "bm25",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "85|thequint.com/news/webqoof/aajtaks-claim-that-maskoor-usmani-hung-jinnah-portrait-at-amu-is-false": [
+  "dense"
+ ],
+ "95|bothlivesmatter.org.nz/the-law-in-detail": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "95|simple.wikipedia.org/wiki/Abortion_Legislation_Act_2020": [
+  "dense"
+ ],
+ "95|en.wikipedia.org/wiki/Abortion_Legislation_Act_2020": [
+  "hybrid"
+ ],
+ "95|righttolife.org.uk/news/nz-pm-rushes-worlds-most-extreme-abortion-law-into-law-while-country-distracted-with-pandemic": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "143|cdn.americanprogress.org/wp-content/uploads/issues/2009/10/pdf/oecd_spending.pdf": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "143|oecd.org/gov/New-Zealand.pdf": [
+  "dense"
+ ],
+ "143|oecd.org/finance/private-pensions/2391559.pdf": [
+  "hybrid",
+  "bm25+full_l1.0_poolall"
+ ],
+ "158|dailymail.co.uk/news/article-8800117/Donald-Trump-taken-Walter-Reed-hospital-COVID-treatment.html": [
+  "bm25",
+  "bm25+wikidata_l0.25"
+ ],
+ "158|abc7chicago.com/trump-update-covid-coronavirus-remdesivir/6762432": [
+  "dense"
+ ],
+ "158|technologyreview.com/2020/10/02/1009278/what-drug-treatments-will-president-trump-get": [
+  "hybrid"
+ ],
+ "158|telegraph.co.uk/global-health/science-and-disease/coronavirus-covid-news-donald-trump-uk-cases-update-lockdown": [
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25"
+ ],
+ "158|abcnews.go.com/Health/presidents-medicine-doctors-treating-donald-trump/story?id=73423761": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "174|ohsu.edu/brain-institute/peripheral-neuropathy": [
+  "bm25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "174|health-desk.org/articles/does-wearing-a-mask-for-long-periods-of-time-affect-the-brain-causing-lethargy-headache-and-dizziness-because-of-lack-of-oxygen": [
+  "dense",
+  "hybrid"
+ ],
+ "174|ninds.nih.gov/health-information/disorders/traumatic-brain-injury-tbi": [
+  "bm25+generic_l0.25"
+ ],
+ "187|usatoday.com/story/news/health/2020/08/23/covid-news-trump-deep-state-fda-biden-prepared-shut-down-country/3419189001": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "187|usatoday.com/story/news/factcheck/2020/10/03/fact-check-false-claim-trumps-covid-19-test-result-con/5894945002": [
+  "dense",
+  "hybrid"
+ ],
+ "187|abcnews.go.com/Politics/trump-contracts-coronavirus-downplaying-risk-months/story?id=73382906": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "209|publications.jrc.ec.europa.eu/repository/bitstream/JRC101562/jrc101562_impact%20of%20low%20oil%20prices%2020160512.pdf": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "209|ictd.ac/blog/broadening-nigerias-revenue-base-little-drops-of-taxes-mighty-nation": [
+  "dense"
+ ],
+ "209|cfr.org/blog/amid-oil-price-collapse-nigeria-running-out-foreign-exchange": [
+  "hybrid"
+ ],
+ "210|globalinitiative.net/analysis/oil-organized-crime": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "210|thecable.ng/trouble-for-nigeria-as-oil-prices-drop-5-below-2020-budget-benchmark": [
+  "dense"
+ ],
+ "210|economist.com/the-economist-explains/2014/12/08/why-the-oil-price-is-falling": [
+  "hybrid"
+ ],
+ "210|imf.org/en/Blogs/Articles/2014/12/22/seven-questions-about-the-recent-oil-price-slump": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "217|pewresearch.org/religion/2015/04/02/main-factors-driving-population-growth": [
+  "bm25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "217|worldpopulationreview.com/countries/nigeria-population": [
+  "dense",
+  "hybrid"
+ ],
+ "217|ncbi.nlm.nih.gov/pmc/articles/PMC3987379": [
+  "bm25+generic_l0.25"
+ ],
+ "217|blogs.worldbank.org/africacan/can-niger-escape-demographic-trap": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "218|unhabitat.org/sites/default/files/documents/2019-05/slum_almanac_2015-2016_psup.pdf": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "218|worldpopulationreview.com/countries/cities/nigeria": [
+  "dense"
+ ],
+ "218|medcraveonline.com/AHOAJ/rural-development-as-a-panacea-for-ruralndashurban-migration-in-nigeria.html": [
+  "hybrid"
+ ],
+ "218|worldbank.org/en/topic/urbandevelopment/publication/urbanization-reviews": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "222|sealevel.climatecentral.org/uploads/research/Global-Mapping-Choices-Report.pdf": [
+  "bm25",
+  "bm25+wikidata_l0.25"
+ ],
+ "222|worldpopulationreview.com/countries/nigeria-population": [
+  "dense"
+ ],
+ "222|ciaotest.cc.columbia.edu/olj/wpj/wpj_spring03f.html": [
+  "hybrid"
+ ],
+ "222|statehouse.gov.ng/news/independence-day-address-by-president-muhammadu-buhari": [
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "226|electiondefense.org/vote-by-mail-chaos-in-2020-primaries": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "226|npr.org/2020/08/01/898184573/how-washington-state-s-mail-in-elections-play-out": [
+  "dense"
+ ],
+ "226|latino.ucla.edu/wp-content/uploads/2020/04/LPPI-VRP-Voter-Fraud-res.pdf": [
+  "hybrid"
+ ],
+ "226|elections.maryland.gov/about/meeting_materials/June_18_2020.pdf": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "235|ox.ac.uk/news/science-blog/face-coverings-made-compulsory-after-oxford-covid-19-study-inspires-debate": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "235|jerseyeveningpost.com/morenews/uknews/2020/08/14/new-powers-to-tackle-coronavirus-mask-refusers": [
+  "dense"
+ ],
+ "235|cnn.com/2020/07/14/uk/uk-masks-shops-winter-predictions-intl-scli-gbr/index.html": [
+  "hybrid"
+ ],
+ "243|thequint.com/fit/fit-webqoof/having-millets-prevents-coronavirus-boosts-immunity-fact-check": [
+  "bm25",
+  "dense",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "243|health.hawaii.gov/chronic-disease/covid-19-resources": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "275|gqindia.com/get-smart/content/shah-rukh-khan-annual-income-7-sources-contribute-aside-films": [
+  "bm25",
+  "bm25+wikidata_l0.25"
+ ],
+ "275|moneycontrol.com/news/photos/business/in-pics-top-things-to-know-about-the-kkr-reliance-retail-deal-5876221.html": [
+  "dense"
+ ],
+ "275|oneindia.com/india/kkr-to-invest-rs-5-550-crore-in-reliance-retail-ventures-to-pick-1-28-pc-equity-stake-3153140.html": [
+  "hybrid"
+ ],
+ "275|hindustantimes.com/entertainment/why-would-i-sell-my-stake-srk/story-IrTTo3JMB4MQghxxY3mxSP.html": [
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "280|statmodeling.stat.columbia.edu/2020/04/19/fatal-flaws-in-stanford-study-of-coronavirus-prevalence": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "280|hdruk.org/projects/false-positives": [
+  "dense"
+ ],
+ "280|medicine.wustl.edu/news/experts-urge-caution-in-interpreting-covid-19-antibody-tests": [
+  "hybrid"
+ ],
+ "286|forward.com/fast-forward/454868/ruth-bader-ginsburg-will-be-the-first-jew-and-first-woman-to-lie-in-state": [
+  "bm25",
+  "bm25+wikidata_l0.25"
+ ],
+ "286|cnbc.com/2020/09/21/ruth-bader-ginsburg-funeral-services-at-supreme-court-start-wednesday.html": [
+  "dense"
+ ],
+ "286|usatoday.com/story/news/politics/2020/09/21/justice-ruth-bader-ginsburg-lie-repose-supreme-court/5847298002": [
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25"
+ ],
+ "286|abcnews.go.com/Politics/ginsburg-lie-repose-front-supreme-court-public-viewing/story?id=73147292": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "288|politifact.com/article/2020/aug/28/ask-politifact-does-black-lives-matter-aim-destroy": [
+  "bm25",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "288|socsci.uci.edu/newsevents/news/2020/2020-08-28-phoenix-politifact.php": [
+  "dense",
+  "bm25+full_l1.0_poolall"
+ ],
+ "298|bbc.co.uk/news/uk-52620556": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "298|sg.news.yahoo.com/covid-19-all-m-ps-now-required-to-wear-face-masks-in-parliament-060846663.html": [
+  "dense"
+ ],
+ "298|bbc.co.uk/news/uk-politics-54044624": [
+  "hybrid"
+ ],
+ "298|assets.publishing.service.gov.uk/media/5eb97e7686650c278d4496ea/working-safely-during-covid-19-offices-contact-centres-151020.pdf": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "321|magazine.ucsf.edu/scourge-city": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "321|usatoday.com/story/news/factcheck/2020/08/30/fact-check-tb-more-dangerous-than-covid-19-but-context-matters/5435004002": [
+  "dense"
+ ],
+ "321|who.int/docs/default-source/hq-tuberculosis/global-tuberculosis-report-2020/factsheet.pdf": [
+  "hybrid",
+  "bm25+full_l1.0_poolall"
+ ],
+ "323|klobuchar.senate.gov/public/index.cfm/2019/3/on-the-senate-floor-klobuchar-demands-protection-of-the-affordable-care-act": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "323|factcheck.org/2020/09/biden-misleads-on-preexisting-conditions": [
+  "dense",
+  "hybrid"
+ ],
+ "345|thequint.com/news/webqoof/suresh-chavhanke-upsc-jihad-episode-makes-false-claims": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "345|swarajyamag.com/politics/pro-muslim-bias-in-upsc-dont-be-surprised-its-official-government-policy-to-give-special-consideration-to-minorities-in-jobs": [
+  "dense"
+ ],
+ "345|thequint.com/news/india/heres-what-happened-at-suresh-chavhankes-upsc-jihad-show": [
+  "hybrid"
+ ],
+ "350|priestsforlife.org/qa/question.aspx?id=402": [
+  "bm25",
+  "dense",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "350|princeton.edu/~mwatson/papers/DemRep_BlinderWatson_July2015.pdf": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "354|nairaland.com/6054560/edo-unemployment-rate-falls-25.1": [
+  "bm25",
+  "bm25+wikidata_l0.25"
+ ],
+ "354|edostate.gov.ng/edo-unemployment-rate-falls-from-25-1-to-19-on-back-of-obasekis-job-creation-drive": [
+  "dense",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "368|byjus.com/free-ias-prep/examinations-conducted-by-union-public-service-commission": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "368|news18.com/news/india/upsc-registers-40-increase-in-number-of-successful-muslim-candidates-this-year-2758205.html": [
+  "dense"
+ ],
+ "368|swarajyamag.com/politics/pro-muslim-bias-in-upsc-dont-be-surprised-its-official-government-policy-to-give-special-consideration-to-minorities-in-jobs": [
+  "hybrid"
+ ],
+ "368|main.sci.gov.in/jonew/judis/36327.pdf": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "371|dailyo.in/politics/muslims-upsc-civil-services-higher-education-amu-jamia-millia-waqf-boards-funds-5136": [
+  "bm25",
+  "hybrid"
+ ],
+ "371|jagranjosh.com/articles/upper-age-limit-for-jammu-kashmir-candidates-extended-to-37-in-upsc-exams-1412847460-1": [
+  "dense"
+ ],
+ "371|dpar.py.gov.in/General/UPSC_RR_Guidelines.pdf": [
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "371|upsc.gov.in/sites/default/files/Advt-No-11-2021-Engl-270821.pdf": [
+  "bm25+wikidata_l0.25"
+ ],
+ "374|factcheck.org/2020/09/police-political-activists-didnt-cause-oregons-wildfires": [
+  "bm25",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "374|bbc.co.uk/news/blogs-trending-54121992": [
+  "dense"
+ ],
+ "374|coe.int/en/web/compass/hre-and-activism": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "387|assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "387|ukhsa.blog.gov.uk/2020/02/20/what-is-self-isolation-and-why-is-it-important": [
+  "dense"
+ ],
+ "387|bmj.com/content/369/bmj.m2404": [
+  "hybrid"
+ ],
+ "389|english.almanar.com.lb/1137325": [
+  "bm25",
+  "dense",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "389|un.org/en/chronicle/article/radical-middle-building-bridges-between-muslim-and-western-worlds": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "391|cdn.dal.ca/content/dam/dalhousie/pdf/faculty/medicine/departments/core-units/DMNB/DMNB%20Annual%20Report%202019-2020%20(FINAL%20DRAFT%204).pdf": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "391|cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-schools-1.5575660": [
+  "dense"
+ ],
+ "391|ourkids.net/school/responding-to-covid-19": [
+  "hybrid"
+ ],
+ "391|www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2020013-eng.htm": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "412|indiatoday.in/fact-check/story/no-taiwan-did-not-shoot-down-a-chinese-su-35-fighter-jet-1718774-2020-09-04": [
+  "bm25",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "412|eurasiantimes.com/has-taiwan-shot-down-chinese-su-35-fighter-jet-for-airspace-violation": [
+  "dense"
+ ],
+ "412|europarl.europa.eu/RegData/etudes/BRIE/2019/635606/EPRS_BRI(2019)635606_EN.pdf": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "422|newsmeter.in/fact-check-viral-message-that-all-haldirams-food-products-were-banned-in-usa-is-false": [
+  "bm25",
+  "dense",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "422|ftc.gov/business-guidance/resources/complying-made-usa-standard": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "423|politifact.com/factchecks/2018/aug/14/kyrsten-sinema/fact-checking-kyrsten-sinemas-claim-about-medicare": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "423|epi.org/page/-/old/technicalpapers/tp261-2002.pdf": [
+  "dense"
+ ],
+ "423|cbpp.org/research/medicare-in-the-ryan-budget": [
+  "hybrid"
+ ],
+ "423|cleaver.house.gov/media-center/ec-dc/ec-dc-april-15-2011": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "425|tampabay.com/archive/2014/07/14/is-fox-news-banned-in-canada": [
+  "bm25",
+  "dense",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "425|crtc.gc.ca/eng/trules-reglest.htm": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "434|en.wikipedia.org/wiki/Responses_to_the_COVID-19_pandemic_in_May_2020": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "434|cnbc.com/2020/04/13/trump-falsely-claims-authority-to-open-up-states-after-coronavirus.html": [
+  "dense",
+  "hybrid"
+ ],
+ "434|trumpwhitehouse.archives.gov/briefings-statements/president-trumps-historic-coronavirus-response": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "438|govtech.com/security/As-Many-States-Grapple-with-Election-Security-Massachusetts-Remains-Confident.html": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "438|vote.sos.ri.gov/Content/Pdfs/voter_id_information.pdf": [
+  "dense"
+ ],
+ "438|metrowestdailynews.com/story/news/politics/elections/2018/09/07/voter-id-featured-in-amore/10817274007": [
+  "hybrid"
+ ],
+ "438|idea.int/sites/default/files/publications/introducing-biometric-technology-in-elections-reissue.pdf": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "440|centreforcities.org/reader/small-business-outlook-2015/data-monitor-small-business-performance": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "440|syncni.com/article/3004/an-overview-of-ni-s-digital-transformation": [
+  "dense"
+ ],
+ "440|economy-ni.gov.uk/articles/mapping-nis-financial-services-sector": [
+  "hybrid"
+ ],
+ "440|wto.org/english/res_e/booksp_e/00_wtr19_e.pdf": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "450|abcnews.go.com/Politics/coronavirus-government-response-updates-trump-declares-churches-provide/story?id=70832416": [
+  "bm25",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "450|thecatholicsun.com/trump-says-houses-of-worship-essential-directs-governors-to-open-them": [
+  "dense"
+ ],
+ "451|baptistpress.com/resource-library/news/legalizing-the-unthinkable": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "451|cronisraelsandstark.com/child-molestation-penal-code-647-6": [
+  "dense"
+ ],
+ "451|snopes.com/fact-check/california-pedophilia-school": [
+  "hybrid"
+ ],
+ "451|hhs.gov/sites/default/files/static/dab/decisions/board-decisions/1992/dab1365.html": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "454|rappler.com/newsbreak/fact-check/263009-prolonged-use-face-mask-causes-hypoxia-hypercapnia": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "454|factcheck.afp.com/using-face-masks-does-not-cause-hypoxia": [
+  "dense"
+ ],
+ "454|usatoday.com/story/news/factcheck/2020/05/30/fact-check-wearing-face-mask-not-cause-hypoxia-hypercapnia/5260106002": [
+  "hybrid"
+ ],
+ "460|files.ethz.ch/isn/124024/2003_10_01.pdf": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "460|saferspaces.org.za/understand/entry/police-brutality-in-south-africa": [
+  "dense"
+ ],
+ "460|ojp.gov/ncjrs/virtual-library/abstracts/relationship-between-south-african-police-service-and-private": [
+  "hybrid"
+ ],
+ "460|un.org/africarenewal/magazine/october-2009/security-highest-bidder": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "462|snopes.com/fact-check/canadian-fox": [
+  "bm25",
+  "hybrid",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "462|tampabay.com/archive/2014/07/14/is-fox-news-banned-in-canada": [
+  "dense"
+ ],
+ "462|international.gc.ca/trade-agreements-accords-commerciaux/topics-domaines/ip-pi/canculture.aspx?lang=eng": [
+  "bm25+full_l1.0_poolall"
+ ],
+ "467|cricfit.com/suresh-raina-to-miss-ipl-2020-due-to-personal-reasons": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "467|livemint.com/sports/cricket-news/ipl-2020-suresh-raina-pulls-out-due-to-personal-reasons-11598682202483.html": [
+  "dense"
+ ],
+ "467|hindustantimes.com/cricket/ipl-2020-csk-s-suresh-raina-pulls-out-of-tournament-due-to-personal-reasons/story-jWnpsydXnnYe25NxKYDbTN.html": [
+  "hybrid",
+  "bm25+full_l1.0_poolall"
+ ],
+ "473|trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-border-wall-construction-operational-update-yuma-az": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "473|npr.org/2020/08/05/899266045/biden-would-end-border-wall-construction-but-wont-tear-down-trump-s-additions": [
+  "dense",
+  "hybrid"
+ ],
+ "478|large.stanford.edu/courses/2018/ph241/litonjua1": [
+  "bm25",
+  "bm25+wikidata_l0.25"
+ ],
+ "478|pressone.ph/panel-to-study-nuclear-energy-formed-bataan-plant-revival-eyed": [
+  "dense",
+  "hybrid"
+ ],
+ "478|pna.gov.ph/articles/1095378": [
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+full_l1.0_poolall"
+ ],
+ "484|nairaland.com/1972020/like-ibori-gov-uduaghan-multi": [
+  "bm25",
+  "bm25+generic_l0.25",
+  "bm25+full_l0.25",
+  "bm25+wikidata_l0.25"
+ ],
+ "484|en.wikipedia.org/wiki/Security_vote_in_Nigeria": [
+  "dense"
+ ],
+ "484|dailypost.ng/2020/07/13/edo-obaseki-gets-n600m-security-vote-monthly-gives-police-n5m-ize-iyamu": [
+  "hybrid"
+ ],
+ "484|statehouse.gov.ng/news/press-release-buhari-speaks-on-achievements-of-his-administration": [
+  "bm25+full_l1.0_poolall"
+ ]
+}

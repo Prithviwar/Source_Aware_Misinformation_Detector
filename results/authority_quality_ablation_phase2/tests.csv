@@ -1,0 +1,10 @@
+metric,comparison,n,wins,losses,ties,p_exact_mcnemar,diff,ci95_low,ci95_high,p_holm,family
+R@10,D1 vs A0,79,13,4,62,0.04904,0.1139,0.0127,0.2152,0.09808,"AQA-P2 (R@10, 3 tests, Holm within this family only) - EXPLORATORY, not preregistered"
+R@10,X1 vs A0,79,0,2,77,0.5,-0.0253,-0.0633,0.0,0.5,"AQA-P2 (R@10, 3 tests, Holm within this family only) - EXPLORATORY, not preregistered"
+R@10,X1 vs D1,79,2,13,64,0.00739,-0.1392,-0.2278,-0.0506,0.02217,"AQA-P2 (R@10, 3 tests, Holm within this family only) - EXPLORATORY, not preregistered"
+R@5,D1 vs A0,79,13,4,62,0.04904,0.1139,0.0127,0.2152,,"descriptive, uncorrected - EXPLORATORY"
+R@5,X1 vs A0,79,0,6,73,0.03125,-0.0759,-0.1392,-0.0253,,"descriptive, uncorrected - EXPLORATORY"
+R@5,X1 vs D1,79,0,15,64,6e-05,-0.1899,-0.2785,-0.1013,,"descriptive, uncorrected - EXPLORATORY"
+R@20,D1 vs A0,79,10,2,67,0.03857,0.1013,0.0253,0.1899,,"descriptive, uncorrected - EXPLORATORY"
+R@20,X1 vs A0,79,0,1,78,1.0,-0.0127,-0.038,0.0,,"descriptive, uncorrected - EXPLORATORY"
+R@20,X1 vs D1,79,2,11,66,0.02246,-0.1139,-0.2025,-0.0253,,"descriptive, uncorrected - EXPLORATORY"

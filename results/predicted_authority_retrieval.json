@@ -1,0 +1,616 @@
+{
+ "n_claims": 48,
+ "conditions": {
+  "bm25": {
+   "PrimR@5": 0.042,
+   "PrimR@10": 0.042,
+   "PrimR@20": 0.104,
+   "R@5(these claims)": 0.042,
+   "R@10(these claims)": 0.042,
+   "R@20(these claims)": 0.188
+  },
+  "bm25+predicted_l0.25": {
+   "PrimR@5": 0.062,
+   "PrimR@5_vs_base": "+1/-0 p=1",
+   "R@5(these claims)": 0.062,
+   "PrimR@10": 0.104,
+   "PrimR@10_vs_base": "+3/-0 p=0.25",
+   "R@10(these claims)": 0.104,
+   "PrimR@20": 0.188,
+   "PrimR@20_vs_base": "+5/-1 p=0.2188",
+   "R@20(these claims)": 0.271
+  },
+  "bm25+generic_l0.25": {
+   "PrimR@5": 0.021,
+   "PrimR@5_vs_base": "+0/-1 p=1",
+   "R@5(these claims)": 0.021,
+   "PrimR@10": 0.042,
+   "PrimR@10_vs_base": "+0/-0 p=1.0",
+   "R@10(these claims)": 0.062,
+   "PrimR@20": 0.167,
+   "PrimR@20_vs_base": "+3/-0 p=0.25",
+   "R@20(these claims)": 0.25
+  },
+  "bm25+predicted+generic_l0.25": {
+   "PrimR@5": 0.042,
+   "PrimR@5_vs_base": "+0/-0 p=1.0",
+   "R@5(these claims)": 0.042,
+   "PrimR@10": 0.104,
+   "PrimR@10_vs_base": "+3/-0 p=0.25",
+   "R@10(these claims)": 0.125,
+   "PrimR@20": 0.188,
+   "PrimR@20_vs_base": "+4/-0 p=0.125",
+   "R@20(these claims)": 0.312
+  },
+  "bm25+oracle(leaks)_l0.25": {
+   "PrimR@5": 0.083,
+   "PrimR@5_vs_base": "+2/-0 p=0.5",
+   "R@5(these claims)": 0.083,
+   "PrimR@10": 0.125,
+   "PrimR@10_vs_base": "+4/-0 p=0.125",
+   "R@10(these claims)": 0.125,
+   "PrimR@20": 0.25,
+   "PrimR@20_vs_base": "+7/-0 p=0.0156",
+   "R@20(these claims)": 0.333
+  },
+  "bm25+predicted_l1.0": {
+   "PrimR@5": 0.229,
+   "PrimR@5_vs_base": "+9/-0 p=0.0039",
+   "R@5(these claims)": 0.229,
+   "PrimR@10": 0.271,
+   "PrimR@10_vs_base": "+11/-0 p=0.001",
+   "R@10(these claims)": 0.271,
+   "PrimR@20": 0.292,
+   "PrimR@20_vs_base": "+10/-1 p=0.0117",
+   "R@20(these claims)": 0.375
+  },
+  "bm25+generic_l1.0": {
+   "PrimR@5": 0.042,
+   "PrimR@5_vs_base": "+2/-2 p=1",
+   "R@5(these claims)": 0.042,
+   "PrimR@10": 0.146,
+   "PrimR@10_vs_base": "+7/-2 p=0.1797",
+   "R@10(these claims)": 0.188,
+   "PrimR@20": 0.229,
+   "PrimR@20_vs_base": "+7/-1 p=0.0703",
+   "R@20(these claims)": 0.292
+  },
+  "bm25+predicted+generic_l1.0": {
+   "PrimR@5": 0.188,
+   "PrimR@5_vs_base": "+8/-1 p=0.0391",
+   "R@5(these claims)": 0.188,
+   "PrimR@10": 0.229,
+   "PrimR@10_vs_base": "+9/-0 p=0.0039",
+   "R@10(these claims)": 0.25,
+   "PrimR@20": 0.292,
+   "PrimR@20_vs_base": "+10/-1 p=0.0117",
+   "R@20(these claims)": 0.396
+  },
+  "bm25+oracle(leaks)_l1.0": {
+   "PrimR@5": 0.292,
+   "PrimR@5_vs_base": "+12/-0 p=0.0005",
+   "R@5(these claims)": 0.292,
+   "PrimR@10": 0.333,
+   "PrimR@10_vs_base": "+14/-0 p=0.0001",
+   "R@10(these claims)": 0.333,
+   "PrimR@20": 0.333,
+   "PrimR@20_vs_base": "+11/-0 p=0.001",
+   "R@20(these claims)": 0.417
+  },
+  "bm25+predicted_l1.0_poolall": {
+   "PrimR@5": 0.312,
+   "PrimR@5_vs_base": "+14/-1 p=0.001",
+   "R@5(these claims)": 0.312,
+   "PrimR@10": 0.438,
+   "PrimR@10_vs_base": "+19/-0 p=0.0",
+   "R@10(these claims)": 0.438,
+   "PrimR@20": 0.604,
+   "PrimR@20_vs_base": "+25/-1 p=0.0",
+   "R@20(these claims)": 0.604
+  },
+  "bm25+generic_l1.0_poolall": {
+   "PrimR@5": 0.104,
+   "PrimR@5_vs_base": "+5/-2 p=0.4531",
+   "R@5(these claims)": 0.104,
+   "PrimR@10": 0.167,
+   "PrimR@10_vs_base": "+8/-2 p=0.1094",
+   "R@10(these claims)": 0.188,
+   "PrimR@20": 0.25,
+   "PrimR@20_vs_base": "+9/-2 p=0.0654",
+   "R@20(these claims)": 0.271
+  },
+  "bm25+predicted+generic_l1.0_poolall": {
+   "PrimR@5": 0.292,
+   "PrimR@5_vs_base": "+13/-1 p=0.0018",
+   "R@5(these claims)": 0.292,
+   "PrimR@10": 0.375,
+   "PrimR@10_vs_base": "+17/-1 p=0.0001",
+   "R@10(these claims)": 0.375,
+   "PrimR@20": 0.521,
+   "PrimR@20_vs_base": "+22/-2 p=0.0",
+   "R@20(these claims)": 0.521
+  },
+  "bm25+oracle(leaks)_l1.0_poolall": {
+   "PrimR@5": 0.604,
+   "PrimR@5_vs_base": "+27/-0 p=0.0",
+   "R@5(these claims)": 0.604,
+   "PrimR@10": 0.75,
+   "PrimR@10_vs_base": "+34/-0 p=0.0",
+   "R@10(these claims)": 0.75,
+   "PrimR@20": 0.875,
+   "PrimR@20_vs_base": "+37/-0 p=0.0",
+   "R@20(these claims)": 0.875
+  },
+  "dense": {
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.104,
+   "PrimR@20": 0.188,
+   "R@5(these claims)": 0.104,
+   "R@10(these claims)": 0.208,
+   "R@20(these claims)": 0.312
+  },
+  "dense+predicted_l0.25": {
+   "PrimR@5": 0.104,
+   "PrimR@5_vs_base": "+4/-0 p=0.125",
+   "R@5(these claims)": 0.188,
+   "PrimR@10": 0.188,
+   "PrimR@10_vs_base": "+4/-0 p=0.125",
+   "R@10(these claims)": 0.271,
+   "PrimR@20": 0.292,
+   "PrimR@20_vs_base": "+6/-1 p=0.125",
+   "R@20(these claims)": 0.375
+  },
+  "dense+generic_l0.25": {
+   "PrimR@5": 0.021,
+   "PrimR@5_vs_base": "+0/-0 p=1.0",
+   "R@5(these claims)": 0.125,
+   "PrimR@10": 0.146,
+   "PrimR@10_vs_base": "+2/-0 p=0.5",
+   "R@10(these claims)": 0.25,
+   "PrimR@20": 0.188,
+   "PrimR@20_vs_base": "+1/-1 p=1",
+   "R@20(these claims)": 0.292
+  },
+  "dense+predicted+generic_l0.25": {
+   "PrimR@5": 0.083,
+   "PrimR@5_vs_base": "+3/-0 p=0.25",
+   "R@5(these claims)": 0.167,
+   "PrimR@10": 0.146,
+   "PrimR@10_vs_base": "+2/-0 p=0.5",
+   "R@10(these claims)": 0.25,
+   "PrimR@20": 0.292,
+   "PrimR@20_vs_base": "+6/-1 p=0.125",
+   "R@20(these claims)": 0.375
+  },
+  "dense+oracle(leaks)_l0.25": {
+   "PrimR@5": 0.146,
+   "PrimR@5_vs_base": "+6/-0 p=0.0312",
+   "R@5(these claims)": 0.229,
+   "PrimR@10": 0.208,
+   "PrimR@10_vs_base": "+5/-0 p=0.0625",
+   "R@10(these claims)": 0.292,
+   "PrimR@20": 0.292,
+   "PrimR@20_vs_base": "+5/-0 p=0.0625",
+   "R@20(these claims)": 0.396
+  },
+  "dense+predicted_l1.0": {
+   "PrimR@5": 0.25,
+   "PrimR@5_vs_base": "+11/-0 p=0.001",
+   "R@5(these claims)": 0.312,
+   "PrimR@10": 0.271,
+   "PrimR@10_vs_base": "+8/-0 p=0.0078",
+   "R@10(these claims)": 0.354,
+   "PrimR@20": 0.292,
+   "PrimR@20_vs_base": "+7/-2 p=0.1797",
+   "R@20(these claims)": 0.375
+  },
+  "dense+generic_l1.0": {
+   "PrimR@5": 0.083,
+   "PrimR@5_vs_base": "+4/-1 p=0.375",
+   "R@5(these claims)": 0.146,
+   "PrimR@10": 0.146,
+   "PrimR@10_vs_base": "+5/-3 p=0.7266",
+   "R@10(these claims)": 0.25,
+   "PrimR@20": 0.188,
+   "PrimR@20_vs_base": "+4/-4 p=1",
+   "R@20(these claims)": 0.292
+  },
+  "dense+predicted+generic_l1.0": {
+   "PrimR@5": 0.229,
+   "PrimR@5_vs_base": "+10/-0 p=0.002",
+   "R@5(these claims)": 0.312,
+   "PrimR@10": 0.25,
+   "PrimR@10_vs_base": "+7/-0 p=0.0156",
+   "R@10(these claims)": 0.333,
+   "PrimR@20": 0.292,
+   "PrimR@20_vs_base": "+7/-2 p=0.1797",
+   "R@20(these claims)": 0.396
+  },
+  "dense+oracle(leaks)_l1.0": {
+   "PrimR@5": 0.354,
+   "PrimR@5_vs_base": "+16/-0 p=0.0",
+   "R@5(these claims)": 0.417,
+   "PrimR@10": 0.354,
+   "PrimR@10_vs_base": "+12/-0 p=0.0005",
+   "R@10(these claims)": 0.438,
+   "PrimR@20": 0.354,
+   "PrimR@20_vs_base": "+8/-0 p=0.0078",
+   "R@20(these claims)": 0.438
+  },
+  "dense+predicted_l1.0_poolall": {
+   "PrimR@5": 0.312,
+   "PrimR@5_vs_base": "+14/-0 p=0.0001",
+   "R@5(these claims)": 0.312,
+   "PrimR@10": 0.458,
+   "PrimR@10_vs_base": "+17/-0 p=0.0",
+   "R@10(these claims)": 0.458,
+   "PrimR@20": 0.604,
+   "PrimR@20_vs_base": "+21/-1 p=0.0",
+   "R@20(these claims)": 0.625
+  },
+  "dense+generic_l1.0_poolall": {
+   "PrimR@5": 0.083,
+   "PrimR@5_vs_base": "+4/-1 p=0.375",
+   "R@5(these claims)": 0.083,
+   "PrimR@10": 0.146,
+   "PrimR@10_vs_base": "+6/-4 p=0.7539",
+   "R@10(these claims)": 0.146,
+   "PrimR@20": 0.229,
+   "PrimR@20_vs_base": "+7/-5 p=0.7744",
+   "R@20(these claims)": 0.25
+  },
+  "dense+predicted+generic_l1.0_poolall": {
+   "PrimR@5": 0.292,
+   "PrimR@5_vs_base": "+13/-0 p=0.0002",
+   "R@5(these claims)": 0.292,
+   "PrimR@10": 0.438,
+   "PrimR@10_vs_base": "+16/-0 p=0.0",
+   "R@10(these claims)": 0.438,
+   "PrimR@20": 0.542,
+   "PrimR@20_vs_base": "+19/-2 p=0.0002",
+   "R@20(these claims)": 0.542
+  },
+  "dense+oracle(leaks)_l1.0_poolall": {
+   "PrimR@5": 0.562,
+   "PrimR@5_vs_base": "+26/-0 p=0.0",
+   "R@5(these claims)": 0.562,
+   "PrimR@10": 0.792,
+   "PrimR@10_vs_base": "+33/-0 p=0.0",
+   "R@10(these claims)": 0.792,
+   "PrimR@20": 0.896,
+   "PrimR@20_vs_base": "+34/-0 p=0.0",
+   "R@20(these claims)": 0.896
+  },
+  "hybrid": {
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.062,
+   "PrimR@20": 0.167,
+   "R@5(these claims)": 0.083,
+   "R@10(these claims)": 0.208,
+   "R@20(these claims)": 0.333
+  },
+  "hybrid+predicted_l0.25": {
+   "PrimR@5": 0.083,
+   "PrimR@5_vs_base": "+3/-0 p=0.25",
+   "R@5(these claims)": 0.146,
+   "PrimR@10": 0.188,
+   "PrimR@10_vs_base": "+6/-0 p=0.0312",
+   "R@10(these claims)": 0.271,
+   "PrimR@20": 0.271,
+   "PrimR@20_vs_base": "+5/-0 p=0.0625",
+   "R@20(these claims)": 0.375
+  },
+  "hybrid+generic_l0.25": {
+   "PrimR@5": 0.042,
+   "PrimR@5_vs_base": "+1/-0 p=1",
+   "R@5(these claims)": 0.104,
+   "PrimR@10": 0.104,
+   "PrimR@10_vs_base": "+2/-0 p=0.5",
+   "R@10(these claims)": 0.208,
+   "PrimR@20": 0.208,
+   "PrimR@20_vs_base": "+3/-1 p=0.625",
+   "R@20(these claims)": 0.354
+  },
+  "hybrid+predicted+generic_l0.25": {
+   "PrimR@5": 0.083,
+   "PrimR@5_vs_base": "+3/-0 p=0.25",
+   "R@5(these claims)": 0.146,
+   "PrimR@10": 0.167,
+   "PrimR@10_vs_base": "+5/-0 p=0.0625",
+   "R@10(these claims)": 0.25,
+   "PrimR@20": 0.25,
+   "PrimR@20_vs_base": "+4/-0 p=0.125",
+   "R@20(these claims)": 0.375
+  },
+  "hybrid+oracle(leaks)_l0.25": {
+   "PrimR@5": 0.104,
+   "PrimR@5_vs_base": "+4/-0 p=0.125",
+   "R@5(these claims)": 0.167,
+   "PrimR@10": 0.208,
+   "PrimR@10_vs_base": "+7/-0 p=0.0156",
+   "R@10(these claims)": 0.292,
+   "PrimR@20": 0.292,
+   "PrimR@20_vs_base": "+6/-0 p=0.0312",
+   "R@20(these claims)": 0.396
+  },
+  "hybrid+predicted_l1.0": {
+   "PrimR@5": 0.271,
+   "PrimR@5_vs_base": "+13/-1 p=0.0018",
+   "R@5(these claims)": 0.312,
+   "PrimR@10": 0.354,
+   "PrimR@10_vs_base": "+16/-2 p=0.0013",
+   "R@10(these claims)": 0.438,
+   "PrimR@20": 0.396,
+   "PrimR@20_vs_base": "+12/-1 p=0.0034",
+   "R@20(these claims)": 0.5
+  },
+  "hybrid+generic_l1.0": {
+   "PrimR@5": 0.083,
+   "PrimR@5_vs_base": "+3/-0 p=0.25",
+   "R@5(these claims)": 0.146,
+   "PrimR@10": 0.167,
+   "PrimR@10_vs_base": "+5/-0 p=0.0625",
+   "R@10(these claims)": 0.271,
+   "PrimR@20": 0.25,
+   "PrimR@20_vs_base": "+6/-2 p=0.2891",
+   "R@20(these claims)": 0.354
+  },
+  "hybrid+predicted+generic_l1.0": {
+   "PrimR@5": 0.271,
+   "PrimR@5_vs_base": "+12/-0 p=0.0005",
+   "R@5(these claims)": 0.312,
+   "PrimR@10": 0.375,
+   "PrimR@10_vs_base": "+15/-0 p=0.0001",
+   "R@10(these claims)": 0.458,
+   "PrimR@20": 0.438,
+   "PrimR@20_vs_base": "+13/-0 p=0.0002",
+   "R@20(these claims)": 0.542
+  },
+  "hybrid+oracle(leaks)_l1.0": {
+   "PrimR@5": 0.396,
+   "PrimR@5_vs_base": "+18/-0 p=0.0",
+   "R@5(these claims)": 0.438,
+   "PrimR@10": 0.417,
+   "PrimR@10_vs_base": "+17/-0 p=0.0",
+   "R@10(these claims)": 0.5,
+   "PrimR@20": 0.438,
+   "PrimR@20_vs_base": "+13/-0 p=0.0002",
+   "R@20(these claims)": 0.542
+  },
+  "hybrid+predicted_l1.0_poolall": {
+   "PrimR@5": 0.333,
+   "PrimR@5_vs_base": "+16/-1 p=0.0003",
+   "R@5(these claims)": 0.333,
+   "PrimR@10": 0.458,
+   "PrimR@10_vs_base": "+21/-2 p=0.0001",
+   "R@10(these claims)": 0.458,
+   "PrimR@20": 0.625,
+   "PrimR@20_vs_base": "+23/-1 p=0.0",
+   "R@20(these claims)": 0.646
+  },
+  "hybrid+generic_l1.0_poolall": {
+   "PrimR@5": 0.104,
+   "PrimR@5_vs_base": "+4/-0 p=0.125",
+   "R@5(these claims)": 0.146,
+   "PrimR@10": 0.208,
+   "PrimR@10_vs_base": "+8/-1 p=0.0391",
+   "R@10(these claims)": 0.292,
+   "PrimR@20": 0.271,
+   "PrimR@20_vs_base": "+7/-2 p=0.1797",
+   "R@20(these claims)": 0.354
+  },
+  "hybrid+predicted+generic_l1.0_poolall": {
+   "PrimR@5": 0.312,
+   "PrimR@5_vs_base": "+15/-1 p=0.0005",
+   "R@5(these claims)": 0.333,
+   "PrimR@10": 0.438,
+   "PrimR@10_vs_base": "+20/-2 p=0.0001",
+   "R@10(these claims)": 0.458,
+   "PrimR@20": 0.583,
+   "PrimR@20_vs_base": "+20/-0 p=0.0",
+   "R@20(these claims)": 0.625
+  },
+  "hybrid+oracle(leaks)_l1.0_poolall": {
+   "PrimR@5": 0.625,
+   "PrimR@5_vs_base": "+29/-0 p=0.0",
+   "R@5(these claims)": 0.625,
+   "PrimR@10": 0.771,
+   "PrimR@10_vs_base": "+34/-0 p=0.0",
+   "R@10(these claims)": 0.771,
+   "PrimR@20": 0.875,
+   "PrimR@20_vs_base": "+34/-0 p=0.0",
+   "R@20(these claims)": 0.875
+  }
+ },
+ "gold_recall_all_claims": {
+  "n_claims": 99,
+  "conditions": {
+   "bm25": {
+    "R@5": 0.081,
+    "R@10": 0.111,
+    "R@20": 0.242
+   },
+   "bm25+generic_l0.25": {
+    "R@5": 0.071,
+    "R@5_vs_base": "+0/-1 p=1",
+    "R@10": 0.101,
+    "R@10_vs_base": "+1/-2 p=1",
+    "R@20": 0.242,
+    "R@20_vs_base": "+4/-4 p=1"
+   },
+   "bm25+predicted_l0.25": {
+    "R@5": 0.091,
+    "R@5_vs_base": "+1/-0 p=1",
+    "R@5_vs_generic": "+2/-0 p=0.5",
+    "R@10": 0.141,
+    "R@10_vs_base": "+3/-0 p=0.25",
+    "R@10_vs_generic": "+5/-1 p=0.2188",
+    "R@20": 0.283,
+    "R@20_vs_base": "+5/-1 p=0.2188",
+    "R@20_vs_generic": "+6/-2 p=0.2891"
+   },
+   "bm25+generic_l1.0": {
+    "R@5": 0.051,
+    "R@5_vs_base": "+2/-5 p=0.4531",
+    "R@10": 0.152,
+    "R@10_vs_base": "+10/-6 p=0.4545",
+    "R@20": 0.232,
+    "R@20_vs_base": "+10/-11 p=1"
+   },
+   "bm25+predicted_l1.0": {
+    "R@5": 0.162,
+    "R@5_vs_base": "+9/-1 p=0.0215",
+    "R@5_vs_generic": "+12/-1 p=0.0034",
+    "R@10": 0.212,
+    "R@10_vs_base": "+11/-1 p=0.0063",
+    "R@10_vs_generic": "+10/-4 p=0.1796",
+    "R@20": 0.333,
+    "R@20_vs_base": "+10/-1 p=0.0117",
+    "R@20_vs_generic": "+15/-5 p=0.0414"
+   },
+   "bm25+generic_l1.0_poolall": {
+    "R@5": 0.051,
+    "R@5_vs_base": "+5/-8 p=0.5811",
+    "R@10": 0.101,
+    "R@10_vs_base": "+9/-10 p=1",
+    "R@20": 0.141,
+    "R@20_vs_base": "+9/-19 p=0.0872"
+   },
+   "bm25+predicted_l1.0_poolall": {
+    "R@5": 0.152,
+    "R@5_vs_base": "+14/-7 p=0.1892",
+    "R@5_vs_generic": "+10/-0 p=0.002",
+    "R@10": 0.253,
+    "R@10_vs_base": "+20/-6 p=0.0094",
+    "R@10_vs_generic": "+17/-2 p=0.0007",
+    "R@20": 0.384,
+    "R@20_vs_base": "+23/-9 p=0.0201",
+    "R@20_vs_generic": "+27/-3 p=0.0"
+   },
+   "dense": {
+    "R@5": 0.152,
+    "R@10": 0.242,
+    "R@20": 0.333
+   },
+   "dense+generic_l0.25": {
+    "R@5": 0.152,
+    "R@5_vs_base": "+2/-2 p=1",
+    "R@10": 0.253,
+    "R@10_vs_base": "+2/-1 p=1",
+    "R@20": 0.313,
+    "R@20_vs_base": "+1/-3 p=0.625"
+   },
+   "dense+predicted_l0.25": {
+    "R@5": 0.192,
+    "R@5_vs_base": "+5/-1 p=0.2188",
+    "R@5_vs_generic": "+6/-2 p=0.2891",
+    "R@10": 0.273,
+    "R@10_vs_base": "+3/-0 p=0.25",
+    "R@10_vs_generic": "+4/-2 p=0.6875",
+    "R@20": 0.354,
+    "R@20_vs_base": "+5/-3 p=0.7266",
+    "R@20_vs_generic": "+5/-1 p=0.2188"
+   },
+   "dense+generic_l1.0": {
+    "R@5": 0.131,
+    "R@5_vs_base": "+6/-8 p=0.7905",
+    "R@10": 0.222,
+    "R@10_vs_base": "+5/-7 p=0.7744",
+    "R@20": 0.263,
+    "R@20_vs_base": "+5/-12 p=0.1435"
+   },
+   "dense+predicted_l1.0": {
+    "R@5": 0.232,
+    "R@5_vs_base": "+11/-3 p=0.0574",
+    "R@5_vs_generic": "+12/-2 p=0.0129",
+    "R@10": 0.293,
+    "R@10_vs_base": "+7/-2 p=0.1797",
+    "R@10_vs_generic": "+10/-3 p=0.0923",
+    "R@20": 0.354,
+    "R@20_vs_base": "+6/-4 p=0.7539",
+    "R@20_vs_generic": "+12/-3 p=0.0352"
+   },
+   "dense+generic_l1.0_poolall": {
+    "R@5": 0.04,
+    "R@5_vs_base": "+3/-14 p=0.0127",
+    "R@10": 0.081,
+    "R@10_vs_base": "+5/-21 p=0.0025",
+    "R@20": 0.131,
+    "R@20_vs_base": "+6/-26 p=0.0005"
+   },
+   "dense+predicted_l1.0_poolall": {
+    "R@5": 0.192,
+    "R@5_vs_base": "+14/-10 p=0.5413",
+    "R@5_vs_generic": "+15/-0 p=0.0001",
+    "R@10": 0.303,
+    "R@10_vs_base": "+15/-9 p=0.3075",
+    "R@10_vs_generic": "+23/-1 p=0.0",
+    "R@20": 0.424,
+    "R@20_vs_base": "+18/-9 p=0.1221",
+    "R@20_vs_generic": "+31/-2 p=0.0"
+   },
+   "hybrid": {
+    "R@5": 0.141,
+    "R@10": 0.242,
+    "R@20": 0.364
+   },
+   "hybrid+generic_l0.25": {
+    "R@5": 0.141,
+    "R@5_vs_base": "+1/-1 p=1",
+    "R@10": 0.222,
+    "R@10_vs_base": "+2/-4 p=0.6875",
+    "R@20": 0.374,
+    "R@20_vs_base": "+2/-1 p=1"
+   },
+   "hybrid+predicted_l0.25": {
+    "R@5": 0.162,
+    "R@5_vs_base": "+3/-1 p=0.625",
+    "R@5_vs_generic": "+2/-0 p=0.5",
+    "R@10": 0.283,
+    "R@10_vs_base": "+5/-1 p=0.2188",
+    "R@10_vs_generic": "+7/-1 p=0.0703",
+    "R@20": 0.394,
+    "R@20_vs_base": "+3/-0 p=0.25",
+    "R@20_vs_generic": "+3/-1 p=0.625"
+   },
+   "hybrid+generic_l1.0": {
+    "R@5": 0.131,
+    "R@5_vs_base": "+4/-5 p=1",
+    "R@10": 0.212,
+    "R@10_vs_base": "+5/-8 p=0.5811",
+    "R@20": 0.283,
+    "R@20_vs_base": "+5/-13 p=0.0963"
+   },
+   "hybrid+predicted_l1.0": {
+    "R@5": 0.242,
+    "R@5_vs_base": "+13/-3 p=0.0213",
+    "R@5_vs_generic": "+14/-3 p=0.0127",
+    "R@10": 0.343,
+    "R@10_vs_base": "+15/-5 p=0.0414",
+    "R@10_vs_generic": "+17/-4 p=0.0072",
+    "R@20": 0.444,
+    "R@20_vs_base": "+10/-2 p=0.0386",
+    "R@20_vs_generic": "+18/-2 p=0.0004"
+   },
+   "hybrid+generic_l1.0_poolall": {
+    "R@5": 0.101,
+    "R@5_vs_base": "+5/-9 p=0.424",
+    "R@10": 0.172,
+    "R@10_vs_base": "+7/-14 p=0.1892",
+    "R@20": 0.232,
+    "R@20_vs_base": "+6/-19 p=0.0146"
+   },
+   "hybrid+predicted_l1.0_poolall": {
+    "R@5": 0.192,
+    "R@5_vs_base": "+15/-10 p=0.4244",
+    "R@5_vs_generic": "+13/-4 p=0.049",
+    "R@10": 0.303,
+    "R@10_vs_base": "+19/-13 p=0.3771",
+    "R@10_vs_generic": "+17/-4 p=0.0072",
+    "R@20": 0.424,
+    "R@20_vs_base": "+19/-13 p=0.3771",
+    "R@20_vs_generic": "+23/-4 p=0.0003"
+   }
+  }
+ }
+}

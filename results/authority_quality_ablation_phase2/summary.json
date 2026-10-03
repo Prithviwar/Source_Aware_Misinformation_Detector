@@ -1,0 +1,251 @@
+{
+ "experiment": "authority_quality_ablation_phase2_matched_mismatch",
+ "status": "EXPLORATORY - not preregistered; X1 is a deliberately mismatched authority perturbation",
+ "started": "2026-10-03T14:08:48",
+ "finished": "2026-10-03T14:10:09",
+ "git": "experiment code is outside any git repository; nested repo Source_Aware_Misinformation_Detector (manuscript only) at HEAD e7d3cd0; SHA-256 provenance below",
+ "python": "3.13.2",
+ "lambda": 1.0,
+ "pool": 100,
+ "seed_x1_tiebreak": 2029,
+ "bootstrap_seed": 2026,
+ "sample_seed": 2027,
+ "denominator": "S: 79 gold-reachable claims whose D1 publisher has >=1 doc in the frozen hybrid top-100",
+ "x1_assignment_sha256": "cdec0f0cc05bf8641b7e71bf94b3559fae90967a7cc67f5c4d87f6cb1f20a19a",
+ "provenance": {
+  "sample": {
+   "path": "data\\processed\\averitec_heldout.jsonl",
+   "sha256": "2b2115024a3a721df9b3b43520e5c3ea00ea70aa03ebf9b79489045c8a3643c4"
+  },
+  "predictions": {
+   "path": "results\\heldout\\authority_raw.jsonl",
+   "sha256": "8ad43d98a83e898ffae5a25da4c39b9e1d6138fde4af33f88b626008b3b10963"
+  },
+  "hybrid_rankings": {
+   "path": "results\\heldout\\rankings_hybrid.jsonl.gz",
+   "sha256": "2c2201965ebe6d7dde1c7074e10481877a8bed85b3c1f63763dd7a4ed39620d7"
+  },
+  "frozen_rankings": {
+   "path": "results\\source_targeted\\rankings_heldout.jsonl.gz",
+   "sha256": "9105a5da66a287de70fdc6e7e9b5135200589d58c542d61787e7ed883cb66558"
+  },
+  "error_analysis_csv": {
+   "path": "results\\source_targeted\\error_analysis_heldout.csv",
+   "sha256": "7d3354b00a717fa26385e39e2db99ccc07d99bf19e1b572333130e2f542adef2"
+  },
+  "phase1_per_claim": {
+   "path": "results\\authority_quality_ablation\\per_claim.csv",
+   "sha256": "2a33222754511524acc40980bf4af5a995ec597d18c41a34996bb01c975bedb8"
+  },
+  "x1_assignment": {
+   "path": "results\\authority_quality_ablation_phase2\\x1_assignment.csv",
+   "sha256": "cdec0f0cc05bf8641b7e71bf94b3559fae90967a7cc67f5c4d87f6cb1f20a19a"
+  },
+  "code_build_x1": {
+   "path": "experiments\\authority_quality_ablation\\build_x1_assignment.py",
+   "sha256": "5f436d0212f24ef7333f2f0b9e8ab64ebd2e598d9da7102e09d7d557888d1a31"
+  },
+  "code_run_x1": {
+   "path": "experiments\\authority_quality_ablation\\run_x1.py",
+   "sha256": "a57c69bfd19cd87d913400e7c2035f75179ed48bb7184611311d728ea851421b"
+  },
+  "code_validation_heldout": {
+   "path": "experiments\\validation_heldout.py",
+   "sha256": "304984b62945def7ecbfeb49a7c5c4e4ff68b4d13f080e4bed9465a6235dfbc5"
+  },
+  "code_source_targeted_eval": {
+   "path": "experiments\\source_targeted_eval.py",
+   "sha256": "a686a075471b2fcb0ed5658a2fb372fc384d8f4f3437512e44f87fb386379e04"
+  },
+  "code_source_targeted": {
+   "path": "experiments\\source_targeted.py",
+   "sha256": "6ec3172da035e815b275224742f9bf0a64482b955748c5dfaafeab85dcbba223"
+  },
+  "code_authority_retrieval": {
+   "path": "experiments\\authority_retrieval.py",
+   "sha256": "ac4c2e8031685dcdfcc66c84316dbe9254c9796031d525ab0a842870488e9312"
+  }
+ },
+ "results": {
+  "A0": {
+   "GoldR@1": 0.051,
+   "GoldR@3": 0.101,
+   "GoldR@5": 0.152,
+   "GoldR@10": 0.253,
+   "GoldR@20": 0.342,
+   "GoldR@50": 0.557,
+   "GoldR@100": 0.684,
+   "GoldMRR@100": 0.11,
+   "Gold_claim_coverage": 0.684,
+   "Gold_doc_coverage": 0.533,
+   "n_gold_claims": 79,
+   "n_gold_docs": 135,
+   "mean_pool_size": 100.0
+  },
+  "D1": {
+   "GoldR@1": 0.076,
+   "GoldR@3": 0.177,
+   "GoldR@5": 0.266,
+   "GoldR@10": 0.367,
+   "GoldR@20": 0.443,
+   "GoldR@50": 0.608,
+   "GoldR@100": 0.684,
+   "GoldMRR@100": 0.161,
+   "Gold_claim_coverage": 0.684,
+   "Gold_doc_coverage": 0.533,
+   "n_gold_claims": 79,
+   "n_gold_docs": 135,
+   "mean_pool_size": 100.0
+  },
+  "X1": {
+   "GoldR@1": 0.0,
+   "GoldR@3": 0.025,
+   "GoldR@5": 0.076,
+   "GoldR@10": 0.228,
+   "GoldR@20": 0.329,
+   "GoldR@50": 0.557,
+   "GoldR@100": 0.684,
+   "GoldMRR@100": 0.057,
+   "Gold_claim_coverage": 0.684,
+   "Gold_doc_coverage": 0.533,
+   "n_gold_claims": 79,
+   "n_gold_docs": 135,
+   "mean_pool_size": 100.0
+  }
+ },
+ "tests": [
+  {
+   "metric": "R@10",
+   "comparison": "D1 vs A0",
+   "n": 79,
+   "wins": 13,
+   "losses": 4,
+   "ties": 62,
+   "p_exact_mcnemar": 0.04904,
+   "diff": 0.1139,
+   "ci95_low": 0.0127,
+   "ci95_high": 0.2152,
+   "p_holm": 0.09808,
+   "family": "AQA-P2 (R@10, 3 tests, Holm within this family only) - EXPLORATORY, not preregistered"
+  },
+  {
+   "metric": "R@10",
+   "comparison": "X1 vs A0",
+   "n": 79,
+   "wins": 0,
+   "losses": 2,
+   "ties": 77,
+   "p_exact_mcnemar": 0.5,
+   "diff": -0.0253,
+   "ci95_low": -0.0633,
+   "ci95_high": 0.0,
+   "p_holm": 0.5,
+   "family": "AQA-P2 (R@10, 3 tests, Holm within this family only) - EXPLORATORY, not preregistered"
+  },
+  {
+   "metric": "R@10",
+   "comparison": "X1 vs D1",
+   "n": 79,
+   "wins": 2,
+   "losses": 13,
+   "ties": 64,
+   "p_exact_mcnemar": 0.00739,
+   "diff": -0.1392,
+   "ci95_low": -0.2278,
+   "ci95_high": -0.0506,
+   "p_holm": 0.02217,
+   "family": "AQA-P2 (R@10, 3 tests, Holm within this family only) - EXPLORATORY, not preregistered"
+  },
+  {
+   "metric": "R@5",
+   "comparison": "D1 vs A0",
+   "n": 79,
+   "wins": 13,
+   "losses": 4,
+   "ties": 62,
+   "p_exact_mcnemar": 0.04904,
+   "diff": 0.1139,
+   "ci95_low": 0.0127,
+   "ci95_high": 0.2152,
+   "p_holm": "",
+   "family": "descriptive, uncorrected - EXPLORATORY"
+  },
+  {
+   "metric": "R@5",
+   "comparison": "X1 vs A0",
+   "n": 79,
+   "wins": 0,
+   "losses": 6,
+   "ties": 73,
+   "p_exact_mcnemar": 0.03125,
+   "diff": -0.0759,
+   "ci95_low": -0.1392,
+   "ci95_high": -0.0253,
+   "p_holm": "",
+   "family": "descriptive, uncorrected - EXPLORATORY"
+  },
+  {
+   "metric": "R@5",
+   "comparison": "X1 vs D1",
+   "n": 79,
+   "wins": 0,
+   "losses": 15,
+   "ties": 64,
+   "p_exact_mcnemar": 6e-05,
+   "diff": -0.1899,
+   "ci95_low": -0.2785,
+   "ci95_high": -0.1013,
+   "p_holm": "",
+   "family": "descriptive, uncorrected - EXPLORATORY"
+  },
+  {
+   "metric": "R@20",
+   "comparison": "D1 vs A0",
+   "n": 79,
+   "wins": 10,
+   "losses": 2,
+   "ties": 67,
+   "p_exact_mcnemar": 0.03857,
+   "diff": 0.1013,
+   "ci95_low": 0.0253,
+   "ci95_high": 0.1899,
+   "p_holm": "",
+   "family": "descriptive, uncorrected - EXPLORATORY"
+  },
+  {
+   "metric": "R@20",
+   "comparison": "X1 vs A0",
+   "n": 79,
+   "wins": 0,
+   "losses": 1,
+   "ties": 78,
+   "p_exact_mcnemar": 1.0,
+   "diff": -0.0127,
+   "ci95_low": -0.038,
+   "ci95_high": 0.0,
+   "p_holm": "",
+   "family": "descriptive, uncorrected - EXPLORATORY"
+  },
+  {
+   "metric": "R@20",
+   "comparison": "X1 vs D1",
+   "n": 79,
+   "wins": 2,
+   "losses": 11,
+   "ties": 66,
+   "p_exact_mcnemar": 0.02246,
+   "diff": -0.1139,
+   "ci95_low": -0.2025,
+   "ci95_high": -0.0253,
+   "p_holm": "",
+   "family": "descriptive, uncorrected - EXPLORATORY"
+  }
+ ],
+ "claims_with_substantial_x1_change": [
+  54,
+  258,
+  281,
+  436,
+  493
+ ]
+}

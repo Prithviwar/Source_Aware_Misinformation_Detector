@@ -1,0 +1,26 @@
+{
+  "experiment": "authority_quality_ablation_phase2_matched_mismatch",
+  "status": "EXPLORATORY - not preregistered",
+  "terminology": "X1 is a deliberately mismatched authority (matched mismatched-authority perturbation); it is not claimed to be factually wrong or non-authoritative",
+  "conditions": {
+    "A0": "no authority (frozen hybrid ranking)",
+    "D1": "predicted top-1 publisher keys (highest-ranked predicted entry with a usable key), as in Phase 1",
+    "X1": "one publisher key chosen by the rules below; same rerank, lambda = 1, same frozen hybrid top-100 pool"
+  },
+  "analysis_set_S": "gold-reachable held-out claims whose D1 publisher has >=1 document in the frozen hybrid top-100 pool (expected n = 79)",
+  "eligibility": {
+    "E1": "publisher key has >=1 document in the claim's frozen hybrid top-100 pool",
+    "E2": "publisher is not a reachable human-gold publisher of the claim (gold used only here and for scoring)",
+    "E3": "publisher is not among the claim's predicted top-3 publisher keys",
+    "E4": "publisher has the same existing generic-prior category as the claim's D1 publisher"
+  },
+  "selection": "eligible publisher with pool document count closest to D1's; ties: random.Random(2029 * 100000 + claim_id).choice(sorted(tied_keys))",
+  "assignment_integrity": "assignment CSV written once, SHA-256 recorded, both files made read-only; scorer verifies the hash before and after scoring",
+  "gate": "A0 equals stored system A top-100 rankings (200 claims); A0 and D1 per-claim first-gold ranks equal Phase 1 (167 claims)",
+  "endpoint": "human-gold R@1/5/10/20/50/100, MRR@100, pool coverage on S",
+  "statistics": "family AQA-P2: R@10 D1 vs A0, X1 vs A0, X1 vs D1; exact McNemar; paired bootstrap 95% CI (seed 2026); Holm within these three only. R@5 and R@20 descriptive.",
+  "not_run": ["20-seed tie-break sensitivity", "Phase 2 targeting", "the 180 untouched development claims", "AI-primary endpoint"],
+  "lambda": 1.0,
+  "pool": 100,
+  "llm_calls": 0
+}

@@ -1,0 +1,6 @@
+# raw downloads and knowledge-store extracts (large, re-creatable via experiments/*.py)
+data/raw/
+results/rankings_*.jsonl.gz
+__pycache__/
+*.pyc
+.venv/

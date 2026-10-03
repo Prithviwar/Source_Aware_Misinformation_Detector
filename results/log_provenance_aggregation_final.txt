@@ -1,0 +1,129 @@
+stance calls: 1238 cached, 2 to run
+{
+ "claims": 120,
+ "docs": 1240,
+ "stance_calls_ok": 1240,
+ "llm_cost_usd": 11.95,
+ "stance_distribution": {
+  "refutes": 340,
+  "supports": 196,
+  "irrelevant": 266,
+  "not_enough_info": 438
+ },
+ "relation_distribution": {
+  "reports_or_quotes_source": 492,
+  "is_the_source": 390,
+  "independent_analysis": 305,
+  "unclear": 32,
+  "copies_source": 21
+ },
+ "interested_party_docs": 117,
+ "mean_units": {
+  "F0": 10.33,
+  "F1": 9.87,
+  "F2": 8.06
+ },
+ "claims_with_any_collapse": {
+  "F1": 37,
+  "F2": 88
+ },
+ "accuracy_vs_gold": {
+  "F0": 0.633,
+  "F1": 0.633,
+  "F2": 0.633,
+  "F0+discount": 0.625,
+  "F2+discount": 0.617
+ },
+ "accuracy_by_gold_label": {
+  "F0": {
+   "Refuted": "55/70",
+   "Supported": "21/30",
+   "Conflicting": "0/10",
+   "NEE": "0/10"
+  },
+  "F1": {
+   "Refuted": "55/70",
+   "Supported": "20/30",
+   "Conflicting": "1/10",
+   "NEE": "0/10"
+  },
+  "F2": {
+   "Refuted": "55/70",
+   "Supported": "19/30",
+   "Conflicting": "2/10",
+   "NEE": "0/10"
+  },
+  "F0+discount": {
+   "Refuted": "54/70",
+   "Supported": "21/30",
+   "Conflicting": "0/10",
+   "NEE": "0/10"
+  },
+  "F2+discount": {
+   "Refuted": "53/70",
+   "Supported": "19/30",
+   "Conflicting": "1/10",
+   "NEE": "1/10"
+  }
+ },
+ "verdict_changes_vs_F0": {
+  "F1": {
+   "n": 2,
+   "to_correct": 1,
+   "from_correct": 1,
+   "claims": [
+    "214: Supported(3-2) -> Conflicting(2-2) gold=Supported",
+    "350: Refuted(1-2) -> Conflicting(1-1) gold=Conflicting"
+   ],
+   "mcnemar_p": 1
+  },
+  "F2": {
+   "n": 5,
+   "to_correct": 2,
+   "from_correct": 2,
+   "claims": [
+    "1: Supported(6-4) -> Conflicting(1-1) gold=Refuted",
+    "214: Supported(3-2) -> Conflicting(1-1) gold=Supported",
+    "216: Supported(2-1) -> Conflicting(1-1) gold=Supported",
+    "288: Supported(7-2) -> Conflicting(1-1) gold=Conflicting",
+    "350: Refuted(1-2) -> Conflicting(1-1) gold=Conflicting"
+   ],
+   "mcnemar_p": 1
+  },
+  "F0+discount": {
+   "n": 6,
+   "to_correct": 1,
+   "from_correct": 2,
+   "claims": [
+    "67: Conflicting(4-4) -> Supported(4-2) gold=Refuted",
+    "95: Supported(3-0) -> NEE(0-0) gold=Refuted",
+    "99: Supported(5-0) -> NEE(0-0) gold=Refuted",
+    "388: Refuted(0-3) -> NEE(0-0) gold=Refuted",
+    "395: Refuted(0-1) -> NEE(0-0) gold=Refuted",
+    "484: Conflicting(1-1) -> Refuted(0-1) gold=Refuted"
+   ],
+   "mcnemar_p": 1
+  },
+  "F2+discount": {
+   "n": 13,
+   "to_correct": 3,
+   "from_correct": 5,
+   "claims": [
+    "1: Supported(6-4) -> Conflicting(1-1) gold=Refuted",
+    "67: Conflicting(4-4) -> Supported(2-1) gold=Refuted",
+    "95: Supported(3-0) -> NEE(0-0) gold=Refuted",
+    "99: Supported(5-0) -> NEE(0-0) gold=Refuted",
+    "214: Supported(3-2) -> Conflicting(1-1) gold=Supported",
+    "216: Supported(2-1) -> Conflicting(1-1) gold=Supported",
+    "288: Supported(7-2) -> Refuted(0-1) gold=Conflicting",
+    "350: Refuted(1-2) -> Conflicting(1-1) gold=Conflicting",
+    "354: Supported(5-0) -> NEE(0-0) gold=NEE",
+    "388: Refuted(0-3) -> NEE(0-0) gold=Refuted",
+    "395: Refuted(0-1) -> NEE(0-0) gold=Refuted",
+    "412: Refuted(0-10) -> NEE(0-0) gold=Refuted",
+    "484: Conflicting(1-1) -> Refuted(0-1) gold=Refuted"
+   ],
+   "mcnemar_p": 0.727
+  }
+ }
+}

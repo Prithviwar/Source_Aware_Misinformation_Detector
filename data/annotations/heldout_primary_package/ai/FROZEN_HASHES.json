@@ -1,0 +1,10 @@
+{
+ "frozen_at": "2026-10-02T22:36:45",
+ "hashes": {
+  "AI_EVIDENCE_PROMPT.md": "87eae8309006267df275f5f1249f1d5824a8ce8f841ba0f7c081028f1b1b8a3f",
+  "AI_CLAIM_PROMPT.md": "5f4a7b0f2d8918ddfde20953984335cbccd43886b42eaf84d819ba73fa7227d2",
+  "ANNOTATION_GUIDE.md": "57efc6e49894411d982245913f5ff6572df33f2e6c2d9434b4877e486cfa0e71",
+  "ai_annotate.py": "5a51a84755bcc144593169f880b06577157aaea41bbe7f13acbdcb3dec3f1e67",
+  "score_ai_primary.py": "860b31a79953c3cef61078fbefee2867212bb04672c460dbf0daf406fd00662d"
+ }
+}

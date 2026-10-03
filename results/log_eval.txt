@@ -1,0 +1,73 @@
+{
+ "ks_docs_raw": 118197,
+ "ks_docs_raw_empty_text": 25514,
+ "ks_docs_dedup": 117998,
+ "ks_docs_dedup_empty_text": 25482,
+ "retrieval_candidates": 92516,
+ "gold_answers": 320,
+ "gold_answers_no_web_source(Metadata/empty)": 30,
+ "gold_unique_web_urls": 226,
+ "gold_urls_in_ks": 226,
+ "gold_urls_in_ks_empty_text": 64,
+ "gold_urls_missing_from_ks": 0,
+ "gold_urls_reachable": 162,
+ "gold_role_primary": 99,
+ "gold_role_primary_reachable": 62,
+ "gold_role_secondary": 98,
+ "gold_role_secondary_reachable": 77,
+ "gold_role_derived": 22,
+ "gold_role_derived_reachable": 18,
+ "gold_role_unclear": 7,
+ "gold_role_unclear_reachable": 5,
+ "gold_role_unannotated": 0,
+ "gold_role_unannotated_reachable": 0,
+ "claims_with_web_gold": 119,
+ "claims_with_reachable_gold": 99,
+ "claims_with_primary": 73,
+ "claims_with_reachable_primary": 48,
+ "claims_no_reachable_gold": 21
+}
+{'gold_all': 119, 'gold_reachable': 99, 'primary_all': 73, 'primary_reachable': 48}
+method                              R@5     R@10     R@20  PrimR@5 PrimR@10 PrimR@20      MRR  PrimMRR
+bm25                              0.081    0.111    0.242    0.042    0.042    0.104    0.071    0.024
+bm25+claim_l0.25                  0.071    0.111    0.263    0.021    0.083    0.167    0.061    0.025
+bm25+entity_l0.25                 0.081    0.111    0.253    0.042    0.042    0.125    0.064    0.023
+bm25+full_l0.25                   0.071    0.121    0.242    0.021    0.083    0.167    0.072    0.025
+bm25+generic_l0.25                0.071    0.101    0.242    0.021    0.042    0.167    0.070    0.022
+bm25+oracle_l0.25                 0.101    0.151    0.313    0.083    0.125    0.250    0.087    0.058
+bm25+wikidata_l0.1                0.081    0.111    0.253    0.042    0.042    0.125    0.070    0.022
+bm25+wikidata_l0.1_poolall        0.081    0.111    0.253    0.042    0.042    0.125    0.070    0.023
+bm25+wikidata_l0.25               0.081    0.111    0.263    0.042    0.042    0.146    0.064    0.023
+bm25+wikidata_l0.25_poolall       0.081    0.141    0.273    0.042    0.104    0.167    0.065    0.029
+bm25+wikidata_l0.5                0.081    0.131    0.273    0.042    0.083    0.167    0.064    0.027
+bm25+wikidata_l0.5_poolall        0.111    0.141    0.273    0.104    0.125    0.208    0.075    0.052
+bm25+wikidata_l1.0                0.101    0.141    0.273    0.083    0.104    0.167    0.073    0.046
+bm25+wikidata_l1.0_poolall        0.101    0.141    0.273    0.083    0.125    0.208    0.080    0.066
+dense                             0.151    0.242    0.333    0.021    0.104    0.188    0.113    0.028
+dense+claim_l0.25                 0.141    0.232    0.303    0.042    0.104    0.188    0.102    0.030
+dense+entity_l0.25                0.151    0.242    0.323    0.021    0.104    0.188    0.107    0.028
+dense+full_l0.25                  0.151    0.253    0.313    0.021    0.146    0.188    0.101    0.032
+dense+generic_l0.25               0.151    0.253    0.313    0.021    0.146    0.188    0.105    0.029
+dense+oracle_l0.25                0.212    0.293    0.384    0.146    0.229    0.312    0.122    0.062
+dense+wikidata_l0.1               0.162    0.253    0.333    0.042    0.125    0.188    0.114    0.030
+dense+wikidata_l0.1_poolall       0.182    0.253    0.333    0.083    0.125    0.208    0.119    0.041
+dense+wikidata_l0.25              0.182    0.253    0.343    0.083    0.125    0.208    0.119    0.040
+dense+wikidata_l0.25_poolall      0.172    0.253    0.343    0.083    0.125    0.229    0.127    0.075
+dense+wikidata_l0.5               0.182    0.253    0.333    0.062    0.146    0.208    0.128    0.058
+dense+wikidata_l0.5_poolall       0.151    0.253    0.333    0.083    0.146    0.208    0.118    0.086
+dense+wikidata_l1.0               0.172    0.253    0.333    0.083    0.146    0.208    0.122    0.085
+dense+wikidata_l1.0_poolall       0.141    0.222    0.323    0.083    0.146    0.208    0.104    0.086
+hybrid                            0.141    0.242    0.364    0.021    0.062    0.167    0.102    0.028
+hybrid+claim_l0.25                0.121    0.222    0.343    0.021    0.083    0.167    0.097    0.029
+hybrid+entity_l0.25               0.131    0.232    0.364    0.021    0.062    0.208    0.099    0.028
+hybrid+full_l0.25                 0.131    0.232    0.374    0.042    0.104    0.229    0.099    0.036
+hybrid+generic_l0.25              0.141    0.222    0.374    0.042    0.104    0.208    0.099    0.034
+hybrid+oracle_l0.25               0.182    0.283    0.404    0.104    0.208    0.312    0.127    0.086
+hybrid+wikidata_l0.1              0.131    0.253    0.364    0.021    0.083    0.188    0.101    0.029
+hybrid+wikidata_l0.1_poolall      0.151    0.242    0.364    0.062    0.083    0.188    0.102    0.034
+hybrid+wikidata_l0.25             0.151    0.242    0.364    0.062    0.104    0.208    0.110    0.051
+hybrid+wikidata_l0.25_poolall     0.151    0.242    0.364    0.062    0.104    0.208    0.112    0.057
+hybrid+wikidata_l0.5              0.162    0.242    0.364    0.083    0.104    0.208    0.118    0.069
+hybrid+wikidata_l0.5_poolall      0.162    0.253    0.353    0.083    0.125    0.229    0.126    0.087
+hybrid+wikidata_l1.0              0.162    0.253    0.364    0.083    0.125    0.229    0.125    0.088
+hybrid+wikidata_l1.0_poolall      0.131    0.222    0.313    0.083    0.125    0.229    0.110    0.086

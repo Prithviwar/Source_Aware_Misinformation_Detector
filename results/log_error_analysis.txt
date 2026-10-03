@@ -1,0 +1,240 @@
+
+=== bm25_finds_primary_or_gold | claim 484 (Refuted) speaker=Pastor Ize-Lyamu iso=NG
+  CLAIM: The Edo State government of Nigeria receives 600 million naira monthly as a security vote.
+  GOLD: ti-defence.org/wp-content/uploads/2018/05/DSP_Nigeria_Camouflage_Cash_AnnexB.pdf (primary) | ti-defence.org/wp-content/uploads/2018/05/DSP_Nigeria_Camouflage_Cash_Web2.pdf (primary) | yourbudgit.com (primary)
+  WIKIDATA: edostate.gov.ng
+  bm25         top1=nairaland.com/1972020/like-ibori-gov-uduaghan-multi [unannotated] gold@3 prim@3
+  dense        top1=en.wikipedia.org/wiki/Security_vote_in_Nigeria [unannotated] gold@19 prim@19
+  generic      top1=nairaland.com/1972020/like-ibori-gov-uduaghan-multi [unannotated] gold@4 prim@4
+  auth_full    top1=nairaland.com/1972020/like-ibori-gov-uduaghan-multi [unannotated] gold@3 prim@3
+  auth_entity  top1=nairaland.com/1972020/like-ibori-gov-uduaghan-multi [unannotated] gold@3 prim@3
+  wikidata     top1=nairaland.com/1972020/like-ibori-gov-uduaghan-multi [unannotated] gold@3 prim@3
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3
+
+=== bm25_finds_primary_or_gold | claim 387 (Supported) speaker=Jonathan Ashworth iso=GB
+  CLAIM: In England only 69.4% of COVID-19 contacts are now reached and asked to self-isolate.
+  GOLD: gov.uk/government/publications/nhs-test-and-trace-england-and-coronavirus-testing-uk-statistics-20-august-to-26-august-2020/weekly-statistics-for-nhs-test-and-trace-england-and-coronavirus-testing-uk-20-august-to-26-august (primary)
+  WIKIDATA: jonashworth.org jonashworth jonashworthmp
+  bm25         top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@4 prim@4
+  dense        top1=ukhsa.blog.gov.uk/2020/02/20/what-is-self-isolation-and-why-is-it-important [unannotated] gold@128 prim@128
+  generic      top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@6 prim@6
+  auth_full    top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@6 prim@6
+  auth_entity  top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@4 prim@4
+  wikidata     top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@4 prim@4
+  auth top1 prior: generic=1.0 entity_match=0 claim_prior=1 full=1.0 | primary-doc prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3
+
+=== bm25_finds_primary_or_gold | claim 99 (Refuted) speaker=Right To Life UK iso=NZ
+  CLAIM: New Zealand's Abortion Legislation Act (2020) does not make it a legal requirement that babies born alive after an abortion are given medical support.
+  GOLD: advocacy.org.nz/wp-content/uploads/2019/04/code-of-rights.pdf (primary, EMPTY/unreachable) | bothlivesmatter.org.nz/the-law-in-detail (secondary)
+  WIKIDATA: righttolife.org.uk
+  bm25         top1=bothlivesmatter.org.nz/the-law-in-detail [secondary] gold@1 prim@None
+  dense        top1=fli.org.nz/life-faith-family-resources/abortion/nz-abortion-law [unannotated] gold@27 prim@None
+  generic      top1=bothlivesmatter.org.nz/the-law-in-detail [secondary] gold@1 prim@None
+  auth_full    top1=bothlivesmatter.org.nz/the-law-in-detail [secondary] gold@1 prim@None
+  auth_entity  top1=righttolife.org.uk/news/nz-pm-rushes-worlds-most-extreme-abortion-law-into-law-while-country-di [unannotated] gold@3 prim@None
+  wikidata     top1=righttolife.org.uk/news/nz-pm-rushes-worlds-most-extreme-abortion-law-into-law-while-country-di [unannotated] gold@3 prim@None
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: 
+
+=== bm25_finds_primary_or_gold | claim 190 (Refuted) speaker=Richard Greene iso=US
+  CLAIM: US President Donald Trump used a fabricated COVID-19 positive diagnosis to benefit his re election campaign.
+  GOLD: factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis (secondary)
+  WIKIDATA: 45office.com donaldjtrump.com donaldtrump potus potus45 realdonaldtrump
+  bm25         top1=factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis [secondary] gold@1 prim@None
+  dense        top1=oregonlive.com/politics/2020/10/president-trump-and-first-lady-test-positive-for-covid-19.html [unannotated] gold@2 prim@None
+  generic      top1=factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis [secondary] gold@1 prim@None
+  auth_full    top1=factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis [secondary] gold@1 prim@None
+  auth_entity  top1=factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis [secondary] gold@1 prim@None
+  wikidata     top1=factcheck.org/2020/10/misinformation-speculation-follow-trump-covid-19-diagnosis [secondary] gold@1 prim@None
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: 
+
+=== bm25_finds_primary_or_gold | claim 373 (Refuted) speaker=None iso=IN
+  CLAIM: the Indian Government set up 5 coaching centres for UPSC exams, 4 of which were in Muslim universities.
+  GOLD: socialjustice.nic.in/SchemeList/Send/96?mid=32549 (primary, EMPTY/unreachable) | thehindu.com/news/national/Jamia-Millia-declared-minority-institution/article15454893.ece (secondary) | theprint.in/india/education/jamia-centre-at-heart-of-sudarshan-news-upsc-jihad-row-has-coached-500-govt-officers/500738 (secondary)
+  WIKIDATA: upsc.se
+  bm25         top1=theprint.in/india/education/jamia-centre-at-heart-of-sudarshan-news-upsc-jihad-row-has-coached- [secondary] gold@1 prim@None
+  dense        top1=theprint.in/india/governance/the-inside-story-of-indias-giant-ias-coaching-factories-hope-hype- [same-publisher-as-secondary] gold@52 prim@None
+  generic      top1=theprint.in/india/education/jamia-centre-at-heart-of-sudarshan-news-upsc-jihad-row-has-coached- [secondary] gold@1 prim@None
+  auth_full    top1=theprint.in/india/education/jamia-centre-at-heart-of-sudarshan-news-upsc-jihad-row-has-coached- [secondary] gold@1 prim@None
+  auth_entity  top1=theprint.in/india/education/jamia-centre-at-heart-of-sudarshan-news-upsc-jihad-row-has-coached- [secondary] gold@1 prim@None
+  wikidata     top1=theprint.in/india/education/jamia-centre-at-heart-of-sudarshan-news-upsc-jihad-row-has-coached- [secondary] gold@1 prim@None
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: 
+
+=== bm25_secondary_instead | claim 321 (Refuted) speaker=None iso=US
+  CLAIM: In 2019, 10 million fell ill from tuberculosis and 1.5 million died but nobody needs to wears a mask for tuberculosis
+  GOLD: cghdde.berkeley.edu/partners/curry-international-tuberculosis-center (secondary) | currytbcenter.ucsf.edu/sites/default/files/ic_book_2011.pdf (primary)
+  WIKIDATA: 
+  bm25         top1=magazine.ucsf.edu/scourge-city [same-publisher-as-primary] gold@507 prim@507
+  dense        top1=usatoday.com/story/news/factcheck/2020/08/30/fact-check-tb-more-dangerous-than-covid-19-but-con [unannotated] gold@258 prim@258
+  generic      top1=magazine.ucsf.edu/scourge-city [same-publisher-as-primary] gold@None prim@None
+  auth_full    top1=magazine.ucsf.edu/scourge-city [same-publisher-as-primary] gold@None prim@None
+  auth_entity  top1=magazine.ucsf.edu/scourge-city [same-publisher-as-primary] gold@None prim@None
+  wikidata     top1=magazine.ucsf.edu/scourge-city [same-publisher-as-primary] gold@None prim@None
+  auth top1 prior: generic=0.8 entity_match=0 claim_prior=0 full=0.8 | primary-doc prior: generic=0.8 entity_match=0 claim_prior=0 full=0.8
+
+=== bm25_secondary_instead | claim 64 (Refuted) speaker=Left Action iso=US
+  CLAIM: Eric Trump, Donald J. Trump Jr., and Ivanka Trump are banned from ever operating a charity again because they stole donations for children with cancer.
+  GOLD: ag.ny.gov/press-release/2019/ag-james-secures-court-order-against-donald-j-trump-trump-children-and-trump (primary)
+  WIKIDATA: donjr.com erictrumpfoundation.com ivankatrump.com donaldjtrumpjr erictrump ivankatrump
+  bm25         top1=mediabiasfactcheck.com/left-action [unannotated] gold@31 prim@31
+  dense        top1=thefader.com/2017/06/06/report-donald-trump-eric-foundation-charity-cancer-forbes [unannotated] gold@89 prim@89
+  generic      top1=mediabiasfactcheck.com/left-action [unannotated] gold@11 prim@11
+  auth_full    top1=mediabiasfactcheck.com/left-action [unannotated] gold@11 prim@11
+  auth_entity  top1=mediabiasfactcheck.com/left-action [unannotated] gold@31 prim@31
+  wikidata     top1=mediabiasfactcheck.com/left-action [unannotated] gold@31 prim@31
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: generic=1.0 entity_match=0 claim_prior=1 full=1.0
+
+=== bm25_secondary_instead | claim 74 (Refuted) speaker=None iso=US
+  CLAIM: The Iowa Farm Bureau, US says that it would no longer be endorsing US Republican Iowa Sen. Joni Ernst for her re-election
+  GOLD: caucus.militarytimes.com/speaker/joni-ernst (secondary) | iowafarmbureau.com/About (primary) | iowafarmbureau.com/Article/Statement-by-Iowa-Farm-Bureau-Federation (primary) | qctimes.com/news/state-and-regional/govt-and-politics/campaign-almanac-for-wednesday-september-9-2020/article_78f6dbc5-6272-547c-9de9-e2a78cefb8cf.html (secondary)
+  WIKIDATA: senate.gov joniernst joniforiowa senjoniernst
+  bm25         top1=rollcall.com/2019/06/06/national-democrats-take-sides-in-iowa-senate-primary [unannotated] gold@130 prim@189
+  dense        top1=qctimes.com/news/state-and-regional/govt-and-politics/campaign-almanac-for-wednesday-september- [secondary] gold@1 prim@4
+  generic      top1=time.com/5738141/dscc-early-primary-endorsements [unannotated] gold@None prim@None
+  auth_full    top1=time.com/5738141/dscc-early-primary-endorsements [unannotated] gold@None prim@None
+  auth_entity  top1=rollcall.com/2019/06/06/national-democrats-take-sides-in-iowa-senate-primary [unannotated] gold@None prim@None
+  wikidata     top1=rollcall.com/2019/06/06/national-democrats-take-sides-in-iowa-senate-primary [unannotated] gold@None prim@None
+  auth top1 prior: generic=0.6 entity_match=0 claim_prior=0 full=0.6 | primary-doc prior: generic=0.3 entity_match=1 claim_prior=1 full=1.0
+
+=== bm25_secondary_instead | claim 85 (Refuted) speaker=Pooja Chaudhuri iso=IN
+  CLAIM: India's Congress party candidate Maskoor Usmani installed Jinnah's portrait at AMU.
+  GOLD: amu.ac.in/about-us/facts (primary) | dailyo.in/politics/jinnah-portrait-aligarh-muslim-university-controversy-bjp-sangh-parivar-india-pakistan-amu-students-union-23850 (secondary) | in.linkedin.com/company/aaj-tak (primary) | newindianexpress.com/nation/2020/oct/16/ln-mishras-grandson-denied-congress-ticket-calls-party-candidate-masqoor-usmani-anti-national-ji-2211130.html (secondary) | telegraphindia.com/india/advani-salutes-secular-jinnah/cid/873488 (secondary, EMPTY/unreachable) | twitter.com
+  WIKIDATA: inc.in univ-amu.fr incindia indiannationalcongress univamu
+  bm25         top1=newsclick.in/aaj-tak-falsely-claims-congress-candidate-maskoor-usmani-hung-jinnah-portrait-AMU [unannotated] gold@11 prim@422
+  dense        top1=thequint.com/news/webqoof/aajtaks-claim-that-maskoor-usmani-hung-jinnah-portrait-at-amu-is-fals [unannotated] gold@111 prim@258
+  generic      top1=newsclick.in/aaj-tak-falsely-claims-congress-candidate-maskoor-usmani-hung-jinnah-portrait-AMU [unannotated] gold@13 prim@None
+  auth_full    top1=newsclick.in/aaj-tak-falsely-claims-congress-candidate-maskoor-usmani-hung-jinnah-portrait-AMU [unannotated] gold@13 prim@None
+  auth_entity  top1=newsclick.in/aaj-tak-falsely-claims-congress-candidate-maskoor-usmani-hung-jinnah-portrait-AMU [unannotated] gold@11 prim@None
+  wikidata     top1=newsclick.in/aaj-tak-falsely-claims-congress-candidate-maskoor-usmani-hung-jinnah-portrait-AMU [unannotated] gold@11 prim@None
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: generic=0.8 entity_match=1 claim_prior=1 full=1.0
+
+=== bm25_secondary_instead | claim 95 (Refuted) speaker=Right To Life UK iso=NZ
+  CLAIM: Controversial abortion methods are allowed under New Zealand's Abortion Legislation Act (2020).
+  GOLD: legislation.govt.nz/act/public/2020/0006/latest/whole.html (primary)
+  WIKIDATA: righttolife.org.uk
+  bm25         top1=bothlivesmatter.org.nz/the-law-in-detail [unannotated] gold@620 prim@620
+  dense        top1=simple.wikipedia.org/wiki/Abortion_Legislation_Act_2020 [unannotated] gold@519 prim@519
+  generic      top1=bothlivesmatter.org.nz/the-law-in-detail [unannotated] gold@None prim@None
+  auth_full    top1=bothlivesmatter.org.nz/the-law-in-detail [unannotated] gold@None prim@None
+  auth_entity  top1=bothlivesmatter.org.nz/the-law-in-detail [unannotated] gold@None prim@None
+  wikidata     top1=bothlivesmatter.org.nz/the-law-in-detail [unannotated] gold@None prim@None
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: generic=1.0 entity_match=1 claim_prior=1 full=1.0
+
+=== authority_improves | claim 64 (Refuted) speaker=Left Action iso=US
+  CLAIM: Eric Trump, Donald J. Trump Jr., and Ivanka Trump are banned from ever operating a charity again because they stole donations for children with cancer.
+  GOLD: ag.ny.gov/press-release/2019/ag-james-secures-court-order-against-donald-j-trump-trump-children-and-trump (primary)
+  WIKIDATA: donjr.com erictrumpfoundation.com ivankatrump.com donaldjtrumpjr erictrump ivankatrump
+  bm25         top1=mediabiasfactcheck.com/left-action [unannotated] gold@31 prim@31
+  dense        top1=thefader.com/2017/06/06/report-donald-trump-eric-foundation-charity-cancer-forbes [unannotated] gold@89 prim@89
+  generic      top1=mediabiasfactcheck.com/left-action [unannotated] gold@11 prim@11
+  auth_full    top1=mediabiasfactcheck.com/left-action [unannotated] gold@11 prim@11
+  auth_entity  top1=mediabiasfactcheck.com/left-action [unannotated] gold@31 prim@31
+  wikidata     top1=mediabiasfactcheck.com/left-action [unannotated] gold@31 prim@31
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: generic=1.0 entity_match=0 claim_prior=1 full=1.0
+
+=== authority_improves | claim 222 (Supported) speaker=Muhammadu Buhari iso=NG
+  CLAIM: Today, Nigeria grapples with multiple challenges with a population exceeding 200 million.
+  GOLD: dw.com/en/nigeria-buharis-biggest-challenges/a-36048646 (secondary) | news.un.org/en/story/2012/04/408132 (primary)
+  WIKIDATA: nigeria.gov.ng thisisbuhari.com mbuhari muhammadubuhari
+  bm25         top1=sealevel.climatecentral.org/uploads/research/Global-Mapping-Choices-Report.pdf [unannotated] gold@17 prim@17
+  dense        top1=worldpopulationreview.com/countries/nigeria-population [unannotated] gold@166 prim@166
+  generic      top1=statehouse.gov.ng/news/independence-day-address-by-president-muhammadu-buhari [unannotated] gold@14 prim@14
+  auth_full    top1=statehouse.gov.ng/news/independence-day-address-by-president-muhammadu-buhari [unannotated] gold@10 prim@10
+  auth_entity  top1=sealevel.climatecentral.org/uploads/research/Global-Mapping-Choices-Report.pdf [unannotated] gold@17 prim@17
+  wikidata     top1=sealevel.climatecentral.org/uploads/research/Global-Mapping-Choices-Report.pdf [unannotated] gold@17 prim@17
+  auth top1 prior: generic=1.0 entity_match=0 claim_prior=1 full=1.0 | primary-doc prior: generic=1.0 entity_match=0 claim_prior=0 full=1.0
+
+=== authority_improves | claim 298 (Refuted) speaker=Various iso=GB
+  CLAIM: MPs are not following workplace Covid guidance by wearing masks.
+  GOLD: assets.publishing.service.gov.uk/media/5eb97e7686650c278d4496ea/working-safely-during-covid-19-offices-contact-centres-151020.pdf (primary) | gonewsindia.com/latest-news/news-and-politic/mps-wear-masks-use-sanitisers-as-coronavirus-fear-enters-parliament1-10071 (secondary)
+  WIKIDATA: 
+  bm25         top1=bbc.co.uk/news/uk-52620556 [unannotated] gold@11 prim@15
+  dense        top1=sg.news.yahoo.com/covid-19-all-m-ps-now-required-to-wear-face-masks-in-parliament-060846663.htm [unannotated] gold@2 prim@34
+  generic      top1=bbc.co.uk/news/uk-52620556 [unannotated] gold@11 prim@11
+  auth_full    top1=bbc.co.uk/news/uk-52620556 [unannotated] gold@10 prim@10
+  auth_entity  top1=bbc.co.uk/news/uk-52620556 [unannotated] gold@11 prim@15
+  wikidata     top1=bbc.co.uk/news/uk-52620556 [unannotated] gold@11 prim@15
+  auth top1 prior: generic=0.6 entity_match=0 claim_prior=0 full=0.6 | primary-doc prior: generic=1.0 entity_match=0 claim_prior=1 full=1.0
+
+=== authority_improves | claim 354 (Not Enough Evidence) speaker=Edo State governor, Godwin Obaseki iso=NG
+  CLAIM: unemployment rate in the state of Edo, Nigeria reduced from 25% to 19% during Godwin Obaseki's tenure.
+  GOLD: nigerianstat.gov.ng/pdfuploads/Q2_2020_Unemployment_Report.pdf (primary)
+  WIKIDATA: 
+  bm25         top1=nairaland.com/6054560/edo-unemployment-rate-falls-25.1 [unannotated] gold@34 prim@34
+  dense        top1=edostate.gov.ng/edo-unemployment-rate-falls-from-25-1-to-19-on-back-of-obasekis-job-creation-dr [unannotated] gold@149 prim@149
+  generic      top1=edostate.gov.ng/edo-unemployment-rate-falls-from-25-1-to-19-on-back-of-obasekis-job-creation-dr [unannotated] gold@17 prim@17
+  auth_full    top1=edostate.gov.ng/edo-unemployment-rate-falls-from-25-1-to-19-on-back-of-obasekis-job-creation-dr [unannotated] gold@16 prim@16
+  auth_entity  top1=edostate.gov.ng/edo-unemployment-rate-falls-from-25-1-to-19-on-back-of-obasekis-job-creation-dr [unannotated] gold@34 prim@34
+  wikidata     top1=nairaland.com/6054560/edo-unemployment-rate-falls-25.1 [unannotated] gold@34 prim@34
+  auth top1 prior: generic=1.0 entity_match=1 claim_prior=1 full=1.0 | primary-doc prior: generic=1.0 entity_match=0 claim_prior=1 full=1.0
+
+=== authority_improves | claim 143 (Conflicting Evidence/Cherrypicking) speaker=Winston Peters iso=NZ
+  CLAIM: New Zealand spends less on pensions than most wealthy countries, spending 4.4 per cent of GDP
+  GOLD: oecd-ilibrary.org/sites/d6831cac-en/index.html?itemId=%2Fcontent%2Fcomponent%2Fd6831cac-en (primary) | treasury.govt.nz/sites/default/files/2020-05/nzsf-model-changes-befu20.pdf (primary)
+  WIKIDATA: winstonpeters winstonpetersnzfirst
+  bm25         top1=cdn.americanprogress.org/wp-content/uploads/issues/2009/10/pdf/oecd_spending.pdf [unannotated] gold@19 prim@19
+  dense        top1=oecd.org/gov/New-Zealand.pdf [unannotated] gold@12 prim@12
+  generic      top1=cdn.americanprogress.org/wp-content/uploads/issues/2009/10/pdf/oecd_spending.pdf [unannotated] gold@14 prim@14
+  auth_full    top1=cdn.americanprogress.org/wp-content/uploads/issues/2009/10/pdf/oecd_spending.pdf [unannotated] gold@12 prim@12
+  auth_entity  top1=cdn.americanprogress.org/wp-content/uploads/issues/2009/10/pdf/oecd_spending.pdf [unannotated] gold@19 prim@19
+  wikidata     top1=cdn.americanprogress.org/wp-content/uploads/issues/2009/10/pdf/oecd_spending.pdf [unannotated] gold@19 prim@19
+  auth top1 prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3 | primary-doc prior: generic=1.0 entity_match=0 claim_prior=0 full=1.0
+
+=== authority_hurts | claim 387 (Supported) speaker=Jonathan Ashworth iso=GB
+  CLAIM: In England only 69.4% of COVID-19 contacts are now reached and asked to self-isolate.
+  GOLD: gov.uk/government/publications/nhs-test-and-trace-england-and-coronavirus-testing-uk-statistics-20-august-to-26-august-2020/weekly-statistics-for-nhs-test-and-trace-england-and-coronavirus-testing-uk-20-august-to-26-august (primary)
+  WIKIDATA: jonashworth.org jonashworth jonashworthmp
+  bm25         top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@4 prim@4
+  dense        top1=ukhsa.blog.gov.uk/2020/02/20/what-is-self-isolation-and-why-is-it-important [unannotated] gold@128 prim@128
+  generic      top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@6 prim@6
+  auth_full    top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@6 prim@6
+  auth_entity  top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@4 prim@4
+  wikidata     top1=assets.publishing.service.gov.uk/media/5f2801d08fa8f57ac14f6948/test_and_trace_week_8.pdf [unannotated] gold@4 prim@4
+  auth top1 prior: generic=1.0 entity_match=0 claim_prior=1 full=1.0 | primary-doc prior: generic=0.3 entity_match=0 claim_prior=0 full=0.3
+
+=== authority_hurts | claim 83 (Refuted) speaker=The Blaze iso=US
+  CLAIM: Pennsylvania US rejects 372,000 mail-in ballots.
+  GOLD: inquirer.com/politics/election/pennsylvania-mail-ballot-rejections-duplicate-applications-20201016.html (secondary)
+  WIKIDATA: 
+  bm25         top1=aljazeera.com/news/2020/10/16/20-million-americans-have-voted-early-us-election-live-updates [unannotated] gold@3 prim@None
+  dense        top1=poconorecord.com/story/news/politics/elections/2020/09/16/5-percent-of-pennsylvania-mail-in-bal [unannotated] gold@6 prim@None
+  generic      top1=aljazeera.com/news/2020/10/16/20-million-americans-have-voted-early-us-election-live-updates [unannotated] gold@4 prim@None
+  auth_full    top1=aljazeera.com/news/2020/10/16/20-million-americans-have-voted-early-us-election-live-updates [unannotated] gold@4 prim@None
+  auth_entity  top1=aljazeera.com/news/2020/10/16/20-million-americans-have-voted-early-us-election-live-updates [unannotated] gold@3 prim@None
+  wikidata     top1=aljazeera.com/news/2020/10/16/20-million-americans-have-voted-early-us-election-live-updates [unannotated] gold@3 prim@None
+  auth top1 prior: generic=0.6 entity_match=0 claim_prior=0 full=0.6 | primary-doc prior: 
+
+=== authority_hurts | claim 18 (Conflicting Evidence/Cherrypicking) speaker=Elizabeth Gilbert iso=US
+  CLAIM: Even if your mail-in ballot is postmarked prior to the Election day but arrives after the Election day it will be thrown out.
+  GOLD: buzzfeednews.com/article/addybaird/vote-by-mail-state-deadlines (secondary) | cbsnews.com/news/wisconsin-election-supreme-court-rules-againt-absentee-ballots-after-election-day (secondary) | facebook.com/GilbertLiz/photos/a.356148997800555/3549940058421417 (primary, EMPTY/unreachable)
+  WIKIDATA: elizabethgilbert.com gilbertliz
+  bm25         top1=abcnews.go.com/Politics/election-2020-fill-mail-ballot-correctly-avoid-rejected/story?id=734848 [unannotated] gold@6 prim@None
+  dense        top1=ncsbe.gov/news/press-releases/2016/03/14/election-day-and-absentee-ballot-deadline [unannotated] gold@3 prim@None
+  generic      top1=abcnews.go.com/Politics/election-2020-fill-mail-ballot-correctly-avoid-rejected/story?id=734848 [unannotated] gold@10 prim@None
+  auth_full    top1=abcnews.go.com/Politics/election-2020-fill-mail-ballot-correctly-avoid-rejected/story?id=734848 [unannotated] gold@10 prim@None
+  auth_entity  top1=abcnews.go.com/Politics/election-2020-fill-mail-ballot-correctly-avoid-rejected/story?id=734848 [unannotated] gold@6 prim@None
+  wikidata     top1=abcnews.go.com/Politics/election-2020-fill-mail-ballot-correctly-avoid-rejected/story?id=734848 [unannotated] gold@6 prim@None
+  auth top1 prior: generic=1.0 entity_match=0 claim_prior=0 full=1.0 | primary-doc prior: 
+
+=== authority_hurts | claim 399 (Refuted) speaker=Abdul iso=NG
+  CLAIM: The Daily Trust news report about a UK judge ruling on how Nigerian Vice President Yemi Osinbajo detected the Process and Industrious Development Limited (P&ID) fraud against Nigeria is fake news.
+  GOLD: lawyard.ng/wp-content/uploads/2020/09/Federal-Republic-of-Nigeria-v.-Process-Industrial-Developments-Ltd-20....pdf (derived)
+  WIKIDATA: dailytrust.com yemiosinbajo.ng profosinbajo
+  bm25         top1=chronicle.ng/2020/09/osinbajo-detected-pid-fraud-nigeria-judge [unannotated] gold@7 prim@None
+  dense        top1=chronicle.ng/2020/09/osinbajo-detected-pid-fraud-nigeria-judge [unannotated] gold@306 prim@None
+  generic      top1=chronicle.ng/2020/09/osinbajo-detected-pid-fraud-nigeria-judge [unannotated] gold@15 prim@None
+  auth_full    top1=dailytrust.com/how-osinbajo-detected-pid-fraud-against-nigeria-uk-judge [unannotated] gold@13 prim@None
+  auth_entity  top1=dailytrust.com/how-osinbajo-detected-pid-fraud-against-nigeria-uk-judge [unannotated] gold@7 prim@None
+  wikidata     top1=dailytrust.com/how-osinbajo-detected-pid-fraud-against-nigeria-uk-judge [unannotated] gold@7 prim@None
+  auth top1 prior: generic=0.3 entity_match=1 claim_prior=1 full=1.0 | primary-doc prior: 
+
+=== authority_hurts | claim 466 (Refuted) speaker=None iso=US
+  CLAIM: Amber Alert Issued For License Plate Q72B381
+  GOLD: facebook.com/AMBERalert (primary, EMPTY/unreachable) | techlicious.com/blog/facebook-amber-alerts-center-for-missing-and-exploited-children (secondary)
+  WIKIDATA: 
+  bm25         top1=ojjdp.ojp.gov/sites/g/files/xyckuh176/files/media/document/254120.pdf [unannotated] gold@8 prim@None
+  dense        top1=pricecountywi.net/CivicAlerts.aspx?AID=25 [unannotated] gold@37 prim@None
+  generic      top1=ojjdp.ojp.gov/sites/g/files/xyckuh176/files/media/document/254120.pdf [unannotated] gold@12 prim@None
+  auth_full    top1=ojjdp.ojp.gov/sites/g/files/xyckuh176/files/media/document/254120.pdf [unannotated] gold@12 prim@None
+  auth_entity  top1=ojjdp.ojp.gov/sites/g/files/xyckuh176/files/media/document/254120.pdf [unannotated] gold@8 prim@None
+  wikidata     top1=ojjdp.ojp.gov/sites/g/files/xyckuh176/files/media/document/254120.pdf [unannotated] gold@8 prim@None
+  auth top1 prior: generic=1.0 entity_match=0 claim_prior=1 full=1.0 | primary-doc prior: 

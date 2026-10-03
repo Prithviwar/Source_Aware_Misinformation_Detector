@@ -1,0 +1,46 @@
+{
+ "heldout_primary_pilot15_CLAUDE.csv": {
+  "n_problems": 0,
+  "problems": [],
+  "summary": {
+   "n_rows": 15,
+   "situation": {
+    "unclear": 2,
+    "single_primary": 7,
+    "multiple_legitimate_authorities": 6
+   },
+   "confidence": {
+    "low": 3,
+    "high": 4,
+    "medium": 8
+   },
+   "research_used": {
+    "none": 15
+   },
+   "n_authorities_per_row": {
+    "2": 6,
+    "1": 6,
+    "3": 3
+   },
+   "authority_types": {
+    "organisation_about_itself": 6,
+    "court_or_prosecutor": 1,
+    "legislature": 5,
+    "government_executive": 2,
+    "regulator_or_election_body": 3,
+    "health_or_science_agency": 2,
+    "academic_or_research_producer": 2,
+    "intergovernmental_org": 3,
+    "statistics_or_data_agency": 2,
+    "person_own_statement_or_account": 1
+   },
+   "rows_type_other": [],
+   "rows_unclear_or_low_conf": [
+    "1",
+    "7",
+    "13"
+   ],
+   "rows_with_notes": 15
+  }
+ }
+}

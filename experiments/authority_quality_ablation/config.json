@@ -1,0 +1,32 @@
+{
+  "experiment": "authority_quality_ablation_phase1",
+  "status": "EXPLORATORY - not preregistered; no existing protocol covers these comparisons",
+  "split": "heldout",
+  "sample": "data/processed/averitec_heldout.jsonl (200 claims, sample seed 2027, unchanged)",
+  "endpoint_main": "human-gold R@K on claims with >=1 reachable gold document (n=167, same denominator as the frozen held-out evaluation)",
+  "endpoint_secondary": "AI-labelled primary-evidence recall (n=72), reported separately, exploratory",
+  "base_ranking": "frozen hybrid ranking results/heldout/rankings_hybrid.jsonl.gz (BM25 + all-MiniLM-L6-v2, RRF k=60)",
+  "rerank": "validation_heldout.rerank -> authority_retrieval.rerank: minmax(relevance within hybrid top-100) + lambda * prior(url)",
+  "lambda": 1.0,
+  "pool": 100,
+  "authority_predictor": "frozen L+Wctx predictions, results/heldout/authority_raw.jsonl (claude-opus-5-5, no new calls)",
+  "conditions": {
+    "A0": "no authority information: the frozen hybrid ranking (= stored system A 'hybrid')",
+    "D1": "prior = publisher keys of the highest-ranked predicted publisher entry with a usable publisher key (first element of source_targeted.primary_authority_candidates(pred)); claims whose strict rank-1 entry is unusable are reported",
+    "D3": "existing frozen D ('hybrid+llm_authority'): prior = union of keys of up to 3 predicted publisher entries, reproduced with the existing functions and gated against the stored rankings and table",
+    "O": "ORACLE DIAGNOSTIC (uses gold, not deployable): prior = existing gold publisher-key construction (validation_heldout.gold_info()['gold_keys'], i.e. the keys used by the frozen ORACLE condition), applied to the same hybrid top-100 pool with the same rerank"
+  },
+  "statistics": {
+    "test": "exact McNemar (validation_heldout.mcnemar), paired",
+    "ci": "paired bootstrap 95% CI (validation_heldout.boot_ci, seed 2026, existing resample count)",
+    "new_family": "AQA-P1 family: R@10 comparisons D1 vs A0, D3 vs D1, O vs D3, O vs A0, Holm-corrected within this family only; NOT part of the preregistered human-gold family",
+    "descriptive": "R@5 and R@20 comparisons reported uncorrected and descriptive"
+  },
+  "strata": {
+    "gold_publishers": "number of reachable gold publishers per claim (1 vs >=2), from the stored error-analysis artifact; derived from human gold, not an authority label",
+    "predictor_label": "predictor's own authority_situation (MODEL OUTPUT, descriptive only)",
+    "ai_claim_label": "AI claim-level authority_situation (MODEL_GENERATED, descriptive only)"
+  },
+  "not_run_in_phase1": ["mismatched-authority condition X", "Phase 2 targeting ladder"],
+  "llm_calls": 0
+}

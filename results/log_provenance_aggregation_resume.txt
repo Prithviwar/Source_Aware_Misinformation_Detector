@@ -1,0 +1,153 @@
+stance calls: 714 cached, 526 to run
+[50/526] 367 zakatindia.org/Muslim-Presence-in-Bureaucracy.html ok
+[100/526] 374 cliffmass.blogspot.com/2020/09/new-podcast-smoke-a ok
+[150/526] 389 tif.ssrc.org/2015/02/17/values-and-violence-though ok
+[200/526] 399 nigeria-pandidcase.org/nigeria-launches-new-fact-c ok
+[250/526] 418 ncbi.nlm.nih.gov/pmc/articles/PMC6876521 ok
+[300/526] 431 rpc.senate.gov/policy-papers/protecting-the-nation ok
+[350/526] 450 cbsnews.com/news/trump-houses-of-worship-deemed-es ok
+[400/526] 460 muse.jhu.edu/article/37896 ok
+[431/526] 467 circleofcricket.com/category/Latest_news/55970/sur JSONDecodeError('Expecting value: line 1 column 1 (char 0)')s\Lenovo\.claude.json is corrupted: JSON Parse error: Unexpected EOF
+The corrupted file has been backed up to: C:\Users\Lenovo\.claude\backups\.claude.json.corrupted.1790698570377
+A backup file exists at: C:\Users\Lenovo\.claude\backups\.claude.json.backup.1790698569029
+You can manually restore it by running: cp "C:\Users\Lenovo\.claude\backups\.claude.json.backup.1790698569029" "C:\Users\Lenovo\.claude.json"
+
+Configuration error in C:\Users\Lenovo\.claude.json: JSON Parse error: Unexpected EOF
+
+[432/526] 467 circleofcricket.com/category/Latest_news/55968/sur JSONDecodeError('Expecting value: line 1 column 1 (char 0)')s\Lenovo\.claude.json is corrupted: JSON Parse error: Unexpected EOF
+The corrupted file has been backed up to: C:\Users\Lenovo\.claude\backups\.claude.json.corrupted.1790698570380
+A backup file exists at: C:\Users\Lenovo\.claude\backups\.claude.json.backup.1790698569029
+You can manually restore it by running: cp "C:\Users\Lenovo\.claude\backups\.claude.json.backup.1790698569029" "C:\Users\Lenovo\.claude.json"
+
+Configuration error in C:\Users\Lenovo\.claude.json: JSON Parse error: Unexpected EOF
+
+[450/526] 471 cnn.com/2020/08/26/politics/donald-trump-rnc-speec ok
+[500/526] 484 nairaland.com/2366372/monthly-yearly-security-vote ok
+{
+ "claims": 120,
+ "docs": 1240,
+ "stance_calls_ok": 1238,
+ "llm_cost_usd": 11.93,
+ "stance_distribution": {
+  "refutes": 338,
+  "supports": 196,
+  "irrelevant": 266,
+  "not_enough_info": 438
+ },
+ "relation_distribution": {
+  "reports_or_quotes_source": 490,
+  "is_the_source": 390,
+  "independent_analysis": 305,
+  "unclear": 32,
+  "copies_source": 21
+ },
+ "interested_party_docs": 117,
+ "mean_units": {
+  "F0": 10.33,
+  "F1": 9.87,
+  "F2": 8.06
+ },
+ "claims_with_any_collapse": {
+  "F1": 37,
+  "F2": 88
+ },
+ "accuracy_vs_gold": {
+  "F0": 0.633,
+  "F1": 0.633,
+  "F2": 0.633,
+  "F0+discount": 0.625,
+  "F2+discount": 0.617
+ },
+ "accuracy_by_gold_label": {
+  "F0": {
+   "Refuted": "55/70",
+   "Supported": "21/30",
+   "Conflicting": "0/10",
+   "NEE": "0/10"
+  },
+  "F1": {
+   "Refuted": "55/70",
+   "Supported": "20/30",
+   "Conflicting": "1/10",
+   "NEE": "0/10"
+  },
+  "F2": {
+   "Refuted": "55/70",
+   "Supported": "19/30",
+   "Conflicting": "2/10",
+   "NEE": "0/10"
+  },
+  "F0+discount": {
+   "Refuted": "54/70",
+   "Supported": "21/30",
+   "Conflicting": "0/10",
+   "NEE": "0/10"
+  },
+  "F2+discount": {
+   "Refuted": "53/70",
+   "Supported": "19/30",
+   "Conflicting": "1/10",
+   "NEE": "1/10"
+  }
+ },
+ "verdict_changes_vs_F0": {
+  "F1": {
+   "n": 2,
+   "to_correct": 1,
+   "from_correct": 1,
+   "claims": [
+    "214: Supported(3-2) -> Conflicting(2-2) gold=Supported",
+    "350: Refuted(1-2) -> Conflicting(1-1) gold=Conflicting"
+   ],
+   "mcnemar_p": 1
+  },
+  "F2": {
+   "n": 5,
+   "to_correct": 2,
+   "from_correct": 2,
+   "claims": [
+    "1: Supported(6-4) -> Conflicting(1-1) gold=Refuted",
+    "214: Supported(3-2) -> Conflicting(1-1) gold=Supported",
+    "216: Supported(2-1) -> Conflicting(1-1) gold=Supported",
+    "288: Supported(7-2) -> Conflicting(1-1) gold=Conflicting",
+    "350: Refuted(1-2) -> Conflicting(1-1) gold=Conflicting"
+   ],
+   "mcnemar_p": 1
+  },
+  "F0+discount": {
+   "n": 6,
+   "to_correct": 1,
+   "from_correct": 2,
+   "claims": [
+    "67: Conflicting(4-4) -> Supported(4-2) gold=Refuted",
+    "95: Supported(3-0) -> NEE(0-0) gold=Refuted",
+    "99: Supported(5-0) -> NEE(0-0) gold=Refuted",
+    "388: Refuted(0-3) -> NEE(0-0) gold=Refuted",
+    "395: Refuted(0-1) -> NEE(0-0) gold=Refuted",
+    "484: Conflicting(1-1) -> Refuted(0-1) gold=Refuted"
+   ],
+   "mcnemar_p": 1
+  },
+  "F2+discount": {
+   "n": 13,
+   "to_correct": 3,
+   "from_correct": 5,
+   "claims": [
+    "1: Supported(6-4) -> Conflicting(1-1) gold=Refuted",
+    "67: Conflicting(4-4) -> Supported(2-1) gold=Refuted",
+    "95: Supported(3-0) -> NEE(0-0) gold=Refuted",
+    "99: Supported(5-0) -> NEE(0-0) gold=Refuted",
+    "214: Supported(3-2) -> Conflicting(1-1) gold=Supported",
+    "216: Supported(2-1) -> Conflicting(1-1) gold=Supported",
+    "288: Supported(7-2) -> Refuted(0-1) gold=Conflicting",
+    "350: Refuted(1-2) -> Conflicting(1-1) gold=Conflicting",
+    "354: Supported(5-0) -> NEE(0-0) gold=NEE",
+    "388: Refuted(0-3) -> NEE(0-0) gold=Refuted",
+    "395: Refuted(0-1) -> NEE(0-0) gold=Refuted",
+    "412: Refuted(0-10) -> NEE(0-0) gold=Refuted",
+    "484: Conflicting(1-1) -> Refuted(0-1) gold=Refuted"
+   ],
+   "mcnemar_p": 0.727
+  }
+ }
+}

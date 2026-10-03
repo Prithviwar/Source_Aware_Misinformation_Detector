@@ -1,0 +1,58 @@
+stance calls: 0 cached, 1240 to run
+[50/1240] 20 ndtv.com/india-news/modi-modi-chants-cheers-as-pm- ok
+[100/1240] 64 commercialappeal.com/story/news/local/2016/12/22/e ok
+[150/1240] 85 diplomacybeyond.com/controversy-over-jinnahs-portr ok
+[200/1240] 103 brookings.edu/articles/should-we-restructure-the-s ok
+[250/1240] 147 bbc.com/news/world-asia-49441689 ok
+[300/1240] 187 usatoday.com/story/news/health/2020/08/23/covid-ne ok
+[350/1240] 207 africacheck.org/fact-checks/factsheets/factsheet-n ok
+[400/1240] 216 worldbank.org/en/topic/urbandevelopment/publicatio ok
+[450/1240] 222 ncbi.nlm.nih.gov/pmc/articles/PMC5676403 ok
+[500/1240] 243 cvmedpro.com/blog/how-to-follow-a-healthy-diet-whi ok
+[550/1240] 277 dailymail.co.uk/news/article-8378511/Twitter-tempo ok
+[600/1240] 305 space.com/11293-npr-russian-cosmonaut-death-book-g ok
+[650/1240] 320 cbsnews.com/boston/news/coronavirus-cdc-mask-recom ok
+[676/1240] 325 content.time.com/time/specials/packages/article/0, JSONDecodeError('Expecting value: line 1 column 1 (char 0)')s\Lenovo\.claude.json is corrupted: JSON Parse error: Unexpected EOF
+The corrupted file has been backed up to: C:\Users\Lenovo\.claude\backups\.claude.json.corrupted.1790684088710
+A backup file exists at: C:\Users\Lenovo\.claude\backups\.claude.json.backup.1790684068841
+You can manually restore it by running: cp "C:\Users\Lenovo\.claude\backups\.claude.json.backup.1790684068841" "C:\Users\Lenovo\.claude.json"
+
+Configuration error in C:\Users\Lenovo\.claude.json: JSON Parse error: Unexpected EOF
+
+[700/1240] 345 thewire.in/law/former-civil-servants-upsc-jihad-su ok
+[715/1240] 349 lawandcrime.com/high-profile/rudy-giuliani-has-acc unparseable
+[716/1240] 349 abalegalfactcheck.com/articles/treason.html unparseable
+[718/1240] 349 cnbc.com/2019/06/03/roger-stone-posts-wanted-for-t unparseable
+[719/1240] 349 justsecurity.org/42272/making-russian-spy-roadmap- unparseable
+[720/1240] 349 abcnews.go.com/Politics/james-comey-fired-fbi-dire unparseable
+[721/1240] 350 priestsforlife.org/qa/question.aspx?id=402 unparseable
+[722/1240] 350 snopes.com/fact-check/abortion-rates-presidencies unparseable
+[723/1240] 350 bbc.com/news/world-us-canada-49731167 unparseable
+[724/1240] 350 vox.com/2018/12/3/18119528/abortion-rate-decline-2 unparseable
+[725/1240] 350 guttmacher.org/sites/default/files/article_files/g unparseable
+[726/1240] 350 nbcnews.com/health/health-care/abortion-rates-go-d unparseable
+[727/1240] 350 guttmacher.org/gpr/2019/09/us-abortion-rate-contin unparseable
+[728/1240] 350 cbsnews.com/news/abortion-rate-drops-to-lowest-rat unparseable
+[729/1240] 350 npr.org/sections/thetwo-way/2017/01/17/509734620/u unparseable
+[730/1240] 350 qz.com/857273/the-sharpest-drops-in-abortion-rates unparseable
+[731/1240] 354 edostate.gov.ng/edo-unemployment-rate-falls-from-2 unparseable
+[732/1240] 354 thenationonlineng.net/edo-unemployment-rate-reduce unparseable
+[733/1240] 354 thecable.ng/godwin-obaseki-a-tried-and-tested-lead unparseable
+[734/1240] 354 afemaitoday.wordpress.com/2020/07/07/politicswatch unparseable
+[735/1240] 354 nairaland.com/6054560/edo-unemployment-rate-falls- unparseable
+[736/1240] 354 thisdaylive.com/index.php/2019/11/04/developmental unparseable
+[737/1240] 354 tekedia.com/how-edo-state-is-innovating-on-job-cre unparseable
+[738/1240] 354 nipc.gov.ng/2019/11/06/edo-secures-200-million-tex unparseable
+[739/1240] 354 thisdaylive.com/index.php/2020/07/05/creating-job- unparseable
+[740/1240] 354 pmnewsnigeria.com/2016/05/13/obaseki-declares-for- unparseable
+[741/1240] 354 thisdaylive.com/index.php/2020/09/01/edo-modular-r unparseable
+[742/1240] 354 tribuneonlineng.com/edo-2020-shape-of-things-to-co unparseable
+[743/1240] 354 businessday.ng/politics/article/obaseki-stepping-i unparseable
+[744/1240] 354 ripplesnigeria.com/he-didnt-go-to-school-obaseki-a unparseable
+[745/1240] 354 punchng.com/edo-gov-poll-two-horse-race unparseable
+[746/1240] 354 thecable.ng/the-grave-sin-of-godwin-obaseki unparseable
+[747/1240] 354 dataphyte.com/latest-reports/governance/how-intere unparseable
+[748/1240] 354 businessday.ng/politics/article/edo-guber-coalitio unparseable
+[749/1240] 354 businessday.ng/politics/article/edo-poll-pdp-woos- unparseable
+[750/1240] 354 theoasisreporters.com/as-the-pdp-campaign-train-be unparseable
+[751/1240] 354 channelstv.com/2020/09/13/under-four-years-we-crea unparseable

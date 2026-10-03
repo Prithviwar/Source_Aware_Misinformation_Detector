@@ -1,0 +1,205 @@
+{
+ "n_claims": 120,
+ "n_missing_predictions": 0,
+ "n_gold_reachable": 99,
+ "n_gold_web_any": 119,
+ "n_primary_reachable": 48,
+ "lambda": 1.0,
+ "pool": 100,
+ "table": {
+  "bm25": {
+   "R@5": 0.081,
+   "R@10": 0.111,
+   "R@20": 0.242,
+   "n_gold": 99,
+   "PrimR@5": 0.042,
+   "PrimR@10": 0.042,
+   "PrimR@20": 0.104,
+   "n_primary": 48
+  },
+  "dense": {
+   "R@5": 0.152,
+   "R@10": 0.242,
+   "R@20": 0.333,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.104,
+   "PrimR@20": 0.188,
+   "n_primary": 48
+  },
+  "hybrid": {
+   "R@5": 0.141,
+   "R@10": 0.242,
+   "R@20": 0.364,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.062,
+   "PrimR@20": 0.167,
+   "n_primary": 48
+  },
+  "hybrid+generic": {
+   "R@5": 0.131,
+   "R@10": 0.212,
+   "R@20": 0.283,
+   "n_gold": 99,
+   "PrimR@5": 0.083,
+   "PrimR@10": 0.167,
+   "PrimR@20": 0.25,
+   "n_primary": 48
+  },
+  "hybrid+authority": {
+   "R@5": 0.242,
+   "R@10": 0.343,
+   "R@20": 0.444,
+   "n_gold": 99,
+   "PrimR@5": 0.271,
+   "PrimR@10": 0.354,
+   "PrimR@20": 0.396,
+   "n_primary": 48
+  }
+ },
+ "primary_endpoint": {
+  "metric": "R@10",
+  "comparison": "hybrid+authority vs hybrid",
+  "n": 99,
+  "test": "exact McNemar, two-sided",
+  "H0": "equal per-claim hit@10 probability",
+  "wins": 15,
+  "losses": 5,
+  "ties": 79,
+  "p": 0.04139,
+  "diff_R@10": 0.101,
+  "bootstrap95CI": [
+   0.0202,
+   0.1919
+  ]
+ },
+ "secondary_family_holm": [
+  {
+   "test": "R@5 vs hybrid",
+   "wins": 13,
+   "losses": 3,
+   "ties": 83,
+   "p": 0.02127,
+   "diff": 0.101,
+   "bootstrap95CI": [
+    0.0202,
+    0.1818
+   ],
+   "p_holm": 0.04254
+  },
+  {
+   "test": "R@20 vs hybrid",
+   "wins": 10,
+   "losses": 2,
+   "ties": 87,
+   "p": 0.03857,
+   "diff": 0.0808,
+   "bootstrap95CI": [
+    0.0202,
+    0.1515
+   ],
+   "p_holm": 0.04254
+  },
+  {
+   "test": "R@5 vs generic",
+   "wins": 14,
+   "losses": 3,
+   "ties": 82,
+   "p": 0.01273,
+   "diff": 0.1111,
+   "bootstrap95CI": [
+    0.0303,
+    0.1919
+   ],
+   "p_holm": 0.03819
+  },
+  {
+   "test": "R@10 vs generic",
+   "wins": 17,
+   "losses": 4,
+   "ties": 78,
+   "p": 0.0072,
+   "diff": 0.1313,
+   "bootstrap95CI": [
+    0.0505,
+    0.2222
+   ],
+   "p_holm": 0.0288
+  },
+  {
+   "test": "R@20 vs generic",
+   "wins": 18,
+   "losses": 2,
+   "ties": 79,
+   "p": 0.0004,
+   "diff": 0.1616,
+   "bootstrap95CI": [
+    0.0808,
+    0.2424
+   ],
+   "p_holm": 0.002
+  }
+ ],
+ "descriptive_generic_vs_hybrid": {
+  "R@5": {
+   "wins": 4,
+   "losses": 5,
+   "p_uncorrected": 1.0
+  },
+  "R@10": {
+   "wins": 5,
+   "losses": 8,
+   "p_uncorrected": 0.5810546875
+  },
+  "R@20": {
+   "wins": 5,
+   "losses": 13,
+   "p_uncorrected": 0.09625244140625
+  }
+ },
+ "rank_win_loss_tie": {
+  "authority_vs_hybrid": {
+   "tie": 55,
+   "win": 18,
+   "loss": 26
+  },
+  "authority_vs_generic": {
+   "win": 53,
+   "tie": 31,
+   "loss": 15
+  },
+  "ties_where_gold_absent_from_both": 28
+ },
+ "authority_accuracy_vs_human_gold": {
+  "n": 117,
+  "top1_match": "45/117 = 0.385",
+  "top3_match": "56/117 = 0.479",
+  "no_key_match_but_name_in_gold_text": 14,
+  "no_match": 47,
+  "note": "target = publishers of ALL human gold URLs (news/fact-check pages included) -> lower bound"
+ },
+ "authority_accuracy_vs_pilot_primary": {
+  "n": 71,
+  "top1": 0.634,
+  "top3": 0.775
+ },
+ "candidate_pool_coverage": {
+  "top50": {
+   "claims_with_predicted_publisher_doc": "55/99",
+   "claims_whose_predicted_publisher_gold_doc_is_in_pool": "13/37"
+  },
+  "top100": {
+   "claims_with_predicted_publisher_doc": "69/99",
+   "claims_whose_predicted_publisher_gold_doc_is_in_pool": "19/37"
+  },
+  "top200": {
+   "claims_with_predicted_publisher_doc": "81/99",
+   "claims_whose_predicted_publisher_gold_doc_is_in_pool": "23/37"
+  },
+  "all_candidates": {
+   "claims_with_predicted_publisher_doc": "95/99",
+   "claims_whose_predicted_publisher_gold_doc_is_in_pool": "37/37"
+  }
+ }
+}

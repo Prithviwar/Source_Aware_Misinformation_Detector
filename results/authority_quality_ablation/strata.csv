@@ -1,0 +1,12 @@
+stratifier,group,n,A0_hits@10,A0_R@10,A0_hits@20,A0_R@20,D1_hits@10,D1_R@10,D1_hits@20,D1_R@20,D3_hits@10,D3_R@10,D3_hits@20,D3_R@20,O_hits@10,O_R@10,O_hits@20,O_R@20
+gold_publishers (from human gold),>=2 publishers,85,23,0.271,38,0.447,26,0.306,41,0.482,27,0.318,43,0.506,62,0.729,63,0.741
+gold_publishers (from human gold),1 publisher,82,19,0.232,26,0.317,25,0.305,31,0.378,22,0.268,30,0.366,48,0.585,48,0.585
+predictor_label (MODEL OUTPUT),multiple_legitimate_authorities,144,39,0.271,58,0.403,46,0.319,64,0.444,44,0.306,65,0.451,97,0.674,98,0.681
+predictor_label (MODEL OUTPUT),single_clear_authority,20,3,0.15,5,0.25,5,0.25,7,0.35,5,0.25,7,0.35,10,0.5,10,0.5
+predictor_label (MODEL OUTPUT),no_clear_authority,3,0,0.0,1,0.333,0,0.0,1,0.333,0,0.0,1,0.333,3,1.0,3,1.0
+ai_claim_label (MODEL_GENERATED),multiple_legitimate_authorities,122,34,0.279,50,0.41,41,0.336,56,0.459,39,0.32,57,0.467,82,0.672,83,0.68
+ai_claim_label (MODEL_GENERATED),single_primary,37,7,0.189,10,0.27,9,0.243,12,0.324,9,0.243,12,0.324,21,0.568,21,0.568
+ai_claim_label (MODEL_GENERATED),unclear,7,1,0.143,4,0.571,1,0.143,4,0.571,1,0.143,4,0.571,6,0.857,6,0.857
+ai_claim_label (MODEL_GENERATED),no_identifiable_primary,1,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,1,1.0,1,1.0
+predicted_matches_gold_publisher (stored flag),no match,102,30,0.294,46,0.451,28,0.275,45,0.441,26,0.255,44,0.431,73,0.716,73,0.716
+predicted_matches_gold_publisher (stored flag),match,65,12,0.185,18,0.277,23,0.354,27,0.415,23,0.354,29,0.446,37,0.569,38,0.585

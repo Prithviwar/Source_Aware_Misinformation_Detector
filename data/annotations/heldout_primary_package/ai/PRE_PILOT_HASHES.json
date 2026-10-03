@@ -1,0 +1,18 @@
+{
+ "record": "PRE-PILOT hash record (not the freeze gate; FROZEN_HASHES.json is written only after the pilot review)",
+ "recorded_at": "2026-10-02T21:42:37",
+ "hashes": {
+  "AI_EVIDENCE_PROMPT.md": "417a609c1fa230c2f81293737417c99ebfb8a455e1806cc2df0aaeeda9efb6b0",
+  "AI_CLAIM_PROMPT.md": "5f4a7b0f2d8918ddfde20953984335cbccd43886b42eaf84d819ba73fa7227d2",
+  "ANNOTATION_GUIDE.md": "57efc6e49894411d982245913f5ff6572df33f2e6c2d9434b4877e486cfa0e71",
+  "ai_annotate.py": "5a51a84755bcc144593169f880b06577157aaea41bbe7f13acbdcb3dec3f1e67",
+  "score_ai_primary.py": "860b31a79953c3cef61078fbefee2867212bb04672c460dbf0daf406fd00662d"
+ },
+ "frozen_artifacts_unchanged": {
+  "score_heldout_primary.py": "114bf0cac69cce3d43f718360852568199f5af4abb660a85cf924a4f7d046ad2",
+  "heldout_primary_annotation.csv": "cf063d5ebbb25c3c853f7bc1b26a3d19b621482b797e3592ce865d7b8637259c",
+  "rankings_heldout.jsonl.gz": "9105a5da66a287de70fdc6e7e9b5135200589d58c542d61787e7ed883cb66558",
+  "heldout/rankings_hybrid.jsonl.gz": "2c2201965ebe6d7dde1c7074e10481877a8bed85b3c1f63763dd7a4ed39620d7",
+  "heldout/authority_raw.jsonl": "8ad43d98a83e898ffae5a25da4c39b9e1d6138fde4af33f88b626008b3b10963"
+ }
+}

@@ -1,0 +1,707 @@
+{
+ "heldout": {
+  "split": "heldout",
+  "n_claims": 200,
+  "n_probe_calls_logged": 2045,
+  "successful_parses": {
+   "recall": 200,
+   "recall_ext": 200,
+   "paraphrase_gen": 200,
+   "paraphrase": 200,
+   "claim_only": 200,
+   "masked": 200
+  },
+  "cost_usd": 18.37,
+  "recognition": {
+   "self_reported_recognised": 65,
+   "fact_checker_domain_correct (pre-registered 'likely recognised')": 29,
+   "fact_check_url_slug_overlap>=0.5": 5,
+   "likely_recognised (either signal)": 30,
+   "recall_verdict_matches_gold_label": "98/200",
+   "label_prior_all_false_baseline": "124/200"
+  },
+  "authority_accuracy": {
+   "gold_publishers": {
+    "all": {
+     "n": 192,
+     "orig_top1": 0.292,
+     "orig_top3": 0.391,
+     "paraphrase_top1": 0.292,
+     "paraphrase_top3": 0.396,
+     "claim_only_top1": 0.281,
+     "claim_only_top3": 0.401,
+     "masked_top1": 0.229,
+     "masked_top3": 0.307
+    },
+    "likely_recognised": {
+     "n": 29,
+     "orig_top1": 0.276,
+     "orig_top3": 0.379,
+     "paraphrase_top1": 0.241,
+     "paraphrase_top3": 0.31,
+     "claim_only_top1": 0.276,
+     "claim_only_top3": 0.414,
+     "masked_top1": 0.241,
+     "masked_top3": 0.31
+    },
+    "not_likely_recognised": {
+     "n": 163,
+     "orig_top1": 0.294,
+     "orig_top3": 0.393,
+     "paraphrase_top1": 0.301,
+     "paraphrase_top3": 0.411,
+     "claim_only_top1": 0.282,
+     "claim_only_top3": 0.399,
+     "masked_top1": 0.227,
+     "masked_top3": 0.307
+    },
+    "self_reported_recognised": {
+     "n": 63,
+     "orig_top1": 0.302,
+     "orig_top3": 0.381,
+     "paraphrase_top1": 0.27,
+     "paraphrase_top3": 0.349,
+     "claim_only_top1": 0.286,
+     "claim_only_top3": 0.397,
+     "masked_top1": 0.206,
+     "masked_top3": 0.286
+    },
+    "gold_publisher_named_in_claim_or_speaker": {
+     "n": 24,
+     "orig_top1": 0.75,
+     "orig_top3": 0.917,
+     "paraphrase_top1": 0.792,
+     "paraphrase_top3": 0.917,
+     "claim_only_top1": 0.708,
+     "claim_only_top3": 0.958,
+     "masked_top1": 0.375,
+     "masked_top3": 0.5
+    },
+    "gold_publisher_not_named": {
+     "n": 168,
+     "orig_top1": 0.226,
+     "orig_top3": 0.315,
+     "paraphrase_top1": 0.22,
+     "paraphrase_top3": 0.321,
+     "claim_only_top1": 0.22,
+     "claim_only_top3": 0.321,
+     "masked_top1": 0.208,
+     "masked_top3": 0.28
+    },
+    "claim_has_url_or_domain": {
+     "n": 0,
+     "orig_top1": null,
+     "orig_top3": null,
+     "paraphrase_top1": null,
+     "paraphrase_top3": null,
+     "claim_only_top1": null,
+     "claim_only_top3": null,
+     "masked_top1": null,
+     "masked_top3": null
+    },
+    "claim_has_factcheck/social_phrasing": {
+     "n": 5,
+     "orig_top1": 0.6,
+     "orig_top3": 0.6,
+     "paraphrase_top1": 0.6,
+     "paraphrase_top3": 0.6,
+     "claim_only_top1": 0.6,
+     "claim_only_top3": 0.6,
+     "masked_top1": 0.4,
+     "masked_top3": 0.4
+    },
+    "claim_without_factcheck/social_phrasing": {
+     "n": 187,
+     "orig_top1": 0.283,
+     "orig_top3": 0.385,
+     "paraphrase_top1": 0.283,
+     "paraphrase_top3": 0.39,
+     "claim_only_top1": 0.273,
+     "claim_only_top3": 0.396,
+     "masked_top1": 0.225,
+     "masked_top3": 0.305
+    },
+    "_paired_flips_top3": {
+     "orig->paraphrase": {
+      "gained": 4,
+      "lost": 3,
+      "p": 1.0,
+      "same_top1_key_as_orig": 172
+     },
+     "orig->claim_only": {
+      "gained": 5,
+      "lost": 3,
+      "p": 0.7266,
+      "same_top1_key_as_orig": 156
+     },
+     "orig->masked": {
+      "gained": 3,
+      "lost": 19,
+      "p": 0.0009,
+      "same_top1_key_as_orig": 111
+     }
+    },
+    "_recall_ext_cited_primary_source": {
+     "claims_with_a_cited_source": 72,
+     "cited_source_in_target": 24,
+     "cited_source_equals_orig_top1": 51
+    }
+   }
+  },
+  "n_memorisation_suspect": 58,
+  "n_no_obvious_memorisation_evidence": 11,
+  "examples_suspect": [
+   {
+    "claim_id": 10,
+    "claim": "Donald Trump, when he thinks of climate change, he says hoax. Well, guess what? Speaking of hoaxes, remember what he said about these increasing violent hurricanes and the frequency? He actually said, maybe we should detonate a nuclear bomb over the Atlantic. By the way, the same stable genius who said the biggest problem we had in the Revolutionary War is we didn’t have enough airports.",
+    "masked_claim": "[PERSON_1], when he thinks of climate change, he says hoax. Well, guess what? Speaking of hoaxes, remember what he said about these increasing violent hurricanes and the frequency? He actually said, maybe we should detonate a nuclear bomb over the [PLACE_1]. By the way, the same stable genius who said the biggest problem we had in [EVENT_1] is we didn’t have enough airports.",
+    "target": [
+     "axios.com",
+     "nbcnews.com"
+    ],
+    "orig_top3": [
+     "archives.gov",
+     "axios.com",
+     "twitter.com/axios",
+     "twitter.com/realdonaldtrump"
+    ],
+    "masked_top3": [
+     "archives.gov",
+     "axios.com",
+     "truthsocial.com",
+     "twitter.com/axios",
+     "twitter.com/realdonaldtrump"
+    ],
+    "para_top3": [
+     "archives.gov",
+     "axios.com",
+     "donaldjtrump.com",
+     "twitter.com/axios",
+     "twitter.com/realdonaldtrump",
+     "twitter.com/whitehouse45"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false,
+    "why_suspect": "correct with names masked"
+   },
+   {
+    "claim_id": 15,
+    "claim": "Illegal drug, border crossings, and human smuggling activities have decreased in areas where barriers are deployed in the United States.",
+    "masked_claim": "Illegal drug, border crossings, and human smuggling activities have decreased in areas where barriers are deployed in [PLACE_1].",
+    "target": [
+     "bbc.com",
+     "cbp.gov",
+     "nfid.org",
+     "wsj.com"
+    ],
+    "orig_top3": [
+     "cbp.gov",
+     "dhs.gov",
+     "gao.gov",
+     "twitter.com/cbp",
+     "twitter.com/dhsgov",
+     "twitter.com/usgao"
+    ],
+    "masked_top3": [
+     "cbp.gov",
+     "dhs.gov",
+     "gao.gov",
+     "twitter.com/cbp",
+     "twitter.com/dhsgov",
+     "twitter.com/usgao"
+    ],
+    "para_top3": [
+     "cbp.gov",
+     "dhs.gov",
+     "gao.gov",
+     "twitter.com/cbp",
+     "twitter.com/dhsgov",
+     "twitter.com/usgao"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [
+     "cbp.gov"
+    ],
+    "self_recognised": false,
+    "why_suspect": "correct with names masked, recalled fact-check's cited source = target"
+   },
+   {
+    "claim_id": 32,
+    "claim": "The New York post Endorsed Donald trumps bid for re-election.",
+    "masked_claim": "The [PLACE_1] post [PERSON_1] trumps bid for re-election.",
+    "target": [
+     "nypost.com"
+    ],
+    "orig_top3": [
+     "donaldjtrump.com",
+     "newscorp.com",
+     "nypost.com",
+     "twitter.com/nypost",
+     "twitter.com/realdonaldtrump"
+    ],
+    "masked_top3": [
+     "donaldjtrump.com",
+     "nypost.com",
+     "twitter.com/nypost",
+     "twitter.com/washingtonpost",
+     "washingtonpost.com"
+    ],
+    "para_top3": [
+     "donaldjtrump.com",
+     "newscorp.com",
+     "nypost.com",
+     "twitter.com/newscorp",
+     "twitter.com/nypost",
+     "twitter.com/teamtrump"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false,
+    "why_suspect": "correct with names masked"
+   },
+   {
+    "claim_id": 46,
+    "claim": "The umbilical cord should not be cut until 1 hour after birth or they baby will not have enough blood right after birth.",
+    "masked_claim": "The umbilical cord should not be cut until 1 hour after birth or they baby will not have enough blood right after birth.",
+    "target": [
+     "who.int"
+    ],
+    "orig_top3": [
+     "acog.org",
+     "has-sante.fr",
+     "twitter.com/acog",
+     "twitter.com/has_sante",
+     "twitter.com/who",
+     "who.int"
+    ],
+    "masked_top3": [
+     "cngof.fr",
+     "has-sante.fr",
+     "twitter.com/has_sante",
+     "twitter.com/who",
+     "who.int"
+    ],
+    "para_top3": [
+     "acog.org",
+     "has-sante.fr",
+     "twitter.com/acog",
+     "twitter.com/has_sante",
+     "twitter.com/who",
+     "who.int"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false,
+    "why_suspect": "correct with names masked"
+   },
+   {
+    "claim_id": 49,
+    "claim": "The US saw the best carbon emission numbers in 35 years under President Donald Trump's administration.",
+    "masked_claim": "The [PLACE_1] saw the best carbon emission numbers in 35 years under President [PERSON_1]'s administration.",
+    "target": [
+     "epa.gov",
+     "metmuseum.org",
+     "nytimes.com"
+    ],
+    "orig_top3": [
+     "eia.gov",
+     "epa.gov",
+     "twitter.com/eiagov",
+     "twitter.com/epa",
+     "twitter.com/unfccc",
+     "unfccc.int"
+    ],
+    "masked_top3": [
+     "eia.gov",
+     "epa.gov",
+     "iea.org",
+     "twitter.com/eiagov",
+     "twitter.com/epa",
+     "twitter.com/iea"
+    ],
+    "para_top3": [
+     "eia.gov",
+     "epa.gov",
+     "globalcarbonproject.org",
+     "twitter.com/eiagov",
+     "twitter.com/epa"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [
+     "eia.gov"
+    ],
+    "self_recognised": true,
+    "why_suspect": "correct with names masked"
+   },
+   {
+    "claim_id": 52,
+    "claim": "President Ferdinand Marcos and Dr. Jose Rizal established and founded the WORLD BANK and International Monetary Fund.",
+    "masked_claim": "President [PERSON_1] and Dr. [PERSON_2] established and founded [ORGANISATION_1] and [ORGANISATION_2].",
+    "target": [
+     "biography.com",
+     "officialgazette.gov.ph",
+     "worldbank.org"
+    ],
+    "orig_top3": [
+     "bsp.gov.ph",
+     "imf.org",
+     "twitter.com/imfnews",
+     "twitter.com/worldbank",
+     "worldbank.org"
+    ],
+    "masked_top3": [
+     "officialgazette.gov.ph",
+     "sec.gov.ph"
+    ],
+    "para_top3": [
+     "imf.org",
+     "nhcp.gov.ph",
+     "twitter.com/imfnews",
+     "twitter.com/worldbank",
+     "worldbank.org"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [
+     "worldbank.org"
+    ],
+    "self_recognised": false,
+    "why_suspect": "correct with names masked, recalled fact-check's cited source = target"
+   },
+   {
+    "claim_id": 55,
+    "claim": "Generally the deaths from Covid-19 are still pretty flat because we've flattened the curve.",
+    "masked_claim": "Generally the deaths from Covid-19 are still pretty flat because we've flattened the curve.",
+    "target": [
+     "wisconsin.gov"
+    ],
+    "orig_top3": [
+     "cdc.gov",
+     "jhu.edu",
+     "twitter.com/cdcgov",
+     "twitter.com/dhswi",
+     "twitter.com/johnshopkins",
+     "wisconsin.gov"
+    ],
+    "masked_top3": [
+     "cdc.gov",
+     "jhu.edu",
+     "twitter.com/cdcgov",
+     "twitter.com/johnshopkins",
+     "twitter.com/who",
+     "who.int"
+    ],
+    "para_top3": [
+     "cdc.gov",
+     "jhu.edu",
+     "senate.gov",
+     "twitter.com/cdcgov",
+     "twitter.com/johnshopkins",
+     "twitter.com/senronjohnson"
+    ],
+    "fc_domain_correct": true,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": true,
+    "why_suspect": "recognised fact-check"
+   },
+   {
+    "claim_id": 81,
+    "claim": "NBC News Kristen Welker gave thousands of dollars to Obama, Clinton and Biden, is registered as a Democrat & her family spent Christmas with the Obamas at the White House.",
+    "masked_claim": "[ORGANISATION_1] [PERSON_1] gave thousands of dollars to [PLACE_1], [PERSON_2] and [PERSON_3], is registered as a [GROUP_1] & her family spent Christmas with the Obamas at [FACILITY_1].",
+    "target": [
+     "archives.gov",
+     "facebook.com/xraymart",
+     "fec.gov"
+    ],
+    "orig_top3": [
+     "dcboe.org",
+     "fec.gov",
+     "nbcnews.com",
+     "twitter.com/fec",
+     "twitter.com/nbcnews"
+    ],
+    "masked_top3": [
+     "archives.gov",
+     "fec.gov",
+     "twitter.com/fec"
+    ],
+    "para_top3": [
+     "dcboe.org",
+     "fec.gov",
+     "nbcnews.com",
+     "twitter.com/dcboe",
+     "twitter.com/fec",
+     "twitter.com/kwelkernbc"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.29,
+    "cited_source": [
+     "fec.gov"
+    ],
+    "self_recognised": true,
+    "why_suspect": "correct with names masked, recalled fact-check's cited source = target"
+   }
+  ],
+  "examples_no_memorisation_evidence": [
+   {
+    "claim_id": 144,
+    "claim": "Nigeria’s Ngozi Okonjo-Iweala has been appointed the new and first female Director-General of the World Trade Organisation (WTO).",
+    "masked_claim": "[PERSON_1] [PERSON_2] has been appointed the new and first female Director-General of [ORGANISATION_1] ([ORGANISATION_2]).",
+    "target": [
+     "afp.com",
+     "bloomberg.com",
+     "twitter.com/noiweala"
+    ],
+    "orig_top3": [
+     "ngoziokonjoiweala.com",
+     "statehouse.gov.ng",
+     "twitter.com/ngrpresident",
+     "twitter.com/noiweala",
+     "twitter.com/wto",
+     "wto.org"
+    ],
+    "masked_top3": [
+     "osgf.gov.ng",
+     "statehouse.gov.ng",
+     "twitter.com/ngrpresident"
+    ],
+    "para_top3": [
+     "fmiti.gov.ng",
+     "ngoziokonjoiweala.com",
+     "twitter.com/noiweala",
+     "twitter.com/wto",
+     "wto.org"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false
+   },
+   {
+    "claim_id": 175,
+    "claim": "“Wisconsin Republicans have not passed a single bill in 6 months.”",
+    "masked_claim": "“[PLACE_1] [GROUP_1] have not passed a single bill in 6 months.”",
+    "target": [
+     "wisconsin.gov"
+    ],
+    "orig_top3": [
+     "twitter.com/govevers",
+     "twitter.com/speakervos",
+     "wi.gov",
+     "wisconsin.gov",
+     "wisgop.org"
+    ],
+    "masked_top3": [
+     "congress.gov",
+     "house.gov",
+     "majorityleader.gov"
+    ],
+    "para_top3": [
+     "twitter.com/govevers",
+     "twitter.com/wisconsinlrb",
+     "wi.gov",
+     "wisconsin.gov"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false
+   },
+   {
+    "claim_id": 278,
+    "claim": "The Victorian Premier Daniel Andrews of the state of Victoria in Australia accepted a multi-million dollar bribe from the IMF conditional on Andrews locking down the state of Victoria unnecessarily during the COVID-19 pandemic.",
+    "masked_claim": "The Victorian Premier [PERSON_1] of the state of [PLACE_1] in [PLACE_2] accepted a multi-million dollar bribe from the [ORGANISATION_1] conditional on [PERSON_2] locking down the state of [PLACE_1] unnecessarily during the [ORGANISATION_2] pandemic.",
+    "target": [
+     "imf.org"
+    ],
+    "orig_top3": [
+     "ibac.vic.gov.au",
+     "imf.org",
+     "premier.vic.gov.au",
+     "twitter.com/danielandrewsmp",
+     "twitter.com/imfnews"
+    ],
+    "masked_top3": [
+     "health.vic.gov.au",
+     "ibac.vic.gov.au",
+     "premier.vic.gov.au",
+     "twitter.com/danielandrewsmp"
+    ],
+    "para_top3": [
+     "imf.org",
+     "parliament.vic.gov.au",
+     "premier.vic.gov.au",
+     "twitter.com/imfnews"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false
+   },
+   {
+    "claim_id": 290,
+    "claim": "Basketball superstar Michael Jordan is joining NASCAR as a team owner.",
+    "masked_claim": "Basketball superstar [PERSON_1] is joining [ORGANISATION_1] as a team owner.",
+    "target": [
+     "nytimes.com",
+     "twitter.com/nascar"
+    ],
+    "orig_top3": [
+     "23xiracing.com",
+     "nascar.com",
+     "twitter.com/23xiracing",
+     "twitter.com/dennyhamlin",
+     "twitter.com/nascar"
+    ],
+    "masked_top3": [],
+    "para_top3": [
+     "23xi.com",
+     "nascar.com",
+     "twitter.com/23xiracing",
+     "twitter.com/dennyhamlin",
+     "twitter.com/nascar"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false
+   },
+   {
+    "claim_id": 310,
+    "claim": "Wray Thorn is managing director of Sightway Capital.",
+    "masked_claim": "Wray [PERSON_1] is managing director of [ORGANISATION_1].",
+    "target": [
+     "linkedin.com/wraythorn643a5b25",
+     "milkeninstitute.org",
+     "sightwaycapital.com",
+     "twosigma.com"
+    ],
+    "orig_top3": [
+     "linkedin.com",
+     "linkedin.com/twosigmainvestments",
+     "linkedin.com/wraythorn",
+     "sightwaycapital.com",
+     "twosigma.com"
+    ],
+    "masked_top3": [
+     "linkedin.com",
+     "sec.gov"
+    ],
+    "para_top3": [
+     "linkedin.com/twosigmainvestments",
+     "sec.gov",
+     "sightwaycapital.com",
+     "twosigma.com"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false
+   },
+   {
+    "claim_id": 312,
+    "claim": "John Cammo was the only one to predict that President Trump would be infected with Covid-19.",
+    "masked_claim": "[PERSON_1] was the only one to predict that President [PERSON_2] would be infected with Covid-19.",
+    "target": [
+     "twitter.com"
+    ],
+    "orig_top3": [
+     "archives.gov",
+     "twitter.com",
+     "twitter.com/realdonaldtrump",
+     "youtube.com",
+     "youtube.com/johncammo"
+    ],
+    "masked_top3": [
+     "archives.gov",
+     "twitter.com/realdonaldtrump"
+    ],
+    "para_top3": [
+     "twitter.com",
+     "twitter.com/realdonaldtrump",
+     "twitter.com/whitehouse",
+     "whitehouse.gov",
+     "youtube.com",
+     "youtube.com/johncammo"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false
+   },
+   {
+    "claim_id": 316,
+    "claim": "Canada would like to reopen the border with the U.S",
+    "masked_claim": "[PLACE_1] would like to reopen the border with the [PLACE_2]",
+    "target": [
+     "canada.ca",
+     "dhs.gov",
+     "globalnews.ca",
+     "ipsos.com",
+     "pm.gc.ca",
+     "twitter.com/billblair"
+    ],
+    "orig_top3": [
+     "canada.ca",
+     "dhs.gov",
+     "pm.gc.ca",
+     "twitter.com/dhsgov",
+     "twitter.com/justintrudeau",
+     "twitter.com/safety_canada"
+    ],
+    "masked_top3": [],
+    "para_top3": [
+     "dhs.gov",
+     "pm.gc.ca",
+     "publicsafety.gc.ca",
+     "twitter.com/billblair",
+     "twitter.com/dhsgov",
+     "twitter.com/justintrudeau"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false
+   },
+   {
+    "claim_id": 334,
+    "claim": "The US government has plans to force a COVID-19 vaccine on everyone.",
+    "masked_claim": "The [PLACE_1] government has plans to force a [ORGANISATION_1] vaccine on everyone.",
+    "target": [
+     "hhs.gov"
+    ],
+    "orig_top3": [
+     "cdc.gov",
+     "hhs.gov",
+     "twitter.com/cdcgov",
+     "twitter.com/hhsgov",
+     "twitter.com/whitehouse",
+     "whitehouse.gov"
+    ],
+    "masked_top3": [
+     "cdc.gov",
+     "twitter.com/cdcgov"
+    ],
+    "para_top3": [
+     "cdc.gov",
+     "defense.gov",
+     "hhs.gov",
+     "twitter.com/cdcgov",
+     "twitter.com/deptofdefense",
+     "twitter.com/hhsgov"
+    ],
+    "fc_domain_correct": false,
+    "url_slug_overlap": 0.0,
+    "cited_source": [],
+    "self_recognised": false
+   }
+  ]
+ }
+}

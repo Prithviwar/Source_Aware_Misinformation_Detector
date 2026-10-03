@@ -1,0 +1,96 @@
+{
+ "topk_copy_groups": {
+  "bm25": {
+   "0.3": {
+    "docs@10": 1200,
+    "groups@10": 1124,
+    "claims_with_dup@10": 48,
+    "claims_largest_group>=3@10": 9,
+    "docs@20": 2400,
+    "groups@20": 2245,
+    "claims_with_dup@20": 72,
+    "claims_largest_group>=3@20": 21
+   },
+   "0.5": {
+    "docs@10": 1200,
+    "groups@10": 1141,
+    "claims_with_dup@10": 40,
+    "claims_largest_group>=3@10": 7,
+    "docs@20": 2400,
+    "groups@20": 2285,
+    "claims_with_dup@20": 62,
+    "claims_largest_group>=3@20": 15
+   },
+   "0.7": {
+    "docs@10": 1200,
+    "groups@10": 1152,
+    "claims_with_dup@10": 34,
+    "claims_largest_group>=3@10": 6,
+    "docs@20": 2400,
+    "groups@20": 2306,
+    "claims_with_dup@20": 54,
+    "claims_largest_group>=3@20": 13
+   }
+  },
+  "dense": {
+   "0.3": {
+    "docs@10": 1200,
+    "groups@10": 1122,
+    "claims_with_dup@10": 52,
+    "claims_largest_group>=3@10": 10,
+    "docs@20": 2400,
+    "groups@20": 2203,
+    "claims_with_dup@20": 78,
+    "claims_largest_group>=3@20": 30
+   },
+   "0.5": {
+    "docs@10": 1200,
+    "groups@10": 1140,
+    "claims_with_dup@10": 45,
+    "claims_largest_group>=3@10": 6,
+    "docs@20": 2400,
+    "groups@20": 2260,
+    "claims_with_dup@20": 65,
+    "claims_largest_group>=3@20": 21
+   },
+   "0.7": {
+    "docs@10": 1200,
+    "groups@10": 1151,
+    "claims_with_dup@10": 38,
+    "claims_largest_group>=3@10": 5,
+    "docs@20": 2400,
+    "groups@20": 2287,
+    "claims_with_dup@20": 56,
+    "claims_largest_group>=3@20": 14
+   }
+  }
+ },
+ "primary_docs_reachable": 62,
+ "containment>=0.3": {
+  "primary_docs_with_>=1_apparent_copy": 17,
+  "apparent_copies": 59,
+  "copies_naming_primary_publisher": 29,
+  "copies_outranking_primary_bm25": 31,
+  "primaries_outranked_by_a_copy_bm25": 15,
+  "copies_outranking_primary_dense": 15,
+  "primaries_outranked_by_a_copy_dense": 10
+ },
+ "containment>=0.5": {
+  "primary_docs_with_>=1_apparent_copy": 8,
+  "apparent_copies": 27,
+  "copies_naming_primary_publisher": 8,
+  "copies_outranking_primary_bm25": 11,
+  "primaries_outranked_by_a_copy_bm25": 6,
+  "copies_outranking_primary_dense": 6,
+  "primaries_outranked_by_a_copy_dense": 5
+ },
+ "containment>=0.7": {
+  "primary_docs_with_>=1_apparent_copy": 7,
+  "apparent_copies": 20,
+  "copies_naming_primary_publisher": 6,
+  "copies_outranking_primary_bm25": 9,
+  "primaries_outranked_by_a_copy_bm25": 6,
+  "copies_outranking_primary_dense": 6,
+  "primaries_outranked_by_a_copy_dense": 5
+ }
+}

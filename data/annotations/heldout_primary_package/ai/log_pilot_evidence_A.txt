@@ -1,0 +1,51 @@
+{
+ "label_source": "MODEL_GENERATED (AI); not human",
+ "task": "evidence",
+ "items": "pilot",
+ "run": "A",
+ "backend": "claude",
+ "model": "claude-opus-5-5",
+ "hashes": {
+  "AI_EVIDENCE_PROMPT.md": "417a609c1fa230c2f81293737417c99ebfb8a455e1806cc2df0aaeeda9efb6b0",
+  "AI_CLAIM_PROMPT.md": "5f4a7b0f2d8918ddfde20953984335cbccd43886b42eaf84d819ba73fa7227d2",
+  "ANNOTATION_GUIDE.md": "57efc6e49894411d982245913f5ff6572df33f2e6c2d9434b4877e486cfa0e71",
+  "ai_annotate.py": "5a51a84755bcc144593169f880b06577157aaea41bbe7f13acbdcb3dec3f1e67",
+  "score_ai_primary.py": "860b31a79953c3cef61078fbefee2867212bb04672c460dbf0daf406fd00662d"
+ }
+} 
+0 cached, 34 to run
+[1/34] 4 ok
+[2/34] 11 ok
+[3/34] 13 ok
+[4/34] 27 ok
+[5/34] 40 ok
+[6/34] 58 ok
+[7/34] 79 ok
+[8/34] 80 ok
+[9/34] 83 ok
+[10/34] 86 ok
+[11/34] 110 ok
+[12/34] 119 ok
+[13/34] 148 ok
+[14/34] 149 ok
+[15/34] 166 ok
+[16/34] 205 ok
+[17/34] 257 ok
+[18/34] 265 ok
+[19/34] 278 ok
+[20/34] 282 ok
+[21/34] 283 ok
+[22/34] 294 ok
+[23/34] 300 ok
+[24/34] 330 ok
+[25/34] 362 ok
+[26/34] 365 ok
+[27/34] 368 ok
+[28/34] 384 ok
+[29/34] 389 ok
+[30/34] 393 ok
+[31/34] 396 ok
+[32/34] 406 ok
+[33/34] 418 ok
+[34/34] 419 ok
+wrote MODEL_GENERATED_evidence_pilot_runA_CLAUDE_OPUS_5_5.csv: 34/34 items parsed

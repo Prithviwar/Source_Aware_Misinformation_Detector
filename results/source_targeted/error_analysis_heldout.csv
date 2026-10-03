@@ -1,0 +1,201 @@
+claim_id,label,n_gold_web,n_gold_reachable,n_gold_empty,n_prim_reachable,authority_situation,n_gold_publishers,auth_any_gold_key,auth_reachable_gold,rank_full_hybrid,rank_D,rank_G,authgold_in_F_pool,authgold_rank_G,G_top10_from_pred_publisher,G_top10_added_by_targeting
+2,Refuted,3,3,0,0,multiple_legitimate_authorities,3,False,False,17,17,20,False,,3,3
+4,Refuted,3,3,0,0,multiple_legitimate_authorities,3,False,False,5,10,16,False,,10,6
+10,Conflicting Evidence/Cherrypicking,2,2,0,0,multiple_legitimate_authorities,2,True,True,205,,,False,,10,9
+11,Conflicting Evidence/Cherrypicking,1,1,0,0,multiple_legitimate_authorities,1,False,False,202,,,False,,10,6
+14,Refuted,2,2,0,0,single_clear_authority,2,False,False,156,,,False,,10,1
+15,Not Enough Evidence,4,3,1,0,multiple_legitimate_authorities,3,True,True,137,,,False,,10,2
+16,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,40,41,50,False,,10,9
+19,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,137,,,False,,6,6
+23,Refuted,1,1,0,0,single_clear_authority,1,False,False,199,,,False,,3,3
+28,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,15,15,17,False,,2,2
+30,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,31,31,41,False,,10,10
+32,Supported,1,1,0,0,single_clear_authority,1,True,True,153,,,False,,10,1
+35,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,320,,,False,,10,5
+36,Supported,2,2,0,0,multiple_legitimate_authorities,2,False,False,1,1,5,False,,4,4
+37,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,1,3,12,False,,10,9
+38,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,135,,,False,,3,3
+41,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,39,43,52,False,,10,9
+42,Supported,2,1,1,0,multiple_legitimate_authorities,1,False,False,6,6,7,False,,1,1
+44,Refuted,3,3,0,0,multiple_legitimate_authorities,3,False,False,56,56,65,False,,10,9
+46,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+47,Conflicting Evidence/Cherrypicking,3,2,1,0,multiple_legitimate_authorities,2,False,False,184,,,False,,2,2
+49,Refuted,3,1,2,0,multiple_legitimate_authorities,1,True,False,977,,,False,,10,6
+52,Refuted,3,3,0,0,multiple_legitimate_authorities,3,True,True,110,,,False,,10,2
+54,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,2,6,9,False,,7,3
+55,Refuted,1,1,0,0,multiple_legitimate_authorities,1,True,True,175,,,False,,10,10
+59,Not Enough Evidence,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+60,Conflicting Evidence/Cherrypicking,3,3,0,0,multiple_legitimate_authorities,3,False,False,8,20,21,False,,10,1
+61,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+75,Supported,2,2,0,0,multiple_legitimate_authorities,2,False,False,13,13,23,False,,10,10
+77,Supported,2,1,1,0,multiple_legitimate_authorities,1,False,False,237,,,False,,10,2
+79,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,271,,,False,,10,9
+80,Refuted,3,3,0,0,no_clear_authority,3,False,False,31,31,32,False,,1,1
+81,Conflicting Evidence/Cherrypicking,3,3,0,0,multiple_legitimate_authorities,3,True,True,1,9,9,True,9,10,7
+89,Refuted,2,2,0,0,multiple_legitimate_authorities,1,True,True,21,10,4,True,4,10,0
+91,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,2,2,3,False,,1,1
+92,Supported,2,2,0,0,multiple_legitimate_authorities,2,False,False,26,28,35,False,,10,7
+94,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,137,,,False,,0,0
+98,Supported,1,1,0,0,single_clear_authority,1,False,False,62,64,72,False,,10,8
+100,Conflicting Evidence/Cherrypicking,2,2,0,0,multiple_legitimate_authorities,2,False,False,199,,,False,,10,10
+101,Conflicting Evidence/Cherrypicking,2,1,1,0,multiple_legitimate_authorities,1,False,False,15,15,18,False,,3,3
+102,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,120,,,False,,10,10
+104,Supported,2,2,0,0,multiple_legitimate_authorities,2,False,False,15,19,26,False,,10,7
+108,Refuted,5,2,3,0,multiple_legitimate_authorities,1,True,True,143,,,False,,10,0
+110,Supported,3,1,2,0,multiple_legitimate_authorities,1,False,False,204,,,False,,10,5
+112,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,6,13,19,False,,10,6
+113,Supported,1,0,1,0,single_clear_authority,0,,,,,,,,,
+114,Refuted,2,0,2,0,multiple_legitimate_authorities,0,,,,,,,,,
+118,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,28,29,4,True,4,10,7
+121,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,18,22,30,False,,10,8
+125,Supported,2,1,1,0,multiple_legitimate_authorities,1,False,False,108,,,False,,10,1
+128,Refuted,1,1,0,0,single_clear_authority,1,False,False,88,88,92,False,,6,4
+129,Refuted,6,5,1,0,multiple_legitimate_authorities,4,False,False,232,,,False,,4,4
+131,Refuted,1,1,0,0,multiple_legitimate_authorities,1,True,True,87,32,32,True,32,10,0
+132,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,2,2,2,False,,0,0
+133,Supported,2,1,1,0,multiple_legitimate_authorities,1,False,False,225,,,False,,10,9
+134,Refuted,1,1,0,0,single_clear_authority,1,False,False,102,,,False,,10,9
+135,Not Enough Evidence,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+137,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,84,90,92,False,,10,2
+138,Supported,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+140,Supported,2,2,0,0,multiple_legitimate_authorities,2,False,False,19,19,28,False,,9,9
+141,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,1,1,3,False,,2,2
+144,Supported,3,2,1,0,single_clear_authority,2,True,False,17,19,27,False,,10,8
+148,Conflicting Evidence/Cherrypicking,1,1,0,0,multiple_legitimate_authorities,1,False,False,7,9,18,False,,10,9
+150,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,8,26,26,False,,10,0
+153,Not Enough Evidence,0,0,0,0,multiple_legitimate_authorities,0,,,,,,,,,
+154,Refuted,1,1,0,0,multiple_legitimate_authorities,1,True,True,405,,,False,,10,2
+156,Supported,4,4,0,0,multiple_legitimate_authorities,4,True,True,230,,,False,,10,10
+160,Refuted,3,3,0,0,multiple_legitimate_authorities,3,False,False,27,27,37,False,,10,10
+162,Refuted,3,2,1,0,multiple_legitimate_authorities,2,False,False,302,,,False,,10,10
+163,Supported,4,4,0,0,single_clear_authority,4,True,True,3,1,1,True,1,10,7
+164,Refuted,3,2,1,0,multiple_legitimate_authorities,2,True,True,130,,,False,,10,3
+165,Refuted,0,0,0,0,multiple_legitimate_authorities,0,,,,,,,,,
+166,Refuted,2,0,2,0,multiple_legitimate_authorities,0,,,,,,,,,
+167,Refuted,1,1,0,0,single_clear_authority,1,True,True,62,7,2,True,2,10,7
+168,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,24,7,7,True,7,10,0
+169,Refuted,3,0,3,0,single_clear_authority,0,,,,,,,,,
+171,Refuted,3,1,2,0,multiple_legitimate_authorities,1,False,False,3,4,7,False,,4,3
+172,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,1,2,11,False,,10,9
+175,Supported,1,0,1,0,single_clear_authority,0,,,,,,,,,
+180,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,1,2,11,False,,10,9
+183,Not Enough Evidence,1,1,0,0,multiple_legitimate_authorities,1,False,False,8,8,8,False,,0,0
+184,Supported,1,1,0,0,multiple_legitimate_authorities,1,False,False,5,5,6,False,,1,1
+188,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,2,3,12,False,,10,9
+189,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,54,56,59,False,,5,3
+192,Not Enough Evidence,2,1,1,0,multiple_legitimate_authorities,1,False,False,159,,,False,,8,8
+193,Refuted,0,0,0,0,multiple_legitimate_authorities,0,,,,,,,,,
+194,Supported,2,2,0,0,multiple_legitimate_authorities,2,True,True,81,83,91,False,,10,8
+196,Refuted,3,2,1,0,multiple_legitimate_authorities,1,False,False,53,53,59,False,,6,6
+197,Supported,2,2,0,0,multiple_legitimate_authorities,2,False,False,145,,,False,,10,4
+200,Refuted,3,2,1,0,multiple_legitimate_authorities,2,True,True,214,,,False,,10,8
+203,Supported,3,1,2,0,multiple_legitimate_authorities,1,True,False,131,,,False,,10,5
+205,Supported,2,1,1,0,multiple_legitimate_authorities,1,True,False,49,53,60,False,,10,6
+220,Not Enough Evidence,1,1,0,0,multiple_legitimate_authorities,1,False,False,12,12,17,False,,5,5
+223,Not Enough Evidence,0,0,0,0,multiple_legitimate_authorities,0,,,,,,,,,
+224,Supported,3,3,0,0,multiple_legitimate_authorities,3,True,True,67,70,77,False,,10,7
+227,Refuted,2,2,0,0,single_clear_authority,2,False,False,15,16,25,False,,10,9
+228,Supported,2,2,0,0,multiple_legitimate_authorities,2,False,False,29,31,40,False,,10,9
+233,Not Enough Evidence,3,1,2,0,multiple_legitimate_authorities,1,True,True,1624,,2,True,2,10,10
+234,Refuted,3,2,1,0,multiple_legitimate_authorities,2,False,False,186,,,False,,3,3
+236,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,5,1,1,True,1,10,5
+237,Not Enough Evidence,1,1,0,0,multiple_legitimate_authorities,1,False,False,40,52,52,False,,10,0
+239,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+248,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,53,53,61,False,,8,8
+249,Refuted,2,2,0,0,multiple_legitimate_authorities,1,True,True,162,,,False,,10,0
+251,Refuted,1,1,0,0,multiple_legitimate_authorities,1,True,True,533,,,False,,10,10
+252,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,31,34,38,False,,7,4
+254,Refuted,2,0,2,0,single_clear_authority,0,,,,,,,,,
+255,Supported,2,1,1,0,multiple_legitimate_authorities,1,False,False,2,4,12,False,,10,8
+256,Refuted,0,0,0,0,multiple_legitimate_authorities,0,,,,,,,,,
+258,Refuted,3,1,2,0,multiple_legitimate_authorities,1,True,False,10,25,25,False,,10,0
+262,Supported,5,4,1,0,multiple_legitimate_authorities,4,True,True,14,19,29,False,,10,10
+263,Refuted,4,2,2,0,multiple_legitimate_authorities,2,False,False,11,13,21,False,,10,8
+267,Supported,1,1,0,0,multiple_legitimate_authorities,1,True,True,531,,,False,,10,1
+268,Refuted,4,3,1,0,multiple_legitimate_authorities,3,True,True,28,1,11,True,11,10,10
+269,Conflicting Evidence/Cherrypicking,4,4,0,0,multiple_legitimate_authorities,4,False,False,42,42,42,False,,0,0
+270,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,40,44,50,False,,10,6
+272,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,205,,,False,,10,10
+278,Refuted,2,1,1,0,multiple_legitimate_authorities,1,True,True,138,,,False,,10,7
+281,Supported,1,1,0,0,multiple_legitimate_authorities,1,True,True,1,1,6,True,6,10,4
+283,Refuted,3,2,1,0,multiple_legitimate_authorities,2,False,False,44,45,49,False,,7,4
+284,Refuted,5,3,2,0,no_clear_authority,3,False,False,16,16,25,False,,9,9
+290,Supported,2,0,2,0,multiple_legitimate_authorities,0,,,,,,,,,
+293,Supported,2,2,0,0,multiple_legitimate_authorities,2,False,False,125,,,False,,10,9
+294,Refuted,3,3,0,0,multiple_legitimate_authorities,2,False,False,6,6,16,False,,10,10
+295,Refuted,3,3,0,0,multiple_legitimate_authorities,3,False,False,13,13,22,False,,9,9
+297,Refuted,6,3,3,0,multiple_legitimate_authorities,3,True,True,156,,3,True,3,10,8
+299,Supported,2,1,1,0,single_clear_authority,1,True,True,214,,9,True,9,10,8
+300,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+304,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,661,,,False,,10,0
+309,Supported,4,3,1,0,single_clear_authority,3,False,False,25,26,35,False,,10,9
+310,Supported,4,2,2,0,multiple_legitimate_authorities,2,True,True,100,100,,False,,10,7
+311,Refuted,5,5,0,0,multiple_legitimate_authorities,5,False,False,6,8,16,False,,10,8
+312,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+316,Refuted,6,4,2,0,multiple_legitimate_authorities,4,True,True,182,,1,True,1,10,10
+317,Refuted,3,1,2,0,multiple_legitimate_authorities,1,True,False,28,29,38,False,,10,9
+318,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,4,5,14,False,,10,9
+326,Refuted,3,3,0,0,multiple_legitimate_authorities,3,False,False,24,28,34,False,,10,6
+327,Supported,3,1,2,0,multiple_legitimate_authorities,1,True,False,301,,,False,,10,7
+328,Not Enough Evidence,2,2,0,0,multiple_legitimate_authorities,2,True,True,43,3,2,True,2,10,4
+329,Refuted,0,0,0,0,multiple_legitimate_authorities,0,,,,,,,,,
+330,Supported,1,1,0,0,multiple_legitimate_authorities,1,False,False,26,41,41,False,,10,0
+333,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+334,Refuted,1,1,0,0,multiple_legitimate_authorities,1,True,True,3,1,1,True,1,10,6
+337,Supported,2,0,2,0,multiple_legitimate_authorities,0,,,,,,,,,
+338,Refuted,2,2,0,0,single_clear_authority,2,False,False,6,7,16,False,,10,9
+340,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+341,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,9,9,19,False,,10,10
+342,Supported,2,2,0,0,multiple_legitimate_authorities,2,True,True,13,4,4,True,4,10,0
+343,Refuted,0,0,0,0,single_clear_authority,0,,,,,,,,,
+351,Refuted,4,2,2,0,single_clear_authority,2,False,False,492,,,False,,10,7
+357,Supported,2,2,0,0,single_clear_authority,2,True,True,3,5,3,True,3,9,4
+358,Refuted,2,2,0,0,no_clear_authority,2,False,False,24,24,32,False,,8,8
+360,Conflicting Evidence/Cherrypicking,1,1,0,0,multiple_legitimate_authorities,1,True,True,7,3,3,True,3,10,0
+361,Supported,1,1,0,0,multiple_legitimate_authorities,1,False,False,12,12,12,False,,0,0
+363,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,10,10,4,True,4,8,8
+365,Refuted,1,1,0,0,single_clear_authority,1,True,True,46,5,7,True,7,10,0
+370,Conflicting Evidence/Cherrypicking,1,1,0,0,multiple_legitimate_authorities,1,True,True,396,,,False,,10,7
+375,Not Enough Evidence,1,0,1,0,single_clear_authority,0,,,,,,,,,
+386,Refuted,5,2,3,0,single_clear_authority,1,True,True,153,,,False,,10,0
+390,Refuted,3,2,1,0,multiple_legitimate_authorities,2,False,False,7,7,17,False,,10,10
+392,Supported,4,4,0,0,multiple_legitimate_authorities,3,False,False,26,26,36,False,,10,10
+397,Refuted,3,3,0,0,multiple_legitimate_authorities,3,False,False,11,13,23,False,,10,10
+400,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,1,4,2,True,2,10,5
+401,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,38,40,48,False,,10,8
+407,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,1,1,11,False,,10,10
+415,Refuted,4,3,1,0,single_clear_authority,2,True,False,890,,,False,,0,0
+419,Refuted,2,2,0,0,single_clear_authority,2,False,False,122,,,False,,10,0
+420,Refuted,2,1,1,0,multiple_legitimate_authorities,1,False,False,15,15,25,False,,10,10
+426,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+433,Refuted,4,1,3,0,multiple_legitimate_authorities,1,True,False,197,,,False,,7,7
+436,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,1,16,20,False,,10,4
+437,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,67,3,2,True,2,10,6
+443,Refuted,1,1,0,0,multiple_legitimate_authorities,1,False,False,15,19,26,False,,10,7
+444,Refuted,3,3,0,0,single_clear_authority,3,True,True,164,,10,True,10,10,10
+445,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,4,5,13,False,,9,8
+447,Refuted,1,0,1,0,multiple_legitimate_authorities,0,,,,,,,,,
+448,Conflicting Evidence/Cherrypicking,1,1,0,0,multiple_legitimate_authorities,1,False,False,3,3,3,False,,0,0
+452,Refuted,3,0,3,0,single_clear_authority,0,,,,,,,,,
+453,Supported,2,0,2,0,multiple_legitimate_authorities,0,,,,,,,,,
+455,Refuted,1,1,0,0,multiple_legitimate_authorities,1,True,True,74,11,4,True,4,10,3
+457,Conflicting Evidence/Cherrypicking,2,2,0,0,multiple_legitimate_authorities,1,True,True,73,13,5,True,5,10,4
+463,Supported,2,0,2,0,single_clear_authority,0,,,,,,,,,
+464,Refuted,3,3,0,0,multiple_legitimate_authorities,3,True,True,18,1,1,True,1,10,4
+465,Refuted,3,1,2,0,multiple_legitimate_authorities,1,False,False,59,59,61,False,,2,2
+468,Supported,0,0,0,0,multiple_legitimate_authorities,0,,,,,,,,,
+469,Supported,3,3,0,0,multiple_legitimate_authorities,3,True,True,2,2,1,True,1,2,2
+474,Refuted,2,2,0,0,multiple_legitimate_authorities,1,False,False,496,,,False,,10,10
+475,Refuted,2,2,0,0,multiple_legitimate_authorities,2,False,False,67,69,72,False,,10,3
+479,Conflicting Evidence/Cherrypicking,2,0,2,0,multiple_legitimate_authorities,0,,,,,,,,,
+485,Supported,2,2,0,0,multiple_legitimate_authorities,2,True,True,30,3,11,True,11,10,7
+486,Refuted,3,2,1,0,multiple_legitimate_authorities,2,False,False,122,,,False,,10,2
+488,Refuted,3,3,0,0,multiple_legitimate_authorities,3,False,False,228,,,False,,10,6
+489,Supported,3,3,0,0,multiple_legitimate_authorities,1,False,False,23,23,25,False,,2,2
+490,Supported,1,1,0,0,multiple_legitimate_authorities,1,True,True,11,1,1,True,1,10,0
+493,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,9,13,19,False,,10,6
+494,Refuted,2,2,0,0,multiple_legitimate_authorities,2,True,True,16,19,8,True,8,10,10
+495,Refuted,4,3,1,0,multiple_legitimate_authorities,3,False,False,6,6,16,False,,10,10
+496,Conflicting Evidence/Cherrypicking,4,3,1,0,multiple_legitimate_authorities,2,True,True,86,86,1,True,1,1,1
+498,Not Enough Evidence,2,1,1,0,multiple_legitimate_authorities,1,True,True,27,2,1,True,1,10,8
+499,Refuted,4,3,1,0,multiple_legitimate_authorities,2,True,True,31,1,1,True,1,10,8

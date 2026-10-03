@@ -1,0 +1,10 @@
+# Phase-1 audit (CPU only). Python 3.13.
+bm25s==0.3.11
+tldextract
+fsspec
+aiohttp
+numpy
+pandas
+spacy>=3.8   # + python -m spacy download en_core_web_sm
+sentence-transformers>=5.0
+torch

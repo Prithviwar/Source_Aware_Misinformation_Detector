@@ -1,0 +1,120 @@
+{
+ "MODEL_GENERATED_evidence_pilot_runA_CLAUDE_OPUS_5_5": {
+  "items_expected": 34,
+  "items_parsed": 34,
+  "unparsed_after_retry": [],
+  "needed_retry": [],
+  "num_turns": {
+   "1": 34
+  },
+  "models_reported": [
+   "claude-opus-5-5"
+  ],
+  "cost_usd": 0.638,
+  "hashes_at_run": {
+   "AI_EVIDENCE_PROMPT.md": "417a609c1fa230c2f81293737417c99ebfb8a455e1806cc2df0aaeeda9efb6b0",
+   "AI_CLAIM_PROMPT.md": "5f4a7b0f2d8918ddfde20953984335cbccd43886b42eaf84d819ba73fa7227d2",
+   "ANNOTATION_GUIDE.md": "57efc6e49894411d982245913f5ff6572df33f2e6c2d9434b4877e486cfa0e71",
+   "ai_annotate.py": "5a51a84755bcc144593169f880b06577157aaea41bbe7f13acbdcb3dec3f1e67",
+   "score_ai_primary.py": "860b31a79953c3cef61078fbefee2867212bb04672c460dbf0daf406fd00662d"
+  },
+  "labels": {
+   "secondary": 14,
+   "derived": 4,
+   "primary": 14,
+   "unclear": 2
+  },
+  "unclear_share": 0.059,
+  "confidence": {
+   "high": 18,
+   "medium": 15,
+   "low": 1
+  },
+  "low_share": 0.029
+ },
+ "MODEL_GENERATED_evidence_pilot_runB_CLAUDE_OPUS_5_5": {
+  "items_expected": 34,
+  "items_parsed": 34,
+  "unparsed_after_retry": [],
+  "needed_retry": [],
+  "num_turns": {
+   "1": 34
+  },
+  "models_reported": [
+   "claude-opus-5-5"
+  ],
+  "cost_usd": 0.247,
+  "hashes_at_run": {
+   "AI_EVIDENCE_PROMPT.md": "417a609c1fa230c2f81293737417c99ebfb8a455e1806cc2df0aaeeda9efb6b0",
+   "AI_CLAIM_PROMPT.md": "5f4a7b0f2d8918ddfde20953984335cbccd43886b42eaf84d819ba73fa7227d2",
+   "ANNOTATION_GUIDE.md": "57efc6e49894411d982245913f5ff6572df33f2e6c2d9434b4877e486cfa0e71",
+   "ai_annotate.py": "5a51a84755bcc144593169f880b06577157aaea41bbe7f13acbdcb3dec3f1e67",
+   "score_ai_primary.py": "860b31a79953c3cef61078fbefee2867212bb04672c460dbf0daf406fd00662d"
+  },
+  "labels": {
+   "secondary": 15,
+   "derived": 4,
+   "primary": 13,
+   "unclear": 2
+  },
+  "unclear_share": 0.059,
+  "confidence": {
+   "high": 17,
+   "medium": 16,
+   "low": 1
+  },
+  "low_share": 0.029
+ },
+ "MODEL_GENERATED_claim_pilot_runA_CLAUDE_OPUS_5_5": {
+  "items_expected": 15,
+  "items_parsed": 15,
+  "unparsed_after_retry": [],
+  "needed_retry": [],
+  "num_turns": {
+   "1": 15
+  },
+  "models_reported": [
+   "claude-opus-5-5"
+  ],
+  "cost_usd": 0.472,
+  "hashes_at_run": {
+   "AI_EVIDENCE_PROMPT.md": "417a609c1fa230c2f81293737417c99ebfb8a455e1806cc2df0aaeeda9efb6b0",
+   "AI_CLAIM_PROMPT.md": "5f4a7b0f2d8918ddfde20953984335cbccd43886b42eaf84d819ba73fa7227d2",
+   "ANNOTATION_GUIDE.md": "57efc6e49894411d982245913f5ff6572df33f2e6c2d9434b4877e486cfa0e71",
+   "ai_annotate.py": "5a51a84755bcc144593169f880b06577157aaea41bbe7f13acbdcb3dec3f1e67",
+   "score_ai_primary.py": "860b31a79953c3cef61078fbefee2867212bb04672c460dbf0daf406fd00662d"
+  },
+  "situations": {
+   "multiple_legitimate_authorities": 11,
+   "single_primary": 4
+  },
+  "unclear_share": 0.0,
+  "type_other_claims": [],
+  "confidence": {
+   "medium": 12,
+   "low": 2,
+   "high": 1
+  },
+  "low_share": 0.133
+ },
+ "stability_A_vs_B": {
+  "n": 34,
+  "agree_4way": 0.971,
+  "kappa_4way": 0.954,
+  "agree_primary_vs_not": 0.971,
+  "kappa_primary_vs_not": 0.939,
+  "discordant": [
+   {
+    "item": "79",
+    "claim_id": "169",
+    "A": "primary",
+    "B": "secondary",
+    "publisher_A": "Library of Congress (loc.gov), via Wayback Machine archive",
+    "conf": [
+     "medium",
+     "medium"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,1504 @@
+{
+ "1": {
+  "mentions": [
+   "Trump Administration"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "5": {
+  "mentions": [
+   "Syrian Arab News Agency (SANA)",
+   "the Chemical Weapons Convention"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "7": {
+  "mentions": [
+   "Donald Trump",
+   "Joe Biden"
+  ],
+  "domains": [
+   "45office.com",
+   "bidenfoundation.org",
+   "donaldjtrump.com",
+   "joebiden.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "joebiden",
+   "potus",
+   "potus45",
+   "potus46archive",
+   "preselectbiden",
+   "realdonaldtrump",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44"
+  ]
+ },
+ "18": {
+  "mentions": [
+   "Elizabeth Gilbert"
+  ],
+  "domains": [
+   "elizabethgilbert.com"
+  ],
+  "handles": [
+   "gilbertliz"
+  ]
+ },
+ "20": {
+  "mentions": [
+   "BJP MP Shobha Karandlaje"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "26": {
+  "mentions": [
+   "Pearson Sharp"
+  ],
+  "domains": [
+   "pearsonsharp.com"
+  ],
+  "handles": [
+   "pearsonsharp"
+  ]
+ },
+ "31": {
+  "mentions": [
+   "Amy Coney Barrett",
+   "Meena Harris @meenaharris",
+   "US Supreme Court"
+  ],
+  "domains": [
+   "supremecourt.gov"
+  ],
+  "handles": []
+ },
+ "40": {
+  "mentions": [
+   "Joe Biden",
+   "Jon Bon Jovi"
+  ],
+  "domains": [
+   "bidenfoundation.org",
+   "bonjovi.com",
+   "joebiden.com",
+   "wwwjonbonjovi.ca"
+  ],
+  "handles": [
+   "joebiden",
+   "jonbonjovi",
+   "jonbonjovijbj",
+   "jonbonjoviofficial",
+   "potus",
+   "potus46archive",
+   "preselectbiden",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44"
+  ]
+ },
+ "50": {
+  "mentions": [
+   "Biden",
+   "Zach Parkinson"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "64": {
+  "mentions": [
+   "Donald J. Trump Jr.",
+   "Eric Trump",
+   "Ivanka Trump",
+   "Left Action"
+  ],
+  "domains": [
+   "donjr.com",
+   "erictrumpfoundation.com",
+   "ivankatrump.com"
+  ],
+  "handles": [
+   "donaldjtrumpjr",
+   "erictrump",
+   "ivankatrump"
+  ]
+ },
+ "67": {
+  "mentions": [
+   "NEET Exam Result 2020",
+   "NTA",
+   "National Testing Agency"
+  ],
+  "domains": [
+   "bibliotheken.nl",
+   "nta.ac.in"
+  ],
+  "handles": [
+   "nationaltestingagency",
+   "ntaexams"
+  ]
+ },
+ "72": {
+  "mentions": [
+   "Muahammadu Buhari",
+   "NNPC",
+   "the Nigerian National Petroleum Corporation"
+  ],
+  "domains": [
+   "nnpcgroup.com"
+  ],
+  "handles": []
+ },
+ "74": {
+  "mentions": [
+   "Joni Ernst",
+   "The Iowa Farm Bureau"
+  ],
+  "domains": [
+   "senate.gov"
+  ],
+  "handles": [
+   "joniernst",
+   "joniforiowa",
+   "senjoniernst"
+  ]
+ },
+ "83": {
+  "mentions": [
+   "The Blaze"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "85": {
+  "mentions": [
+   "AMU",
+   "Congress",
+   "Jinnah",
+   "Maskoor Usmani",
+   "Pooja Chaudhuri"
+  ],
+  "domains": [
+   "inc.in",
+   "univ-amu.fr"
+  ],
+  "handles": [
+   "incindia",
+   "indiannationalcongress",
+   "univamu"
+  ]
+ },
+ "90": {
+  "mentions": [
+   "BJP",
+   "Kirron Kher Said"
+  ],
+  "domains": [
+   "brjpharmacol.org",
+   "nature.com",
+   "nih.gov",
+   "oclc.org",
+   "wiley.com"
+  ],
+  "handles": [
+   "brjpharmacol"
+  ]
+ },
+ "95": {
+  "mentions": [
+   "Abortion Legislation Act",
+   "Right To Life UK"
+  ],
+  "domains": [
+   "righttolife.org.uk"
+  ],
+  "handles": []
+ },
+ "96": {
+  "mentions": [
+   "CHR",
+   "Chito Gascon",
+   "Commission on Human Rights",
+   "Pinoy News Center",
+   "the New People’s Army",
+   "the Philippine Army"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "99": {
+  "mentions": [
+   "Abortion Legislation Act",
+   "Right To Life UK"
+  ],
+  "domains": [
+   "righttolife.org.uk"
+  ],
+  "handles": []
+ },
+ "103": {
+  "mentions": [
+   "@betches_sup",
+   "Donald Trump",
+   "The United Supreme Court"
+  ],
+  "domains": [
+   "45office.com",
+   "donaldjtrump.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "potus",
+   "potus45",
+   "realdonaldtrump"
+  ]
+ },
+ "107": {
+  "mentions": [
+   "Anthony Fauci",
+   "NIAID"
+  ],
+  "domains": [
+   "nih.gov"
+  ],
+  "handles": [
+   "niaid",
+   "niaidnews",
+   "niaidnih"
+  ]
+ },
+ "116": {
+  "mentions": [
+   "Derek Utley",
+   "Joe Biden",
+   "Senate"
+  ],
+  "domains": [
+   "bidenfoundation.org",
+   "joebiden.com"
+  ],
+  "handles": [
+   "joebiden",
+   "potus",
+   "potus46archive",
+   "preselectbiden",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44"
+  ]
+ },
+ "126": {
+  "mentions": [
+   "Darryl Wayne",
+   "Ulysses S. Grant",
+   "the American Civil War",
+   "the Union Army"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "143": {
+  "mentions": [
+   "Winston Peters"
+  ],
+  "domains": [],
+  "handles": [
+   "winstonpeters",
+   "winstonpetersnzfirst"
+  ]
+ },
+ "147": {
+  "mentions": [
+   "Kamala Haris"
+  ],
+  "domains": [
+   "kamalaharris.com",
+   "whitehouse.gov"
+  ],
+  "handles": [
+   "kamalaharris",
+   "senatorkamalaharris",
+   "senkamalaharris",
+   "vicepresident",
+   "vp",
+   "vp46archive"
+  ]
+ },
+ "152": {
+  "mentions": [
+   "Kamala Haris"
+  ],
+  "domains": [
+   "kamalaharris.com",
+   "whitehouse.gov"
+  ],
+  "handles": [
+   "kamalaharris",
+   "senatorkamalaharris",
+   "senkamalaharris",
+   "vicepresident",
+   "vp",
+   "vp46archive"
+  ]
+ },
+ "158": {
+  "mentions": [
+   "COVID-19",
+   "Donald Trump",
+   "Very Stable Fergus"
+  ],
+  "domains": [
+   "45office.com",
+   "donaldjtrump.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "potus",
+   "potus45",
+   "realdonaldtrump"
+  ]
+ },
+ "174": {
+  "mentions": [
+   "Henna Maria"
+  ],
+  "domains": [
+   "hennavirkkunen.fi"
+  ],
+  "handles": [
+   "hennavirkkunen",
+   "virkkunenhenna"
+  ]
+ },
+ "186": {
+  "mentions": [
+   "Sandeep Thakur",
+   "Sanju Yaduwanshi Sapa",
+   "Yogi Adityanath"
+  ],
+  "domains": [
+   "sandeepthakurviolinist.com",
+   "yogiadityanath.in"
+  ],
+  "handles": [
+   "myogiadityanath"
+  ]
+ },
+ "187": {
+  "mentions": [
+   "Alex Jones",
+   "COVID-19",
+   "Donald Trump",
+   "the White House"
+  ],
+  "domains": [
+   "45office.com",
+   "donaldjtrump.com",
+   "whitehouse.gov"
+  ],
+  "handles": [
+   "donaldtrump",
+   "lacasablanca",
+   "potus",
+   "potus45",
+   "realalexjones",
+   "realdonaldtrump",
+   "transition46",
+   "whitehouse",
+   "whitehouse45"
+  ]
+ },
+ "190": {
+  "mentions": [
+   "Donald Trump",
+   "Richard Greene"
+  ],
+  "domains": [
+   "45office.com",
+   "donaldjtrump.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "potus",
+   "potus45",
+   "realdonaldtrump"
+  ]
+ },
+ "195": {
+  "mentions": [
+   "Muhammadu Buhari"
+  ],
+  "domains": [
+   "thisisbuhari.com"
+  ],
+  "handles": [
+   "mbuhari",
+   "muhammadubuhari"
+  ]
+ },
+ "202": {
+  "mentions": [
+   "Muhammadu Buhari"
+  ],
+  "domains": [
+   "thisisbuhari.com"
+  ],
+  "handles": [
+   "mbuhari",
+   "muhammadubuhari"
+  ]
+ },
+ "206": {
+  "mentions": [
+   "Muhammadu Buhari"
+  ],
+  "domains": [
+   "thisisbuhari.com"
+  ],
+  "handles": [
+   "mbuhari",
+   "muhammadubuhari"
+  ]
+ },
+ "207": {
+  "mentions": [
+   "Muhammadu Buhari"
+  ],
+  "domains": [
+   "thisisbuhari.com"
+  ],
+  "handles": [
+   "mbuhari",
+   "muhammadubuhari"
+  ]
+ },
+ "209": {
+  "mentions": [
+   "President Muhammadu Buhari"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "210": {
+  "mentions": [
+   "President of Nigeria Muhammadu Buhari"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "213": {
+  "mentions": [
+   "President Muhammadu Buhari"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "214": {
+  "mentions": [
+   "President Muhammadu Buhari"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "216": {
+  "mentions": [
+   "President of Nigeria Muhammadu Buhari"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "217": {
+  "mentions": [
+   "President of Nigeria Muhammadu Buhari"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "218": {
+  "mentions": [
+   "Muhammadu Buhari"
+  ],
+  "domains": [
+   "thisisbuhari.com"
+  ],
+  "handles": [
+   "mbuhari",
+   "muhammadubuhari"
+  ]
+ },
+ "219": {
+  "mentions": [
+   "President Buhari"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "221": {
+  "mentions": [
+   "President of Nigeria Muhammadu Buhari"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "222": {
+  "mentions": [
+   "Muhammadu Buhari",
+   "Nigeria"
+  ],
+  "domains": [
+   "nigeria.gov.ng",
+   "thisisbuhari.com"
+  ],
+  "handles": [
+   "mbuhari",
+   "muhammadubuhari"
+  ]
+ },
+ "226": {
+  "mentions": [
+   "Nathan Brand"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "235": {
+  "mentions": [
+   "Jessica Shelley Monk"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "238": {
+  "mentions": [
+   "Jacinda Ardern",
+   "Judith Collins",
+   "National Party"
+  ],
+  "domains": [
+   "national.org.nz"
+  ],
+  "handles": [
+   "jacindaardern",
+   "nznationalparty",
+   "nznats"
+  ]
+ },
+ "241": {
+  "mentions": [
+   "Donald Trump",
+   "Joe Biden"
+  ],
+  "domains": [
+   "45office.com",
+   "bidenfoundation.org",
+   "donaldjtrump.com",
+   "joebiden.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "joebiden",
+   "potus",
+   "potus45",
+   "potus46archive",
+   "preselectbiden",
+   "realdonaldtrump",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44"
+  ]
+ },
+ "243": {
+  "mentions": [
+   "Coronavirus",
+   "Prashant Dahale"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "261": {
+  "mentions": [
+   "Gandhi",
+   "Green"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "264": {
+  "mentions": [
+   "Anthony Jeffries",
+   "Donald Trump"
+  ],
+  "domains": [
+   "45office.com",
+   "donaldjtrump.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "potus",
+   "potus45",
+   "realdonaldtrump"
+  ]
+ },
+ "274": {
+  "mentions": [
+   "Adani Logistics Limited",
+   "Parliament",
+   "Raju Kasim"
+  ],
+  "domains": [
+   "parliament.uk"
+  ],
+  "handles": [
+   "ukparliament"
+  ]
+ },
+ "275": {
+  "mentions": [
+   "KKR",
+   "Khan",
+   "Kolkata Knight Riders",
+   "Reliance Retail",
+   "Shortpedia"
+  ],
+  "domains": [
+   "kkr.in",
+   "relianceretail.com",
+   "ril.com"
+  ],
+  "handles": [
+   "kkriders",
+   "rilretailcare"
+  ]
+ },
+ "277": {
+  "mentions": [
+   "Bill de Blasio",
+   "Michael Young"
+  ],
+  "domains": [
+   "billdeblasio.com"
+  ],
+  "handles": [
+   "billdeblasio",
+   "nycmayor"
+  ]
+ },
+ "280": {
+  "mentions": [],
+  "domains": [],
+  "handles": []
+ },
+ "286": {
+  "mentions": [
+   "Capitol",
+   "Michael Beschloss",
+   "Ruth Bader Ginsburg",
+   "U.S. Supreme Court"
+  ],
+  "domains": [
+   "capitolrecords.com",
+   "supremecourt.gov"
+  ],
+  "handles": [
+   "beschlossdc",
+   "beschlossdc1776",
+   "capitolrecords"
+  ]
+ },
+ "288": {
+  "mentions": [
+   "Charlie Kirk"
+  ],
+  "domains": [
+   "charliekirk.com"
+  ],
+  "handles": [
+   "charliekirk11",
+   "charliekirk1776",
+   "realcharliekirk"
+  ]
+ },
+ "298": {
+  "mentions": [
+   "Covid",
+   "Various"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "305": {
+  "mentions": [
+   "Photo Showing",
+   "Vladimir Komarov"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "306": {
+  "mentions": [
+   "Brucellosis",
+   "The Tatva India"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "307": {
+  "mentions": [
+   "Jon Cook",
+   "Ruth Bader Ginsburg"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "308": {
+  "mentions": [
+   "Freya Ferdinand II",
+   "Sightway Capital"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "315": {
+  "mentions": [
+   "Joe Biden",
+   "Supreme Court"
+  ],
+  "domains": [
+   "bidenfoundation.org",
+   "joebiden.com",
+   "supremecourt.gov"
+  ],
+  "handles": [
+   "joebiden",
+   "potus",
+   "potus46archive",
+   "preselectbiden",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44"
+  ]
+ },
+ "320": {
+  "mentions": [
+   "Don Moynihan",
+   "The White House"
+  ],
+  "domains": [
+   "georgetown.edu",
+   "whitehouse.gov"
+  ],
+  "handles": [
+   "donmoyn",
+   "lacasablanca",
+   "transition46",
+   "whitehouse",
+   "whitehouse45"
+  ]
+ },
+ "321": {
+  "mentions": [],
+  "domains": [],
+  "handles": []
+ },
+ "323": {
+  "mentions": [
+   "Donald Trump",
+   "Joe Biden",
+   "the Affordable Care Act"
+  ],
+  "domains": [
+   "45office.com",
+   "bidenfoundation.org",
+   "donaldjtrump.com",
+   "joebiden.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "joebiden",
+   "potus",
+   "potus45",
+   "potus46archive",
+   "preselectbiden",
+   "realdonaldtrump",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44"
+  ]
+ },
+ "325": {
+  "mentions": [
+   "Joe Biden"
+  ],
+  "domains": [
+   "bidenfoundation.org",
+   "joebiden.com"
+  ],
+  "handles": [
+   "joebiden",
+   "potus",
+   "potus46archive",
+   "preselectbiden",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44"
+  ]
+ },
+ "332": {
+  "mentions": [
+   "Kim Martin Morrow",
+   "Marie Mares"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "345": {
+  "mentions": [
+   "Muslim candidates.(Sudarshan News",
+   "Suresh Chavhanke",
+   "Tak Ka Sabse Bada Khulasa",
+   "UPSC Jihad"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "348": {
+  "mentions": [
+   "Nicolas Clamorgan",
+   "Wildfires"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "349": {
+  "mentions": [
+   "CIA",
+   "FBI",
+   "James Comey",
+   "John Brennan",
+   "Paul Raczkowski"
+  ],
+  "domains": [
+   "fbi.gov"
+  ],
+  "handles": [
+   "comey",
+   "fbi",
+   "fbianchorage",
+   "fbiboston",
+   "fbicleveland",
+   "fbidetroit",
+   "fbihonolulu",
+   "fbihouston",
+   "fbilosangeles",
+   "fbirecordsvault",
+   "fbisaltlakecity",
+   "fbisanfrancisco",
+   "fbispringfield",
+   "fbiwfo",
+   "formerbu",
+   "johnbrennan",
+   "newyorkfbi"
+  ]
+ },
+ "350": {
+  "mentions": [],
+  "domains": [],
+  "handles": []
+ },
+ "354": {
+  "mentions": [
+   "Edo State governor, Godwin Obaseki",
+   "Godwin Obaseki's"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "367": {
+  "mentions": [
+   "Civil Services",
+   "UPCS",
+   "Union Public Service Commission",
+   "the Government of India"
+  ],
+  "domains": [
+   "upcsr.org",
+   "upsc.gov.in"
+  ],
+  "handles": []
+ },
+ "368": {
+  "mentions": [
+   "Civil Services",
+   "UPCS",
+   "Union Public Service Commission",
+   "the Government of India"
+  ],
+  "domains": [
+   "upcsr.org",
+   "upsc.gov.in"
+  ],
+  "handles": []
+ },
+ "371": {
+  "mentions": [
+   "Civil Services",
+   "UPCS",
+   "Union Public Service Commission",
+   "the Government of India"
+  ],
+  "domains": [
+   "upcsr.org",
+   "upsc.gov.in"
+  ],
+  "handles": []
+ },
+ "373": {
+  "mentions": [
+   "UPSC",
+   "the Indian Government"
+  ],
+  "domains": [
+   "upsc.se"
+  ],
+  "handles": []
+ },
+ "374": {
+  "mentions": [
+   "Saranac Hale Spencer"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "382": {
+  "mentions": [
+   "Instagram",
+   "Jason Gentile",
+   "Kamala Harris"
+  ],
+  "domains": [
+   "kamalaharris.com",
+   "whitehouse.gov"
+  ],
+  "handles": [
+   "design",
+   "instagram",
+   "instagrames",
+   "instagramforbusiness",
+   "kamalaharris",
+   "senatorkamalaharris",
+   "senkamalaharris",
+   "shop",
+   "vicepresident",
+   "vp",
+   "vp46archive"
+  ]
+ },
+ "387": {
+  "mentions": [
+   "COVID-19",
+   "Jonathan Ashworth"
+  ],
+  "domains": [
+   "jonashworth.org"
+  ],
+  "handles": [
+   "jonashworth",
+   "jonashworthmp"
+  ]
+ },
+ "388": {
+  "mentions": [
+   "Indrajit Chakraborty",
+   "Rhea Chakrabortys"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "389": {
+  "mentions": [
+   "Ayatollah Seyyed Ali Khamenei",
+   "Charlie Hebdo",
+   "Islam",
+   "Prophet"
+  ],
+  "domains": [
+   "bnf.fr",
+   "charliehebdo.fr"
+  ],
+  "handles": [
+   "106626879360459",
+   "charliehebdo",
+   "charliehebdoofficiel"
+  ]
+ },
+ "391": {
+  "mentions": [
+   "COVID-19"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "394": {
+  "mentions": [
+   "Donald Trump",
+   "Trump"
+  ],
+  "domains": [
+   "45office.com",
+   "donaldjtrump.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "potus",
+   "potus45",
+   "realdonaldtrump"
+  ]
+ },
+ "395": {
+  "mentions": [
+   "Bubba Watson",
+   "Fred Childs",
+   "PGA"
+  ],
+  "domains": [
+   "bubbawatsongolf.com"
+  ],
+  "handles": [
+   "bubbawatson",
+   "bubbawatsongolf"
+  ]
+ },
+ "396": {
+  "mentions": [
+   "the Indian Police Service"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "399": {
+  "mentions": [
+   "Abdul",
+   "Daily Trust",
+   "Yemi Osinbajo",
+   "the Process and Industrious Development Limited"
+  ],
+  "domains": [
+   "dailytrust.com",
+   "yemiosinbajo.ng"
+  ],
+  "handles": [
+   "profosinbajo"
+  ]
+ },
+ "402": {
+  "mentions": [
+   "Sahara Reporters"
+  ],
+  "domains": [
+   "saharareporters.com"
+  ],
+  "handles": [
+   "reportyourself",
+   "saharareporters"
+  ]
+ },
+ "405": {
+  "mentions": [
+   "Bollywood",
+   "Kangana Ranaut",
+   "MNS",
+   "Maharashtra Navnirman Sena",
+   "Raj Thackeray",
+   "Twitter user @RealThackeray"
+  ],
+  "domains": [
+   "manase.org"
+  ],
+  "handles": [
+   "kanganaranaut",
+   "kanganateam",
+   "musalsalatbollywood",
+   "pmusalsalatbollywood100085485267443",
+   "rajthackeray"
+  ]
+ },
+ "411": {
+  "mentions": [
+   "Lin Wood",
+   "Mark Zuckerberg",
+   "Richard Jewell"
+  ],
+  "domains": [
+   "linwoodlaw.com"
+  ],
+  "handles": [
+   "finkd",
+   "linwoodlaw",
+   "llinwood",
+   "richardjewellfilm",
+   "rjewellfilm",
+   "zuck"
+  ]
+ },
+ "412": {
+  "mentions": [
+   "BJP West Bengal",
+   "Chinese Air Force"
+  ],
+  "domains": [
+   "81.cn",
+   "chinamil.com.cn"
+  ],
+  "handles": []
+ },
+ "418": {
+  "mentions": [
+   "Angela Schneeman"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "422": {
+  "mentions": [
+   "Haldiram"
+  ],
+  "domains": [
+   "haldiram.com",
+   "haldiram.online",
+   "haldirams.com"
+  ],
+  "handles": [
+   "haldiraminternational",
+   "haldiramsnacks",
+   "haldiramsonline"
+  ]
+ },
+ "423": {
+  "mentions": [
+   "Mark Kelly",
+   "Martha McSally",
+   "Medicare"
+  ],
+  "domains": [
+   "markkelly.com",
+   "medicare.gov",
+   "senate.gov"
+  ],
+  "handles": [
+   "captmarkkelly",
+   "marthamcsally",
+   "medicare",
+   "medicaregov",
+   "repmcsally",
+   "senmarkkelly",
+   "senmcsallyaz"
+  ]
+ },
+ "425": {
+  "mentions": [
+   "Fox News",
+   "the Radio Act"
+  ],
+  "domains": [
+   "foxnews.com"
+  ],
+  "handles": [
+   "foxheadlines",
+   "foxnews",
+   "foxnewsalert",
+   "foxnewsopinion",
+   "foxnewspolitics",
+   "foxnewsvideo"
+  ]
+ },
+ "428": {
+  "mentions": [
+   "COVID",
+   "Jon Greenberg"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "431": {
+  "mentions": [
+   "Trump",
+   "the White House"
+  ],
+  "domains": [
+   "whitehouse.gov"
+  ],
+  "handles": [
+   "lacasablanca",
+   "transition46",
+   "whitehouse",
+   "whitehouse45"
+  ]
+ },
+ "434": {
+  "mentions": [
+   "Trump"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "438": {
+  "mentions": [],
+  "domains": [],
+  "handles": []
+ },
+ "440": {
+  "mentions": [
+   "The Times"
+  ],
+  "domains": [
+   "thetimes.co.uk",
+   "thetimes.com"
+  ],
+  "handles": [
+   "thetimes",
+   "timesandsundaytimes"
+  ]
+ },
+ "441": {
+  "mentions": [
+   "Arjun Singh",
+   "Bengal Temple",
+   "Goddess Kali Idol",
+   "Murshidabad"
+  ],
+  "domains": [
+   "murshidabad.nic.in"
+  ],
+  "handles": []
+ },
+ "450": {
+  "mentions": [
+   "Trump"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "451": {
+  "mentions": [
+   "LEGAL"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "454": {
+  "mentions": [
+   "Zoran Domijan"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "458": {
+  "mentions": [
+   "The South African Police Service"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "459": {
+  "mentions": [],
+  "domains": [],
+  "handles": []
+ },
+ "460": {
+  "mentions": [],
+  "domains": [],
+  "handles": []
+ },
+ "462": {
+  "mentions": [
+   "Fox News"
+  ],
+  "domains": [
+   "foxnews.com"
+  ],
+  "handles": [
+   "foxheadlines",
+   "foxnews",
+   "foxnewsalert",
+   "foxnewsopinion",
+   "foxnewspolitics",
+   "foxnewsvideo"
+  ]
+ },
+ "466": {
+  "mentions": [
+   "License Plate"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "467": {
+  "mentions": [
+   "COVID-19",
+   "Dhoni Forever",
+   "IPL",
+   "the Chennai Super Kings"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "470": {
+  "mentions": [
+   "Dr. Avni Chaudhary"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "471": {
+  "mentions": [
+   "Ridin' With Biden",
+   "The First Time The White House"
+  ],
+  "domains": [],
+  "handles": []
+ },
+ "473": {
+  "mentions": [
+   "Biden",
+   "Donald Trump"
+  ],
+  "domains": [
+   "45office.com",
+   "donaldjtrump.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "potus",
+   "potus45",
+   "realdonaldtrump"
+  ]
+ },
+ "478": {
+  "mentions": [],
+  "domains": [],
+  "handles": []
+ },
+ "480": {
+  "mentions": [
+   "Biden",
+   "Donald Trump"
+  ],
+  "domains": [
+   "45office.com",
+   "donaldjtrump.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "potus",
+   "potus45",
+   "realdonaldtrump"
+  ]
+ },
+ "481": {
+  "mentions": [
+   "Donald Trump",
+   "Joe Biden"
+  ],
+  "domains": [
+   "45office.com",
+   "bidenfoundation.org",
+   "donaldjtrump.com",
+   "joebiden.com"
+  ],
+  "handles": [
+   "donaldtrump",
+   "joebiden",
+   "potus",
+   "potus45",
+   "potus46archive",
+   "preselectbiden",
+   "realdonaldtrump",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44"
+  ]
+ },
+ "484": {
+  "mentions": [
+   "Edo State",
+   "Pastor Ize-Lyamu"
+  ],
+  "domains": [
+   "edostate.gov.ng"
+  ],
+  "handles": []
+ },
+ "491": {
+  "mentions": [
+   "Joe Biden",
+   "Mike Pence"
+  ],
+  "domains": [
+   "archives.gov",
+   "bidenfoundation.org",
+   "house.gov",
+   "joebiden.com",
+   "mikepence.com",
+   "whitehouse.gov"
+  ],
+  "handles": [
+   "govpencein",
+   "joebiden",
+   "mikepence",
+   "potus",
+   "potus46archive",
+   "preselectbiden",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44",
+   "vp45"
+  ]
+ },
+ "492": {
+  "mentions": [
+   "Donald Trump",
+   "Joe Biden",
+   "Mike Pence"
+  ],
+  "domains": [
+   "45office.com",
+   "archives.gov",
+   "bidenfoundation.org",
+   "donaldjtrump.com",
+   "house.gov",
+   "joebiden.com",
+   "mikepence.com",
+   "whitehouse.gov"
+  ],
+  "handles": [
+   "donaldtrump",
+   "govpencein",
+   "joebiden",
+   "mikepence",
+   "potus",
+   "potus45",
+   "potus46archive",
+   "preselectbiden",
+   "realdonaldtrump",
+   "vicepresident",
+   "vicepresidentbiden44",
+   "vp",
+   "vp44",
+   "vp45"
+  ]
+ }
+}

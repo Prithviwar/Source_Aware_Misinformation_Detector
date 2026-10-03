@@ -1,0 +1,37 @@
+wikidata: 250 new mentions
+HTTP 429; waiting 32s
+HTTP 429; waiting 42s
+searched 25/250
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+searched 50/250
+HTTP 429; waiting 42s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+searched 75/250
+HTTP 429; waiting 42s
+HTTP 429; waiting 43s
+searched 100/250
+HTTP 429; waiting 42s
+HTTP 429; waiting 44s
+HTTP 429; waiting 43s
+searched 125/250
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+searched 150/250
+HTTP 429; waiting 42s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+searched 175/250
+HTTP 429; waiting 43s
+HTTP 429; waiting 42s
+searched 200/250
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+searched 225/250
+HTTP 429; waiting 42s
+HTTP 429; waiting 43s
+searched 250/250
+HTTP 429; waiting 43s
+wikidata done

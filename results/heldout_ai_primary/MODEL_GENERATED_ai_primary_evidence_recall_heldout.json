@@ -1,0 +1,338 @@
+{
+ "endpoint": "AI-labelled primary-evidence recall",
+ "label_source": "MODEL_GENERATED (AI, Claude Opus 5.5); NOT human-annotated",
+ "same_model_as_authority_predictor": true,
+ "roles_file": "../data/annotations/heldout_primary_package/ai/MODEL_GENERATED_evidence_heldout_runA_CLAUDE_OPUS_5_5.csv",
+ "metric_names_note": "'Prim*' keys below mean AI-labelled primary-evidence metrics (AI-PrimR@K etc.)",
+ "annotation_file": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\sourceawaremisinformation\\data\\annotations\\heldout_primary_package\\ai\\MODEL_GENERATED_heldout_primary_sheet_from_evidence_roles.csv",
+ "annotation_sha256": "d4758142ec9eecba54b5f13f34061a95ffe1f811737f407a6871475c7467e6cd",
+ "scorer_sha256": "114bf0cac69cce3d43f718360852568199f5af4abb660a85cf924a4f7d046ad2",
+ "frozen_rankings_sha256": "9105a5da66a287de70fdc6e7e9b5135200589d58c542d61787e7ed883cb66558",
+ "annotators": [
+  "MODEL_GENERATED_CLAUDE_OPUS_5_5_EVIDENCE_ROLES"
+ ],
+ "main": {
+  "funnel": {
+   "claims_annotated": 192,
+   "situation_counts": {
+    "single_primary": 79,
+    "multiple_legitimate_authorities": 21,
+    "no_identifiable_primary": 92,
+    "unclear": 0
+   },
+   "excluded_no_or_unclear_primary": 92,
+   "excluded_low_confidence": 0,
+   "annotated_authority_has_gold_url_any": 100,
+   "claims_with_reachable_primary_doc (denominator)": 72,
+   "primary_docs": 89
+  },
+  "table": {
+   "hybrid": {
+    "PrimR@1": 0.028,
+    "PrimR@3": 0.042,
+    "PrimR@5": 0.056,
+    "PrimR@10": 0.097,
+    "PrimR@20": 0.139,
+    "PrimMRR@100": 0.051,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "hybrid+generic": {
+    "PrimR@1": 0.028,
+    "PrimR@3": 0.069,
+    "PrimR@5": 0.167,
+    "PrimR@10": 0.181,
+    "PrimR@20": 0.278,
+    "PrimMRR@100": 0.081,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "hybrid+heuristic": {
+    "PrimR@1": 0.028,
+    "PrimR@3": 0.069,
+    "PrimR@5": 0.153,
+    "PrimR@10": 0.181,
+    "PrimR@20": 0.292,
+    "PrimMRR@100": 0.081,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "hybrid+llm_authority": {
+    "PrimR@1": 0.097,
+    "PrimR@3": 0.167,
+    "PrimR@5": 0.236,
+    "PrimR@10": 0.278,
+    "PrimR@20": 0.306,
+    "PrimMRR@100": 0.151,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "targeted": {
+    "PrimR@1": 0.139,
+    "PrimR@3": 0.236,
+    "PrimR@5": 0.306,
+    "PrimR@10": 0.403,
+    "PrimR@20": 0.403,
+    "PrimMRR@100": 0.208,
+    "Prim_claim_coverage": 0.403,
+    "n_claims": 72
+   },
+   "hybrid+targeted": {
+    "PrimR@1": 0.083,
+    "PrimR@3": 0.222,
+    "PrimR@5": 0.278,
+    "PrimR@10": 0.375,
+    "PrimR@20": 0.444,
+    "PrimMRR@100": 0.18,
+    "Prim_claim_coverage": 0.597,
+    "n_claims": 72
+   },
+   "hybrid+targeted+llm_authority": {
+    "PrimR@1": 0.125,
+    "PrimR@3": 0.25,
+    "PrimR@5": 0.319,
+    "PrimR@10": 0.431,
+    "PrimR@20": 0.458,
+    "PrimMRR@100": 0.215,
+    "Prim_claim_coverage": 0.597,
+    "n_claims": 72
+   },
+   "control:hybrid_top(100+added)": {
+    "PrimR@1": 0.028,
+    "PrimR@3": 0.042,
+    "PrimR@5": 0.056,
+    "PrimR@10": 0.097,
+    "PrimR@20": 0.139,
+    "PrimMRR@100": 0.051,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "ORACLE:targeted+prior": {
+    "PrimR@1": 0.25,
+    "PrimR@3": 0.375,
+    "PrimR@5": 0.528,
+    "PrimR@10": 0.694,
+    "PrimR@20": 0.722,
+    "PrimMRR@100": 0.36,
+    "Prim_claim_coverage": "N/A (pool not saved)",
+    "n_claims": 72
+   }
+  },
+  "tests_holm": [
+   {
+    "test": "PrimR@10 G vs A",
+    "n": 72,
+    "wins": 25,
+    "losses": 1,
+    "p": 0.0,
+    "diff": 0.3333,
+    "CI95": [
+     0.2222,
+     0.4583
+    ],
+    "p_holm": 0.0
+   },
+   {
+    "test": "PrimR@10 G vs D",
+    "n": 72,
+    "wins": 13,
+    "losses": 2,
+    "p": 0.00739,
+    "diff": 0.1528,
+    "CI95": [
+     0.0556,
+     0.25
+    ],
+    "p_holm": 0.00739
+   },
+   {
+    "test": "PrimR@10 D vs A",
+    "n": 72,
+    "wins": 14,
+    "losses": 1,
+    "p": 0.00098,
+    "diff": 0.1806,
+    "CI95": [
+     0.0833,
+     0.2778
+    ],
+    "p_holm": 0.00294
+   },
+   {
+    "test": "PrimCoverage F vs size-matched control",
+    "n": 72,
+    "wins": 10,
+    "losses": 0,
+    "p": 0.00195,
+    "diff": 0.1389,
+    "CI95": [
+     0.0694,
+     0.2222
+    ],
+    "p_holm": 0.0039
+   }
+  ]
+ },
+ "sensitivity_excluding_low_confidence": {
+  "funnel": {
+   "claims_annotated": 192,
+   "situation_counts": {
+    "single_primary": 79,
+    "multiple_legitimate_authorities": 21,
+    "no_identifiable_primary": 92,
+    "unclear": 0
+   },
+   "excluded_no_or_unclear_primary": 92,
+   "excluded_low_confidence": 2,
+   "annotated_authority_has_gold_url_any": 98,
+   "claims_with_reachable_primary_doc (denominator)": 72,
+   "primary_docs": 89
+  },
+  "table": {
+   "hybrid": {
+    "PrimR@1": 0.028,
+    "PrimR@3": 0.042,
+    "PrimR@5": 0.056,
+    "PrimR@10": 0.097,
+    "PrimR@20": 0.139,
+    "PrimMRR@100": 0.051,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "hybrid+generic": {
+    "PrimR@1": 0.028,
+    "PrimR@3": 0.069,
+    "PrimR@5": 0.167,
+    "PrimR@10": 0.181,
+    "PrimR@20": 0.278,
+    "PrimMRR@100": 0.081,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "hybrid+heuristic": {
+    "PrimR@1": 0.028,
+    "PrimR@3": 0.069,
+    "PrimR@5": 0.153,
+    "PrimR@10": 0.181,
+    "PrimR@20": 0.292,
+    "PrimMRR@100": 0.081,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "hybrid+llm_authority": {
+    "PrimR@1": 0.097,
+    "PrimR@3": 0.167,
+    "PrimR@5": 0.236,
+    "PrimR@10": 0.278,
+    "PrimR@20": 0.306,
+    "PrimMRR@100": 0.151,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "targeted": {
+    "PrimR@1": 0.139,
+    "PrimR@3": 0.236,
+    "PrimR@5": 0.306,
+    "PrimR@10": 0.403,
+    "PrimR@20": 0.403,
+    "PrimMRR@100": 0.208,
+    "Prim_claim_coverage": 0.403,
+    "n_claims": 72
+   },
+   "hybrid+targeted": {
+    "PrimR@1": 0.083,
+    "PrimR@3": 0.222,
+    "PrimR@5": 0.278,
+    "PrimR@10": 0.375,
+    "PrimR@20": 0.444,
+    "PrimMRR@100": 0.18,
+    "Prim_claim_coverage": 0.597,
+    "n_claims": 72
+   },
+   "hybrid+targeted+llm_authority": {
+    "PrimR@1": 0.125,
+    "PrimR@3": 0.25,
+    "PrimR@5": 0.319,
+    "PrimR@10": 0.431,
+    "PrimR@20": 0.458,
+    "PrimMRR@100": 0.215,
+    "Prim_claim_coverage": 0.597,
+    "n_claims": 72
+   },
+   "control:hybrid_top(100+added)": {
+    "PrimR@1": 0.028,
+    "PrimR@3": 0.042,
+    "PrimR@5": 0.056,
+    "PrimR@10": 0.097,
+    "PrimR@20": 0.139,
+    "PrimMRR@100": 0.051,
+    "Prim_claim_coverage": 0.458,
+    "n_claims": 72
+   },
+   "ORACLE:targeted+prior": {
+    "PrimR@1": 0.25,
+    "PrimR@3": 0.375,
+    "PrimR@5": 0.528,
+    "PrimR@10": 0.694,
+    "PrimR@20": 0.722,
+    "PrimMRR@100": 0.36,
+    "Prim_claim_coverage": "N/A (pool not saved)",
+    "n_claims": 72
+   }
+  },
+  "tests_holm": [
+   {
+    "test": "PrimR@10 G vs A",
+    "n": 72,
+    "wins": 25,
+    "losses": 1,
+    "p": 0.0,
+    "diff": 0.3333,
+    "CI95": [
+     0.2222,
+     0.4583
+    ],
+    "p_holm": 0.0
+   },
+   {
+    "test": "PrimR@10 G vs D",
+    "n": 72,
+    "wins": 13,
+    "losses": 2,
+    "p": 0.00739,
+    "diff": 0.1528,
+    "CI95": [
+     0.0556,
+     0.25
+    ],
+    "p_holm": 0.00739
+   },
+   {
+    "test": "PrimR@10 D vs A",
+    "n": 72,
+    "wins": 14,
+    "losses": 1,
+    "p": 0.00098,
+    "diff": 0.1806,
+    "CI95": [
+     0.0833,
+     0.2778
+    ],
+    "p_holm": 0.00294
+   },
+   {
+    "test": "PrimCoverage F vs size-matched control",
+    "n": 72,
+    "wins": 10,
+    "losses": 0,
+    "p": 0.00195,
+    "diff": 0.1389,
+    "CI95": [
+     0.0694,
+     0.2222
+    ],
+    "p_holm": 0.0039
+   }
+  ]
+ }
+}

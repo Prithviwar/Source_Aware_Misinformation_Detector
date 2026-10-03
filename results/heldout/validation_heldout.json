@@ -1,0 +1,201 @@
+{
+ "n_claims": 200,
+ "n_missing_predictions": 0,
+ "n_gold_reachable": 167,
+ "n_gold_web_any": 192,
+ "n_primary_reachable": 0,
+ "lambda": 1.0,
+ "pool": 100,
+ "table": {
+  "bm25": {
+   "R@5": 0.132,
+   "R@10": 0.18,
+   "R@20": 0.251,
+   "n_gold": 167
+  },
+  "dense": {
+   "R@5": 0.18,
+   "R@10": 0.251,
+   "R@20": 0.353,
+   "n_gold": 167
+  },
+  "hybrid": {
+   "R@5": 0.156,
+   "R@10": 0.251,
+   "R@20": 0.383,
+   "n_gold": 167
+  },
+  "hybrid+generic": {
+   "R@5": 0.174,
+   "R@10": 0.263,
+   "R@20": 0.383,
+   "n_gold": 167
+  },
+  "hybrid+authority": {
+   "R@5": 0.198,
+   "R@10": 0.293,
+   "R@20": 0.437,
+   "n_gold": 167
+  }
+ },
+ "primary_endpoint": {
+  "metric": "R@10",
+  "comparison": "hybrid+authority vs hybrid",
+  "n": 167,
+  "test": "exact McNemar, two-sided",
+  "H0": "equal per-claim hit@10 probability",
+  "wins": 13,
+  "losses": 6,
+  "ties": 148,
+  "p": 0.16707,
+  "diff_R@10": 0.0419,
+  "bootstrap95CI": [
+   -0.006,
+   0.0958
+  ]
+ },
+ "secondary_family_holm": [
+  {
+   "test": "R@5 vs hybrid",
+   "wins": 11,
+   "losses": 4,
+   "ties": 152,
+   "p": 0.11847,
+   "diff": 0.0419,
+   "bootstrap95CI": [
+    -0.006,
+    0.0898
+   ],
+   "p_holm": 0.37256
+  },
+  {
+   "test": "R@20 vs hybrid",
+   "wins": 12,
+   "losses": 3,
+   "ties": 152,
+   "p": 0.03516,
+   "diff": 0.0539,
+   "bootstrap95CI": [
+    0.012,
+    0.1018
+   ],
+   "p_holm": 0.1758
+  },
+  {
+   "test": "R@5 vs generic",
+   "wins": 14,
+   "losses": 10,
+   "ties": 143,
+   "p": 0.54126,
+   "diff": 0.024,
+   "bootstrap95CI": [
+    -0.0359,
+    0.0838
+   ],
+   "p_holm": 0.88414
+  },
+  {
+   "test": "R@10 vs generic",
+   "wins": 16,
+   "losses": 11,
+   "ties": 140,
+   "p": 0.44207,
+   "diff": 0.0299,
+   "bootstrap95CI": [
+    -0.0299,
+    0.0898
+   ],
+   "p_holm": 0.88414
+  },
+  {
+   "test": "R@20 vs generic",
+   "wins": 16,
+   "losses": 7,
+   "ties": 144,
+   "p": 0.09314,
+   "diff": 0.0539,
+   "bootstrap95CI": [
+    0.0,
+    0.1078
+   ],
+   "p_holm": 0.37256
+  }
+ ],
+ "descriptive_generic_vs_hybrid": {
+  "R@5": {
+   "wins": 13,
+   "losses": 10,
+   "p_uncorrected": 0.6776394844055176
+  },
+  "R@10": {
+   "wins": 15,
+   "losses": 13,
+   "p_uncorrected": 0.8505540192127228
+  },
+  "R@20": {
+   "wins": 16,
+   "losses": 16,
+   "p_uncorrected": 1.0
+  }
+ },
+ "rank_win_loss_tie": {
+  "authority_vs_hybrid": {
+   "tie": 95,
+   "loss": 52,
+   "win": 20
+  },
+  "authority_vs_generic": {
+   "loss": 39,
+   "win": 66,
+   "tie": 62
+  },
+  "ties_where_gold_absent_from_both": 55
+ },
+ "authority_accuracy_vs_human_gold": {
+  "n": 192,
+  "top1_match": "56/192 = 0.292",
+  "top3_match": "75/192 = 0.391",
+  "no_key_match_but_name_in_gold_text": 17,
+  "no_match": 100,
+  "note": "target = publishers of ALL human gold URLs (news/fact-check pages included) -> lower bound"
+ },
+ "candidate_pool_coverage": {
+  "top50": {
+   "claims_with_predicted_publisher_doc": "89/167",
+   "claims_whose_predicted_publisher_gold_doc_is_in_pool": "17/56"
+  },
+  "top100": {
+   "claims_with_predicted_publisher_doc": "113/167",
+   "claims_whose_predicted_publisher_gold_doc_is_in_pool": "23/56"
+  },
+  "top200": {
+   "claims_with_predicted_publisher_doc": "139/167",
+   "claims_whose_predicted_publisher_gold_doc_is_in_pool": "37/56"
+  },
+  "all_candidates": {
+   "claims_with_predicted_publisher_doc": "160/167",
+   "claims_whose_predicted_publisher_gold_doc_is_in_pool": "56/56"
+  }
+ },
+ "memorisation_probe": {
+  "n_probed": 200,
+  "self_reported_recognised": 65,
+  "likely_recognised_(fact_checker_domain_correct)": 29,
+  "subset_not_recognised": {
+   "n": 140,
+   "R@10_hybrid": 0.257,
+   "R@10_generic": 0.25,
+   "R@10_authority": 0.286,
+   "authority_vs_hybrid": "+9/-5 p=0.4240 (exploratory)",
+   "authority_top3_acc_vs_human_gold": 0.386
+  },
+  "subset_recognised": {
+   "n": 27,
+   "R@10_hybrid": 0.222,
+   "R@10_generic": 0.333,
+   "R@10_authority": 0.333,
+   "authority_vs_hybrid": "+4/-1 p=0.3750 (exploratory)",
+   "authority_top3_acc_vs_human_gold": 0.407
+  }
+ }
+}

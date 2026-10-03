@@ -1,0 +1,121 @@
+claim_id,location_ISO_code,speaker,entity_keys,pool_entity_matches,pool_claim_prior_1,pool_generic_1,entity_matched_examples
+1,US,,trumpadministration,0,0,0,
+5,SY,Syrian Arab News Agency (SANA),chemicalweaponsconvention cwc sana sanas syrianarabnewsagencysana,1,1,27,cwc.gov/cwc_treaty.html
+7,US,Joe Biden,biden donald donaldtrump joebiden trump,0,1,1,
+18,US,Elizabeth Gilbert,elizabeth elizabethgilbert gilbert,0,29,33,
+20,IN,BJP MP Shobha Karandlaje,bjp bjpmpshobhakarandlaje bmsk,0,0,5,
+26,,Pearson Sharp,pearson pearsonsharp sharp,0,0,26,
+31,US,Meena Harris @meenaharris,amyconeybarrett barrett coney harris meena meenaharris meenaharrismeenaharris mhm ussupremecourt,0,11,13,
+40,US,,biden joebiden jonbonjovi,1,2,2,bonjovi.com
+50,US,Zach Parkinson,biden parkinson zachparkinson,0,0,0,
+64,US,Left Action,action donald donaldjtrumpjr erictrump ivanka ivankatrump leftaction trump,2,5,9,erictrumpfoundation.com trumpwinery.com/winery/our-team
+67,IN,,nationaltestingagency neet neetexamresult2020 ner2 nta,5,10,8,neet.nta.nic.in/about-nta arpit.nta.nic.in/about-nta nchmjee.nta.nic.in/about-nta nta.ac.in/Download/FAQ_TPC_INSTITUTIONS.pdf atdsc.nis.nta.ac.in
+72,NG,,buhari muahammadu muahammadubuhari nigeriannationalpetroleumcorporation nnpc,0,1,2,
+74,US,,ernst ifb iowafarmbureau joniernst,11,17,8,iowafarmbureau.com/Article/FB-designates-Friends-of-Ag iowafarmbureau.com/Article/Statement-by-Iowa-Farm-Bureau-Federation joniernst.com/meet-joni iowafarmbureau.com/Article/Iowa-Farm-Bureau-names-Governor-Kim-Reynolds-and-Secretary-of-Agriculture-Mike-Naig-Friend-of-Agriculture iowafarmbureau.com/About/A-Century-Strong/Our-Impact/Philanthropy/Sponsorships-and-Donations
+83,US,The Blaze,blaze,0,10,11,
+85,IN,Pooja Chaudhuri,amu chaudhuri congress jinnah maskoor maskoorusmani pooja poojachaudhuri usmani,0,0,1,
+90,IN,,bjp kirron kirronkhersaid,0,1,2,
+95,NZ,Right To Life UK,abortionlegislationact ala right righttolifeuk rtl,4,14,26,righttolife.org.uk/news/nz-pm-rushes-worlds-most-extreme-abortion-law-into-law-while-country-distracted-with-pandemic abortion.org.nz/abortion-procedures reproductiverights.org/wp-content/uploads/2020/12/European-abortion-law-a-comparative-review.pdf legislation.gov.uk/ukpga/1967/87/contents
+96,PH,Pinoy News Center,center chito chitogascon chr commissiononhumanrights gascon newpeoplesarmy npsa philippinearmy pinoy pinoynewscenter pnc,7,12,19,chr.gov.ph/chr-organizational-structure chr.gov.ph/about-us chr.gov.ph/about-chr chr.gov.ph/chr-calls-for-review-of-house-to-house-drug-testing-policy-stresses-need-to-protect-rights-of-all humanrights.asia/wp-content/uploads/2018/07/PRISONS...Manila-Pen-and-Beyond.pdf
+99,NZ,Right To Life UK,abortionlegislationact ala right righttolifeuk rtl,6,11,27,righttolife.org.uk/news/nz-pm-rushes-worlds-most-extreme-abortion-law-into-law-while-country-distracted-with-pandemic righttolife.org.uk/news/nz-pm-jacinda-ardern-votes-against-born-alive-amendment righttolife.org.uk/news/new-zealand-pm-criticised-for-supporting-abortion-up-to-birth-as-election-race-heats-up reproductiverights.org/sites/default/files/documents/World-Abortion-Map.pdf reproductiverights.org/wp-content/uploads/2020/12/European-abortion-law-a-comparative-review.pdf
+103,US,@betches_sup,betches betchessup donald donaldtrump trump unitedsupremecourt usc,0,4,6,
+107,,,anthony anthonyfauci fauci niaid,0,0,17,
+116,US,Derek Utley,biden derek derekutley joebiden senate utley,1,5,7,joebiden.com
+126,US,Darryl Wayne,acw americancivilwar darryl darrylwayne grant ulysses ulyssessgrant unionarmy wayne,3,28,26,usgrantlibrary.org/usgrant/military nad.usace.army.mil/Media/News-Stories/Article/586910/army-corps-nad-commander-participates-in-grants-birthday-observance usgrantlibrary.org/usga/newsletter/volume-9-pre-1973/issue-4-jul-1972
+143,NZ,Winston Peters,peters winston winstonpeters,0,30,54,
+147,US,Kamala Haris,haris kamala kamalaharis,0,7,9,
+152,US,Kamala Haris,haris kamala kamalaharis,0,37,43,
+158,US,Very Stable Fergus,covid covid19 donald donaldtrump fergus stable trump verystablefergus vsf,0,2,7,
+174,NZ,Henna Maria,henna hennamaria maria,0,0,19,
+186,IN,Sanju Yaduwanshi Sapa,adityanath sandeep sandeepthakur sanju sanjuyaduwanshisapa sys thakur yaduwanshi yogiadityanath,0,1,1,
+187,US,Alex Jones,alexjones covid covid19 donald donaldtrump jones trump whitehouse,0,4,10,
+190,US,Richard Greene,donald donaldtrump greene richard richardgreene trump,0,4,9,
+195,NG,Muhammadu Buhari,buhari muhammadu muhammadubuhari,0,1,39,
+202,NG,Muhammadu Buhari,buhari muhammadu muhammadubuhari,0,0,48,
+206,NG,Muhammadu Buhari,buhari muhammadu muhammadubuhari,0,8,38,
+207,NG,Muhammadu Buhari,buhari muhammadu muhammadubuhari,0,1,15,
+209,NG,President Muhammadu Buhari,buhari muhammadu pmb president presidentmuhammadubuhari,0,9,39,
+210,NG,President of Nigeria Muhammadu Buhari,pnmb presidentofnigeriamuhammadubuhari,0,5,18,
+213,NG,President Muhammadu Buhari,buhari muhammadu pmb president presidentmuhammadubuhari,0,0,14,
+214,NG,President Muhammadu Buhari,buhari muhammadu pmb president presidentmuhammadubuhari,0,0,34,
+216,NG,President of Nigeria Muhammadu Buhari,pnmb presidentofnigeriamuhammadubuhari,0,0,39,
+217,NG,President of Nigeria Muhammadu Buhari,pnmb presidentofnigeriamuhammadubuhari,0,0,32,
+218,NG,Muhammadu Buhari,buhari muhammadu muhammadubuhari,0,1,35,
+219,NG,President Buhari,buhari president presidentbuhari,0,2,14,
+221,NG,President of Nigeria Muhammadu Buhari,pnmb presidentofnigeriamuhammadubuhari,0,0,18,
+222,NG,Muhammadu Buhari,buhari muhammadu muhammadubuhari nigeria,2,2,24,nigerianstat.gov.ng/elibrary/read/1241254 nigeriatravelsandtours.com/an-introduction-to-nigeria
+226,US,Nathan Brand,brand nathan nathanbrand,0,3,6,
+235,GB,Jessica Shelley Monk,jessica jessicashelleymonk jsm shelley,0,7,16,
+238,NZ,Jacinda Ardern,ardern collins jacinda jacindaardern judith judithcollins nationalparty,1,6,10,judithcollins.national.org.nz/about-judith
+241,US,Donald Trump,biden donald donaldtrump joebiden trump,0,15,17,
+243,,Prashant Dahale,coronavirus dahale prashant prashantdahale,0,0,10,
+261,IN,,gandhi green,0,3,7,
+264,US,Anthony Jeffries,anthony anthonyjeffries donald donaldtrump jeffries trump,0,8,8,
+274,,Raju Kasim,adanilogisticslimited all kasim parliament rajukasim,2,2,9,bills.parliament.uk/bills/2292 logistics.gov.in/media/jg0ab5wi/supply-chain-in-fci-2013.pdf
+275,IN,Shortpedia,khan kkr kolkataknightriders relianceretail shortpedia,2,2,0,media.kkr.com/rss-feed/news-release?news_id=aac35e06-c756-41b8-b496-48115c7e5ad4 kkr.com/about/our-people/prashant-kumar
+277,US,Michael Young,billdeblasio blasio michael michaelyoung young,0,2,6,
+280,US,,,0,30,35,
+286,US,Michael Beschloss,bader beschloss capitol ginsburg michael michaelbeschloss ruthbaderginsburg ussc ussupremecourt,3,10,12,supremecourt.gov/publicinfo/press/pressreleases/pr_09-21-20 supremecourt.gov/about/biographyginsburg.aspx capitolhistory.org/explore/historical-articles/lying-in-state-in-the-capitol-rotunda
+288,US,Charlie Kirk,charlie charliekirk,0,4,6,
+298,GB,Various,covid various,0,2,11,
+305,RU,,komarov photo photoshowing showing vladimir vladimirkomarov,1,1,6,rarehistoricalphotos.com/search/vladimir%20komarov
+306,IN,The Tatva India,brucellosis india tatva tatvaindia,1,1,33,m.timesofindia.com/world/china/what-is-brucellosis-outbreak-the-bacterial-disease-infecting-china/articleshow/78184574.cms
+307,US,Jon Cook,bader ginsburg joncook ruthbaderginsburg,0,6,11,
+308,US,Freya Ferdinand II,ferdinand ffi freya freyaferdinandii sightwaycapital,0,1,1,
+315,US,Joe Biden,biden joebiden supremecourt,2,30,32,supremecourt.gov/about/faq_justices.aspx supremecourt.gov/about/faq_general.aspx
+320,US,Don Moynihan,donmoynihan moynihan whitehouse,0,26,30,
+321,US,,,0,21,46,
+323,US,Joe Biden,aca affordablecareact biden donald donaldtrump joebiden trump,0,14,19,
+325,US,Joe Biden,biden joebiden,0,6,9,
+332,US,Marie Mares,kimmartinmorrow mares marie mariemares martin morrow,0,4,5,
+345,,,chavhanke khulasa mcsn muslimcandidatessudarshannews sabse suresh sureshchavhanke takkasabsebadakhulasa upsc upscjihad,3,3,4,upsc.gov.in/about-us/divisions/examination/introduction sprintupsc.com/about-upsc.html upsconline.nic.in/ora/VacancyNoticePub.php
+348,US,Nicolas Clamorgan,clamorgan nicolas nicolasclamorgan wildfires,0,26,30,
+349,US,Paul Raczkowski,brennan cia comey fbi james jamescomey johnbrennan paulraczkowski raczkowski,1,12,15,fbi.gov/history/directors/james-b-comey
+350,US,,,0,21,25,
+354,NG,"Edo State governor, Godwin Obaseki",edostategovernorgodwinobaseki esggo godwin godwinobasekis obaseki,5,14,17,edostate.gov.ng/edo-unemployment-rate-falls-from-25-1-to-19-on-back-of-obasekis-job-creation-drive edostate.gov.ng/obaseki-remains-teachers-best-governor-his-achievements-in-education-sector-unprecedented-edo-teachers edostate.gov.ng invest.edostate.gov.ng edostate.gov.ng/governor-godwin-obaseki-felicitating-with-his-aunt-deaconess-victoria-ojemudia-during-her-90th-birthday-celebration
+367,IN,,civilservices governmentofindia unionpublicservicecommission upcs upsc,5,14,14,upsc.gov.in/sites/default/files/NO-50_99-00.pdf upsc.gov.in/sites/default/files/Engl_CSP_2017.pdf upsc.gov.in/about-us/functions upsc.gov.in/sites/default/files/Engl_IFS_2017.pdf upsconline.nic.in/ora/VacancyNoticePub.php
+368,IN,,civilservices governmentofindia unionpublicservicecommission upcs upsc,13,19,20,upsc.gov.in/sites/default/files/NO-50_99-00.pdf upsc.gov.in/sites/default/files/Engl_CSP_2017.pdf upsc.gov.in/sites/default/files/Cut_Off_Marks_CS2019_Eng.pdf upsc.gov.in/sites/default/files/Cutoff-CSE-2017-Engl.pdf upsc.gov.in/sites/default/files/CutOff_CSE_2016_Engl_040717.pdf
+371,IN,,civilservices governmentofindia unionpublicservicecommission upcs upsc,10,19,18,india.com/news/india/upsc-exams-age-limit-to-appear-for-ias-ips-to-be-reduced-1206534 upsc.gov.in/recruitment-1 upsc.gov.in/sites/default/files/NO-50_99-00.pdf upsc.gov.in/sites/default/files/Engl_CSP_2017.pdf services.india.gov.in/service/detail/apply-online-for-various-examinations-of-union-public-service-commission-1
+373,IN,,indiangovernment upsc,2,8,8,upsc.gov.in/about-us/divisions/examination/introduction upsc.gov.in/sites/default/files/www_upsc_gov_in_general_rti_Annualr55_14.pdf
+374,US,Saranac Hale Spencer,saranac saranachalespencer shs spencer,0,17,19,
+382,US,Jason Gentile,gentile harris instagram jason jasongentile kamala kamalaharris,0,5,7,
+387,GB,Jonathan Ashworth,ashworth covid covid19 jonathan jonathanashworth,0,12,28,
+388,IN,Indrajit Chakraborty,chakraborty indrajit indrajitchakraborty rheachakrabortys,0,0,0,
+389,IR,Ayatollah Seyyed Ali Khamenei,asak ayatollahseyyedalikhamenei charlie charliehebdo hebdo islam prophet,0,0,2,
+391,CA,,covid covid19,0,0,6,
+394,US,Donald Trump,donald donaldtrump trump,0,7,8,
+395,US,Fred Childs,bubba bubbawatson childs fredchilds pga watson,0,1,3,
+396,IN,,indianpoliceservice ips,0,13,39,
+399,NG,Abdul,abdul dailytrust osinbajo pidl processandindustriousdevelopmentlimited yemiosinbajo,2,3,3,dailytrust.com/how-osinbajo-detected-pid-fraud-against-nigeria-uk-judge dailytrustfoundation.org/about
+402,NG,Sahara Reporters,reporters sahara saharareporters,1,10,16,saharareporters.com/2019/04/27/cbn-banks-whose-atms-issue-mutilated-naira-notes-will-be-sanctioned
+405,IN,Twitter user @RealThackeray,bollywood kangana kanganaranaut maharashtranavnirmansena mns rajthackeray ranaut realthackeray thackeray tur twitter twitteruserrealthackeray,0,0,0,
+411,US,Lin Wood,jewell linwood markzuckerberg richard richardjewell zuckerberg,0,0,3,
+412,TW,BJP West Bengal,bengal bjp bjpwestbengal bwb caf chineseairforce,0,2,10,
+418,US,Angela Schneeman,angela angelaschneeman schneeman,0,19,24,
+422,,,haldiram,2,2,7,haldirams.com/offices haldirams.com/terms-conditions
+423,US,Mark Kelly,kelly markkelly martha marthamcsally mcsally medicare,2,20,19,medicarevotes.org/congress/roll-call-votes/h376-114.2015 medicarevotes.org/congress/roll-call-votes/h144-114.2015
+425,CA,,foxnews radioact,0,16,17,
+428,US,Jon Greenberg,covid greenberg jongreenberg,0,24,30,
+431,US,,trump whitehouse,0,26,27,
+434,US,,trump,0,26,29,
+438,,,,0,0,27,
+440,IE,The Times,times,0,2,30,
+441,IN,Arjun Singh,arjun arjunsingh bengaltemple gki goddesskaliidol murshidabad singh,0,1,3,
+450,US,,trump,0,22,26,
+451,,,legal,1,1,23,sevenslegal.com/california-child-pornography-penalties
+454,ZA,Zoran Domijan,domijan zoran zorandomijan,0,0,11,
+458,ZA,,saps southafricanpoliceservice,8,8,20,saps.gov.za/about/stratframework/annual_report/2018_2019/annual_crime_report2020.pdf saps.gov.za/about/stratframework/annual_report/2021_2022/annual_crime_report_2021_2022.pdf saps.gov.za/talk/talk.php saps.gov.za/services/crimestats.php saps.gov.za/services/services.php
+459,ZA,,,0,9,18,
+460,ZA,,,0,13,29,
+462,CA,,foxnews,0,3,4,
+466,US,,licenseplate,0,47,49,
+467,IN,Dhoni Forever,chennaisuperkings covid covid19 csk dhoni dhoniforever forever ipl,0,0,0,
+470,IN,Dr. Avni Chaudhary,chaudhary dac dravnichaudhary,0,4,4,
+471,US,Ridin' With Biden,biden firsttimethewhitehouse ftwh ridin ridinwithbiden rwb,3,11,16,whitehouse.gov/administration/dr-jill-biden whitehouse.gov/ope ethics.house.gov/campaign/general-prohibition-against-using-official-resources-campaign-or-political-purposes
+473,US,Donald Trump,biden donald donaldtrump trump,0,2,4,
+478,PH,,,0,2,11,
+480,US,Donald Trump,biden donald donaldtrump trump,0,0,1,
+481,US,Donald Trump,biden donald donaldtrump joebiden trump,0,2,8,
+484,NG,Pastor Ize-Lyamu,edostate lyamu pastor pastorizelyamu pil,8,22,32,invest.edostate.gov.ng edostate.gov.ng 2009-2017.state.gov/j/drl/rls/hrrpt/2009/af/135970.htm 2009-2017.state.gov/j/drl/rls/hrrpt/2008/af/119018.htm 2009-2017.state.gov/documents/organization/160138.pdf
+491,US,Mike Pence,biden joebiden mikepence pence,0,2,5,
+492,US,Mike Pence,biden donald donaldtrump joebiden mikepence pence trump,0,8,9,

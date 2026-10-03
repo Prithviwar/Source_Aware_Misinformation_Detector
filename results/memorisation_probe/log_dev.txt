@@ -1,0 +1,87 @@
+raw_dev.jsonl: 0 cached, 600 to run (pass 1)
+  [50/600] fails so far {'unparseable (is_error=True, api=429)': 50}
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\OneDrive\Desktop\sourceawaremisinformation\experiments\memorisation_probe.py", line 353, in <module>
+    cmd_run(sys.argv[2])
+    ~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\OneDrive\Desktop\sourceawaremisinformation\experiments\memorisation_probe.py", line 167, in cmd_run
+    done = run_calls(items, path)
+  File "C:\Users\Lenovo\OneDrive\Desktop\sourceawaremisinformation\experiments\memorisation_probe.py", line 100, in run_calls
+    for n, res in enumerate(ex.map(call, todo), 1):
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Lenovo\OneDrive\Desktop\sourceawaremisinformation\experiments\memorisation_probe.py", line 70, in call
+    p = _cli(item["system"], item["prompt"])
+  File "C:\Users\Lenovo\OneDrive\Desktop\sourceawaremisinformation\experiments\memorisation_probe.py", line 63, in _cli
+    p = subprocess.run([CLAUDE, "-p", "--tools", "", "--strict-mcp-config", "--no-session-persistence",
+                        "--model", MODEL, "--system-prompt", system, "--output-format", "json"],
+                       input=prompt, capture_output=True, text=True, encoding="utf-8", cwd=empty, timeout=300)
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+raw_dev.jsonl: 0 cached, 600 to run (pass 1)
+  [50/600] fails so far {}
+  [100/600] fails so far {}
+  [150/600] fails so far {}
+  [200/600] fails so far {}
+  [250/600] fails so far {}
+  [300/600] fails so far {}
+  [350/600] fails so far {}
+  [400/600] fails so far {}
+  [450/600] fails so far {}
+  [500/600] fails so far {}
+  [550/600] fails so far {}
+  [600/600] fails so far {}
+raw_dev.jsonl: 600 cached, 0 to run (pass 2)
+raw_dev.jsonl: 600 cached, 120 to run (pass 1)
+  [50/120] fails so far {}
+  [100/120] fails so far {}
+  failures: {'unparseable (is_error=True, api=429)': 1} | sample raw: You've hit your session limit · resets 6:10pm (Asia/Kolkata)
+raw_dev.jsonl: 719 cached, 1 to run (pass 2)
+  failures: {'unparseable (is_error=True, api=429)': 1} | sample raw: You've hit your session limit · resets 6:10pm (Asia/Kolkata)
+raw_dev.jsonl: 719 cached, 1 to run (pass 3)
+  failures: {'unparseable (is_error=True, api=429)': 1} | sample raw: You've hit your session limit · resets 6:10pm (Asia/Kolkata)
+raw_dev.jsonl: 719 cached, 1 to run (pass 4)
+  failures: {'unparseable (is_error=True, api=429)': 1} | sample raw: You've hit your session limit · resets 6:10pm (Asia/Kolkata)
+raw_dev.jsonl: 719 cached, 1 to run (pass 5)
+  failures: {'unparseable (is_error=True, api=429)': 1} | sample raw: You've hit your session limit · resets 6:10pm (Asia/Kolkata)
+raw_dev.jsonl: 719 cached, 1 to run (pass 6)
+  failures: {'unparseable (is_error=True, api=429)': 1} | sample raw: You've hit your session limit · resets 6:10pm (Asia/Kolkata)
+raw_dev.jsonl: 719 cached, 1 to run (pass 7)
+  failures: {'unparseable (is_error=True, api=429)': 1} | sample raw: You've hit your session limit · resets 6:10pm (Asia/Kolkata)
+raw_dev.jsonl: 719 cached, 1 to run (pass 8)
+  failures: {'unparseable (is_error=True, api=429)': 1} | sample raw: You've hit your session limit · resets 6:10pm (Asia/Kolkata)
+run done dev

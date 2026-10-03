@@ -1,0 +1,98 @@
+{
+ "split": "dev",
+ "n_claims": 120,
+ "n_gold_reachable_claims": 99,
+ "1_authority_correct_retrieval_fails": {
+  "def": "a reachable gold doc is from a predicted top-3 publisher, but G has no gold in top-10",
+  "authority_correct_reachable": 37,
+  "G_hit@10_among_them": 28,
+  "fails": 9,
+  "fails_authgold_not_in_F_pool": 8,
+  "fails_authgold_in_pool_ranked_below_10": 1,
+  "median_G_top10_from_pred_publisher_in_fails": 10,
+  "examples": [
+   143,
+   218,
+   275,
+   286,
+   422,
+   423,
+   425,
+   434
+  ]
+ },
+ "2_authority_wrong": {
+  "def": "no predicted top-3 publisher key equals any human-gold publisher (lower bound: gold incl. news/fact-check)",
+  "n": 54,
+  "G_hit@10": 7,
+  "D_hit@10": 14,
+  "hybrid_hit@10": 16,
+  "authority_matches_only_empty_gold": 8
+ },
+ "3_gold_outside_hybrid_top100": {
+  "n": 28,
+  "of": 99,
+  "gold_in_G_top100_after_targeting": 5,
+  "then_G_hit@10": 5,
+  "authority_correct_among_them": 8
+ },
+ "3b_primary_outside_hybrid_top100": {
+  "n": 25,
+  "of": 48,
+  "brought_into_G_top100": 9,
+  "then_G_prim_hit@10": 9
+ },
+ "4_secondary_outranks_primary": {
+  "def": "claims with reachable pilot-primary AND non-primary gold; best non-primary gold ranks above best primary in G",
+  "n_claims_with_both": 15,
+  "secondary_above_primary": 6,
+  "primary_above_secondary": 9
+ },
+ "5_multiple_legitimate_authorities": {
+  "by_llm_authority_situation": {
+   "multiple_legitimate_authorities": {
+    "n": 91,
+    "G_hit@10": 30,
+    "D_hit@10": 27,
+    "authority_correct": 41
+   },
+   "single_clear_authority": {
+    "n": 7,
+    "G_hit@10": 4,
+    "D_hit@10": 6,
+    "authority_correct": 4
+   },
+   "no_clear_authority": {
+    "n": 1,
+    "G_hit@10": 1,
+    "D_hit@10": 1,
+    "authority_correct": 0
+   }
+  },
+  "claims_with_>=2_reachable_gold_publishers": 44
+ },
+ "6_missing_or_empty_gold": {
+  "claims_no_web_gold": 1,
+  "claims_web_gold_all_empty": 20,
+  "gold_urls_total": 226,
+  "gold_urls_empty": 64
+ },
+ "G_vs_D": {
+  "wins": 10,
+  "losses": 9,
+  "losses_mean_G_top10_added_by_targeting": 7.89,
+  "losses_with_>=1_targeted_doc_in_G_top10": 9,
+  "losses_authority_correct": 2,
+  "loss_examples": [
+   83,
+   99,
+   187,
+   190,
+   238,
+   275,
+   425,
+   454,
+   471
+  ]
+ }
+}

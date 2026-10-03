@@ -1,0 +1,38 @@
+authority_quality_ablation phase 2 (matched mismatched-authority perturbation) | started 2026-10-03T14:08:48 | EXPLORATORY, not preregistered
+[assignment] recorded SHA-256 cdec0f0cc05bf8641b7e71bf94b3559fae90967a7cc67f5c4d87f6cb1f20a19a | actual cdec0f0cc05bf8641b7e71bf94b3559fae90967a7cc67f5c4d87f6cb1f20a19a | match=True | read-only=True
+
+=== REPRODUCTION GATE ===
+[gate] A0 top-100 URL order vs stored system A: PASS (200 claims)
+[gate] D1 per-claim first-gold rank vs Phase 1 D1: PASS (167 claims)
+[gate] A0 per-claim first-gold rank vs Phase 1 A0: PASS (167 claims)
+[gate] analysis set S: 79 claims, all gold-reachable: PASS
+REPRODUCTION GATE: PASS
+
+=== HUMAN-GOLD ENDPOINT on S (n=79) ===
+cond | GoldR@1 | GoldR@5 | GoldR@10 | GoldR@20 | GoldR@50 | GoldR@100 | GoldMRR@100 | Gold_claim_coverage | n_gold_claims
+A0 | 0.051 | 0.152 | 0.253 | 0.342 | 0.557 | 0.684 | 0.11 | 0.684 | 79
+D1 | 0.076 | 0.266 | 0.367 | 0.443 | 0.608 | 0.684 | 0.161 | 0.684 | 79
+X1 | 0.0 | 0.076 | 0.228 | 0.329 | 0.557 | 0.684 | 0.057 | 0.684 | 79
+
+=== PAIRED TESTS on S (exploratory) ===
+R@10  D1 vs A0  +13/-4/=62 p=0.04904 holm=0.09808 diff=0.1139 CI[0.0127, 0.2152]
+R@10  X1 vs A0  +0/-2/=77 p=0.5 holm=0.5 diff=-0.0253 CI[-0.0633, 0.0]
+R@10  X1 vs D1  +2/-13/=64 p=0.00739 holm=0.02217 diff=-0.1392 CI[-0.2278, -0.0506]
+R@5   D1 vs A0  +13/-4/=62 p=0.04904 holm= diff=0.1139 CI[0.0127, 0.2152]
+R@5   X1 vs A0  +0/-6/=73 p=0.03125 holm= diff=-0.0759 CI[-0.1392, -0.0253]
+R@5   X1 vs D1  +0/-15/=64 p=6e-05 holm= diff=-0.1899 CI[-0.2785, -0.1013]
+R@20  D1 vs A0  +10/-2/=67 p=0.03857 holm= diff=0.1013 CI[0.0253, 0.1899]
+R@20  X1 vs A0  +0/-1/=78 p=1.0 holm= diff=-0.0127 CI[-0.038, 0.0]
+R@20  X1 vs D1  +2/-11/=66 p=0.02246 holm= diff=-0.1139 CI[-0.2025, -0.0253]
+
+claims where X1 moved the first gold document by >=5 ranks or across the top-10 boundary: 5
+  claim 54: A0 2 -> X1 7 (D1 6), x1=trade.gov (5 docs, gap 1), top-10 docs replaced 5
+  claim 258: A0 10 -> X1 13 (D1 24), x1=go.com (3 docs, gap -11), top-10 docs replaced 3
+  claim 281: A0 1 -> X1 8 (D1 6), x1=who.int (7 docs, gap 2), top-10 docs replaced 7
+  claim 436: A0 1 -> X1 9 (D1 7), x1=nih.gov (8 docs, gap 2), top-10 docs replaced 8
+  claim 493: A0 9 -> X1 14 (D1 12), x1=go.com (5 docs, gap 1), top-10 docs replaced 5
+descriptive by stored flag (predicted publisher matches a gold publisher), R@10 hits:
+  flag=True  n=44 | A0=9 D1=20 X1=7
+  flag=False n=35 | A0=11 D1=9 X1=11
+
+[assignment] SHA-256 after scoring cdec0f0cc05bf8641b7e71bf94b3559fae90967a7cc67f5c4d87f6cb1f20a19a | unchanged=True

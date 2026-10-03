@@ -1,0 +1,28 @@
+HTTP 429; waiting 44s
+searched 25/186
+HTTP 429; waiting 42s
+HTTP 429; waiting 42s
+HTTP 429; waiting 43s
+searched 50/186
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+searched 75/186
+HTTP 429; waiting 43s
+HTTP 429; waiting 42s
+HTTP 429; waiting 41s
+searched 100/186
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+searched 125/186
+HTTP 429; waiting 43s
+HTTP 429; waiting 44s
+HTTP 429; waiting 43s
+searched 150/186
+HTTP 429; waiting 43s
+HTTP 429; waiting 42s
+searched 175/186
+HTTP 429; waiting 44s
+HTTP 429; waiting 41s
+mentions: 186; resolved to a Wikidata item: 127; with official website/handle: 73
+claims with >=1 official domain/handle: 70/120
+[bm25] claims with >=1 Wikidata-official doc in top-100: 23/120; in full candidate list: 48

@@ -1,0 +1,66 @@
+{
+ "n_pilot": 15,
+ "pilot_rows": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15
+ ],
+ "pilot_claim_ids": [
+  132,
+  309,
+  169,
+  360,
+  392,
+  36,
+  252,
+  262,
+  444,
+  463,
+  248,
+  375,
+  42,
+  194,
+  59
+ ],
+ "canonical_sheet_sha256_unchanged": "cf063d5ebbb25c3c853f7bc1b26a3d19b621482b797e3592ce865d7b8637259c",
+ "pilot_sheet_sha256_blank": "900529bff3aaa00652e9026d28081e650a135a454e27a3af70063cacc455d70b",
+ "guide_copy_identical": true,
+ "guide_sha256": "57efc6e49894411d982245913f5ff6572df33f2e6c2d9434b4877e486cfa0e71",
+ "frozen_hashes_now": {
+  "score_heldout_primary.py": "114bf0cac69cce3d43f718360852568199f5af4abb660a85cf924a4f7d046ad2",
+  "rankings_heldout.jsonl.gz": "9105a5da66a287de70fdc6e7e9b5135200589d58c542d61787e7ed883cb66558",
+  "heldout/rankings_hybrid.jsonl.gz": "2c2201965ebe6d7dde1c7074e10481877a8bed85b3c1f63763dd7a4ed39620d7"
+ },
+ "leak_scan_needles": {
+  "gold_urls": 581,
+  "justifications": 174,
+  "pilot_gold_domains": 31,
+  "pilot_predicted_keys": 66
+ },
+ "leak_scan_hits": {
+  "heldout_primary_annotation.csv": {
+   "evaluation_terms": [
+    "targeted"
+   ]
+  },
+  "heldout_primary_annotation.xlsx": {},
+  "ANNOTATION_GUIDE.md": {},
+  "pilot\\handout\\ANNOTATION_GUIDE.md": {},
+  "pilot\\handout\\heldout_primary_pilot15.csv": {},
+  "pilot\\handout\\heldout_primary_pilot15.xlsx": {},
+  "pilot\\handout\\PILOT_FEEDBACK.md": {},
+  "pilot\\handout\\PILOT_INSTRUCTIONS.md": {}
+ }
+}

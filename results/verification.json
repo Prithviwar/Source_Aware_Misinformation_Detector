@@ -1,0 +1,355 @@
+{
+ "recomputed": {
+  "bm25": {
+   "R@5": 0.081,
+   "R@10": 0.111,
+   "R@20": 0.242,
+   "n_gold": 99,
+   "PrimR@5": 0.042,
+   "PrimR@10": 0.042,
+   "PrimR@20": 0.104,
+   "n_prim": 48
+  },
+  "dense": {
+   "R@5": 0.152,
+   "R@10": 0.242,
+   "R@20": 0.333,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.104,
+   "PrimR@20": 0.188,
+   "n_prim": 48
+  },
+  "hybrid": {
+   "R@5": 0.141,
+   "R@10": 0.242,
+   "R@20": 0.364,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.062,
+   "PrimR@20": 0.167,
+   "n_prim": 48
+  },
+  "bm25+generic_l0.25": {
+   "R@5": 0.071,
+   "R@10": 0.101,
+   "R@20": 0.242,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.042,
+   "PrimR@20": 0.167,
+   "n_prim": 48
+  },
+  "bm25+full_l0.25": {
+   "R@5": 0.071,
+   "R@10": 0.121,
+   "R@20": 0.242,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.083,
+   "PrimR@20": 0.167,
+   "n_prim": 48
+  },
+  "dense+generic_l0.25": {
+   "R@5": 0.152,
+   "R@10": 0.253,
+   "R@20": 0.313,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.146,
+   "PrimR@20": 0.188,
+   "n_prim": 48
+  },
+  "dense+full_l0.25": {
+   "R@5": 0.152,
+   "R@10": 0.253,
+   "R@20": 0.313,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.146,
+   "PrimR@20": 0.188,
+   "n_prim": 48
+  },
+  "hybrid+full_l0.25": {
+   "R@5": 0.131,
+   "R@10": 0.232,
+   "R@20": 0.374,
+   "n_gold": 99,
+   "PrimR@5": 0.042,
+   "PrimR@10": 0.104,
+   "PrimR@20": 0.229,
+   "n_prim": 48
+  },
+  "bm25+full_l1.0_poolall": {
+   "R@5": 0.071,
+   "R@10": 0.111,
+   "R@20": 0.172,
+   "n_gold": 99,
+   "PrimR@5": 0.146,
+   "PrimR@10": 0.188,
+   "PrimR@20": 0.292,
+   "n_prim": 48
+  },
+  "bm25+oracle_l1.0_poolall": {
+   "R@5": 0.354,
+   "R@10": 0.444,
+   "R@20": 0.566,
+   "n_gold": 99,
+   "PrimR@5": 0.604,
+   "PrimR@10": 0.771,
+   "PrimR@20": 0.896,
+   "n_prim": 48
+  }
+ },
+ "list_overlap": {
+  "INTERGOV": {
+   "size": 13,
+   "in_sample_gold": [
+    "oecd-ilibrary.org",
+    "un.org",
+    "who.int",
+    "worldbank.org"
+   ],
+   "in_sample_primary": [
+    "oecd-ilibrary.org",
+    "un.org",
+    "who.int",
+    "worldbank.org"
+   ]
+  },
+  "ACADEMIC_HOSTS": {
+   "size": 16,
+   "in_sample_gold": [
+    "jstor.org",
+    "science.org",
+    "thelancet.com"
+   ],
+   "in_sample_primary": [
+    "thelancet.com"
+   ]
+  },
+  "MAJOR_NEWS": {
+   "size": 47,
+   "in_sample_gold": [
+    "abc.net.au",
+    "axios.com",
+    "cbc.ca",
+    "cbsnews.com",
+    "cnbc.com",
+    "cnn.com",
+    "dw.com",
+    "foxnews.com",
+    "indianexpress.com",
+    "indiatimes.com",
+    "nbcnews.com",
+    "npr.org",
+    "nytimes.com",
+    "politico.com",
+    "reuters.com",
+    "theguardian.com",
+    "thehindu.com",
+    "thetimes.co.uk",
+    "time.com",
+    "washingtonpost.com"
+   ],
+   "in_sample_primary": [
+    "foxnews.com",
+    "thetimes.co.uk"
+   ]
+  },
+  "REFERENCE": {
+   "size": 3,
+   "in_sample_gold": [
+    "britannica.com",
+    "wikipedia.org",
+    "wikiwand.com"
+   ],
+   "in_sample_primary": []
+  },
+  "PLATFORMS": {
+   "size": 16,
+   "in_sample_gold": [
+    "archive.ph",
+    "facebook.com",
+    "linkedin.com",
+    "twitter.com",
+    "wordpress.com",
+    "youtube.com"
+   ],
+   "in_sample_primary": [
+    "archive.ph",
+    "facebook.com",
+    "linkedin.com",
+    "twitter.com"
+   ]
+  }
+ },
+ "decontaminated_priors": {
+  "bm25+generic_l0.25": {
+   "R@5": 0.071,
+   "R@10": 0.101,
+   "R@20": 0.222,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.062,
+   "PrimR@20": 0.125,
+   "n_prim": 48
+  },
+  "bm25+full_l0.25": {
+   "R@5": 0.071,
+   "R@10": 0.111,
+   "R@20": 0.222,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.083,
+   "PrimR@20": 0.125,
+   "n_prim": 48
+  },
+  "bm25+generic_l1.0_poolall": {
+   "R@5": 0.051,
+   "R@10": 0.071,
+   "R@20": 0.101,
+   "n_gold": 99,
+   "PrimR@5": 0.104,
+   "PrimR@10": 0.125,
+   "PrimR@20": 0.188,
+   "n_prim": 48
+  },
+  "bm25+full_l1.0_poolall": {
+   "R@5": 0.051,
+   "R@10": 0.091,
+   "R@20": 0.131,
+   "n_gold": 99,
+   "PrimR@5": 0.104,
+   "PrimR@10": 0.167,
+   "PrimR@20": 0.25,
+   "n_prim": 48
+  },
+  "dense+generic_l0.25": {
+   "R@5": 0.141,
+   "R@10": 0.232,
+   "R@20": 0.303,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.083,
+   "PrimR@20": 0.188,
+   "n_prim": 48
+  },
+  "dense+full_l0.25": {
+   "R@5": 0.172,
+   "R@10": 0.253,
+   "R@20": 0.303,
+   "n_gold": 99,
+   "PrimR@5": 0.083,
+   "PrimR@10": 0.125,
+   "PrimR@20": 0.188,
+   "n_prim": 48
+  },
+  "dense+generic_l1.0_poolall": {
+   "R@5": 0.051,
+   "R@10": 0.061,
+   "R@20": 0.091,
+   "n_gold": 99,
+   "PrimR@5": 0.104,
+   "PrimR@10": 0.125,
+   "PrimR@20": 0.188,
+   "n_prim": 48
+  },
+  "dense+full_l1.0_poolall": {
+   "R@5": 0.091,
+   "R@10": 0.101,
+   "R@20": 0.131,
+   "n_gold": 99,
+   "PrimR@5": 0.188,
+   "PrimR@10": 0.208,
+   "PrimR@20": 0.271,
+   "n_prim": 48
+  },
+  "hybrid+generic_l0.25": {
+   "R@5": 0.141,
+   "R@10": 0.202,
+   "R@20": 0.343,
+   "n_gold": 99,
+   "PrimR@5": 0.042,
+   "PrimR@10": 0.083,
+   "PrimR@20": 0.146,
+   "n_prim": 48
+  },
+  "hybrid+full_l0.25": {
+   "R@5": 0.152,
+   "R@10": 0.222,
+   "R@20": 0.343,
+   "n_gold": 99,
+   "PrimR@5": 0.083,
+   "PrimR@10": 0.125,
+   "PrimR@20": 0.188,
+   "n_prim": 48
+  },
+  "hybrid+generic_l1.0_poolall": {
+   "R@5": 0.061,
+   "R@10": 0.101,
+   "R@20": 0.172,
+   "n_gold": 99,
+   "PrimR@5": 0.083,
+   "PrimR@10": 0.146,
+   "PrimR@20": 0.208,
+   "n_prim": 48
+  },
+  "hybrid+full_l1.0_poolall": {
+   "R@5": 0.091,
+   "R@10": 0.131,
+   "R@20": 0.222,
+   "n_gold": 99,
+   "PrimR@5": 0.146,
+   "PrimR@10": 0.208,
+   "PrimR@20": 0.292,
+   "n_prim": 48
+  }
+ },
+ "artifact_rankers": {
+  "longest_text": {
+   "R@5": 0.0,
+   "R@10": 0.01,
+   "R@20": 0.02,
+   "n_gold": 99,
+   "PrimR@5": 0.0,
+   "PrimR@10": 0.021,
+   "PrimR@20": 0.021,
+   "n_prim": 48
+  },
+  "shortest_text": {
+   "R@5": 0.0,
+   "R@10": 0.01,
+   "R@20": 0.02,
+   "n_gold": 99,
+   "PrimR@5": 0.0,
+   "PrimR@10": 0.021,
+   "PrimR@20": 0.042,
+   "n_prim": 48
+  },
+  "shortest_url": {
+   "R@5": 0.01,
+   "R@10": 0.01,
+   "R@20": 0.04,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.021,
+   "PrimR@20": 0.042,
+   "n_prim": 48
+  },
+  "random": {
+   "R@5": 0.02,
+   "R@10": 0.02,
+   "R@20": 0.051,
+   "n_gold": 99,
+   "PrimR@5": 0.021,
+   "PrimR@10": 0.021,
+   "PrimR@20": 0.042,
+   "n_prim": 48
+  }
+ },
+ "text_len_median": {
+  "gold": 4312.0,
+  "non_gold": 6748.0
+ }
+}

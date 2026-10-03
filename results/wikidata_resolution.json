@@ -1,0 +1,4174 @@
+{
+ "@betches_sup": {
+  "qid": null
+ },
+ "AMU": {
+  "qid": "Q2302586",
+  "label": "Aix-Marseille University",
+  "description": "French public university located in Provence, founded in 2012 from the merger of Université Aix Marseille I, Aix Marseille II and Aix Marseille III",
+  "websites": [
+   "https://www.univ-amu.fr/",
+   "https://www.univ-amu.fr/en"
+  ],
+  "handles": {
+   "twitter": [
+    "univamu"
+   ]
+  }
+ },
+ "Abdul": {
+  "qid": "Q19818134",
+  "label": "Abdul",
+  "description": "male given name",
+  "websites": [],
+  "handles": {}
+ },
+ "Abortion Legislation Act": {
+  "qid": null
+ },
+ "Adani Logistics Limited": {
+  "qid": null
+ },
+ "Alex Jones": {
+  "qid": "Q319121",
+  "label": "Alex Jones",
+  "description": "American far-right conspiracy theorist (born 1974)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "RealAlexJones"
+   ]
+  }
+ },
+ "Amy Coney Barrett": {
+  "qid": "Q29863844",
+  "label": "Amy Coney Barrett",
+  "description": "American lawyer and jurist (born 1972)",
+  "websites": [],
+  "handles": {}
+ },
+ "Angela Schneeman": {
+  "qid": null
+ },
+ "Anthony Fauci": {
+  "qid": "Q573246",
+  "label": "Anthony Fauci",
+  "description": "5th Director of the National Institute of Allergy and Infectious Diseases from 1984 to 2022",
+  "websites": [
+   "https://www.niaid.nih.gov/about/director"
+  ],
+  "handles": {}
+ },
+ "Anthony Jeffries": {
+  "qid": null
+ },
+ "Arjun Singh": {
+  "qid": "Q103327978",
+  "label": "Arjun Singh",
+  "description": "Ph.D. Stanford University 2005",
+  "websites": [],
+  "handles": {}
+ },
+ "Ayatollah Seyyed Ali Khamenei": {
+  "qid": null
+ },
+ "BJP": {
+  "qid": "Q919631",
+  "label": "British Journal of Pharmacology",
+  "description": "scientific journal",
+  "websites": [
+   "http://www.brjpharmacol.org",
+   "http://www.nature.com/bjp/index.html",
+   "http://bibpurl.oclc.org/web/21844",
+   "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1476-5381/issues",
+   "http://www.pubmedcentral.nih.gov/tocrender.fcgi?journal=282&action=archive"
+  ],
+  "handles": {
+   "twitter": [
+    "BrJPharmacol"
+   ],
+   "facebook": [
+    "BrJPharmacol"
+   ]
+  }
+ },
+ "BJP MP Shobha Karandlaje": {
+  "qid": null
+ },
+ "BJP West Bengal": {
+  "qid": null
+ },
+ "Bengal Temple": {
+  "qid": "Q104852922",
+  "label": "Bengal temple architecture",
+  "description": "Temple styles in Bengal",
+  "websites": [],
+  "handles": {}
+ },
+ "Biden": {
+  "qid": "Q20164199",
+  "label": "Biden",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Bill de Blasio": {
+  "qid": "Q4911497",
+  "label": "Bill de Blasio",
+  "description": "109th Mayor of New York City from 2014 to 2022",
+  "websites": [
+   "http://www.billdeblasio.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "BilldeBlasio",
+    "NYCMayor"
+   ],
+   "facebook": [
+    "bill.deblasio"
+   ],
+   "instagram": [
+    "billdeblasio"
+   ]
+  }
+ },
+ "Bollywood": {
+  "qid": "Q6022825",
+  "label": "Indian soap opera",
+  "description": "soap operas written, produced, filmed in India, with characters played by Indians",
+  "websites": [],
+  "handles": {
+   "facebook": [
+    "p/مسلسلات-بوليود-Musalsalat-Bollywood-100085485267443"
+   ],
+   "instagram": [
+    "musalsalat_bollywood"
+   ]
+  }
+ },
+ "Brucellosis": {
+  "qid": "Q156050",
+  "label": "brucellosis",
+  "description": "Human and animal disease",
+  "websites": [],
+  "handles": {}
+ },
+ "Bubba Watson": {
+  "qid": "Q706227",
+  "label": "Bubba Watson",
+  "description": "American professional golfer",
+  "websites": [
+   "http://www.bubbawatsongolf.com"
+  ],
+  "handles": {
+   "twitter": [
+    "bubbawatson"
+   ],
+   "facebook": [
+    "BubbaWatsonGolf"
+   ],
+   "instagram": [
+    "bubbawatson"
+   ]
+  }
+ },
+ "CHR": {
+  "qid": "Q18001597",
+  "label": "Christian",
+  "description": "male given name",
+  "websites": [],
+  "handles": {}
+ },
+ "CIA": {
+  "qid": "Q3570980",
+  "label": "Xie",
+  "description": "Chinese family name (謝 / 谢)",
+  "websites": [],
+  "handles": {}
+ },
+ "COVID": {
+  "qid": "Q84263196",
+  "label": "COVID-19",
+  "description": "contagious disease caused by SARS-CoV-2",
+  "websites": [],
+  "handles": {}
+ },
+ "COVID-19": {
+  "qid": "Q84263196",
+  "label": "COVID-19",
+  "description": "contagious disease caused by SARS-CoV-2",
+  "websites": [],
+  "handles": {}
+ },
+ "Capitol": {
+  "qid": "Q193023",
+  "label": "Capitol Records",
+  "description": "American record label",
+  "websites": [
+   "http://www.capitolrecords.com/",
+   "http://www.capitolrecords.com"
+  ],
+  "handles": {
+   "twitter": [
+    "CapitolRecords"
+   ],
+   "instagram": [
+    "capitolrecords"
+   ]
+  }
+ },
+ "Charlie Hebdo": {
+  "qid": "Q1043104",
+  "label": "Charlie Hebdo",
+  "description": "French satirical weekly newspaper",
+  "websites": [
+   "https://charliehebdo.fr",
+   "https://charliehebdo.fr/en/",
+   "http://gallicaintramuros.bnf.fr/ark:/12148/cb344530789/date"
+  ],
+  "handles": {
+   "twitter": [
+    "Charlie_Hebdo_"
+   ],
+   "facebook": [
+    "106626879360459"
+   ],
+   "instagram": [
+    "charlie_hebdo_officiel"
+   ]
+  }
+ },
+ "Charlie Kirk": {
+  "qid": "Q30121972",
+  "label": "Charlie Kirk",
+  "description": "American political activist (1993–2025)",
+  "websites": [
+   "https://charliekirk.com"
+  ],
+  "handles": {
+   "twitter": [
+    "charliekirk11"
+   ],
+   "facebook": [
+    "realcharliekirk"
+   ],
+   "instagram": [
+    "charliekirk1776"
+   ]
+  }
+ },
+ "Chinese Air Force": {
+  "qid": "Q607832",
+  "label": "People's Liberation Army Air Force",
+  "description": "aerial service branch of the Chinese People's Liberation Army",
+  "websites": [
+   "http://eng.chinamil.com.cn/armed-forces/air-force.htm",
+   "http://www.81.cn/kj_208559/index.html",
+   "http://www.81.cn/kj_208559/index.html"
+  ],
+  "handles": {}
+ },
+ "Chito Gascon": {
+  "qid": "Q17371080",
+  "label": "Chito Gascón",
+  "description": "Philippine lawyer, civil organizer and human-rights activist",
+  "websites": [],
+  "handles": {}
+ },
+ "Civil Services": {
+  "qid": "Q5124580",
+  "label": "Civil Services Examination",
+  "description": "competitive examination in India",
+  "websites": [],
+  "handles": {}
+ },
+ "Commission on Human Rights": {
+  "qid": "Q3511443",
+  "label": "human rights commission",
+  "description": "organization working for human rights",
+  "websites": [],
+  "handles": {}
+ },
+ "Congress": {
+  "qid": "Q10225",
+  "label": "Indian National Congress",
+  "description": "centrist-liberal political party in India",
+  "websites": [
+   "https://inc.in"
+  ],
+  "handles": {
+   "twitter": [
+    "INCIndia"
+   ],
+   "facebook": [
+    "IndianNationalCongress"
+   ],
+   "instagram": [
+    "incindia"
+   ]
+  }
+ },
+ "Coronavirus": {
+  "qid": "Q82069695",
+  "label": "SARS-CoV-2",
+  "description": "virus that causes COVID-19",
+  "websites": [],
+  "handles": {}
+ },
+ "Covid": {
+  "qid": "Q84263196",
+  "label": "COVID-19",
+  "description": "contagious disease caused by SARS-CoV-2",
+  "websites": [],
+  "handles": {}
+ },
+ "Daily Trust": {
+  "qid": "Q106181847",
+  "label": "Daily Trust",
+  "description": "daily newspaper published by Media Trust, a media organization based in Abuja, Nigeria",
+  "websites": [
+   "https://dailytrust.com/"
+  ],
+  "handles": {}
+ },
+ "Darryl Wayne": {
+  "qid": null
+ },
+ "Derek Utley": {
+  "qid": null
+ },
+ "Dhoni Forever": {
+  "qid": null
+ },
+ "Don Moynihan": {
+  "qid": "Q98831951",
+  "label": "Donald Moynihan",
+  "description": "irish-American political scientist",
+  "websites": [
+   "https://gufaculty360.georgetown.edu/s/contact/0033600001i3sNRAAY/donald-moynihan"
+  ],
+  "handles": {
+   "twitter": [
+    "donmoyn"
+   ]
+  }
+ },
+ "Donald J. Trump Jr.": {
+  "qid": "Q3713655",
+  "label": "Donald Trump Jr.",
+  "description": "American businessman and reality television personality (born 1977)",
+  "websites": [
+   "https://donjr.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "DonaldJTrumpJr"
+   ],
+   "facebook": [
+    "DonaldJTrumpJr"
+   ],
+   "instagram": [
+    "donaldjtrumpjr"
+   ]
+  }
+ },
+ "Donald Trump": {
+  "qid": "Q22686",
+  "label": "Donald Trump",
+  "description": "President of the United States (2017–2021; since 2025)",
+  "websites": [
+   "https://donaldjtrump.com",
+   "https://www.45office.com"
+  ],
+  "handles": {
+   "twitter": [
+    "realDonaldTrump",
+    "POTUS45",
+    "POTUS",
+    "POTUS"
+   ],
+   "facebook": [
+    "DonaldTrump",
+    "POTUS45",
+    "POTUS"
+   ],
+   "instagram": [
+    "realdonaldtrump"
+   ]
+  }
+ },
+ "Dr. Avni Chaudhary": {
+  "qid": null
+ },
+ "Edo State": {
+  "qid": "Q682704",
+  "label": "Edo State",
+  "description": "state of Nigeria",
+  "websites": [
+   "https://edostate.gov.ng/"
+  ],
+  "handles": {}
+ },
+ "Edo State governor, Godwin Obaseki": {
+  "qid": null
+ },
+ "Elizabeth Gilbert": {
+  "qid": "Q231424",
+  "label": "Elizabeth Gilbert",
+  "description": "American writer",
+  "websites": [
+   "https://elizabethgilbert.com"
+  ],
+  "handles": {
+   "twitter": [
+    "gilbertliz",
+    "GilbertLiz"
+   ],
+   "facebook": [
+    "GilbertLiz"
+   ]
+  }
+ },
+ "Eric Trump": {
+  "qid": "Q3731533",
+  "label": "Eric Trump",
+  "description": "American businessman and reality television personality (born 1984)",
+  "websites": [
+   "https://www.erictrumpfoundation.com"
+  ],
+  "handles": {
+   "twitter": [
+    "erictrump",
+    "EricTrump"
+   ],
+   "facebook": [
+    "EricTrump"
+   ],
+   "instagram": [
+    "erictrump"
+   ]
+  }
+ },
+ "FBI": {
+  "qid": "Q8333",
+  "label": "Federal Bureau of Investigation",
+  "description": "U.S. federal law enforcement agency",
+  "websites": [
+   "https://www.fbi.gov"
+  ],
+  "handles": {
+   "twitter": [
+    "FBI",
+    "FBILosAngeles",
+    "FBIDetroit",
+    "FBIAnchorage",
+    "FBIHonolulu",
+    "FBICleveland",
+    "FBISanFrancisco",
+    "FBIHouston",
+    "NewYorkFBI",
+    "FBIWFO",
+    "FBIBoston",
+    "FBISaltLakeCity",
+    "FBISpringfield",
+    "FBIRecordsVault"
+   ],
+   "facebook": [
+    "FBI"
+   ],
+   "instagram": [
+    "fbi"
+   ]
+  }
+ },
+ "Fox News": {
+  "qid": "Q186068",
+  "label": "Fox News",
+  "description": "American cable television news channel",
+  "websites": [
+   "https://foxnews.com"
+  ],
+  "handles": {
+   "twitter": [
+    "FoxNews",
+    "foxnewsalert",
+    "foxnewspolitics",
+    "FoxNewsOpinion",
+    "foxheadlines",
+    "foxnewsvideo"
+   ],
+   "facebook": [
+    "FoxNews"
+   ],
+   "instagram": [
+    "foxnews"
+   ]
+  }
+ },
+ "Fred Childs": {
+  "qid": null
+ },
+ "Freya Ferdinand II": {
+  "qid": null
+ },
+ "Gandhi": {
+  "qid": "Q302736",
+  "label": "Gandhi",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Goddess Kali Idol": {
+  "qid": null
+ },
+ "Godwin Obaseki's": {
+  "qid": null
+ },
+ "Green": {
+  "qid": "Q2703137",
+  "label": "Green",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Haldiram": {
+  "qid": "Q17054442",
+  "label": "Haldiram's",
+  "description": "Indian restaurant and foodstuff manufacturer",
+  "websites": [
+   "https://www.haldirams.com",
+   "https://haldiram.online",
+   "https://www.haldiram.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "haldiramsnacks"
+   ],
+   "facebook": [
+    "haldiramsonline"
+   ],
+   "instagram": [
+    "haldiraminternational"
+   ]
+  }
+ },
+ "Henna Maria": {
+  "qid": "Q2983767",
+  "label": "Henna Virkkunen",
+  "description": "Finnish politician",
+  "websites": [
+   "https://www.hennavirkkunen.fi/",
+   "https://www.hennavirkkunen.fi/sv/",
+   "https://www.hennavirkkunen.fi/en/"
+  ],
+  "handles": {
+   "twitter": [
+    "HennaVirkkunen"
+   ],
+   "facebook": [
+    "henna.virkkunen",
+    "virkkunenhenna"
+   ],
+   "instagram": [
+    "hennavirkkunen"
+   ]
+  }
+ },
+ "IPL": {
+  "qid": "Q776372",
+  "label": "Information Processing Language",
+  "description": "programming language",
+  "websites": [],
+  "handles": {}
+ },
+ "Indrajit Chakraborty": {
+  "qid": "Q58784549",
+  "label": "Indrajit Chakraborty",
+  "description": "researcher ORCID ID = 0000-0002-8611-5962",
+  "websites": [],
+  "handles": {}
+ },
+ "Instagram": {
+  "qid": "Q209330",
+  "label": "Instagram",
+  "description": "photo and video sharing social network owned by Meta Platforms",
+  "websites": [
+   "https://www.instagram.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "instagram",
+    "InstagramES"
+   ],
+   "facebook": [
+    "instagram"
+   ],
+   "instagram": [
+    "instagram",
+    "instagramforbusiness",
+    "design",
+    "shop"
+   ]
+  }
+ },
+ "Islam": {
+  "qid": "Q432",
+  "label": "Islam",
+  "description": "monotheistic Abrahamic religion founded by Muhammad",
+  "websites": [],
+  "handles": {}
+ },
+ "Ivanka Trump": {
+  "qid": "Q239411",
+  "label": "Ivanka Trump",
+  "description": "American businesswoman, socialite and political advisior (born 1981)",
+  "websites": [
+   "https://www.ivankatrump.com"
+  ],
+  "handles": {
+   "twitter": [
+    "IvankaTrump"
+   ],
+   "facebook": [
+    "IvankaTrump"
+   ],
+   "instagram": [
+    "ivankatrump"
+   ]
+  }
+ },
+ "Jacinda Ardern": {
+  "qid": "Q3606816",
+  "label": "Jacinda Ardern",
+  "description": "Prime Minister of New Zealand (2017–2023)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "jacindaardern"
+   ],
+   "facebook": [
+    "jacindaardern"
+   ],
+   "instagram": [
+    "jacindaardern"
+   ]
+  }
+ },
+ "James Comey": {
+  "qid": "Q167607",
+  "label": "James Comey",
+  "description": "American lawyer and 7th director of the Federal Bureau of Investigation (born 1960)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "Comey",
+    "FormerBu"
+   ],
+   "instagram": [
+    "comey"
+   ]
+  }
+ },
+ "Jason Gentile": {
+  "qid": null
+ },
+ "Jessica Shelley Monk": {
+  "qid": null
+ },
+ "Jinnah": {
+  "qid": "Q37083461",
+  "label": "Jinnah",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Joe Biden": {
+  "qid": "Q6279",
+  "label": "Joe Biden",
+  "description": "46th President of the United States (2021–2025)",
+  "websites": [
+   "https://www.bidenfoundation.org",
+   "https://joebiden.com",
+   "https://joebiden.com/es/inicio"
+  ],
+  "handles": {
+   "twitter": [
+    "JoeBiden",
+    "VP44",
+    "POTUS",
+    "PresElectBiden",
+    "VP",
+    "POTUS46Archive"
+   ],
+   "facebook": [
+    "joebiden",
+    "VicePresidentBiden44",
+    "POTUS",
+    "VicePresident"
+   ],
+   "instagram": [
+    "joebiden",
+    "vp44",
+    "potus",
+    "vp",
+    "potus46archive"
+   ]
+  }
+ },
+ "John Brennan": {
+  "qid": "Q984191",
+  "label": "John Owen Brennan",
+  "description": "Director of the Central Intelligence Agency from 2013 to 2017",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "JohnBrennan"
+   ]
+  }
+ },
+ "Jon Bon Jovi": {
+  "qid": "Q150916",
+  "label": "Jon Bon Jovi",
+  "description": "American musician (born 1962)",
+  "websites": [
+   "https://www.bonjovi.com/",
+   "https://wwwjonbonjovi.ca/"
+  ],
+  "handles": {
+   "twitter": [
+    "JonBonJoviJBJ",
+    "jonbonjovi"
+   ],
+   "facebook": [
+    "jonbonjoviofficial"
+   ]
+  }
+ },
+ "Jon Cook": {
+  "qid": "Q107014864",
+  "label": "Jon Cook",
+  "description": "British literary scholar",
+  "websites": [],
+  "handles": {}
+ },
+ "Jon Greenberg": {
+  "qid": "Q135457482",
+  "label": "Jon Greenberg",
+  "description": "American actor and HIV/AIDS activist (1956-1993)",
+  "websites": [],
+  "handles": {}
+ },
+ "Jonathan Ashworth": {
+  "qid": "Q259895",
+  "label": "Jonathan Ashworth",
+  "description": "British politician (born 1978)",
+  "websites": [
+   "https://www.jonashworth.org/"
+  ],
+  "handles": {
+   "twitter": [
+    "JonAshworth"
+   ],
+   "facebook": [
+    "JonAshworthMP"
+   ],
+   "instagram": [
+    "jonashworthmp"
+   ]
+  }
+ },
+ "Joni Ernst": {
+  "qid": "Q13475242",
+  "label": "Joni Ernst",
+  "description": "American politician (born 1970)",
+  "websites": [
+   "http://www.ernst.senate.gov/"
+  ],
+  "handles": {
+   "twitter": [
+    "joniernst",
+    "SenJoniErnst"
+   ],
+   "facebook": [
+    "senjoniernst",
+    "joniforiowa"
+   ],
+   "instagram": [
+    "senjoniernst"
+   ]
+  }
+ },
+ "Judith Collins": {
+  "qid": "Q130898851",
+  "label": "Judith Collins",
+  "description": null,
+  "websites": [],
+  "handles": {}
+ },
+ "KKR": {
+  "qid": "Q1156894",
+  "label": "Kolkata Knight Riders",
+  "description": "cricket team in the Indian Premier League",
+  "websites": [
+   "http://www.kkr.in/"
+  ],
+  "handles": {
+   "twitter": [
+    "KKRiders"
+   ]
+  }
+ },
+ "Kamala Haris": {
+  "qid": "Q10853588",
+  "label": "Kamala Harris",
+  "description": "Vice President of the United States from 2021 to 2025",
+  "websites": [
+   "https://www.whitehouse.gov/administration/vice-president-harris/",
+   "https://kamalaharris.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "KamalaHarris",
+    "VP",
+    "SenKamalaHarris",
+    "VP46Archive"
+   ],
+   "facebook": [
+    "KamalaHarris",
+    "VicePresident",
+    "SenatorKamalaHarris"
+   ],
+   "instagram": [
+    "kamalaharris",
+    "vp"
+   ]
+  }
+ },
+ "Kamala Harris": {
+  "qid": "Q10853588",
+  "label": "Kamala Harris",
+  "description": "Vice President of the United States from 2021 to 2025",
+  "websites": [
+   "https://www.whitehouse.gov/administration/vice-president-harris/",
+   "https://kamalaharris.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "KamalaHarris",
+    "VP",
+    "SenKamalaHarris",
+    "VP46Archive"
+   ],
+   "facebook": [
+    "KamalaHarris",
+    "VicePresident",
+    "SenatorKamalaHarris"
+   ],
+   "instagram": [
+    "kamalaharris",
+    "vp"
+   ]
+  }
+ },
+ "Kangana Ranaut": {
+  "qid": "Q2737207",
+  "label": "Kangana Ranaut",
+  "description": "Indian actress (born 2014)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "KanganaTeam"
+   ],
+   "facebook": [
+    "KanganaRanaut"
+   ],
+   "instagram": [
+    "kanganaranaut"
+   ]
+  }
+ },
+ "Khan": {
+  "qid": "Q2740671",
+  "label": "Khan",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Kim Martin Morrow": {
+  "qid": null
+ },
+ "Kirron Kher Said": {
+  "qid": null
+ },
+ "Kolkata Knight Riders": {
+  "qid": "Q1156894",
+  "label": "Kolkata Knight Riders",
+  "description": "cricket team in the Indian Premier League",
+  "websites": [
+   "http://www.kkr.in/"
+  ],
+  "handles": {
+   "twitter": [
+    "KKRiders"
+   ]
+  }
+ },
+ "LEGAL": {
+  "qid": "Q36911614",
+  "label": "Legal",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Left Action": {
+  "qid": null
+ },
+ "License Plate": {
+  "qid": "Q22706",
+  "label": "vehicle registration plate",
+  "description": "metal or plastic identification plate attached to a motor vehicle or trailer",
+  "websites": [],
+  "handles": {}
+ },
+ "Lin Wood": {
+  "qid": "Q6456545",
+  "label": "L. Lin Wood",
+  "description": "American lawyer and conspiracy theorist",
+  "websites": [
+   "https://linwoodlaw.com"
+  ],
+  "handles": {
+   "twitter": [
+    "llinwood"
+   ],
+   "facebook": [
+    "linwoodlaw"
+   ]
+  }
+ },
+ "MNS": {
+  "qid": "Q3508673",
+  "label": "Melnick–Needles syndrome",
+  "description": "congenital disorder that affects primarily bone development.",
+  "websites": [],
+  "handles": {}
+ },
+ "Maharashtra Navnirman Sena": {
+  "qid": "Q3140347",
+  "label": "Maharashtra Navnirman Sena",
+  "description": "Political party of India",
+  "websites": [
+   "http://www.manase.org/"
+  ],
+  "handles": {}
+ },
+ "Marie Mares": {
+  "qid": "Q12035432",
+  "label": "Marie Marešová",
+  "description": "Czech actress (1922-2003)",
+  "websites": [],
+  "handles": {}
+ },
+ "Mark Kelly": {
+  "qid": "Q357510",
+  "label": "Mark Kelly",
+  "description": "American politician, astronaut, and naval officer (born 1964)",
+  "websites": [
+   "https://markkelly.com/",
+   "https://markkelly.com/es/",
+   "https://www.kelly.senate.gov/",
+   "https://www.kelly.senate.gov/incicio/"
+  ],
+  "handles": {
+   "twitter": [
+    "CaptMarkKelly",
+    "SenMarkKelly"
+   ],
+   "facebook": [
+    "CaptMarkKelly",
+    "SenMarkKelly"
+   ],
+   "instagram": [
+    "captmarkkelly",
+    "senmarkkelly"
+   ]
+  }
+ },
+ "Mark Zuckerberg": {
+  "qid": "Q36215",
+  "label": "Mark Zuckerberg",
+  "description": "American Internet entrepreneur",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "finkd"
+   ],
+   "facebook": [
+    "zuck"
+   ],
+   "instagram": [
+    "zuck"
+   ]
+  }
+ },
+ "Martha McSally": {
+  "qid": "Q6774492",
+  "label": "Martha McSally",
+  "description": "American politician and military pilot (born 1966)",
+  "websites": [
+   "https://www.mcsally.senate.gov/"
+  ],
+  "handles": {
+   "twitter": [
+    "SENMcSallyAZ",
+    "marthamcsally",
+    "MarthaMcSally"
+   ],
+   "facebook": [
+    "RepMcSally",
+    "MarthaMcSally"
+   ],
+   "instagram": [
+    "repmcsally"
+   ]
+  }
+ },
+ "Maskoor Usmani": {
+  "qid": "Q96482394",
+  "label": "Maskoor Usmani",
+  "description": "Indian politician",
+  "websites": [],
+  "handles": {}
+ },
+ "Medicare": {
+  "qid": "Q559392",
+  "label": "Medicare",
+  "description": "US federal health insurance",
+  "websites": [
+   "https://www.medicare.gov/",
+   "https://es.medicare.gov/"
+  ],
+  "handles": {
+   "twitter": [
+    "MedicareGov"
+   ],
+   "facebook": [
+    "Medicare"
+   ]
+  }
+ },
+ "Meena Harris @meenaharris": {
+  "qid": null
+ },
+ "Michael Beschloss": {
+  "qid": "Q2814226",
+  "label": "Michael Beschloss",
+  "description": "American historian and author",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "BeschlossDC"
+   ],
+   "instagram": [
+    "beschlossdc1776"
+   ]
+  }
+ },
+ "Michael Young": {
+  "qid": "Q336683",
+  "label": "Michael Young, Baron Young of Dartington",
+  "description": "British politician (1915-2002)",
+  "websites": [],
+  "handles": {}
+ },
+ "Mike Pence": {
+  "qid": "Q24313",
+  "label": "Mike Pence",
+  "description": "Vice President of the United States from 2017 to 2021",
+  "websites": [
+   "https://mikepence.com/",
+   "https://www.whitehouse.gov/administration/vice-president-pence",
+   "https://trumpwhitehouse.archives.gov/people/mike-pence/",
+   "http://mikepence.house.gov/"
+  ],
+  "handles": {
+   "twitter": [
+    "Mike_Pence",
+    "VP45",
+    "GovPenceIN",
+    "VP"
+   ],
+   "facebook": [
+    "mikepence",
+    "VP45",
+    "VicePresident"
+   ],
+   "instagram": [
+    "mikepence",
+    "vp45",
+    "vp"
+   ]
+  }
+ },
+ "Muahammadu Buhari": {
+  "qid": null
+ },
+ "Muhammadu Buhari": {
+  "qid": "Q361567",
+  "label": "Muhammadu Buhari",
+  "description": "former President of Nigeria from 1983 to 1985 and 2015 to 2025 (1942–2025)",
+  "websites": [
+   "https://thisisbuhari.com"
+  ],
+  "handles": {
+   "twitter": [
+    "MBuhari"
+   ],
+   "facebook": [
+    "MuhammaduBuhari"
+   ],
+   "instagram": [
+    "muhammadubuhari"
+   ]
+  }
+ },
+ "Murshidabad": {
+  "qid": "Q1546240",
+  "label": "Murshidabad district",
+  "description": "district in West Bengal, India",
+  "websites": [
+   "http://murshidabad.nic.in/"
+  ],
+  "handles": {}
+ },
+ "Muslim candidates.(Sudarshan News": {
+  "qid": null
+ },
+ "NEET Exam Result 2020": {
+  "qid": null
+ },
+ "NIAID": {
+  "qid": "Q3519875",
+  "label": "National Institute of Allergy and Infectious Diseases",
+  "description": "US research institute for the treatment and prevention of infectious diseases",
+  "websites": [
+   "https://www.niaid.nih.gov/"
+  ],
+  "handles": {
+   "twitter": [
+    "niaidnews",
+    "NIAIDNews"
+   ],
+   "facebook": [
+    "niaid.nih"
+   ],
+   "instagram": [
+    "niaid"
+   ]
+  }
+ },
+ "NNPC": {
+  "qid": "Q1671299",
+  "label": "Nigerian National Petroleum Corporation",
+  "description": "oil corporation wholly owned by government of Nigeria",
+  "websites": [
+   "http://www.nnpcgroup.com/"
+  ],
+  "handles": {}
+ },
+ "NTA": {
+  "qid": "Q104787839",
+  "label": "Dutch National Thesaurus for Author Names",
+  "description": "thesaurus with names and other personal data of authors, so that a distinction can be made between authors with the same name",
+  "websites": [
+   "https://data.bibliotheken.nl/KB/-/stories/NTA"
+  ],
+  "handles": {}
+ },
+ "Nathan Brand": {
+  "qid": "Q117765803",
+  "label": "Nathan Brand",
+  "description": "researcher",
+  "websites": [],
+  "handles": {}
+ },
+ "National Party": {
+  "qid": "Q204716",
+  "label": "New Zealand National Party",
+  "description": "centre-right political party in New Zealand",
+  "websites": [
+   "https://www.national.org.nz/"
+  ],
+  "handles": {
+   "twitter": [
+    "NZNationalParty"
+   ],
+   "facebook": [
+    "NZNATS"
+   ],
+   "instagram": [
+    "nznationalparty"
+   ]
+  }
+ },
+ "National Testing Agency": {
+  "qid": "Q12449990",
+  "label": "National Testing Agency",
+  "description": "Indian government agency",
+  "websites": [
+   "https://nta.ac.in"
+  ],
+  "handles": {
+   "twitter": [
+    "NTA_Exams"
+   ],
+   "facebook": [
+    "nationaltestingagency"
+   ]
+  }
+ },
+ "Nicolas Clamorgan": {
+  "qid": null
+ },
+ "Nigeria": {
+  "qid": "Q1033",
+  "label": "Nigeria",
+  "description": "sovereign state in West Africa",
+  "websites": [
+   "https://nigeria.gov.ng/"
+  ],
+  "handles": {}
+ },
+ "PGA": {
+  "qid": "Q127060",
+  "label": "folic acid",
+  "description": "compound, a vitamer of \"vitamin B9\"",
+  "websites": [],
+  "handles": {}
+ },
+ "Parliament": {
+  "qid": "Q11010",
+  "label": "Parliament of the United Kingdom",
+  "description": "supreme legislative body of the United Kingdom",
+  "websites": [
+   "https://www.parliament.uk/"
+  ],
+  "handles": {
+   "twitter": [
+    "ukparliament",
+    "UKParliament"
+   ],
+   "facebook": [
+    "ukparliament"
+   ],
+   "instagram": [
+    "ukparliament"
+   ]
+  }
+ },
+ "Pastor Ize-Lyamu": {
+  "qid": null
+ },
+ "Paul Raczkowski": {
+  "qid": "Q26859179",
+  "label": "Paul Raczkowski",
+  "description": "actor",
+  "websites": [],
+  "handles": {}
+ },
+ "Pearson Sharp": {
+  "qid": "Q109510556",
+  "label": "Pearson Sharp",
+  "description": "American journalist and author",
+  "websites": [
+   "https://www.pearsonsharp.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "PearsonSharp"
+   ],
+   "instagram": [
+    "pearsonsharp"
+   ]
+  }
+ },
+ "Photo Showing": {
+  "qid": null
+ },
+ "Pinoy News Center": {
+  "qid": null
+ },
+ "Pooja Chaudhuri": {
+  "qid": "Q126168464",
+  "label": "Pooja Chaudhuri",
+  "description": "Indian journalist",
+  "websites": [],
+  "handles": {}
+ },
+ "Prashant Dahale": {
+  "qid": null
+ },
+ "President Buhari": {
+  "qid": "Q138793598",
+  "label": "President Buhari's distinctive legacies to Nigeria",
+  "description": "Nigerian publication",
+  "websites": [],
+  "handles": {}
+ },
+ "President Muhammadu Buhari": {
+  "qid": null
+ },
+ "President of Nigeria Muhammadu Buhari": {
+  "qid": null
+ },
+ "Prophet": {
+  "qid": "Q37565187",
+  "label": "Prophet",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Raj Thackeray": {
+  "qid": "Q3088558",
+  "label": "Raj Thackeray",
+  "description": "Indian politician",
+  "websites": [],
+  "handles": {
+   "facebook": [
+    "RajThackeray"
+   ]
+  }
+ },
+ "Raju Kasim": {
+  "qid": null
+ },
+ "Reliance Retail": {
+  "qid": "Q7311028",
+  "label": "Reliance Retail",
+  "description": "Indian retail company",
+  "websites": [
+   "http://www.ril.com/html/business/business_retail.html",
+   "https://relianceretail.com",
+   "https://storelocator.ril.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "rilretail_care"
+   ]
+  }
+ },
+ "Rhea Chakrabortys": {
+  "qid": null
+ },
+ "Richard Greene": {
+  "qid": "Q1309447",
+  "label": "Richard Greene",
+  "description": "British film and television actor (1918-1985)",
+  "websites": [],
+  "handles": {}
+ },
+ "Richard Jewell": {
+  "qid": "Q65058737",
+  "label": "Richard Jewell",
+  "description": "2019 film directed by Clint Eastwood",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "RJewellFilm"
+   ],
+   "facebook": [
+    "RichardJewellFilm"
+   ],
+   "instagram": [
+    "richardjewellfilm"
+   ]
+  }
+ },
+ "Ridin' With Biden": {
+  "qid": null
+ },
+ "Right To Life UK": {
+  "qid": "Q135192817",
+  "label": "Right to Life UK",
+  "description": "charitable pro-life organisation",
+  "websites": [
+   "https://righttolife.org.uk/"
+  ],
+  "handles": {}
+ },
+ "Ruth Bader Ginsburg": {
+  "qid": "Q11116",
+  "label": "Ruth Bader Ginsburg",
+  "description": "American lawyer and jurist (1933–2020)",
+  "websites": [],
+  "handles": {}
+ },
+ "Sahara Reporters": {
+  "qid": "Q7399506",
+  "label": "Sahara Reporters",
+  "description": "Nigeria online news",
+  "websites": [
+   "http://saharareporters.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "saharareporters",
+    "SaharaReporters"
+   ],
+   "facebook": [
+    "ReportYourself"
+   ],
+   "instagram": [
+    "saharareporters"
+   ]
+  }
+ },
+ "Sandeep Thakur": {
+  "qid": "Q28869047",
+  "label": "Sandeep Thakur",
+  "description": null,
+  "websites": [
+   "http://www.sandeepthakurviolinist.com/"
+  ],
+  "handles": {}
+ },
+ "Sanju Yaduwanshi Sapa": {
+  "qid": null
+ },
+ "Saranac Hale Spencer": {
+  "qid": null
+ },
+ "Senate": {
+  "qid": "Q2570643",
+  "label": "senate",
+  "description": "type of legislative body, often the upper house or chamber of a bicameral legislature",
+  "websites": [],
+  "handles": {}
+ },
+ "Shortpedia": {
+  "qid": null
+ },
+ "Sightway Capital": {
+  "qid": null
+ },
+ "Supreme Court": {
+  "qid": "Q11201",
+  "label": "Supreme Court of the United States",
+  "description": "highest court of jurisdiction in the United States of America",
+  "websites": [
+   "https://www.supremecourt.gov/"
+  ],
+  "handles": {}
+ },
+ "Suresh Chavhanke": {
+  "qid": "Q21170485",
+  "label": "Suresh Chavhanke",
+  "description": "Indian journalist",
+  "websites": [],
+  "handles": {}
+ },
+ "Syrian Arab News Agency (SANA)": {
+  "qid": null
+ },
+ "Tak Ka Sabse Bada Khulasa": {
+  "qid": null
+ },
+ "The Blaze": {
+  "qid": "Q141282009",
+  "label": "The Blaze",
+  "description": "2016 album by Burning Point",
+  "websites": [],
+  "handles": {}
+ },
+ "The First Time The White House": {
+  "qid": null
+ },
+ "The Iowa Farm Bureau": {
+  "qid": null
+ },
+ "The South African Police Service": {
+  "qid": null
+ },
+ "The Tatva India": {
+  "qid": null
+ },
+ "The Times": {
+  "qid": "Q50008",
+  "label": "The Times",
+  "description": "British daily national newspaper based in London",
+  "websites": [
+   "https://thetimes.co.uk",
+   "https://www.thetimes.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "thetimes"
+   ],
+   "facebook": [
+    "timesandsundaytimes"
+   ],
+   "instagram": [
+    "thetimes"
+   ]
+  }
+ },
+ "The United Supreme Court": {
+  "qid": null
+ },
+ "The White House": {
+  "qid": "Q35525",
+  "label": "White House",
+  "description": "official residence and office of the President of the United States",
+  "websites": [
+   "https://www.whitehouse.gov"
+  ],
+  "handles": {
+   "twitter": [
+    "WhiteHouse45",
+    "WhiteHouse",
+    "Transition46",
+    "LaCasaBlanca"
+   ],
+   "facebook": [
+    "WhiteHouse"
+   ],
+   "instagram": [
+    "whitehouse",
+    "whitehouse45"
+   ]
+  }
+ },
+ "Trump": {
+  "qid": "Q16944413",
+  "label": "Trump",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Trump Administration": {
+  "qid": "Q27811470",
+  "label": "first cabinet of Donald Trump",
+  "description": "most senior appointed officers of the executive branch of the federal government of the United States under the Trump Administration",
+  "websites": [],
+  "handles": {}
+ },
+ "Twitter user @RealThackeray": {
+  "qid": null
+ },
+ "U.S. Supreme Court": {
+  "qid": "Q11201",
+  "label": "Supreme Court of the United States",
+  "description": "highest court of jurisdiction in the United States of America",
+  "websites": [
+   "https://www.supremecourt.gov/"
+  ],
+  "handles": {}
+ },
+ "UPCS": {
+  "qid": "Q30267166",
+  "label": "Uttar Pradesh Council of sugarcane research",
+  "description": "government organization in Shāhjānpur, India",
+  "websites": [
+   "http://upcsr.org/Default.aspx#"
+  ],
+  "handles": {}
+ },
+ "UPSC": {
+  "qid": "Q10709173",
+  "label": "Umeå Plant Science Centre",
+  "description": null,
+  "websites": [
+   "http://www.upsc.se/"
+  ],
+  "handles": {}
+ },
+ "UPSC Jihad": {
+  "qid": null
+ },
+ "US Supreme Court": {
+  "qid": "Q11201",
+  "label": "Supreme Court of the United States",
+  "description": "highest court of jurisdiction in the United States of America",
+  "websites": [
+   "https://www.supremecourt.gov/"
+  ],
+  "handles": {}
+ },
+ "Ulysses S. Grant": {
+  "qid": "Q34836",
+  "label": "Ulysses S. Grant",
+  "description": "president of the United States from 1869 to 1877",
+  "websites": [],
+  "handles": {}
+ },
+ "Union Public Service Commission": {
+  "qid": "Q3519500",
+  "label": "Union Public Service Commission",
+  "description": "Constitutional Organization",
+  "websites": [
+   "http://upsc.gov.in/"
+  ],
+  "handles": {}
+ },
+ "Various": {
+  "qid": "Q1185256",
+  "label": "Remco Campert",
+  "description": "Dutch writer (1929–2022)",
+  "websites": [],
+  "handles": {}
+ },
+ "Very Stable Fergus": {
+  "qid": null
+ },
+ "Vladimir Komarov": {
+  "qid": "Q120143464",
+  "label": "Vladimir Komarov",
+  "description": "Soviet scientist (1890-1971)",
+  "websites": [],
+  "handles": {}
+ },
+ "Wildfires": {
+  "qid": "Q169950",
+  "label": "wildfire",
+  "description": "uncontrolled fire in forests or open spaces",
+  "websites": [],
+  "handles": {}
+ },
+ "Winston Peters": {
+  "qid": "Q1396178",
+  "label": "Winston Peters",
+  "description": "New Zealand politician (born 1945)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "winstonpeters"
+   ],
+   "facebook": [
+    "winstonpeters"
+   ],
+   "instagram": [
+    "winstonpetersnzfirst"
+   ]
+  }
+ },
+ "Yemi Osinbajo": {
+  "qid": "Q19730927",
+  "label": "Yemi Osinbajo",
+  "description": "14th Vice President of Nigeria",
+  "websites": [
+   "https://www.yemiosinbajo.ng/"
+  ],
+  "handles": {
+   "twitter": [
+    "ProfOsinbajo",
+    "ProfOsinbajo"
+   ],
+   "instagram": [
+    "profosinbajo"
+   ]
+  }
+ },
+ "Yogi Adityanath": {
+  "qid": "Q4683097",
+  "label": "Yogi Adityanath",
+  "description": "21st Chief Minister of Uttar Pradesh",
+  "websites": [
+   "http://www.yogiadityanath.in"
+  ],
+  "handles": {
+   "twitter": [
+    "myogiadityanath"
+   ],
+   "facebook": [
+    "MYogiAdityanath"
+   ],
+   "instagram": [
+    "myogi_adityanath"
+   ]
+  }
+ },
+ "Zach Parkinson": {
+  "qid": null
+ },
+ "Zoran Domijan": {
+  "qid": null
+ },
+ "the Affordable Care Act": {
+  "qid": "Q60187645",
+  "label": "The Affordable Care Act and Health Insurance Markets : Simulating the Effects of Regulation",
+  "description": "book",
+  "websites": [],
+  "handles": {}
+ },
+ "the American Civil War": {
+  "qid": "Q111972992",
+  "label": "The American Civil War: 1861–1865",
+  "description": "strategic simulation board game",
+  "websites": [],
+  "handles": {}
+ },
+ "the Chemical Weapons Convention": {
+  "qid": "Q48072249",
+  "label": "The Chemical Weapons Convention—disarmament, science and technology",
+  "description": "scientific article published on August 1, 2014",
+  "websites": [],
+  "handles": {}
+ },
+ "the Chennai Super Kings": {
+  "qid": null
+ },
+ "the Government of India": {
+  "qid": "Q133282422",
+  "label": "The Government of India",
+  "description": null,
+  "websites": [],
+  "handles": {}
+ },
+ "the Indian Government": {
+  "qid": "Q141027408",
+  "label": "The Indian government program for sterilization: a case study in Uttar Paradesh",
+  "description": "scholarly article published in Mankind Quarterly, vol. 27, no. 4 (1987) (DOI: 10.46469/MQ.1987.27.4.4)",
+  "websites": [],
+  "handles": {}
+ },
+ "the Indian Police Service": {
+  "qid": null
+ },
+ "the New People’s Army": {
+  "qid": null
+ },
+ "the Nigerian National Petroleum Corporation": {
+  "qid": null
+ },
+ "the Philippine Army": {
+  "qid": null
+ },
+ "the Process and Industrious Development Limited": {
+  "qid": null
+ },
+ "the Radio Act": {
+  "qid": "Q29392172",
+  "label": "The radio activity-rotation relation of ultracool dwarfs",
+  "description": "scientific article (publication date: 20 January 2012)",
+  "websites": [],
+  "handles": {}
+ },
+ "the Union Army": {
+  "qid": null
+ },
+ "the White House": {
+  "qid": "Q35525",
+  "label": "White House",
+  "description": "official residence and office of the President of the United States",
+  "websites": [
+   "https://www.whitehouse.gov"
+  ],
+  "handles": {
+   "twitter": [
+    "WhiteHouse45",
+    "WhiteHouse",
+    "Transition46",
+    "LaCasaBlanca"
+   ],
+   "facebook": [
+    "WhiteHouse"
+   ],
+   "instagram": [
+    "whitehouse",
+    "whitehouse45"
+   ]
+  }
+ },
+ "@RealDonaldTrwp": {
+  "qid": null
+ },
+ "@Ron4Trump38": {
+  "qid": null
+ },
+ "AARP": {
+  "qid": "Q463410",
+  "label": "AARP",
+  "description": "American nonprofit organization",
+  "websites": [
+   "https://www.aarp.org",
+   "https://aarp.org"
+  ],
+  "handles": {
+   "twitter": [
+    "aarp",
+    "AARP"
+   ],
+   "facebook": [
+    "AARP"
+   ],
+   "instagram": [
+    "aarp"
+   ]
+  }
+ },
+ "AR-15": {
+  "qid": "Q6889079",
+  "label": "AR-15–style rifle",
+  "description": "lightweight semi-automatic based on the Colt AR-15 design",
+  "websites": [],
+  "handles": {}
+ },
+ "AWM America": {
+  "qid": null
+ },
+ "Abrupt Earth Changes": {
+  "qid": null
+ },
+ "Absolute Patriot states": {
+  "qid": null
+ },
+ "Adetutu Balogun @Tutsy22": {
+  "qid": null
+ },
+ "Alexandria Ocasio-Cortez": {
+  "qid": "Q55223040",
+  "label": "Alexandria Ocasio-Cortez",
+  "description": "American politician (born 1989)",
+  "websites": [
+   "https://ocasio2018.com/",
+   "https://ocasio-cortez.house.gov/",
+   "https://ocasiocortez.com"
+  ],
+  "handles": {
+   "twitter": [
+    "AOC",
+    "RepAOC",
+    "Ocasio2018"
+   ],
+   "facebook": [
+    "OcasioCortez",
+    "repAOC"
+   ],
+   "instagram": [
+    "aoc"
+   ]
+  }
+ },
+ "Alexis Cossette-Trudel": {
+  "qid": "Q66105356",
+  "label": "Alexis Cossette-Trudel",
+  "description": "Canadian videographer",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "AlexisCosset"
+   ]
+  }
+ },
+ "Algernon Fross": {
+  "qid": null
+ },
+ "Amy Coney Barrett's": {
+  "qid": "Q99760721",
+  "label": "Amy Coney Barrett Supreme Court nomination",
+  "description": "United States Supreme Court nomination",
+  "websites": [],
+  "handles": {}
+ },
+ "Anand Vishwakarma": {
+  "qid": null
+ },
+ "Andrew Souter": {
+  "qid": null
+ },
+ "Andrews": {
+  "qid": "Q2652654",
+  "label": "Andrews",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Android": {
+  "qid": "Q94",
+  "label": "Android",
+  "description": "operating system created by Google for use on mobile devices",
+  "websites": [
+   "https://android.com"
+  ],
+  "handles": {
+   "twitter": [
+    "Android",
+    "AndroidDev"
+   ],
+   "facebook": [
+    "AndroidOfficial"
+   ],
+   "instagram": [
+    "android"
+   ]
+  }
+ },
+ "Anmol Alphonso": {
+  "qid": null
+ },
+ "Anthony Weiner’s": {
+  "qid": "Q4773701",
+  "label": "Anthony Weiner sexting scandal",
+  "description": null,
+  "websites": [],
+  "handles": {}
+ },
+ "Antifa": {
+  "qid": "Q278364",
+  "label": "post-World War II anti-fascism",
+  "description": "decentralised informal network of anti-fascist groups focusing on the radical struggle against the far right",
+  "websites": [],
+  "handles": {}
+ },
+ "Antifa Admit": {
+  "qid": null
+ },
+ "Arthur Brice": {
+  "qid": null
+ },
+ "Atiku Abubakar": {
+  "qid": "Q755878",
+  "label": "Atiku Abubakar",
+  "description": "Nigerian politician",
+  "websites": [
+   "https://atiku.org"
+  ],
+  "handles": {
+   "twitter": [
+    "atiku"
+   ],
+   "facebook": [
+    "Atiku.org"
+   ],
+   "instagram": [
+    "aatiku"
+   ]
+  }
+ },
+ "Bangon Bansang Maharlika": {
+  "qid": null
+ },
+ "Bell": {
+  "qid": "Q1444604",
+  "label": "Bell",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Beverly Mccaffrey": {
+  "qid": null
+ },
+ "Bikers for Trump": {
+  "qid": "Q128792375",
+  "label": "Bikers for Trump",
+  "description": "American political group",
+  "websites": [
+   "https://bikersfortrump.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "BikersTrump"
+   ],
+   "facebook": [
+    "bikersfortrump"
+   ]
+  }
+ },
+ "Bill Gates": {
+  "qid": "Q5284",
+  "label": "Bill Gates",
+  "description": "American businessman, investor, and philanthropist (born 1955)",
+  "websites": [
+   "http://www.thegatesnotes.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "BillGates"
+   ],
+   "facebook": [
+    "BillGates"
+   ],
+   "instagram": [
+    "thisisbillgates"
+   ]
+  }
+ },
+ "Bill Gentry": {
+  "qid": "Q34696785",
+  "label": "Bill Gentry Hollow",
+  "description": null,
+  "websites": [],
+  "handles": {}
+ },
+ "Black Lives Matter": {
+  "qid": "Q19600530",
+  "label": "Black Lives Matter",
+  "description": "social movement originating in the USA",
+  "websites": [
+   "https://blacklivesmatter.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "blklivesmatter",
+    "Blklivesmatter"
+   ],
+   "facebook": [
+    "BlackLivesMatter"
+   ],
+   "instagram": [
+    "blklivesmatter"
+   ]
+  }
+ },
+ "Boris Johnson": {
+  "qid": "Q180589",
+  "label": "Boris Johnson",
+  "description": "Prime Minister of the United Kingdom from 2019 to 2022",
+  "websites": [
+   "http://www.boris-johnson.com"
+  ],
+  "handles": {
+   "twitter": [
+    "BorisJohnson"
+   ],
+   "facebook": [
+    "borisjohnson"
+   ],
+   "instagram": [
+    "borisjohnsonuk"
+   ]
+  }
+ },
+ "Breitbart News": {
+  "qid": "Q4960434",
+  "label": "Breitbart News",
+  "description": "American news and opinion website",
+  "websites": [
+   "https://breitbart.com"
+  ],
+  "handles": {
+   "twitter": [
+    "BreitbartNews",
+    "BreitbartLondon"
+   ],
+   "facebook": [
+    "Breitbart"
+   ],
+   "instagram": [
+    "wearebreitbart"
+   ]
+  }
+ },
+ "British Voice": {
+  "qid": "Q17660530",
+  "label": "British voice artist Roy Skelton dies at age 79",
+  "description": "Wikinews article",
+  "websites": [],
+  "handles": {}
+ },
+ "Burgess Owens": {
+  "qid": "Q4998602",
+  "label": "Burgess Owens",
+  "description": "American politician and former football player (born 1951)",
+  "websites": [
+   "https://www.burgess4utah.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "BurgessOwens"
+   ],
+   "facebook": [
+    "burgess.owens"
+   ],
+   "instagram": [
+    "burgessowens"
+   ]
+  }
+ },
+ "CDC": {
+  "qid": "Q583725",
+  "label": "United States Centers for Disease Control and Prevention",
+  "description": "United States government public health agency",
+  "websites": [
+   "https://www.cdc.gov",
+   "https://restoredcdc.org/www.cdc.gov/",
+   "https://cdc.govarchive.us/"
+  ],
+  "handles": {
+   "twitter": [
+    "CDCgov"
+   ],
+   "facebook": [
+    "CDC"
+   ],
+   "instagram": [
+    "cdcgov"
+   ]
+  }
+ },
+ "CNN": {
+  "qid": "Q48340",
+  "label": "CNN",
+  "description": "American news channel",
+  "websites": [
+   "https://cnn.com"
+  ],
+  "handles": {
+   "twitter": [
+    "CNN",
+    "CNNOriginals",
+    "cnnbrk",
+    "CNNPolitics",
+    "cnni",
+    "cnnweather",
+    "CNNPR"
+   ],
+   "facebook": [
+    "cnn"
+   ],
+   "instagram": [
+    "cnn"
+   ]
+  }
+ },
+ "COVID 19": {
+  "qid": "Q84263196",
+  "label": "COVID-19",
+  "description": "contagious disease caused by SARS-CoV-2",
+  "websites": [],
+  "handles": {}
+ },
+ "COVID Lockdowns": {
+  "qid": "Q114386153",
+  "label": "Covid Lockdowns Don’t Get Chuck E. Cheese off Hook for Rent",
+  "description": "Wall Street Journal article (December 14, 2020)",
+  "websites": [],
+  "handles": {}
+ },
+ "CPP-NPA-NDF": {
+  "qid": null
+ },
+ "Calvin Freiburger": {
+  "qid": null
+ },
+ "Carlos Gimenez": {
+  "qid": "Q722146",
+  "label": "Carlos Giménez",
+  "description": "Spanish artist and writer",
+  "websites": [
+   "https://www.carlosgimenez.com"
+  ],
+  "handles": {}
+ },
+ "Cassandra of Troy": {
+  "qid": null
+ },
+ "Charlie Kirk of the conservative student organization Turning Point USA": {
+  "qid": null
+ },
+ "Charlotta Bass": {
+  "qid": "Q5085787",
+  "label": "Charlotta Bass",
+  "description": "American newspaper publisher",
+  "websites": [],
+  "handles": {}
+ },
+ "Chase Jennings": {
+  "qid": null
+ },
+ "Chelsey Cox": {
+  "qid": null
+ },
+ "Chris Coons": {
+  "qid": "Q923242",
+  "label": "Chris Coons",
+  "description": "American lawyer and politician (born 1963)",
+  "websites": [
+   "http://coons.senate.gov",
+   "https://chriscoons.com"
+  ],
+  "handles": {
+   "twitter": [
+    "ChrisCoons",
+    "SenCoonsOffice"
+   ],
+   "facebook": [
+    "senatorchriscoons"
+   ],
+   "instagram": [
+    "senatorchriscoons"
+   ]
+  }
+ },
+ "Christopher Andree": {
+  "qid": null
+ },
+ "Chuck Schumer": {
+  "qid": "Q380900",
+  "label": "Chuck Schumer",
+  "description": "American politician (born 1950)",
+  "websites": [
+   "https://www.schumer.senate.gov",
+   "https://www.chuckschumer.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "SenSchumer",
+    "chuckschumer"
+   ],
+   "facebook": [
+    "senschumer",
+    "Ceschumer"
+   ],
+   "instagram": [
+    "chuckschumer",
+    "senschumer"
+   ]
+  }
+ },
+ "City News": {
+  "qid": "Q60991180",
+  "label": "City News",
+  "description": "Taiwanese news media",
+  "websites": [
+   "https://www.citynews.com.tw/"
+  ],
+  "handles": {
+   "facebook": [
+    "ladopost"
+   ],
+   "instagram": [
+    "ladopost"
+   ]
+  }
+ },
+ "Claire Edwards": {
+  "qid": "Q38800765",
+  "label": "Claire M Edwards",
+  "description": "researcher",
+  "websites": [],
+  "handles": {}
+ },
+ "Claudia Strauber": {
+  "qid": null
+ },
+ "Clinton": {
+  "qid": "Q19826492",
+  "label": "Clinton",
+  "description": "male given name",
+  "websites": [],
+  "handles": {}
+ },
+ "Colleen Huber NMD": {
+  "qid": null
+ },
+ "Common Sense Voters Of America LLC": {
+  "qid": null
+ },
+ "Consulate General Of Pakistan France": {
+  "qid": null
+ },
+ "Coroner": {
+  "qid": "Q1134614",
+  "label": "coroner",
+  "description": "government official who confirms and certifies the death of an individual",
+  "websites": [],
+  "handles": {}
+ },
+ "Covid 19": {
+  "qid": "Q84263196",
+  "label": "COVID-19",
+  "description": "contagious disease caused by SARS-CoV-2",
+  "websites": [],
+  "handles": {}
+ },
+ "Cuban Ministry of Foreign Affairs": {
+  "qid": "Q10330349",
+  "label": "Ministry of Foreign Affairs",
+  "description": "Performs the diplomatic relations of the Republic of Cuba with other states",
+  "websites": [
+   "http://www.cubaminrex.cu/en",
+   "https://cubaminrex.cu/"
+  ],
+  "handles": {
+   "twitter": [
+    "CubaMINREX"
+   ],
+   "facebook": [
+    "cubaminrex"
+   ],
+   "instagram": [
+    "cubaminrex"
+   ]
+  }
+ },
+ "Daniel Andrews": {
+  "qid": "Q952156",
+  "label": "Steve Blum",
+  "description": "American voice actor (born 1960)",
+  "websites": [
+   "https://steveblumvoices.com"
+  ],
+  "handles": {
+   "twitter": [
+    "blumspew"
+   ],
+   "facebook": [
+    "SteveBlumVoices"
+   ],
+   "instagram": [
+    "blumspew"
+   ]
+  }
+ },
+ "Daniel Chiaroscurist Sikorskyi‎": {
+  "qid": null
+ },
+ "David Gibbens": {
+  "qid": "Q126208221",
+  "label": "David Gibbens",
+  "description": "lacrosse official",
+  "websites": [],
+  "handles": {}
+ },
+ "DeAnna Lorraine": {
+  "qid": "Q96216569",
+  "label": "DeAnna Lorraine",
+  "description": "conservative political commentator",
+  "websites": [
+   "https://deannalorraine.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "DeAnna4Congress"
+   ]
+  }
+ },
+ "Debbie Mucarsel-Powell": {
+  "qid": "Q58323616",
+  "label": "Debbie Mucarsel-Powell",
+  "description": "Ecuadorian-American politician (born 1971)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "DebbieforFL"
+   ],
+   "facebook": [
+    "debbieforfl"
+   ],
+   "instagram": [
+    "repdmp_",
+    "debbieforfl"
+   ]
+  }
+ },
+ "Deborah East": {
+  "qid": "Q96223932",
+  "label": "Deborah Pillsbury",
+  "description": "(1684-1752)",
+  "websites": [],
+  "handles": {}
+ },
+ "Development Control Department": {
+  "qid": null
+ },
+ "Dfresh": {
+  "qid": null
+ },
+ "Donald  J Trump": {
+  "qid": null
+ },
+ "Dr. Shiva Ayyudarai": {
+  "qid": null
+ },
+ "Dustin Diamond": {
+  "qid": "Q973475",
+  "label": "Dustin Diamond",
+  "description": "American actor, musician, director, and stand-up comedian (1977–2021)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "dustindiamond"
+   ]
+  }
+ },
+ "E-6B Mercury": {
+  "qid": "Q106340495",
+  "label": "E-6B Mercury",
+  "description": "airborne command post aircraft model by Boeing",
+  "websites": [],
+  "handles": {}
+ },
+ "EU": {
+  "qid": "Q8752",
+  "label": "Basque",
+  "description": "language of the Basque people",
+  "websites": [
+   "http://www.euskaltzaindia.net"
+  ],
+  "handles": {}
+ },
+ "Ebeneezer": {
+  "qid": "Q116003386",
+  "label": "Ebeneezer",
+  "description": "male given name",
+  "websites": [],
+  "handles": {}
+ },
+ "Ed Markey": {
+  "qid": "Q1282411",
+  "label": "Ed Markey",
+  "description": "American politician (born 1946)",
+  "websites": [
+   "https://www.markey.senate.gov"
+  ],
+  "handles": {
+   "twitter": [
+    "SenMarkey"
+   ],
+   "facebook": [
+    "EdJMarkey"
+   ],
+   "instagram": [
+    "edmarkey"
+   ]
+  }
+ },
+ "Emilie Marie Blake": {
+  "qid": null
+ },
+ "Endorsed Donald": {
+  "qid": null
+ },
+ "Ferdinand Marcos": {
+  "qid": "Q1463",
+  "label": "Ferdinand Marcos",
+  "description": "President of the Philippines from 1965 to 1986",
+  "websites": [],
+  "handles": {}
+ },
+ "Forbes": {
+  "qid": "Q16275858",
+  "label": "Forbes",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Frederick Forsyth": {
+  "qid": "Q249197",
+  "label": "Frederick Forsyth",
+  "description": "English novelist (1938–2025)",
+  "websites": [
+   "http://www.frederickforsyth.co.uk/"
+  ],
+  "handles": {}
+ },
+ "Gaurav Goswami": {
+  "qid": null
+ },
+ "George Floyd": {
+  "qid": "Q95677819",
+  "label": "George Floyd",
+  "description": "African American man who was a victim of police violence in the United States, killed by Derek Chauvin",
+  "websites": [],
+  "handles": {}
+ },
+ "Ginsburg": {
+  "qid": "Q29625141",
+  "label": "Ginsburg",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Green New Deal": {
+  "qid": "Q2068307",
+  "label": "Green New Deal",
+  "description": "proposed economic stimulus program",
+  "websites": [],
+  "handles": {}
+ },
+ "Gretchen Harrington Armbruster": {
+  "qid": null
+ },
+ "Gwen Moore": {
+  "qid": "Q461698",
+  "label": "Gwen Moore",
+  "description": "American politician (1951-)",
+  "websites": [
+   "http://gwenmoore.house.gov"
+  ],
+  "handles": {
+   "twitter": [
+    "RepGwenMoore"
+   ],
+   "facebook": [
+    "GwenSMoore"
+   ],
+   "instagram": [
+    "repgwenmoore"
+   ]
+  }
+ },
+ "Harley-Davidson": {
+  "qid": "Q192814",
+  "label": "Harley-Davidson",
+  "description": "American motorcycle manufacturer",
+  "websites": [
+   "https://www.harley-davidson.com/",
+   "https://www.harley-davidson.com/tr/tr/index.html"
+  ],
+  "handles": {
+   "twitter": [
+    "harleydavidson"
+   ],
+   "facebook": [
+    "harley-davidson"
+   ],
+   "instagram": [
+    "harleydavidson"
+   ]
+  }
+ },
+ "Harris": {
+  "qid": "Q10859343",
+  "label": "Harris",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Hillary Clinton": {
+  "qid": "Q6294",
+  "label": "Hillary Clinton",
+  "description": "American politician and diplomat (born 1947)",
+  "websites": [
+   "https://www.hillaryclinton.com"
+  ],
+  "handles": {
+   "twitter": [
+    "HillaryClinton"
+   ],
+   "facebook": [
+    "hillaryclinton"
+   ],
+   "instagram": [
+    "hillaryclinton"
+   ]
+  }
+ },
+ "House": {
+  "qid": "Q3947",
+  "label": "house",
+  "description": "building usually intended for living in",
+  "websites": [],
+  "handles": {}
+ },
+ "Hunter Biden": {
+  "qid": "Q5944264",
+  "label": "Hunter Biden",
+  "description": "American businessman and lobbyist (born 1970)",
+  "websites": [
+   "https://www.hunterbiden.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "HunterBiden",
+    "hunterbiden"
+   ]
+  }
+ },
+ "Hunter Biden's": {
+  "qid": "Q110072828",
+  "label": "The Ben Shapiro Show - Hunter Biden Said The N-Word",
+  "description": "episode of the Ben Shapiro Show",
+  "websites": [],
+  "handles": {}
+ },
+ "Hurricaneshanice": {
+  "qid": null
+ },
+ "I Support Law Enforcement Officers": {
+  "qid": null
+ },
+ "IMF": {
+  "qid": "Q7804",
+  "label": "International Monetary Fund",
+  "description": "international financial institution",
+  "websites": [
+   "https://www.imf.org/"
+  ],
+  "handles": {
+   "twitter": [
+    "IMFNews",
+    "IMFLive"
+   ],
+   "facebook": [
+    "109505255742373"
+   ],
+   "instagram": [
+    "the_imf"
+   ]
+  }
+ },
+ "Imran Khan's": {
+  "qid": null
+ },
+ "Infection": {
+  "qid": "Q166231",
+  "label": "infection",
+  "description": "invasion of and multiplication in a host by disease-causing pathogens or organisms, and the reaction of host tissues",
+  "websites": [],
+  "handles": {}
+ },
+ "International Monetary Fund": {
+  "qid": "Q7804",
+  "label": "International Monetary Fund",
+  "description": "international financial institution",
+  "websites": [
+   "https://www.imf.org/"
+  ],
+  "handles": {
+   "twitter": [
+    "IMFNews",
+    "IMFLive"
+   ],
+   "facebook": [
+    "109505255742373"
+   ],
+   "instagram": [
+    "the_imf"
+   ]
+  }
+ },
+ "Iowa Farm Bureau": {
+  "qid": "Q108635287",
+  "label": "Iowa Farm Bureau Federation",
+  "description": "affiliate organization of the American Farm Bureau Federation",
+  "websites": [],
+  "handles": {}
+ },
+ "Jacob Blake": {
+  "qid": "Q98636162",
+  "label": "Jacob Blake",
+  "description": "victim of officer-involved shooting in the United States",
+  "websites": [],
+  "handles": {}
+ },
+ "Jane Taylor": {
+  "qid": "Q4259798",
+  "label": "Jane Taylor",
+  "description": "English poet, novelist (1783-1824)",
+  "websites": [],
+  "handles": {}
+ },
+ "Jeff Sharlet": {
+  "qid": "Q1686355",
+  "label": "Jeff Sharlet",
+  "description": "American journalist",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "JeffSharlet"
+   ],
+   "instagram": [
+    "jeffsharlet"
+   ]
+  }
+ },
+ "Jill Biden's": {
+  "qid": null
+ },
+ "Jim Phillips": {
+  "qid": "Q110788848",
+  "label": "Jim Phillips",
+  "description": "graphic artist (born 1944)",
+  "websites": [],
+  "handles": {}
+ },
+ "Joe": {
+  "qid": "Q17862013",
+  "label": "Joe",
+  "description": "male given name",
+  "websites": [],
+  "handles": {}
+ },
+ "Joe Biden Trash": {
+  "qid": null
+ },
+ "Joe Biden's": {
+  "qid": "Q54495162",
+  "label": "family of Joe Biden",
+  "description": "First Family of the United States from 2021 to 2025",
+  "websites": [],
+  "handles": {}
+ },
+ "Joe Biden’s": {
+  "qid": "Q54495162",
+  "label": "family of Joe Biden",
+  "description": "First Family of the United States from 2021 to 2025",
+  "websites": [],
+  "handles": {}
+ },
+ "Joe Hoft": {
+  "qid": null
+ },
+ "John Cammo": {
+  "qid": null
+ },
+ "John Mahama": {
+  "qid": "Q50678",
+  "label": "John Mahama",
+  "description": "President of the Republic of Ghana",
+  "websites": [
+   "https://www.johnmahama.org/"
+  ],
+  "handles": {
+   "twitter": [
+    "JDMahama"
+   ],
+   "facebook": [
+    "JDMahama"
+   ]
+  }
+ },
+ "Jon McConnell": {
+  "qid": "Q140800224",
+  "label": "Jon McConnell",
+  "description": "Northern Irish boxer",
+  "websites": [],
+  "handles": {}
+ },
+ "Jose Rizal": {
+  "qid": "Q1500",
+  "label": "José Rizal",
+  "description": "Filipino nationalist, writer and polymath (1861–1896)",
+  "websites": [],
+  "handles": {}
+ },
+ "Kali": {
+  "qid": "Q292351",
+  "label": "Kali",
+  "description": "genus of plants",
+  "websites": [],
+  "handles": {}
+ },
+ "Kanye West": {
+  "qid": "Q15935",
+  "label": "Kanye West",
+  "description": "American rapper and record producer",
+  "websites": [
+   "https://yeezy.com/",
+   "http://yeezy.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "kanyewest"
+   ],
+   "facebook": [
+    "kanyewest"
+   ],
+   "instagram": [
+    "ye"
+   ]
+  }
+ },
+ "Kathy Fretwell": {
+  "qid": null
+ },
+ "Ken Stammerman": {
+  "qid": null
+ },
+ "Keon & Kavon": {
+  "qid": null
+ },
+ "Kitty Freed": {
+  "qid": null
+ },
+ "Kristen Welker": {
+  "qid": "Q16204167",
+  "label": "Kristen Welker",
+  "description": "American television journalist (born 1976)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "kwelkernbc"
+   ]
+  }
+ },
+ "Kyle Rittenhouse": {
+  "qid": "Q98663135",
+  "label": "Kyle Rittenhouse",
+  "description": "American former suspect in the killing of two rioters in Kenosha, Wisconsin",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "ThisIsKyleR"
+   ],
+   "facebook": [
+    "thisiskylerittenhouse"
+   ],
+   "instagram": [
+    "thisiskylerittenhouse"
+   ]
+  }
+ },
+ "LNP": {
+  "qid": "Q1065320",
+  "label": "Liberal-National Coalition",
+  "description": "an alliance of Conservative political parties in Australia",
+  "websites": [],
+  "handles": {}
+ },
+ "Lal Bahadur Shastri": {
+  "qid": "Q244689",
+  "label": "Lal Bahadur Shastri",
+  "description": "Prime Minister of India from 1964 to 1966",
+  "websites": [],
+  "handles": {}
+ },
+ "Lincoln": {
+  "qid": "Q28260",
+  "label": "Lincoln",
+  "description": "capital city of the U.S. state of Nebraska and seat of Lancaster County",
+  "websites": [
+   "https://www.lincoln.ne.gov/",
+   "https://www.lincoln.ne.gov/Home"
+  ],
+  "handles": {}
+ },
+ "Lorraine Badoy": {
+  "qid": "Q115492318",
+  "label": "Lorraine Badoy",
+  "description": "Philippine physician and government official",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "lorrainebadoy"
+   ],
+   "facebook": [
+    "lorraine.badoy"
+   ]
+  }
+ },
+ "MK Conway": {
+  "qid": null
+ },
+ "MLB": {
+  "qid": "Q1163715",
+  "label": "Major League Baseball",
+  "description": "North American professional baseball league",
+  "websites": [
+   "https://www.mlb.com/",
+   "https://www.mlb.com/es"
+  ],
+  "handles": {
+   "twitter": [
+    "MLB",
+    "MLB_PR"
+   ],
+   "facebook": [
+    "mlb"
+   ],
+   "instagram": [
+    "mlb"
+   ]
+  }
+ },
+ "Macron": {
+  "qid": "Q28375134",
+  "label": "Macron",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Macron’s": {
+  "qid": "Q242772",
+  "label": "Toughsheet Community Stadium",
+  "description": "football stadium in England",
+  "websites": [
+   "https://www.bwfc.co.uk/news/2018/august/welcome-to-the-university-of-bolton-stadium/"
+  ],
+  "handles": {}
+ },
+ "Maharashtra’s": {
+  "qid": "Q71534417",
+  "label": "Maharashtra State Cooperative Bank",
+  "description": "bank in India",
+  "websites": [
+   "https://www.mscbank.com/"
+  ],
+  "handles": {}
+ },
+ "Malcolm Kendrick": {
+  "qid": "Q6742420",
+  "label": "Malcolm Kendrick",
+  "description": "British writer",
+  "websites": [],
+  "handles": {}
+ },
+ "Manchester United": {
+  "qid": "Q18656",
+  "label": "Manchester United F.C.",
+  "description": "association football club in Manchester, England",
+  "websites": [
+   "https://www.manutd.com",
+   "https://www.manutd.com/zh",
+   "https://www.manutd.com/ko",
+   "https://www.manutd.com/ar"
+  ],
+  "handles": {
+   "twitter": [
+    "ManUtd_ES",
+    "ManUtd"
+   ],
+   "facebook": [
+    "manchesterunited"
+   ],
+   "instagram": [
+    "manchesterunited"
+   ]
+  }
+ },
+ "Martin Walsh": {
+  "qid": "Q47491696",
+  "label": "Martin Walsh",
+  "description": "South African rower",
+  "websites": [],
+  "handles": {}
+ },
+ "Math Mistake": {
+  "qid": null
+ },
+ "Matt Gaetz": {
+  "qid": "Q16221742",
+  "label": "Matt Gaetz",
+  "description": "United States Representative from Florida from 2017 to 2024 (born 1982)",
+  "websites": [
+   "http://mattgaetz.com/",
+   "https://gaetz.house.gov/"
+  ],
+  "handles": {
+   "twitter": [
+    "mattgaetz"
+   ],
+   "facebook": [
+    "CongressmanMattGaetz",
+    "RepresentativeMattGaetz"
+   ],
+   "instagram": [
+    "congressman_matt_gaetz",
+    "repmattgaetz"
+   ]
+  }
+ },
+ "McDonald’s": {
+  "qid": "Q38076",
+  "label": "McDonald's",
+  "description": "American fast food restaurant chain",
+  "websites": [
+   "https://www.mcdonalds.com",
+   "https://mcdonalds.ge",
+   "https://mcdonaldsrestaurant.nl/",
+   "https://mcdonalds.com.au/",
+   "https://www.mcdonalds.co.jp/",
+   "https://mcdonalds.com.ph/",
+   "https://www.mcdonaldsindia.com/",
+   "https://mcdonalds.com.tr",
+   "https://mcdonalds.co.za/",
+   "https://www.mcdonalds.ch",
+   "https://mcdonalds.es/",
+   "https://www.mcdonalds.cz/",
+   "https://www.mcdonalds.be/",
+   "https://www.mcdonalds.it/",
+   "https://mcdonalds.co.nz/",
+   "https://www.mcdonalds.ca/",
+   "https://mcdonalds.co.id/",
+   "https://mcdonalds.se",
+   "https://www.mcdonalds.co.th/",
+   "https://mcdonalds.pl/",
+   "https://www.mcdonalds.com.my/",
+   "https://www.mcdonalds.com.br/",
+   "https://www.mcdonalds.com.mx/",
+   "https://www.mcdonalds.co.uk",
+   "https://www.mcdonalds.com.ar/",
+   "https://www.mcdonalds.com.tw",
+   "https://www.mcdonalds.de",
+   "https://www.mcdonalds.ie",
+   "https://mcdonalds.gr",
+   "https://www.mcdonalds.at/",
+   "https://mcdonalds.ad/",
+   "https://www.mcdonalds.com.sg/",
+   "https://mcdonalds.hr/",
+   "https://www.mcdonalds.ro/",
+   "https://mcdonalds.vn/",
+   "https://www.mcdonalds.fr/",
+   "https://www.mcdonalds.hu/",
+   "https://mcdonalds.com.mt/",
+   "https://mcdelivery.co.in/",
+   "https://mcdonalds-mcdelivery.es/",
+   "https://www.mcdonalds.cl/",
+   "https://www.mcdonalds.pt/",
+   "https://mcdonalds.com.hk",
+   "https://www.mcdonalds.co.kr/",
+   "https://www.mcdonaldsarabia.com",
+   "https://www.mcdonalds.com.cn/",
+   "http://mcdelivery.mcthai.co.th/",
+   "https://mcdelivery.com.ph/",
+   "https://www4.mcdonalds.ca",
+   "https://www.riyadh.mcdelivery.com.sa/",
+   "https://mcdelivery.com.sg",
+   "https://www.mcdonalds.com/gb/en-gb.html",
+   "https://www.mcdonalds.com/ca/en-ca.html",
+   "https://www.mcdonalds.com/de/de-de.html",
+   "https://www.mcdonalds.com/ie/en-ie.html",
+   "https://www.mcdonalds.com/hu/hu-hu.html",
+   "https://www.mcdonalds.com/us/en-us.html",
+   "https://www.mccafe.mcdonalds.pl"
+  ],
+  "handles": {
+   "twitter": [
+    "McDonaldsCorp",
+    "mcdonalds",
+    "McDonaldsUK",
+    "McDonaldsJapan",
+    "McDo_PH",
+    "McDonaldsCanada",
+    "McDonalds_SA",
+    "McDonaldsTR",
+    "maccas",
+    "mcdonaldsindia",
+    "Mcdonaldsoman",
+    "McDonaldsPK",
+    "QuadCitiesMcD",
+    "McD_EastIowa",
+    "McDonaldsUKNews",
+    "McDonaldsDENews",
+    "McDonaldsNorge",
+    "McDonalds_VE",
+    "McDonaldsPT_",
+    "McDonalds",
+    "McDMalaysia",
+    "McDonaldsKSA",
+    "McDonaldsMexico",
+    "McDonalds_BR",
+    "mcdonaldsindia",
+    "mcdonalds_ar",
+    "mcdonalds_cl",
+    "mcdonalds_id",
+    "mcdonaldsirl",
+    "mcdonaldsjapan",
+    "mcdonaldstr",
+    "mcdonaldsuk",
+    "mcdschweiz",
+    "mcthai"
+   ],
+   "facebook": [
+    "mcdonalds",
+    "mcdonaldshungary",
+    "McDo.ph",
+    "McDonalds.CZ",
+    "McDonalds.ro",
+    "McDonaldsAU",
+    "McDonaldsArgentina",
+    "McDonaldsAustria",
+    "McDonaldsBrasil",
+    "McDonaldsCanada",
+    "McDonaldsChile",
+    "McDonaldsID",
+    "McDonaldsIndia",
+    "McDonaldsIreland",
+    "McDonaldsItalia",
+    "McDonaldsJapan",
+    "McDonaldsMexico",
+    "McDonaldsNZ",
+    "McDonaldsPolska",
+    "McDonaldsPortugal",
+    "McDonaldsSwitzerland",
+    "McDonaldsTurkiye",
+    "McDonaldsVN",
+    "McThai",
+    "My.McDonalds",
+    "mcdonalds.tw",
+    "mcdonaldshongkong",
+    "mcdonaldshr",
+    "mcdonaldsuk",
+    "mcdsg",
+    "McDonalds.ZA"
+   ],
+   "instagram": [
+    "mcdonalds",
+    "mcdonaldshk",
+    "mcdonaldstw",
+    "mcdonalds_kr",
+    "mcdonaldscanada",
+    "mcdonaldsde",
+    "mcdonaldsvn",
+    "mcdonaldsksa",
+    "mamsmakanamaka",
+    "mcdo_ph",
+    "mcdocanada",
+    "mcdonalds.cz",
+    "mcdonalds_ar",
+    "mcdonalds_austria",
+    "mcdonalds_br",
+    "mcdonalds_cl",
+    "mcdonalds_india",
+    "mcdonalds_ro",
+    "mcdonalds_switzerland",
+    "mcdonaldsau",
+    "mcdonaldshrvatska",
+    "mcdonaldsid",
+    "mcdonaldsire",
+    "mcdonaldsitalia",
+    "mcdonaldsmagyarorszag",
+    "mcdonaldsmalaysia",
+    "mcdonaldsmx",
+    "mcdonaldsnz",
+    "mcdonaldsportugal",
+    "mcdonaldsthailand",
+    "mcdonaldsturkiye",
+    "mcdonaldsuk",
+    "mcdsg",
+    "mcdonalds_za"
+   ]
+  }
+ },
+ "Michael Jordan": {
+  "qid": "Q41421",
+  "label": "Michael Jordan",
+  "description": "American basketball player and businessman (born 1963)",
+  "websites": [],
+  "handles": {
+   "facebook": [
+    "MichaelJordan"
+   ],
+   "instagram": [
+    "jumpman23"
+   ]
+  }
+ },
+ "Michael Lee  Washington Examiner": {
+  "qid": null
+ },
+ "Michael Reeves": {
+  "qid": "Q59781334",
+  "label": "Michael Reeves",
+  "description": "American YouTuber",
+  "websites": [
+   "https://michaelreeves.us"
+  ],
+  "handles": {
+   "twitter": [
+    "michaelreeves"
+   ],
+   "instagram": [
+    "michaelreeves808"
+   ]
+  }
+ },
+ "Minneapolis City Council": {
+  "qid": "Q6867972",
+  "label": "Minneapolis City Council",
+  "description": "lawmaking body of the City of Minneapolis",
+  "websites": [
+   "http://www.minneapolismn.gov/council/"
+  ],
+  "handles": {}
+ },
+ "Mr. Michael Ale": {
+  "qid": null
+ },
+ "NASCAR": {
+  "qid": "Q233929",
+  "label": "NASCAR",
+  "description": "American automobile racing company",
+  "websites": [
+   "http://www.nascar.com"
+  ],
+  "handles": {
+   "twitter": [
+    "NASCAR"
+   ],
+   "facebook": [
+    "nascar"
+   ],
+   "instagram": [
+    "nascar"
+   ]
+  }
+ },
+ "NBA": {
+  "qid": "Q155223",
+  "label": "National Basketball Association",
+  "description": "North American professional basketball league",
+  "websites": [
+   "https://www.nba.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "NBA",
+    "nbahistory",
+    "NBAFantasy",
+    "NBAOfficial",
+    "NBAcom",
+    "nbastats",
+    "NBAPR",
+    "NBACanada"
+   ],
+   "facebook": [
+    "nba"
+   ],
+   "instagram": [
+    "nba"
+   ]
+  }
+ },
+ "NBC News": {
+  "qid": "Q2877626",
+  "label": "NBC News",
+  "description": "news division of NBC",
+  "websites": [
+   "https://www.nbcnews.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "NBCNews",
+    "BreakingNews",
+    "NBCNewsHealth",
+    "NBCNewsTech"
+   ],
+   "facebook": [
+    "NBCNews"
+   ],
+   "instagram": [
+    "nbcnews"
+   ]
+  }
+ },
+ "NFL": {
+  "qid": "Q1215884",
+  "label": "National Football League",
+  "description": "professional American football league",
+  "websites": [
+   "https://www.nfl.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "NFL"
+   ],
+   "facebook": [
+    "NFL"
+   ],
+   "instagram": [
+    "nfl"
+   ]
+  }
+ },
+ "Nancy Pelosi": {
+  "qid": "Q170581",
+  "label": "Nancy Pelosi",
+  "description": "American politician (born 1940)",
+  "websites": [
+   "https://pelosi.house.gov"
+  ],
+  "handles": {
+   "twitter": [
+    "SpeakerPelosi",
+    "TeamPelosi",
+    "NancyPelosi"
+   ],
+   "facebook": [
+    "NancyPelosi"
+   ],
+   "instagram": [
+    "speakerpelosi"
+   ]
+  }
+ },
+ "Navalny": {
+  "qid": "Q110700815",
+  "label": "Navalny 35",
+  "description": "sanction list of human right abusers",
+  "websites": [],
+  "handles": {}
+ },
+ "News18": {
+  "qid": "Q1023924",
+  "label": "CNN-News18",
+  "description": "Indian English-language news television channel",
+  "websites": [
+   "http://ibnlive.in.com/",
+   "https://www.news18.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "cnnnews18",
+    "CNNnews18"
+   ],
+   "facebook": [
+    "cnnibn"
+   ]
+  }
+ },
+ "Ngozi Okonjo-Iweala": {
+  "qid": "Q289350",
+  "label": "Ngozi Okonjo-Iweala",
+  "description": "director-General of the World Trade Organization",
+  "websites": [
+   "http://ngoziokonjoiweala.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "NOIweala"
+   ],
+   "facebook": [
+    "ngoziokonjoiweala"
+   ]
+  }
+ },
+ "Nigel Howard Berry": {
+  "qid": null
+ },
+ "Nigeria’s": {
+  "qid": "Q109659362",
+  "label": "Nigeria's future: Failed state or African superpower?",
+  "description": "episode of Al Jazeera's Head to Head",
+  "websites": [
+   "https://www.aljazeera.com/program/head-to-head/2015/5/1/nigerias-future-failed-state-or-african-superpower"
+  ],
+  "handles": {}
+ },
+ "No Kut James": {
+  "qid": null
+ },
+ "Officer Daniels": {
+  "qid": null
+ },
+ "Outbreak": {
+  "qid": "Q44512",
+  "label": "epidemic",
+  "description": "rapid spread of infectious disease to a large number of people in a given population within a short period of time",
+  "websites": [],
+  "handles": {}
+ },
+ "PAHO": {
+  "qid": "Q1856835",
+  "label": "Pan American Health Organization",
+  "description": "international public health agency",
+  "websites": [
+   "https://www.paho.org/es",
+   "https://www.paho.org/fr",
+   "https://www.paho.org/pt",
+   "https://www.paho.org/en"
+  ],
+  "handles": {
+   "twitter": [
+    "opsoms",
+    "pahowho"
+   ]
+  }
+ },
+ "POOJA CHAUDHURI": {
+  "qid": "Q126168464",
+  "label": "Pooja Chaudhuri",
+  "description": "Indian journalist",
+  "websites": [],
+  "handles": {}
+ },
+ "Pan American Health Organization": {
+  "qid": "Q1856835",
+  "label": "Pan American Health Organization",
+  "description": "international public health agency",
+  "websites": [
+   "https://www.paho.org/es",
+   "https://www.paho.org/fr",
+   "https://www.paho.org/pt",
+   "https://www.paho.org/en"
+  ],
+  "handles": {
+   "twitter": [
+    "opsoms",
+    "pahowho"
+   ]
+  }
+ },
+ "Paresh Rawal ‏": {
+  "qid": "Q18924375",
+  "label": "Paresh Rawal filmography",
+  "description": "Filmography of Indian actor Paresh Rawal",
+  "websites": [],
+  "handles": {}
+ },
+ "Paul Pogba": {
+  "qid": "Q129027",
+  "label": "Paul Pogba",
+  "description": "French footballer (born 1993)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "paulpogba"
+   ],
+   "facebook": [
+    "PaulPogba"
+   ],
+   "instagram": [
+    "paulpogba"
+   ]
+  }
+ },
+ "Pennsylvania Women for Biden/Harris": {
+  "qid": null
+ },
+ "Pete Evans": {
+  "qid": "Q7171949",
+  "label": "Pete Evans",
+  "description": "Australian chef",
+  "websites": [],
+  "handles": {
+   "facebook": [
+    "paleochefpeteevans"
+   ],
+   "instagram": [
+    "chefpeteevans"
+   ]
+  }
+ },
+ "Peter Rodrigues": {
+  "qid": "Q7176643",
+  "label": "Peter Rodrigues",
+  "description": "Welsh footballer (born 1944)",
+  "websites": [],
+  "handles": {}
+ },
+ "Pogba Has Quit The French National Team Over Macron's Remarks on": {
+  "qid": null
+ },
+ "Professor Paul Lehner": {
+  "qid": null
+ },
+ "Rachel Elnaugh": {
+  "qid": "Q7279229",
+  "label": "Rachel Elnaugh",
+  "description": "British entrepreneur",
+  "websites": [
+   "https://rachelelnaugh.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "RachelElnaugh"
+   ]
+  }
+ },
+ "Radio Canada": {
+  "qid": "Q461761",
+  "label": "Canadian Broadcasting Corporation",
+  "description": "Canadian public broadcaster",
+  "websites": [
+   "https://cbc.radio-canada.ca/"
+  ],
+  "handles": {
+   "twitter": [
+    "cbc"
+   ],
+   "facebook": [
+    "cbc"
+   ],
+   "instagram": [
+    "cbc"
+   ]
+  }
+ },
+ "Radio Quebec": {
+  "qid": "Q3546513",
+  "label": "Télé-Québec",
+  "description": "state-owned public broadcaster in Quebec",
+  "websites": [
+   "https://www.telequebec.tv/"
+  ],
+  "handles": {
+   "instagram": [
+    "telequebec"
+   ]
+  }
+ },
+ "Rahul Gandhi": {
+  "qid": "Q10218",
+  "label": "Rahul Gandhi",
+  "description": "Indian politician (1970-present)",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "RahulGandhi"
+   ],
+   "facebook": [
+    "rahulgandhi"
+   ],
+   "instagram": [
+    "rahulgandhi"
+   ]
+  }
+ },
+ "Ray Martorella": {
+  "qid": null
+ },
+ "Register": {
+  "qid": "Q19386377",
+  "label": "register",
+  "description": "set of records with a single structure arranged according to a criterion, providing an authoritative list of one kind of information",
+  "websites": [],
+  "handles": {}
+ },
+ "Richard Grinell": {
+  "qid": null
+ },
+ "Rita Hart": {
+  "qid": "Q25246590",
+  "label": "Rita Hart",
+  "description": "politician",
+  "websites": [],
+  "handles": {}
+ },
+ "Robert E. Lee": {
+  "qid": "Q165557",
+  "label": "Robert E. Lee",
+  "description": "Confederate States general (1807–1870)",
+  "websites": [],
+  "handles": {}
+ },
+ "Robin L. Haywood": {
+  "qid": null
+ },
+ "Robin Vos": {
+  "qid": "Q87674378",
+  "label": "Robin Vos",
+  "description": "researcher",
+  "websites": [],
+  "handles": {}
+ },
+ "Robyn Vining": {
+  "qid": "Q63456684",
+  "label": "Robyn Vining",
+  "description": "American Democratic politician, Member of the Wisconsin State Assembly",
+  "websites": [],
+  "handles": {}
+ },
+ "Ron Johnson": {
+  "qid": "Q970272",
+  "label": "Ron Johnson",
+  "description": "American politician (born 1955)",
+  "websites": [
+   "http://www.ronjohnson.senate.gov/"
+  ],
+  "handles": {
+   "twitter": [
+    "SenRonJohnson"
+   ],
+   "facebook": [
+    "senronjohnson"
+   ],
+   "instagram": [
+    "senronjohnson"
+   ]
+  }
+ },
+ "Russian Foreign Ministry": {
+  "qid": "Q789889",
+  "label": "Ministry of Foreign Affairs of the Russian Federation",
+  "description": "executive ministry of the Russian government",
+  "websites": [
+   "https://mid.ru"
+  ],
+  "handles": {
+   "twitter": [
+    "MID_RF",
+    "mfa_russia",
+    "mae_rusia",
+    "russia_ar"
+   ],
+   "facebook": [
+    "MIDRussia",
+    "RussianFederationArabic"
+   ],
+   "instagram": [
+    "mid.rus"
+   ]
+  }
+ },
+ "Ruth Bader Ginsberg": {
+  "qid": null
+ },
+ "Santander": {
+  "qid": "Q12233",
+  "label": "Santander",
+  "description": "capital of the autonomous community of Cantabria, Spain",
+  "websites": [
+   "https://www.santander.es/"
+  ],
+  "handles": {}
+ },
+ "Sen. Van Wanggaard": {
+  "qid": null
+ },
+ "September 2020": {
+  "qid": "Q55281173",
+  "label": "September 2020",
+  "description": "month of 2020",
+  "websites": [],
+  "handles": {}
+ },
+ "Shanika.live": {
+  "qid": null
+ },
+ "Silver Bullion": {
+  "qid": "Q49448500",
+  "label": "Silver Bullion Mine",
+  "description": "mine in Lander County, Nevada, United States of America",
+  "websites": [],
+  "handles": {}
+ },
+ "Sky News Arabia": {
+  "qid": "Q2201035",
+  "label": "Sky News Arabia",
+  "description": "Arabic-language rolling news channel",
+  "websites": [
+   "https://www.skynewsarabia.com/"
+  ],
+  "handles": {
+   "twitter": [
+    "skynewsarabia",
+    "SkyNewsArabia_B"
+   ],
+   "facebook": [
+    "SkyNewsArabia"
+   ],
+   "instagram": [
+    "skynewsarabia"
+   ]
+  }
+ },
+ "Steven Miles": {
+  "qid": "Q138846753",
+  "label": "Sergeant Miles",
+  "description": "American pornographic actor",
+  "websites": [],
+  "handles": {
+   "twitter": [
+    "sgtmilesxxx",
+    "sgtproductions"
+   ],
+   "instagram": [
+    "real_sgtmiles",
+    "sergeantmiliesofficial"
+   ]
+  }
+ },
+ "Sturgis Rally": {
+  "qid": null
+ },
+ "Sunil Gavaskar": {
+  "qid": "Q558182",
+  "label": "Sunil Gavaskar",
+  "description": "Indian cricket player",
+  "websites": [],
+  "handles": {}
+ },
+ "Sunny Rowe": {
+  "qid": null
+ },
+ "Supreme": {
+  "qid": "Q37127530",
+  "label": "Supreme",
+  "description": "family name",
+  "websites": [],
+  "handles": {}
+ },
+ "Susan Collins": {
+  "qid": "Q22279",
+  "label": "Susan Collins",
+  "description": "United States Senator from Maine since 1997",
+  "websites": [
+   "https://www.collins.senate.gov"
+  ],
+  "handles": {
+   "twitter": [
+    "senatorcollins",
+    "SenatorCollins"
+   ],
+   "facebook": [
+    "susancollins"
+   ],
+   "instagram": [
+    "sensusancollins"
+   ]
+  }
+ },
+ "Sustainable Development Goals": {
+  "qid": "Q7649586",
+  "label": "Sustainable Development Goals",
+  "description": "set of United Nations-defined global development goals and climate change",
+  "websites": [
+   "https://sustainabledevelopment.un.org/sdgs",
+   "https://sdgs.un.org/"
+  ],
+  "handles": {}
+ },
+ "Swati Bhasin": {
+  "qid": "Q93055856",
+  "label": "Swati Bhasin",
+  "description": "researcher (ORCID 0000-0001-8661-1459)",
+  "websites": [],
+  "handles": {}
+ },
+ "TVC News Nigeria": {
+  "qid": "Q28401298",
+  "label": "TVC News",
+  "description": "Nigerian 24-hour television news channel",
+  "websites": [
+   "https://www.tvcnews.tv/"
+  ],
+  "handles": {
+   "twitter": [
+    "tvcnewsng"
+   ],
+   "facebook": [
+    "tvcnewsng"
+   ],
+   "instagram": [
+    "tvcnewsng"
+   ]
+  }
+ },
+ "Tanishq": {
+  "qid": "Q56810157",
+  "label": "Tanishqa Bhosale",
+  "description": "Indian model",
+  "websites": [],
+  "handles": {}
+ },
+ "Tax-Exempt": {
+  "qid": "Q705450",
+  "label": "tax exemption",
+  "description": "monetary exemption from taxes that would otherwise be levied",
+  "websites": [],
+  "handles": {}
+ },
+ "Tendai Biti": {
+  "qid": "Q7410395",
+  "label": "Tendai Biti",
+  "description": "Zimbabwean politician",
+  "websites": [],
+  "handles": {}
+ },
+ "The Black Median Household Wealth": {
+  "qid": null
+ },
+ "The Democratic party": {
+  "qid": "Q23055252",
+  "label": "Democratic Party",
+  "description": "2016–2018 political party in Japan",
+  "websites": [
+   "https://www.minshin.or.jp/",
+   "https://www.minshin.or.jp/english"
+  ],
+  "handles": {
+   "twitter": [
+    "minshintonews",
+    "MinshintoNews"
+   ],
+   "facebook": [
+    "minshinto"
+   ],
+   "instagram": [
+    "minshinto"
+   ]
+  }
+ },
+ "The Donald Trump 2020 presidential campaign": {
+  "qid": null
+ },
+ "The Radio Act": {
+  "qid": "Q29392172",
+  "label": "The radio activity-rotation relation of ultracool dwarfs",
+  "description": "scientific article (publication date: 20 January 2012)",
+  "websites": [],
+  "handles": {}
+ },
+ "The State of Massachusetts": {
+  "qid": "Q3029588",
+  "label": "The State of Massachusetts",
+  "description": "2008 single by Dropkick Murphys",
+  "websites": [],
+  "handles": {}
+ },
+ "The U.S. Centers for Disease Control and Prevention": {
+  "qid": null
+ },
+ "The UK Prime Minister, Boris Johnson": {
+  "qid": null
+ },
+ "The World Health Organization (WHO": {
+  "qid": "Q28202501",
+  "label": "The World Health Organization (WHO) classification of the myeloid neoplasms",
+  "description": "scientific article (publication date: October 2002)",
+  "websites": [],
+  "handles": {}
+ },
+ "This Democratic Party of Joe Biden": {
+  "qid": null
+ },
+ "Thorn": {
+  "qid": "Q47554",
+  "label": "Toruń",
+  "description": "city in north-central Poland",
+  "websites": [
+   "https://torun.pl/"
+  ],
+  "handles": {
+   "twitter": [
+    "UMTorunia"
+   ],
+   "facebook": [
+    "MiastoTorun"
+   ],
+   "instagram": [
+    "torunpl"
+   ]
+  }
+ },
+ "Tim Hogan": {
+  "qid": null
+ },
+ "Tom Sevigny": {
+  "qid": null
+ },
+ "Troll Football Nepal": {
+  "qid": null
+ },
+ "Turkish Foreign Ministry": {
+  "qid": null
+ },
+ "U.S. Embassy in Ghana": {
+  "qid": null
+ },
+ "UN": {
+  "qid": "Q1065",
+  "label": "United Nations",
+  "description": "global international and intergovernmental organization",
+  "websites": [
+   "https://www.un.org/"
+  ],
+  "handles": {
+   "twitter": [
+    "UN",
+    "ONU_fr",
+    "NoticiasONU",
+    "ONU_es",
+    "UnitedNationsRU",
+    "UNarabic"
+   ],
+   "facebook": [
+    "unitednations",
+    "UnitedNationsRussian",
+    "nacionesunidas",
+    "nationsunies",
+    "UnitedNationsArabic"
+   ],
+   "instagram": [
+    "unitednations",
+    "nations_unies",
+    "nacionesunidas",
+    "unitednationsrussian",
+    "unitednations_arabic"
+   ]
+  }
+ },
+ "US Cable": {
+  "qid": "Q7875861",
+  "label": "US Cable",
+  "description": "American cable company",
+  "websites": [],
+  "handles": {}
+ },
+ "Universal Credit": {
+  "qid": "Q7893931",
+  "label": "Universal Credit",
+  "description": "British social security payment system",
+  "websites": [
+   "https://www.gov.uk/universal-credit"
+  ],
+  "handles": {}
+ },
+ "WTO": {
+  "qid": "Q7825",
+  "label": "World Trade Organization",
+  "description": "intergovernmental organization that intends to supervise and liberalize international trade",
+  "websites": [
+   "https://wto.org"
+  ],
+  "handles": {
+   "twitter": [
+    "wto"
+   ],
+   "facebook": [
+    "worldtradeorganization"
+   ],
+   "instagram": [
+    "worldtradeorganization"
+   ]
+  }
+ },
+ "Withdraw Approval Of Hydroxychloroquine": {
+  "qid": null
+ },
+ "World Health Organization": {
+  "qid": "Q7817",
+  "label": "World Health Organization",
+  "description": "United Nations agency concerned with international public health",
+  "websites": [
+   "https://www.who.int",
+   "https://www.who.int/fr",
+   "https://www.who.int/es",
+   "https://www.who.int/ru",
+   "https://www.who.int/zh",
+   "https://www.who.int/ar",
+   "https://www.who.int/pt"
+  ],
+  "handles": {
+   "twitter": [
+    "WHO",
+    "who"
+   ],
+   "facebook": [
+    "who"
+   ],
+   "instagram": [
+    "who"
+   ]
+  }
+ },
+ "World War II": {
+  "qid": "Q362",
+  "label": "World War II",
+  "description": "1939–1945 global conflict",
+  "websites": [],
+  "handles": {}
+ },
+ "Yarima Karama": {
+  "qid": null
+ },
+ "Yesenia Rivera": {
+  "qid": null
+ },
+ "Yinon Weiss": {
+  "qid": null
+ },
+ "Yogita Bhayana": {
+  "qid": "Q107170010",
+  "label": "Yogita Bhayana",
+  "description": "Indian social activist",
+  "websites": [
+   "https://www.pariindia.in"
+  ],
+  "handles": {
+   "twitter": [
+    "yogitabhayana"
+   ],
+   "facebook": [
+    "yogitaofficial"
+   ],
+   "instagram": [
+    "yogitabhayana"
+   ]
+  }
+ },
+ "Zimbabwe Social Media News": {
+  "qid": null
+ },
+ "the 2020 Presidential Election": {
+  "qid": "Q114392500",
+  "label": "The 2020 presidential election and the political situation in Ghana",
+  "description": "scientific article published in 2021",
+  "websites": [],
+  "handles": {}
+ },
+ "the Abuja Metropolitan Management Council": {
+  "qid": null
+ },
+ "the African Export Import Bank": {
+  "qid": null
+ },
+ "the Amuzu Hospital": {
+  "qid": null
+ },
+ "the Centers for Disease Control": {
+  "qid": "Q583725",
+  "label": "United States Centers for Disease Control and Prevention",
+  "description": "United States government public health agency",
+  "websites": [
+   "https://www.cdc.gov",
+   "https://restoredcdc.org/www.cdc.gov/",
+   "https://cdc.govarchive.us/"
+  ],
+  "handles": {
+   "twitter": [
+    "CDCgov"
+   ],
+   "facebook": [
+    "CDC"
+   ],
+   "instagram": [
+    "cdcgov"
+   ]
+  }
+ },
+ "the Communist Party": {
+  "qid": "Q139734521",
+  "label": "The Communist Party of Poland",
+  "description": null,
+  "websites": [],
+  "handles": {}
+ },
+ "the Confederate States Army": {
+  "qid": null
+ },
+ "the Federal Capital Territory Administration": {
+  "qid": null
+ },
+ "the Indian Army": {
+  "qid": "Q55559699",
+  "label": "The Indian Army",
+  "description": "article in The Empire and the century",
+  "websites": [],
+  "handles": {}
+ },
+ "the National Democratic Front": {
+  "qid": null
+ },
+ "the National Party": {
+  "qid": "Q7753206",
+  "label": "The National Party",
+  "description": "political party in Grenada",
+  "websites": [],
+  "handles": {}
+ },
+ "the New People's Army": {
+  "qid": null
+ },
+ "the Revolutionary War": {
+  "qid": "Q114518227",
+  "label": "The Revolutionary War",
+  "description": "episode of The Phil Silvers Show (S1 E19)",
+  "websites": [],
+  "handles": {}
+ },
+ "the Supreme Court": {
+  "qid": "Q139981452",
+  "label": "The Supreme Court",
+  "description": "monograph published by Cambridge University Press (2019)",
+  "websites": [],
+  "handles": {}
+ },
+ "the U.S Mike Pence": {
+  "qid": null
+ },
+ "the U.S. FDA Was Wrong": {
+  "qid": null
+ },
+ "the U.S. Supreme Court’s": {
+  "qid": "Q128750455",
+  "label": "The U.S. Supreme Court’s Effect on Policy: The Exclusionary Rule",
+  "description": "scholarly article",
+  "websites": [],
+  "handles": {}
+ },
+ "the US Republican National Convention": {
+  "qid": null
+ },
+ "the Union Public Service Commission": {
+  "qid": null
+ },
+ "the United Nations": {
+  "qid": "Q846656",
+  "label": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "description": "United Nations agency founded in 1949, whose stated purpose is to help and protect Palestinian refugees",
+  "websites": [
+   "https://unrwa.org"
+  ],
+  "handles": {
+   "twitter": [
+    "unrwa"
+   ],
+   "facebook": [
+    "unrwa"
+   ],
+   "instagram": [
+    "unrwa"
+   ]
+  }
+ },
+ "the WORLD BANK": {
+  "qid": "Q7164",
+  "label": "World Bank",
+  "description": "international financial institution",
+  "websites": [
+   "https://www.worldbank.org/",
+   "https://www.banquemondiale.org/",
+   "https://www.albankaldawli.org",
+   "https://www.vsemirnyjbank.org/",
+   "http://www.worldbank.org"
+  ],
+  "handles": {
+   "twitter": [
+    "WorldBank",
+    "BancoMundialLAC",
+    "WorldBankSAsia",
+    "WorldBankAfrica",
+    "WBG_Climate",
+    "WB_AsiaPacific",
+    "WorldBankLive",
+    "WorldBankWater",
+    "WorldBankMENA",
+    "WBG_Cities",
+    "worldbankdata"
+   ],
+   "facebook": [
+    "BancoMundialBrasil"
+   ],
+   "instagram": [
+    "worldbank"
+   ]
+  }
+ },
+ "the World Health Organization": {
+  "qid": "Q56534931",
+  "label": "The World Health Organization quality of life assessment (WHOQOL): Position paper from the World Health Organization",
+  "description": "article",
+  "websites": [],
+  "handles": {}
+ },
+ "the World Health Organization’s": {
+  "qid": "Q47344740",
+  "label": "The World Health Organization's WHOQOL-BREF quality of life assessment: psychometric properties and results of the international field trial. A report from the WHOQOL group",
+  "description": "scientific article published in March 2004",
+  "websites": [],
+  "handles": {}
+ },
+ "the World Trade Organisation": {
+  "qid": "Q99883225",
+  "label": "The World Trade Organisation (Immunities and Privileges) Order 1995",
+  "description": "UK Statutory Instrument 1995 No. 266",
+  "websites": [],
+  "handles": {}
+ },
+ "the ‘More Doctors": {
+  "qid": null
+ },
+ "thepeachfuzz": {
+  "qid": null
+ },
+ "vaxxedcanada": {
+  "qid": null
+ },
+ "Étienne Lolkek": {
+  "qid": null
+ }
+}

@@ -1,0 +1,60 @@
+authority_quality_ablation phase 1 | started 2026-10-03T13:41:14 | EXPLORATORY, not preregistered
+sample 200 claims | predictions 200 | gold-reachable 167
+oracle definition: ORACLE (publishers of all human gold URLs; leaks by design)
+
+=== REPRODUCTION GATE ===
+[gate] A0 top-100 URL order vs stored 'hybrid' rankings: 200/200 claims identical -> PASS
+[gate] D3 top-100 URL order vs stored 'hybrid+llm_authority' rankings: 200/200 claims identical -> PASS
+[gate] stored table row 'hybrid': 13/13 fields identical -> PASS
+[gate] stored table row 'hybrid+llm_authority': 13/13 fields identical -> PASS
+[gate] AI-primary stored row 'hybrid': 7/7 fields identical, n=72 -> PASS
+[gate] AI-primary stored row 'hybrid+llm_authority': 7/7 fields identical, n=72 -> PASS
+REPRODUCTION GATE: PASS
+
+=== HUMAN-GOLD ENDPOINT (n = claims with reachable gold) ===
+cond | GoldR@1 | GoldR@5 | GoldR@10 | GoldR@20 | GoldR@50 | GoldR@100 | GoldMRR@100 | Gold_claim_coverage | n_gold_claims
+A0 | 0.06 | 0.156 | 0.251 | 0.383 | 0.563 | 0.671 | 0.125 | 0.671 | 167
+D1 | 0.072 | 0.21 | 0.305 | 0.431 | 0.587 | 0.671 | 0.149 | 0.671 | 167
+D3 | 0.066 | 0.198 | 0.293 | 0.437 | 0.581 | 0.671 | 0.138 | 0.671 | 167
+O | 0.431 | 0.641 | 0.659 | 0.665 | 0.671 | 0.671 | 0.515 | 0.671 | 167
+D1 definition check: strict rank-1 entry unusable for 1 of 200 claims (in gold-reachable set: 1); claims with no usable candidate at all: []
+D1 fallback claims (claim: rank used): {180: 2}
+
+=== PAIRED TESTS, human-gold (exploratory) ===
+R@10  D1 vs A0  +13/-4/=150 p=0.04904 holm=0.09808 diff=0.0539 CI[0.006, 0.1018]
+R@10  D3 vs D1  +2/-4/=161 p=0.6875 holm=0.6875 diff=-0.012 CI[-0.0419, 0.018]
+R@10  O vs D3   +61/-0/=106 p=0.0 holm=0.0 diff=0.3653 CI[0.2934, 0.4431]
+R@10  O vs A0   +68/-0/=99 p=0.0 holm=0.0 diff=0.4072 CI[0.3353, 0.485]
+R@5   D1 vs A0  +13/-4/=150 p=0.04904 holm= diff=0.0539 CI[0.006, 0.1018]
+R@5   D3 vs D1  +3/-5/=159 p=0.72656 holm= diff=-0.012 CI[-0.0479, 0.018]
+R@5   O vs D3   +74/-0/=93 p=0.0 holm= diff=0.4431 CI[0.3653, 0.521]
+R@5   O vs A0   +81/-0/=86 p=0.0 holm= diff=0.485 CI[0.4072, 0.5569]
+R@20  D1 vs A0  +10/-2/=155 p=0.03857 holm= diff=0.0479 CI[0.012, 0.0898]
+R@20  D3 vs D1  +2/-1/=164 p=1.0 holm= diff=0.006 CI[-0.012, 0.024]
+R@20  O vs D3   +38/-0/=129 p=0.0 holm= diff=0.2275 CI[0.1617, 0.2934]
+R@20  O vs A0   +47/-0/=120 p=0.0 holm= diff=0.2814 CI[0.2156, 0.3473]
+
+=== AI-PRIMARY ENDPOINT (separate, exploratory; n=72) ===
+A0 | 0.028 | 0.056 | 0.097 | 0.139 | 0.347 | 0.458 | 0.051 | 0.458
+D1 | 0.083 | 0.236 | 0.278 | 0.278 | 0.431 | 0.458 | 0.144 | 0.458
+D3 | 0.097 | 0.236 | 0.278 | 0.306 | 0.417 | 0.458 | 0.151 | 0.458
+O | 0.194 | 0.417 | 0.431 | 0.444 | 0.458 | 0.458 | 0.263 | 0.458
+R@10  D1 vs A0  +14/-1/=57 p=0.00098 holm=0.00294 diff=0.1806 CI[0.0833, 0.2778]
+R@10  D3 vs D1  +2/-2/=68 p=1.0 holm=1.0 diff=0.0 CI[-0.0556, 0.0556]
+R@10  O vs D3   +11/-0/=61 p=0.00098 holm=0.00294 diff=0.1528 CI[0.0694, 0.2361]
+R@10  O vs A0   +24/-0/=48 p=0.0 holm=0.0 diff=0.3333 CI[0.2222, 0.4444]
+
+strata check: stored n_gold_publishers equals recomputation for 167/167 claims
+
+=== STRATA (descriptive; human-gold hits at R@10 and R@20) ===
+gold_publishers (from human gold)                >=2 publishers                     n= 85 | R@10 A0=0.271 D1=0.306 D3=0.318 O=0.729 | R@20 A0=0.447 D1=0.482 D3=0.506 O=0.741
+gold_publishers (from human gold)                1 publisher                        n= 82 | R@10 A0=0.232 D1=0.305 D3=0.268 O=0.585 | R@20 A0=0.317 D1=0.378 D3=0.366 O=0.585
+predictor_label (MODEL OUTPUT)                   multiple_legitimate_authorities    n=144 | R@10 A0=0.271 D1=0.319 D3=0.306 O=0.674 | R@20 A0=0.403 D1=0.444 D3=0.451 O=0.681
+predictor_label (MODEL OUTPUT)                   single_clear_authority             n= 20 | R@10 A0=0.15 D1=0.25 D3=0.25 O=0.5 | R@20 A0=0.25 D1=0.35 D3=0.35 O=0.5
+predictor_label (MODEL OUTPUT)                   no_clear_authority                 n=  3 | R@10 A0=0.0 D1=0.0 D3=0.0 O=1.0 | R@20 A0=0.333 D1=0.333 D3=0.333 O=1.0
+ai_claim_label (MODEL_GENERATED)                 multiple_legitimate_authorities    n=122 | R@10 A0=0.279 D1=0.336 D3=0.32 O=0.672 | R@20 A0=0.41 D1=0.459 D3=0.467 O=0.68
+ai_claim_label (MODEL_GENERATED)                 single_primary                     n= 37 | R@10 A0=0.189 D1=0.243 D3=0.243 O=0.568 | R@20 A0=0.27 D1=0.324 D3=0.324 O=0.568
+ai_claim_label (MODEL_GENERATED)                 unclear                            n=  7 | R@10 A0=0.143 D1=0.143 D3=0.143 O=0.857 | R@20 A0=0.571 D1=0.571 D3=0.571 O=0.857
+ai_claim_label (MODEL_GENERATED)                 no_identifiable_primary            n=  1 | R@10 A0=0.0 D1=0.0 D3=0.0 O=1.0 | R@20 A0=0.0 D1=0.0 D3=0.0 O=1.0
+predicted_matches_gold_publisher (stored flag)   no match                           n=102 | R@10 A0=0.294 D1=0.275 D3=0.255 O=0.716 | R@20 A0=0.451 D1=0.441 D3=0.431 O=0.716
+predicted_matches_gold_publisher (stored flag)   match                              n= 65 | R@10 A0=0.185 D1=0.354 D3=0.354 O=0.569 | R@20 A0=0.277 D1=0.415 D3=0.446 O=0.585

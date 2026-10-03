@@ -1,0 +1,545 @@
+{
+ "n_claims_with_pilot_primary": 73,
+ "n_evaluable": 71,
+ "not_evaluable(archive.ph-only targets)": [
+  388,
+  395
+ ],
+ "conditions": {
+  "W": {
+   "all": {
+    "n": 71,
+    "top1": 0.056,
+    "top3": 0.113,
+    "top1_count": 4,
+    "top3_count": 8,
+    "coverage": 0.549
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.058,
+    "top3": 0.087,
+    "top1_count": 4,
+    "top3_count": 6,
+    "coverage": 0.536
+   },
+   "authority_named_in_claim": {
+    "n": 17,
+    "top1": 0.176,
+    "top3": 0.235,
+    "top1_count": 3,
+    "top3_count": 4,
+    "coverage": 0.824
+   },
+   "authority_not_named_in_claim": {
+    "n": 54,
+    "top1": 0.019,
+    "top3": 0.074,
+    "top1_count": 1,
+    "top3_count": 4,
+    "coverage": 0.463
+   },
+   "kind=action_or_policy_of_org": {
+    "n": 21,
+    "top1": 0.048,
+    "top3": 0.19,
+    "top1_count": 1,
+    "top3_count": 4,
+    "coverage": 0.619
+   },
+   "kind=event_occurrence": {
+    "n": 5,
+    "top1": 0.0,
+    "top3": 0.0,
+    "top1_count": 0,
+    "top3_count": 0,
+    "coverage": 0.6
+   },
+   "kind=law_or_legal_decision": {
+    "n": 13,
+    "top1": 0.154,
+    "top3": 0.231,
+    "top1_count": 2,
+    "top3_count": 3,
+    "coverage": 0.615
+   },
+   "kind=official_statistic_or_data": {
+    "n": 18,
+    "top1": 0.056,
+    "top3": 0.056,
+    "top1_count": 1,
+    "top3_count": 1,
+    "coverage": 0.389
+   },
+   "kind=scientific_or_health_fact": {
+    "n": 8,
+    "top1": 0.0,
+    "top3": 0.0,
+    "top1_count": 0,
+    "top3_count": 0,
+    "coverage": 0.375
+   },
+   "kind=statement_by_someone": {
+    "n": 6,
+    "top1": 0.0,
+    "top3": 0.0,
+    "top1_count": 0,
+    "top3_count": 0,
+    "coverage": 0.833
+   }
+  },
+  "G": {
+   "all": {
+    "n": 71,
+    "top1": 0.113,
+    "top3": 0.197,
+    "top1_count": 8,
+    "top3_count": 14,
+    "coverage": 1.0
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.116,
+    "top3": 0.203,
+    "top1_count": 8,
+    "top3_count": 14,
+    "coverage": 1.0
+   },
+   "authority_named_in_claim": {
+    "n": 17,
+    "top1": 0.0,
+    "top3": 0.176,
+    "top1_count": 0,
+    "top3_count": 3,
+    "coverage": 1.0
+   },
+   "authority_not_named_in_claim": {
+    "n": 54,
+    "top1": 0.148,
+    "top3": 0.204,
+    "top1_count": 8,
+    "top3_count": 11,
+    "coverage": 1.0
+   },
+   "kind=action_or_policy_of_org": {
+    "n": 21,
+    "top1": 0.048,
+    "top3": 0.19,
+    "top1_count": 1,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=event_occurrence": {
+    "n": 5,
+    "top1": 0.0,
+    "top3": 0.0,
+    "top1_count": 0,
+    "top3_count": 0,
+    "coverage": 1.0
+   },
+   "kind=law_or_legal_decision": {
+    "n": 13,
+    "top1": 0.077,
+    "top3": 0.154,
+    "top1_count": 1,
+    "top3_count": 2,
+    "coverage": 1.0
+   },
+   "kind=official_statistic_or_data": {
+    "n": 18,
+    "top1": 0.333,
+    "top3": 0.389,
+    "top1_count": 6,
+    "top3_count": 7,
+    "coverage": 1.0
+   },
+   "kind=scientific_or_health_fact": {
+    "n": 8,
+    "top1": 0.0,
+    "top3": 0.0,
+    "top1_count": 0,
+    "top3_count": 0,
+    "coverage": 1.0
+   },
+   "kind=statement_by_someone": {
+    "n": 6,
+    "top1": 0.0,
+    "top3": 0.167,
+    "top1_count": 0,
+    "top3_count": 1,
+    "coverage": 1.0
+   }
+  },
+  "L": {
+   "all": {
+    "n": 71,
+    "top1": 0.592,
+    "top3": 0.775,
+    "top1_count": 42,
+    "top3_count": 55,
+    "coverage": 1.0
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.609,
+    "top3": 0.797,
+    "top1_count": 42,
+    "top3_count": 55,
+    "coverage": 1.0
+   },
+   "authority_named_in_claim": {
+    "n": 17,
+    "top1": 0.765,
+    "top3": 0.882,
+    "top1_count": 13,
+    "top3_count": 15,
+    "coverage": 1.0
+   },
+   "authority_not_named_in_claim": {
+    "n": 54,
+    "top1": 0.537,
+    "top3": 0.741,
+    "top1_count": 29,
+    "top3_count": 40,
+    "coverage": 1.0
+   },
+   "kind=action_or_policy_of_org": {
+    "n": 21,
+    "top1": 0.762,
+    "top3": 0.857,
+    "top1_count": 16,
+    "top3_count": 18,
+    "coverage": 1.0
+   },
+   "kind=event_occurrence": {
+    "n": 5,
+    "top1": 0.4,
+    "top3": 0.8,
+    "top1_count": 2,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=law_or_legal_decision": {
+    "n": 13,
+    "top1": 0.462,
+    "top3": 0.769,
+    "top1_count": 6,
+    "top3_count": 10,
+    "coverage": 1.0
+   },
+   "kind=official_statistic_or_data": {
+    "n": 18,
+    "top1": 0.611,
+    "top3": 0.778,
+    "top1_count": 11,
+    "top3_count": 14,
+    "coverage": 1.0
+   },
+   "kind=scientific_or_health_fact": {
+    "n": 8,
+    "top1": 0.25,
+    "top3": 0.5,
+    "top1_count": 2,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=statement_by_someone": {
+    "n": 6,
+    "top1": 0.833,
+    "top3": 0.833,
+    "top1_count": 5,
+    "top3_count": 5,
+    "coverage": 1.0
+   }
+  },
+  "L+Wctx": {
+   "all": {
+    "n": 71,
+    "top1": 0.634,
+    "top3": 0.775,
+    "top1_count": 45,
+    "top3_count": 55,
+    "coverage": 1.0
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.652,
+    "top3": 0.797,
+    "top1_count": 45,
+    "top3_count": 55,
+    "coverage": 1.0
+   },
+   "authority_named_in_claim": {
+    "n": 17,
+    "top1": 0.765,
+    "top3": 0.882,
+    "top1_count": 13,
+    "top3_count": 15,
+    "coverage": 1.0
+   },
+   "authority_not_named_in_claim": {
+    "n": 54,
+    "top1": 0.593,
+    "top3": 0.741,
+    "top1_count": 32,
+    "top3_count": 40,
+    "coverage": 1.0
+   },
+   "kind=action_or_policy_of_org": {
+    "n": 21,
+    "top1": 0.762,
+    "top3": 0.857,
+    "top1_count": 16,
+    "top3_count": 18,
+    "coverage": 1.0
+   },
+   "kind=event_occurrence": {
+    "n": 5,
+    "top1": 0.6,
+    "top3": 0.8,
+    "top1_count": 3,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=law_or_legal_decision": {
+    "n": 13,
+    "top1": 0.538,
+    "top3": 0.769,
+    "top1_count": 7,
+    "top3_count": 10,
+    "coverage": 1.0
+   },
+   "kind=official_statistic_or_data": {
+    "n": 18,
+    "top1": 0.667,
+    "top3": 0.778,
+    "top1_count": 12,
+    "top3_count": 14,
+    "coverage": 1.0
+   },
+   "kind=scientific_or_health_fact": {
+    "n": 8,
+    "top1": 0.25,
+    "top3": 0.5,
+    "top1_count": 2,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=statement_by_someone": {
+    "n": 6,
+    "top1": 0.833,
+    "top3": 0.833,
+    "top1_count": 5,
+    "top3_count": 5,
+    "coverage": 1.0
+   }
+  },
+  "L+Wctx_rerun": {
+   "all": {
+    "n": 71,
+    "top1": 0.577,
+    "top3": 0.761,
+    "top1_count": 41,
+    "top3_count": 54,
+    "coverage": 1.0
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.594,
+    "top3": 0.783,
+    "top1_count": 41,
+    "top3_count": 54,
+    "coverage": 1.0
+   },
+   "authority_named_in_claim": {
+    "n": 17,
+    "top1": 0.765,
+    "top3": 0.882,
+    "top1_count": 13,
+    "top3_count": 15,
+    "coverage": 1.0
+   },
+   "authority_not_named_in_claim": {
+    "n": 54,
+    "top1": 0.519,
+    "top3": 0.722,
+    "top1_count": 28,
+    "top3_count": 39,
+    "coverage": 1.0
+   },
+   "kind=action_or_policy_of_org": {
+    "n": 21,
+    "top1": 0.714,
+    "top3": 0.857,
+    "top1_count": 15,
+    "top3_count": 18,
+    "coverage": 1.0
+   },
+   "kind=event_occurrence": {
+    "n": 5,
+    "top1": 0.4,
+    "top3": 0.8,
+    "top1_count": 2,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=law_or_legal_decision": {
+    "n": 13,
+    "top1": 0.462,
+    "top3": 0.769,
+    "top1_count": 6,
+    "top3_count": 10,
+    "coverage": 1.0
+   },
+   "kind=official_statistic_or_data": {
+    "n": 18,
+    "top1": 0.611,
+    "top3": 0.722,
+    "top1_count": 11,
+    "top3_count": 13,
+    "coverage": 1.0
+   },
+   "kind=scientific_or_health_fact": {
+    "n": 8,
+    "top1": 0.25,
+    "top3": 0.5,
+    "top1_count": 2,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=statement_by_someone": {
+    "n": 6,
+    "top1": 0.833,
+    "top3": 0.833,
+    "top1_count": 5,
+    "top3_count": 5,
+    "coverage": 1.0
+   }
+  },
+  "L+Wgnd": {
+   "all": {
+    "n": 71,
+    "top1": 0.634,
+    "top3": 0.775,
+    "top1_count": 45,
+    "top3_count": 55,
+    "coverage": 1.0
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.652,
+    "top3": 0.797,
+    "top1_count": 45,
+    "top3_count": 55,
+    "coverage": 1.0
+   },
+   "authority_named_in_claim": {
+    "n": 17,
+    "top1": 0.765,
+    "top3": 0.882,
+    "top1_count": 13,
+    "top3_count": 15,
+    "coverage": 1.0
+   },
+   "authority_not_named_in_claim": {
+    "n": 54,
+    "top1": 0.593,
+    "top3": 0.741,
+    "top1_count": 32,
+    "top3_count": 40,
+    "coverage": 1.0
+   },
+   "kind=action_or_policy_of_org": {
+    "n": 21,
+    "top1": 0.762,
+    "top3": 0.857,
+    "top1_count": 16,
+    "top3_count": 18,
+    "coverage": 1.0
+   },
+   "kind=event_occurrence": {
+    "n": 5,
+    "top1": 0.6,
+    "top3": 0.8,
+    "top1_count": 3,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=law_or_legal_decision": {
+    "n": 13,
+    "top1": 0.538,
+    "top3": 0.769,
+    "top1_count": 7,
+    "top3_count": 10,
+    "coverage": 1.0
+   },
+   "kind=official_statistic_or_data": {
+    "n": 18,
+    "top1": 0.667,
+    "top3": 0.778,
+    "top1_count": 12,
+    "top3_count": 14,
+    "coverage": 1.0
+   },
+   "kind=scientific_or_health_fact": {
+    "n": 8,
+    "top1": 0.25,
+    "top3": 0.5,
+    "top1_count": 2,
+    "top3_count": 4,
+    "coverage": 1.0
+   },
+   "kind=statement_by_someone": {
+    "n": 6,
+    "top1": 0.833,
+    "top3": 0.833,
+    "top1_count": 5,
+    "top3_count": 5,
+    "coverage": 1.0
+   }
+  }
+ },
+ "L+Wctx_authority_situation": {
+  "multiple_legitimate_authorities": 64,
+  "single_clear_authority": 7
+ },
+ "L+Wctx_claim_kind": {
+  "law_or_legal_decision": 13,
+  "scientific_or_health_fact": 8,
+  "action_or_policy_of_org": 21,
+  "event_occurrence": 5,
+  "official_statistic_or_data": 18,
+  "statement_by_someone": 6
+ },
+ "L+Wctx_predicted_publisher_types(all ranks)": {
+  "government": 110,
+  "organisation": 19,
+  "regulator_or_database": 10,
+  "intergovernmental": 18,
+  "company": 11,
+  "person": 21,
+  "court_or_legislature": 18,
+  "regulator": 1,
+  "research": 3,
+  "other": 1,
+  "news": 1
+ },
+ "L+Wctx_top1_type": {
+  "government": 35,
+  "regulator_or_database": 5,
+  "company": 6,
+  "organisation": 8,
+  "intergovernmental": 9,
+  "court_or_legislature": 3,
+  "research": 1,
+  "person": 4
+ },
+ "stability_L+Wctx_vs_rerun": {
+  "n": 71,
+  "same_top1_key": 65,
+  "top1_hit_agree": 67,
+  "top3_hit_agree": 70
+ },
+ "llm_calls": 219,
+ "llm_cost_usd": 3.946
+}

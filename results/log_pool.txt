@@ -1,0 +1,68 @@
+{
+ "bm25": {
+  "claims_reachable_gold": 99,
+  "best_gold_rank": {
+   "median": 65,
+   "p25": 21,
+   "p75": 296
+  },
+  "gold_in_top100_pool": "55/99",
+  "claims_reachable_primary": 48,
+  "best_primary_rank": {
+   "median": 232.5,
+   "p25": 50,
+   "p75": 507
+  },
+  "primary_in_top100_pool": "17/48",
+  "random_ranking_expected_R@K": {
+   "5": 0.0103,
+   "10": 0.0205,
+   "20": 0.0407
+  },
+  "mean_candidates_per_claim": 771.0
+ },
+ "dense": {
+  "claims_reachable_gold": 99,
+  "best_gold_rank": {
+   "median": 41,
+   "p25": 11,
+   "p75": 156
+  },
+  "gold_in_top100_pool": "64/99",
+  "claims_reachable_primary": 48,
+  "best_primary_rank": {
+   "median": 152.5,
+   "p25": 37,
+   "p75": 443
+  },
+  "primary_in_top100_pool": "18/48",
+  "random_ranking_expected_R@K": {
+   "5": 0.0103,
+   "10": 0.0205,
+   "20": 0.0407
+  },
+  "mean_candidates_per_claim": 771.0
+ },
+ "hybrid": {
+  "claims_reachable_gold": 99,
+  "best_gold_rank": {
+   "median": 43,
+   "p25": 11,
+   "p75": 122
+  },
+  "gold_in_top100_pool": "71/99",
+  "claims_reachable_primary": 48,
+  "best_primary_rank": {
+   "median": 137.0,
+   "p25": 30,
+   "p75": 569
+  },
+  "primary_in_top100_pool": "23/48",
+  "random_ranking_expected_R@K": {
+   "5": 0.0103,
+   "10": 0.0205,
+   "20": 0.0407
+  },
+  "mean_candidates_per_claim": 771.0
+ }
+}

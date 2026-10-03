@@ -1,0 +1,284 @@
+LLM calls: 0 cached, 146 to run
+[1/146] claim 18 L ok
+[2/146] claim 18 L+Wctx ok
+[3/146] claim 26 L ok
+[4/146] claim 26 L+Wctx ok
+[5/146] claim 50 L ok
+[6/146] claim 50 L+Wctx ok
+[7/146] claim 64 L ok
+[8/146] claim 64 L+Wctx ok
+[9/146] claim 72 L ok
+[10/146] claim 72 L+Wctx ok
+[11/146] claim 74 L ok
+[12/146] claim 74 L+Wctx ok
+[13/146] claim 85 L ok
+[14/146] claim 85 L+Wctx ok
+[15/146] claim 95 L ok
+[16/146] claim 95 L+Wctx ok
+[17/146] claim 99 L ok
+[18/146] claim 99 L+Wctx ok
+[19/146] claim 143 L ok
+[20/146] claim 143 L+Wctx ok
+[21/146] claim 152 L ok
+[22/146] claim 152 L+Wctx ok
+[23/146] claim 158 L ok
+[24/146] claim 158 L+Wctx ok
+[25/146] claim 174 L ok
+[26/146] claim 174 L+Wctx ok
+[27/146] claim 187 L ok
+[28/146] claim 187 L+Wctx ok
+[29/146] claim 209 L ok
+[30/146] claim 209 L+Wctx ok
+[31/146] claim 210 L ok
+[32/146] claim 210 L+Wctx ok
+[33/146] claim 214 L ok
+[34/146] claim 214 L+Wctx ok
+[35/146] claim 216 L ok
+[36/146] claim 216 L+Wctx ok
+[37/146] claim 217 L ok
+[38/146] claim 217 L+Wctx ok
+[39/146] claim 218 L ok
+[40/146] claim 218 L+Wctx ok
+[41/146] claim 221 L ok
+[42/146] claim 221 L+Wctx ok
+[43/146] claim 222 L ok
+[44/146] claim 222 L+Wctx ok
+[45/146] claim 226 L ok
+[46/146] claim 226 L+Wctx ok
+[47/146] claim 235 L ok
+[48/146] claim 235 L+Wctx ok
+[49/146] claim 243 L ok
+[50/146] claim 243 L+Wctx ok
+[51/146] claim 261 L ok
+[52/146] claim 261 L+Wctx ok
+[53/146] claim 275 L ok
+[54/146] claim 275 L+Wctx ok
+[55/146] claim 280 L ok
+[56/146] claim 280 L+Wctx ok
+[57/146] claim 286 L ok
+[58/146] claim 286 L+Wctx ok
+[59/146] claim 288 L ok
+[60/146] claim 288 L+Wctx ok
+[61/146] claim 298 L ok
+[62/146] claim 298 L+Wctx ok
+[63/146] claim 306 L ok
+[64/146] claim 306 L+Wctx ok
+[65/146] claim 320 L ok
+[66/146] claim 320 L+Wctx ok
+[67/146] claim 321 L ok
+[68/146] claim 321 L+Wctx ok
+[69/146] claim 323 L ok
+[70/146] claim 323 L+Wctx ok
+[71/146] claim 345 L ok
+[72/146] claim 345 L+Wctx ok
+[73/146] claim 349 L ok
+[74/146] claim 349 L+Wctx ok
+[75/146] claim 350 L ok
+[76/146] claim 350 L+Wctx ok
+[77/146] claim 354 L ok
+[78/146] claim 354 L+Wctx ok
+[79/146] claim 368 L ok
+[80/146] claim 368 L+Wctx ok
+[81/146] claim 371 L ok
+[82/146] claim 371 L+Wctx ok
+[83/146] claim 373 L ok
+[84/146] claim 373 L+Wctx ok
+[85/146] claim 374 L ok
+[86/146] claim 374 L+Wctx ok
+[87/146] claim 382 L ok
+[88/146] claim 382 L+Wctx ok
+[89/146] claim 387 L ok
+[90/146] claim 387 L+Wctx ok
+[91/146] claim 388 L ok
+[92/146] claim 388 L+Wctx ok
+[93/146] claim 389 L ok
+[94/146] claim 389 L+Wctx ok
+[95/146] claim 391 L ok
+[96/146] claim 391 L+Wctx ok
+[97/146] claim 395 L ok
+[98/146] claim 395 L+Wctx ok
+[99/146] claim 405 L ok
+[100/146] claim 405 L+Wctx ok
+[101/146] claim 412 L ok
+[102/146] claim 412 L+Wctx ok
+[103/146] claim 418 L ok
+[104/146] claim 418 L+Wctx ok
+[105/146] claim 422 L ok
+[106/146] claim 422 L+Wctx ok
+[107/146] claim 423 L ok
+[108/146] claim 423 L+Wctx ok
+[109/146] claim 425 L ok
+[110/146] claim 425 L+Wctx ok
+[111/146] claim 428 L ok
+[112/146] claim 428 L+Wctx ok
+[113/146] claim 434 L ok
+[114/146] claim 434 L+Wctx ok
+[115/146] claim 438 L ok
+[116/146] claim 438 L+Wctx ok
+[117/146] claim 440 L ok
+[118/146] claim 440 L+Wctx ok
+[119/146] claim 441 L ok
+[120/146] claim 441 L+Wctx ok
+[121/146] claim 450 L ok
+[122/146] claim 450 L+Wctx ok
+[123/146] claim 451 L ok
+[124/146] claim 451 L+Wctx ok
+[125/146] claim 454 L ok
+[126/146] claim 454 L+Wctx ok
+[127/146] claim 459 L ok
+[128/146] claim 459 L+Wctx ok
+[129/146] claim 460 L ok
+[130/146] claim 460 L+Wctx ok
+[131/146] claim 462 L ok
+[132/146] claim 462 L+Wctx ok
+[133/146] claim 466 L ok
+[134/146] claim 466 L+Wctx ok
+[135/146] claim 467 L ok
+[136/146] claim 467 L+Wctx ok
+[137/146] claim 473 L ok
+[138/146] claim 473 L+Wctx ok
+[139/146] claim 478 L ok
+[140/146] claim 478 L+Wctx ok
+[141/146] claim 484 L ok
+[142/146] claim 484 L+Wctx ok
+[143/146] claim 491 L ok
+[144/146] claim 491 L+Wctx ok
+[145/146] claim 492 L ok
+[146/146] claim 492 L+Wctx ok
+Wikidata grounding: 184 new publisher names
+HTTP 429; waiting 44s
+HTTP 429; waiting 41s
+HTTP 429; waiting 42s
+HTTP 429; waiting 41s
+HTTP 429; waiting 41s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 42s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 43s
+HTTP 429; waiting 44s
+{
+ "n_claims_with_pilot_primary": 73,
+ "n_evaluable": 71,
+ "not_evaluable(archive.ph-only targets)": [
+  388,
+  395
+ ],
+ "conditions": {
+  "W": {
+   "all": {
+    "n": 71,
+    "top1": 0.056,
+    "top3": 0.113,
+    "top1_count": 4,
+    "top3_count": 8,
+    "coverage": 0.549
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.058,
+    "top3": 0.087,
+    "top1_count": 4,
+    "top3_count": 6,
+    "coverage": 0.536
+   }
+  },
+  "L": {
+   "all": {
+    "n": 71,
+    "top1": 0.592,
+    "top3": 0.775,
+    "top1_count": 42,
+    "top3_count": 55,
+    "coverage": 1.0
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.609,
+    "top3": 0.797,
+    "top1_count": 42,
+    "top3_count": 55,
+    "coverage": 1.0
+   }
+  },
+  "L+Wctx": {
+   "all": {
+    "n": 71,
+    "top1": 0.62,
+    "top3": 0.761,
+    "top1_count": 44,
+    "top3_count": 54,
+    "coverage": 1.0
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.638,
+    "top3": 0.783,
+    "top1_count": 44,
+    "top3_count": 54,
+    "coverage": 1.0
+   }
+  },
+  "L+Wgnd": {
+   "all": {
+    "n": 71,
+    "top1": 0.62,
+    "top3": 0.761,
+    "top1_count": 44,
+    "top3_count": 54,
+    "coverage": 1.0
+   },
+   "excl_claim_artifact_primaries": {
+    "n": 69,
+    "top1": 0.638,
+    "top3": 0.783,
+    "top1_count": 44,
+    "top3_count": 54,
+    "coverage": 1.0
+   }
+  }
+ },
+ "L+Wctx_authority_situation": {
+  "multiple_legitimate_authorities": 64,
+  "single_clear_authority": 7
+ },
+ "L+Wctx_claim_kind": {
+  "law_or_legal_decision": 13,
+  "scientific_or_health_fact": 8,
+  "action_or_policy_of_org": 21,
+  "event_occurrence": 5,
+  "official_statistic_or_data": 18,
+  "statement_by_someone": 6
+ },
+ "L+Wctx_predicted_publisher_types(all ranks)": {
+  "government": 110,
+  "organisation": 19,
+  "regulator_or_database": 10,
+  "intergovernmental": 18,
+  "company": 11,
+  "person": 21,
+  "court_or_legislature": 18,
+  "regulator": 1,
+  "research": 3,
+  "other": 1,
+  "news": 1
+ },
+ "L+Wctx_top1_type": {
+  "government": 35,
+  "regulator_or_database": 5,
+  "company": 6,
+  "organisation": 8,
+  "intergovernmental": 9,
+  "court_or_legislature": 3,
+  "research": 1,
+  "person": 4
+ },
+ "llm_calls": 146,
+ "llm_cost_usd": 3.038
+}

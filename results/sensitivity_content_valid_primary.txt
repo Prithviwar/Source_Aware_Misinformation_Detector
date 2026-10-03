@@ -1,0 +1,16 @@
+content-valid primary subset n= 43
+bm25                         0.047 0.047 0.116
+dense                        0.023 0.116 0.209
+hybrid                       0.023 0.070 0.186
+bm25+generic_l0.25           0.023 0.047 0.186
+bm25+entity_l0.25            0.047 0.047 0.140
+bm25+claim_l0.25             0.023 0.093 0.186
+bm25+full_l0.25              0.023 0.093 0.186
+bm25+wikidata_l0.25          0.047 0.047 0.163
+bm25+full_l1.0_poolall       0.163 0.209 0.326
+bm25+generic_l1.0_poolall    0.116 0.186 0.279
+bm25+wikidata_l1.0_poolall   0.093 0.140 0.233
+bm25+oracle_l0.25            0.093 0.140 0.279
+bm25+oracle_l1.0_poolall     0.651 0.814 0.907
+dense+full_l0.25             0.023 0.163 0.209
+hybrid+full_l0.25            0.047 0.116 0.256
