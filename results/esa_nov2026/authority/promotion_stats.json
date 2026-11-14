@@ -1,0 +1,94 @@
+{
+ "status": "exploratory, descriptive; frozen inputs; sets already used",
+ "note": "Quantify the publisher-level binary-boost limitation from FROZEN rankings/predictions (exploratory).\n\n  python experiments/esa_nov2026/authority_promotion_stats.py\n\nFor priors B (generic), C (heuristic) and D (frozen LLM top-3 publishers) on the hybrid top-100:\n  * promoted     = a document in the reranked top-10 whose hybrid rank was > 10;\n  * deep-promoted= ... whose hybrid rank was > 50 (very low relevance score, lifted only by the prior);\n  * non-gold     = not an AVeriTeC evidence document (it MAY still be relevant: negatives are unlabelled).\nAlso per-claim win/loss of best gold rank vs hybrid, and claims where gold was in the hybrid top-10\nbut was pushed out by boosted documents (\"displacement\").\nWrites results/esa_nov2026/authority/promotion_stats.json and per_claim.csv. No LLM calls.\n",
+ "results": {
+  "heldout200": {
+   "n_claims_with_reachable_gold": 167,
+   "by_prior": {
+    "B_generic": {
+     "claims": 167,
+     "promoted_docs": 861,
+     "promoted_non_gold": 841,
+     "deep_docs": 91,
+     "deep_non_gold": 90,
+     "claims_ge5_promoted_non_gold": 106,
+     "claims_with_any_deep_non_gold": 53,
+     "displacement_claims": 13,
+     "win": 48,
+     "loss": 60,
+     "tie": 59
+    },
+    "C_heuristic": {
+     "claims": 167,
+     "promoted_docs": 834,
+     "promoted_non_gold": 814,
+     "deep_docs": 95,
+     "deep_non_gold": 94,
+     "claims_ge5_promoted_non_gold": 102,
+     "claims_with_any_deep_non_gold": 55,
+     "displacement_claims": 11,
+     "win": 49,
+     "loss": 59,
+     "tie": 59
+    },
+    "D_llm": {
+     "claims": 167,
+     "promoted_docs": 570,
+     "promoted_non_gold": 554,
+     "deep_docs": 267,
+     "deep_non_gold": 263,
+     "claims_ge5_promoted_non_gold": 56,
+     "claims_with_any_deep_non_gold": 91,
+     "displacement_claims": 6,
+     "win": 20,
+     "loss": 52,
+     "tie": 95
+    }
+   }
+  },
+  "dev120": {
+   "n_claims_with_reachable_gold": 99,
+   "by_prior": {
+    "B_generic": {
+     "claims": 99,
+     "promoted_docs": 518,
+     "promoted_non_gold": 511,
+     "deep_docs": 76,
+     "deep_non_gold": 75,
+     "claims_ge5_promoted_non_gold": 65,
+     "claims_with_any_deep_non_gold": 38,
+     "displacement_claims": 8,
+     "win": 21,
+     "loss": 46,
+     "tie": 32
+    },
+    "C_heuristic": {
+     "claims": 99,
+     "promoted_docs": 494,
+     "promoted_non_gold": 486,
+     "deep_docs": 72,
+     "deep_non_gold": 71,
+     "claims_ge5_promoted_non_gold": 64,
+     "claims_with_any_deep_non_gold": 38,
+     "displacement_claims": 7,
+     "win": 23,
+     "loss": 43,
+     "tie": 33
+    },
+    "D_llm": {
+     "claims": 99,
+     "promoted_docs": 289,
+     "promoted_non_gold": 272,
+     "deep_docs": 145,
+     "deep_non_gold": 139,
+     "claims_ge5_promoted_non_gold": 27,
+     "claims_with_any_deep_non_gold": 52,
+     "displacement_claims": 5,
+     "win": 18,
+     "loss": 26,
+     "tie": 55
+    }
+   }
+  }
+ }
+}

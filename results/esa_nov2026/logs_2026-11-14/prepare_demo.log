@@ -1,0 +1,34 @@
+  ks stats 40/320 (116s)
+  ks stats 80/320 (247s)
+  ks stats 120/320 (360s)
+  ks stats 160/320 (482s)
+  ks stats 200/320 (600s)
+  ks stats 240/320 (737s)
+  ks stats 280/320 (841s)
+  ks stats 320/320 (965s)
+{
+ "computed_at": "2026-11-14T09:50:58",
+ "n_claims": 320,
+ "n_docs_raw": 328129,
+ "n_docs_retrievable": 257369,
+ "size_gb": 1.450800843,
+ "retrievable_per_claim": {
+  "min": 305,
+  "median": 763,
+  "max": 1639
+ },
+ "note": "AVeriTeC dev per-claim knowledge stores for the 120 dev-sample + 200 held-out claims (data/raw/averitec/ks_sample). 'retrievable' = non-empty text after URL de-duplication (baseline_retrieval.retrieval_corpus). The reserved-180 store (~139,397 docs) is NOT on disk."
+}
+  fallback claim 268 written
+  fallback claim 328 written
+  fallback claim 89 written
+  fallback claim 464 written
+  fallback claim 436 written
+  fallback claim 326 written
+  fallback claim 2 written
+  live cache claim 268 query="US President Donald Trump's executive order on Sep": computed 2026-11-14T09:31:59 timing {'bm25': 32.8, 'dense': 494.6}
+BM25 indexing and scoring ...
+BM25 done in 22.3s. MiniLM encoding 1070 documents on CPU (1-2 min) ...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  17%|█▋        | 18/103 [00:00<00:00, 179.46it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 728.89it/s]
+  live cache claim 268 query='Trump executive order protects people with pre-exi': computed 2026-11-14T09:57:08 timing {'bm25': 22.3, 'dense': 294.9}
+done

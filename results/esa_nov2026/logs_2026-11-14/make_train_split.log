@@ -1,0 +1,20 @@
+{
+ "n_eligible_with_web_evidence": 2985,
+ "allocation_by_label": {
+  "Refuted": 169,
+  "Supported": 84,
+  "Not Enough Evidence": 27,
+  "Conflicting Evidence/Cherrypicking": 20
+ },
+ "sizes": {
+  "fit": 179,
+  "validation": 60,
+  "test": 61
+ },
+ "split_sha256": "1b994a96974e3e7bbcda6994b1c0b08a5bbdbb580de42fcf383b5e11709e5765"
+}
+-> C:\Users\Lenovo\Downloads\capstone\Source_Aware_Misinformation_Detector\results\esa_nov2026\relevance_baseline\train_sample_split.json
+
+real	0m12.682s
+user	0m0.031s
+sys	0m0.061s

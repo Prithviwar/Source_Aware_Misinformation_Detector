@@ -1,0 +1,37 @@
+
+===== heldout200 =====
+Stage 1 collection: 167/192 = 0.870 claims; 305/422 = 0.723 gold URLs reachable
+candidates/claim: {'min': 417, 'median': 781.5, 'max': 1639}
+Stage 2 bm25   claim R@1=0.036  @5=0.132  @10=0.18  @20=0.251  @50=0.443  @100=0.599  @200=0.743  @300=0.85  @500=0.934  @all=1.0
+               doc   R@1=0.02  @5=0.072  @10=0.102  @20=0.154  @50=0.308  @100=0.426  @200=0.57  @300=0.708  @500=0.826  @all=1.0
+Stage 2 dense  claim R@1=0.06  @5=0.18  @10=0.251  @20=0.353  @50=0.539  @100=0.701  @200=0.904  @300=0.94  @500=0.964  @all=1.0
+               doc   R@1=0.033  @5=0.102  @10=0.141  @20=0.216  @50=0.357  @100=0.485  @200=0.705  @300=0.774  @500=0.872  @all=1.0
+Stage 2 hybrid claim R@1=0.06  @5=0.156  @10=0.251  @20=0.383  @50=0.563  @100=0.671  @200=0.85  @300=0.922  @500=0.964  @all=1.0
+               doc   R@1=0.033  @5=0.089  @10=0.148  @20=0.23  @50=0.393  @100=0.505  @200=0.692  @300=0.787  @500=0.872  @all=1.0
+Stage 3 pool: 112/167 = 0.671
+Stage 4 authority proxy: 56/192 = 0.292 top1; 75/192 = 0.391 top3
+Stage 5 A_hybrid     R@10 42/167 = 0.251  (fraction of pool ceiling 0.375)
+Stage 5 B_generic    R@10 44/167 = 0.263  (fraction of pool ceiling 0.393)
+Stage 5 C_heuristic  R@10 46/167 = 0.275  (fraction of pool ceiling 0.411)
+Stage 5 D_llm        R@10 49/167 = 0.293  (fraction of pool ceiling 0.438)
+
+===== dev120 =====
+Stage 1 collection: 99/119 = 0.832 claims; 162/226 = 0.717 gold URLs reachable
+candidates/claim: {'min': 305, 'median': 740.0, 'max': 1420}
+Stage 2 bm25   claim R@1=0.03  @5=0.081  @10=0.111  @20=0.242  @50=0.465  @100=0.556  @200=0.697  @300=0.758  @500=0.909  @all=1.0
+               doc   R@1=0.019  @5=0.049  @10=0.068  @20=0.154  @50=0.309  @100=0.389  @200=0.525  @300=0.599  @500=0.79  @all=1.0
+Stage 2 dense  claim R@1=0.051  @5=0.152  @10=0.242  @20=0.333  @50=0.566  @100=0.646  @200=0.788  @300=0.838  @500=0.939  @all=1.0
+               doc   R@1=0.031  @5=0.099  @10=0.154  @20=0.222  @50=0.377  @100=0.494  @200=0.66  @300=0.741  @500=0.864  @all=1.0
+Stage 2 hybrid claim R@1=0.04  @5=0.141  @10=0.242  @20=0.364  @50=0.535  @100=0.717  @200=0.818  @300=0.859  @500=0.919  @all=1.0
+               doc   R@1=0.025  @5=0.086  @10=0.148  @20=0.235  @50=0.364  @100=0.519  @200=0.679  @300=0.741  @500=0.827  @all=1.0
+Stage 3 pool: 71/99 = 0.717
+Stage 4 authority proxy: 45/117 = 0.385 top1; 56/117 = 0.479 top3
+Stage 5 A_hybrid     R@10 24/99 = 0.242  (fraction of pool ceiling 0.338)
+Stage 5 B_generic    R@10 21/99 = 0.212  (fraction of pool ceiling 0.296)
+Stage 5 C_heuristic  R@10 23/99 = 0.232  (fraction of pool ceiling 0.324)
+Stage 5 D_llm        R@10 34/99 = 0.343  (fraction of pool ceiling 0.479)
+-> C:\Users\Lenovo\Downloads\capstone\Source_Aware_Misinformation_Detector\results\esa_nov2026\recall_ceiling\recall_ceiling.json
+
+real	10m14.175s
+user	0m0.062s
+sys	0m0.078s

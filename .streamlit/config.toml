@@ -1,0 +1,14 @@
+# Monday demo (2026-11-14): keep the app fully offline and local.
+[browser]
+gatherUsageStats = false
+
+[server]
+port = 8501
+address = "localhost"
+fileWatcherType = "none"
+
+[theme]
+base = "light"
+
+[client]
+toolbarMode = "viewer"

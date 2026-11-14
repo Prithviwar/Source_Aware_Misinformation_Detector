@@ -1,0 +1,1185 @@
+{
+ "claim_id": 326,
+ "split": "heldout200",
+ "mode": "frozen",
+ "k": 10,
+ "claim": {
+  "claim": "COVID-19 was developed as a bioweapon from a research facility in China.",
+  "speaker_or_entity": "Dfresh",
+  "claim_date": "17-9-2020",
+  "location_ISO_code": "US",
+  "reporting_source": "Twitter"
+ },
+ "processing": {
+  "normalized_query": "COVID-19 was developed as a bioweapon from a research facility in China.",
+  "bm25_tokens": [
+   "covid",
+   "19",
+   "developed",
+   "bioweapon",
+   "from",
+   "research",
+   "facility",
+   "china"
+  ],
+  "dense_input": "COVID-19 was developed as a bioweapon from a research facility in China.",
+  "entities": [
+   {
+    "mention": "COVID-19",
+    "label": "PERSON"
+   },
+   {
+    "mention": "Dfresh",
+    "label": "SPEAKER"
+   }
+  ],
+  "entity_keys": [
+   "covid",
+   "covid19",
+   "dfresh"
+  ],
+  "country_iso": "US"
+ },
+ "n_candidates": 1015,
+ "live_meta": null,
+ "retrieval": {
+  "bm25": {
+   "label": "BM25 (lexical)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 5.6681,
+     "publisher": "forbes.com",
+     "title_guess": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explo",
+     "url": "forbes.com/sites/jackbrewster/2020/05/10/a-timeline-of-the-covid-19-wuhan-lab-origin-theory",
+     "rank_bm25": 1,
+     "rank_dense": 4,
+     "rank_hybrid": 1,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explosive claim pitting scientists, who remain skeptical of the claim, against Trump administration officials, who have rallied around the theory",
+     "evidence_marker": false
+    },
+    {
+     "rank": 2,
+     "score": 5.3413,
+     "publisher": "bbc.com",
+     "title_guess": "Coronavirus: Is there any evidence for lab release theory?",
+     "url": "bbc.com/news/science-environment-52318539",
+     "rank_bm25": 2,
+     "rank_dense": 70,
+     "rank_hybrid": 12,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "Coronavirus: Is there any evidence for lab release theory? In April, US State Department cables came to light showing embassy officials were worried about biosecurity at a virus lab in Wuhan, China. The lab is in the same city where the coronavirus outbreak wa",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 5.2976,
+     "publisher": "buzzfeednews.com",
+     "title_guess": "The journalists at BuzzFeed News are proud to bring you trustworthy and relevant reporting about the coronavirus.",
+     "url": "buzzfeednews.com/article/ryanhatesthis/coronavirus-rumors-escape-lab-china-fox-news-trump",
+     "rank_bm25": 3,
+     "rank_dense": 295,
+     "rank_hybrid": 25,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "The journalists at BuzzFeed News are proud to bring you trustworthy and relevant reporting about the coronavirus. To help keep this news free, become a member and sign up for our newsletter, Outbreak Today. A provocative and unproven theory is gaining traction",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 5.2551,
+     "publisher": "defenseone.com",
+     "title_guess": "How to Counter China’s Coronavirus Disinformation Campaign Beijing is using lies to undermine America’s standing; the U.S.",
+     "url": "defenseone.com/ideas/2020/03/how-counter-chinas-covid-19-disinformation-campaign/164188",
+     "rank_bm25": 4,
+     "rank_dense": 416,
+     "rank_hybrid": 32,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "How to Counter China’s Coronavirus Disinformation Campaign Beijing is using lies to undermine America’s standing; the U.S. should fight back with science and truth. Whether we like it or not, the United States is engaged on a new battlefield defined by the “sp",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 5.2021,
+     "publisher": "warontherocks.com",
+     "title_guess": "The Pandemic and America’s Response to Future Bioweapons In the fall of 2011, Dr.",
+     "url": "warontherocks.com/2020/05/the-pandemic-and-americas-response-to-future-bioweapons",
+     "rank_bm25": 5,
+     "rank_dense": 305,
+     "rank_hybrid": 28,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "The Pandemic and America’s Response to Future Bioweapons In the fall of 2011, Dr. Ron Fouchier developed “one of the most dangerous viruses you can make.” Fouchier, a Dutch virologist at the Erasmus Medical Center in Rotterdam, claimed that his team had “done ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 6,
+     "score": 5.1637,
+     "publisher": "armscontrolcenter.org",
+     "title_guess": "Shortly after news first broke on the outbreak of a novel coronavirus within the city of Wuhan in central China, conspir",
+     "url": "armscontrolcenter.org/rampant-mistrust-in-wake-of-pandemic-underscores-need-for-accountability",
+     "rank_bm25": 6,
+     "rank_dense": 63,
+     "rank_hybrid": 13,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "Shortly after news first broke on the outbreak of a novel coronavirus within the city of Wuhan in central China, conspiracy theories focused on the origin of the virus began popping up on social media feeds in the United States. The conspiracy theories and acc",
+     "evidence_marker": false
+    },
+    {
+     "rank": 7,
+     "score": 5.1139,
+     "publisher": "defenseone.com",
+     "title_guess": "Iranian, Russian, Chinese Media Push COVID-19 ‘Bioweapon’ Conspiracies Disinformation about the coronavirus is spreading",
+     "url": "defenseone.com/technology/2020/03/iran-and-russian-media-push-bioweapon-conspiracies-amid-covid19-outbreak/163669",
+     "rank_bm25": 7,
+     "rank_dense": 18,
+     "rank_hybrid": 6,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "Iranian, Russian, Chinese Media Push COVID-19 ‘Bioweapon’ Conspiracies Disinformation about the coronavirus is spreading as quickly as the virus, thanks to the usual players. Chinese authorities maintain that COVID-19 likely originated at a market in Wuhan whe",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 4.9932,
+     "publisher": "rutgers.edu",
+     "title_guess": "A Case Study on COVID-19, Bioweapon Myths, and the Asian Conspiracy Meme The James Madison Program in American Ideals an",
+     "url": "millercenter.rutgers.edu/wp-content/uploads/2020/10/NCRI-White-Paper-COVID-19-13-Apr-2020.pdf",
+     "rank_bm25": 8,
+     "rank_dense": 394,
+     "rank_hybrid": 38,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "A Case Study on COVID-19, Bioweapon Myths, and the Asian Conspiracy Meme The James Madison Program in American Ideals and Institutions, Princeton University Former New Jersey State Attorney General and Chief Counsel, 9/11 Commission Director, Miller Center for",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 4.9777,
+     "publisher": "cnn.com",
+     "title_guess": "Over the weekend, Republican Sen.",
+     "url": "cnn.com/2020/02/18/politics/coronavirus-cotton-fact-check/index.html",
+     "rank_bm25": 9,
+     "rank_dense": 341,
+     "rank_hybrid": 37,
+     "matched_terms": [
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "Over the weekend, Republican Sen. Tom Cotton came under fire for a series of comments and tweets on the coronavirus. On Fox News Sunday morning, Cotton suggested the virus did not originate in an animal market as the Chinese government has claimed, but perhaps",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 4.8015,
+     "publisher": "smh.com.au",
+     "title_guess": "Why do epidemics breed conspiracy theories?",
+     "url": "smh.com.au/national/how-conspiracy-theories-about-covid-19-went-viral-20200318-p54bhm.html",
+     "rank_bm25": 10,
+     "rank_dense": 69,
+     "rank_hybrid": 17,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "Why do epidemics breed conspiracy theories? And what do scientists say? By Sherryn Groch, Chris Zappone and Felicity Lewis As conspiracy theories go, the origins of the COVID-19 pandemic offered all the right ingredients. Scientists think the virus jumped from",
+     "evidence_marker": false
+    }
+   ]
+  },
+  "dense": {
+   "label": "MiniLM dense (semantic)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 0.7278,
+     "publisher": "snopes.com",
+     "title_guess": "An increasingly resilient class of coronavirus rumors asserts that SARS-CoV-2, the novel coronavirus that causes the dis",
+     "url": "snopes.com/news/2020/04/01/covid-19-bioweapon",
+     "rank_bm25": 23,
+     "rank_dense": 1,
+     "rank_hybrid": 3,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "An increasingly resilient class of coronavirus rumors asserts that SARS-CoV-2, the novel coronavirus that causes the disease COVID-19, was created in a lab. Most iterations of the rumor claim the virus was accidentally released from a high-level infectious dis",
+     "evidence_marker": false
+    },
+    {
+     "rank": 2,
+     "score": 0.718,
+     "publisher": "dailymail.co.uk",
+     "title_guess": "Coronavirus did NOT come from a lab: Experts debunk myths that Chinese or American military engineered COVID-19 as a bio",
+     "url": "dailymail.co.uk/news/article-8143023/Experts-debunk-myths-China-USA-bioengineered-COVID-19.html",
+     "rank_bm25": 202,
+     "rank_dense": 2,
+     "rank_hybrid": 21,
+     "matched_terms": [
+      "covid",
+      "19",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "Coronavirus did NOT come from a lab: Experts debunk myths that Chinese or American military engineered COVID-19 as a bio-weapon - Experts are debunking theories that China or the US engineered COVID-19 - Some speculate that the virus was manufactured at a bios",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 0.7123,
+     "publisher": "foxnews.com",
+     "title_guess": "Get all the latest news on coronavirus and more delivered daily to your inbox.",
+     "url": "foxnews.com/politics/coronavirus-wuhan-lab-china-compete-us-sources",
+     "rank_bm25": 22,
+     "rank_dense": 3,
+     "rank_hybrid": 4,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "Get all the latest news on coronavirus and more delivered daily to your inbox. Sign up here. EXCLUSIVE: There is increasing confidence that the COVID-19 outbreak likely originated in a Wuhan laboratory, though not as a bioweapon but as part of China's attempt ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 0.7093,
+     "publisher": "forbes.com",
+     "title_guess": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explo",
+     "url": "forbes.com/sites/jackbrewster/2020/05/10/a-timeline-of-the-covid-19-wuhan-lab-origin-theory",
+     "rank_bm25": 1,
+     "rank_dense": 4,
+     "rank_hybrid": 1,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explosive claim pitting scientists, who remain skeptical of the claim, against Trump administration officials, who have rallied around the theory",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 0.7065,
+     "publisher": "apnews.com",
+     "title_guess": "Research shows COVID-19 was not manufactured in a lab CLAIM: COVID-19 is a man-made virus intentionally manufactured in",
+     "url": "apnews.com/article/archive-fact-checking-9391149002",
+     "rank_bm25": 308,
+     "rank_dense": 5,
+     "rank_hybrid": 29,
+     "matched_terms": [
+      "covid",
+      "19",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "Research shows COVID-19 was not manufactured in a lab CLAIM: COVID-19 is a man-made virus intentionally manufactured in a lab and released to the public. AP’S ASSESSMENT: False. Scientists say the molecular structure of SARS-CoV-2 rules out the possibility tha",
+     "evidence_marker": false
+    },
+    {
+     "rank": 6,
+     "score": 0.7018,
+     "publisher": "thebulletin.org",
+     "title_guess": "Editor’s note: Don’t miss our special report, produced in collaboration with The New Yorker magazine, on the questionabl",
+     "url": "thebulletin.org/2020/03/why-do-politicians-keep-breathing-life-into-the-false-conspiracy-theory-that-the-coronavirus-is-a-bioweapon",
+     "rank_bm25": 11,
+     "rank_dense": 6,
+     "rank_hybrid": 2,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "Editor’s note: Don’t miss our special report, produced in collaboration with The New Yorker magazine, on the questionable safety of biological laboratories, “Hot Zone in the heartland?” You’ve probably heard the rumor: The new coronavirus is a bioweapon. Some ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 7,
+     "score": 0.6893,
+     "publisher": "umn.edu",
+     "title_guess": "Since the COVID-19 pandemic began, the Internet has been teeming with provocative conspiracy theories that the novel cor",
+     "url": "cidrap.umn.edu/covid-19/scientists-exactly-zero-evidence-covid-19-came-lab",
+     "rank_bm25": 27,
+     "rank_dense": 7,
+     "rank_hybrid": 7,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "Since the COVID-19 pandemic began, the Internet has been teeming with provocative conspiracy theories that the novel coronavirus was (1) created in a Wuhan, China, lab and deployed as a bioweapon or (2) derived from bats, grown on tissue culture, intentionally",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 0.6892,
+     "publisher": "nonproliferation.org",
+     "title_guess": "This article is part of World War “V”: The COVID-19 Pandemic, a collection of all CNS COVID-19-related articles.",
+     "url": "nonproliferation.org/engaging-china-on-bioweapons-and-beyond",
+     "rank_bm25": 238,
+     "rank_dense": 8,
+     "rank_hybrid": 30,
+     "matched_terms": [
+      "covid",
+      "19",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "This article is part of World War “V”: The COVID-19 Pandemic, a collection of all CNS COVID-19-related articles. Over the past several weeks, Western governments have increasingly called attention to the uncertain origin of COVID-19.[1] While most experts and ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 0.6848,
+     "publisher": "peoplesworld.org",
+     "title_guess": "You’ve probably heard the rumor: The new coronavirus is a bioweapon.",
+     "url": "peoplesworld.org/article/why-do-politicians-push-false-bioweapon-conspiracy-theories-on-coronavirus",
+     "rank_bm25": 15,
+     "rank_dense": 9,
+     "rank_hybrid": 5,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "You’ve probably heard the rumor: The new coronavirus is a bioweapon. Some malicious country—perhaps the United States, maybe China, depending on who’s talking or tweeting—purposefully unleashed the virus that causes COVID-19 on the world. You might have also h",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 0.6802,
+     "publisher": "cbsnews.com",
+     "title_guess": "U.S. intelligence community still investigating origins of COVID-19 outbreak, including whether it was a lab accident The U.S.",
+     "url": "cbsnews.com/news/coronavirus-covid-19-origins-investigation-wuhan-lab-accident",
+     "rank_bm25": 279,
+     "rank_dense": 10,
+     "rank_hybrid": 34,
+     "matched_terms": [
+      "covid",
+      "19",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "U.S. intelligence community still investigating origins of COVID-19 outbreak, including whether it was a lab accident The U.S. intelligence community has not ruled out the possibility that the novel coronavirus was inadvertently introduced to a human carrier o",
+     "evidence_marker": false
+    }
+   ]
+  },
+  "hybrid": {
+   "label": "Hybrid RRF (k=60)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 0.032,
+     "publisher": "forbes.com",
+     "title_guess": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explo",
+     "url": "forbes.com/sites/jackbrewster/2020/05/10/a-timeline-of-the-covid-19-wuhan-lab-origin-theory",
+     "rank_bm25": 1,
+     "rank_dense": 4,
+     "rank_hybrid": 1,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explosive claim pitting scientists, who remain skeptical of the claim, against Trump administration officials, who have rallied around the theory",
+     "evidence_marker": false
+    },
+    {
+     "rank": 2,
+     "score": 0.0292,
+     "publisher": "thebulletin.org",
+     "title_guess": "Editor’s note: Don’t miss our special report, produced in collaboration with The New Yorker magazine, on the questionabl",
+     "url": "thebulletin.org/2020/03/why-do-politicians-keep-breathing-life-into-the-false-conspiracy-theory-that-the-coronavirus-is-a-bioweapon",
+     "rank_bm25": 11,
+     "rank_dense": 6,
+     "rank_hybrid": 2,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "Editor’s note: Don’t miss our special report, produced in collaboration with The New Yorker magazine, on the questionable safety of biological laboratories, “Hot Zone in the heartland?” You’ve probably heard the rumor: The new coronavirus is a bioweapon. Some ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 0.0284,
+     "publisher": "snopes.com",
+     "title_guess": "An increasingly resilient class of coronavirus rumors asserts that SARS-CoV-2, the novel coronavirus that causes the dis",
+     "url": "snopes.com/news/2020/04/01/covid-19-bioweapon",
+     "rank_bm25": 23,
+     "rank_dense": 1,
+     "rank_hybrid": 3,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "An increasingly resilient class of coronavirus rumors asserts that SARS-CoV-2, the novel coronavirus that causes the disease COVID-19, was created in a lab. Most iterations of the rumor claim the virus was accidentally released from a high-level infectious dis",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 0.0281,
+     "publisher": "foxnews.com",
+     "title_guess": "Get all the latest news on coronavirus and more delivered daily to your inbox.",
+     "url": "foxnews.com/politics/coronavirus-wuhan-lab-china-compete-us-sources",
+     "rank_bm25": 22,
+     "rank_dense": 3,
+     "rank_hybrid": 4,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "Get all the latest news on coronavirus and more delivered daily to your inbox. Sign up here. EXCLUSIVE: There is increasing confidence that the COVID-19 outbreak likely originated in a Wuhan laboratory, though not as a bioweapon but as part of China's attempt ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 0.0278,
+     "publisher": "peoplesworld.org",
+     "title_guess": "You’ve probably heard the rumor: The new coronavirus is a bioweapon.",
+     "url": "peoplesworld.org/article/why-do-politicians-push-false-bioweapon-conspiracy-theories-on-coronavirus",
+     "rank_bm25": 15,
+     "rank_dense": 9,
+     "rank_hybrid": 5,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "You’ve probably heard the rumor: The new coronavirus is a bioweapon. Some malicious country—perhaps the United States, maybe China, depending on who’s talking or tweeting—purposefully unleashed the virus that causes COVID-19 on the world. You might have also h",
+     "evidence_marker": false
+    },
+    {
+     "rank": 6,
+     "score": 0.0277,
+     "publisher": "defenseone.com",
+     "title_guess": "Iranian, Russian, Chinese Media Push COVID-19 ‘Bioweapon’ Conspiracies Disinformation about the coronavirus is spreading",
+     "url": "defenseone.com/technology/2020/03/iran-and-russian-media-push-bioweapon-conspiracies-amid-covid19-outbreak/163669",
+     "rank_bm25": 7,
+     "rank_dense": 18,
+     "rank_hybrid": 6,
+     "matched_terms": [
+      "covid",
+      "19",
+      "developed",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "Iranian, Russian, Chinese Media Push COVID-19 ‘Bioweapon’ Conspiracies Disinformation about the coronavirus is spreading as quickly as the virus, thanks to the usual players. Chinese authorities maintain that COVID-19 likely originated at a market in Wuhan whe",
+     "evidence_marker": false
+    },
+    {
+     "rank": 7,
+     "score": 0.0264,
+     "publisher": "umn.edu",
+     "title_guess": "Since the COVID-19 pandemic began, the Internet has been teeming with provocative conspiracy theories that the novel cor",
+     "url": "cidrap.umn.edu/covid-19/scientists-exactly-zero-evidence-covid-19-came-lab",
+     "rank_bm25": 27,
+     "rank_dense": 7,
+     "rank_hybrid": 7,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "china"
+     ],
+     "snippet": "Since the COVID-19 pandemic began, the Internet has been teeming with provocative conspiracy theories that the novel coronavirus was (1) created in a Wuhan, China, lab and deployed as a bioweapon or (2) derived from bats, grown on tissue culture, intentionally",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 0.0253,
+     "publisher": "bbc.com",
+     "title_guess": "Coronavirus: Trump stands by China lab origin theory for virus US President Donald Trump has appeared to undercut his ow",
+     "url": "bbc.com/news/world-us-canada-52496098",
+     "rank_bm25": 17,
+     "rank_dense": 21,
+     "rank_hybrid": 8,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "facility",
+      "china"
+     ],
+     "snippet": "Coronavirus: Trump stands by China lab origin theory for virus US President Donald Trump has appeared to undercut his own intelligence agencies by suggesting he has seen evidence coronavirus originated in a Chinese laboratory. Earlier the US national intellige",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 0.0252,
+     "publisher": "scmp.com",
+     "title_guess": "Bat virus? Bioweapon?",
+     "url": "scmp.com/news/china/society/article/3079391/bat-virus-bioweapon-what-science-says-about-covid-19-origins",
+     "rank_bm25": 19,
+     "rank_dense": 20,
+     "rank_hybrid": 9,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "Bat virus? Bioweapon? What the science says about Covid-19 origins - Speculation about the emergence of the new coronavirus is spreading almost as quickly as the pandemic - Scientists believe some pathways are more probable than others Some possibilities are s",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 0.0251,
+     "publisher": "yahoo.com",
+     "title_guess": "Intelligence officials weigh possibility coronavirus escaped from a Chinese lab WASHINGTON — Although the the U.S.",
+     "url": "news.yahoo.com/intelligence-officials-weigh-possibility-coronavirus-escaped-from-a-chinese-lab-194958353.html",
+     "rank_bm25": 12,
+     "rank_dense": 29,
+     "rank_hybrid": 10,
+     "matched_terms": [
+      "covid",
+      "19",
+      "bioweapon",
+      "from",
+      "research",
+      "facility",
+      "china"
+     ],
+     "snippet": "Intelligence officials weigh possibility coronavirus escaped from a Chinese lab WASHINGTON — Although the the U.S. intelligence community early on dismissed the notion that the coronavirus is a synthesized bioweapon, it is still weighing the possibility that t",
+     "evidence_marker": false
+    }
+   ]
+  }
+ },
+ "overlap": {
+  "BM25 & MiniLM": 1,
+  "BM25 & Hybrid": 2,
+  "MiniLM & Hybrid": 6,
+  "all three": 1
+ },
+ "best_evidence_rank": {
+  "bm25": 73,
+  "dense": 27,
+  "hybrid": 24
+ },
+ "n_evidence_reachable": 3,
+ "n_evidence_web": 3,
+ "llm_prediction": {
+  "provenance": "stored file results/heldout/authority_raw.jsonl (generated Sept 2026; NOT re-generated in this demo)",
+  "fact_at_issue": "Whether SARS-CoV-2, the virus causing COVID-19, was deliberately engineered as a biological weapon at a Chinese research facility such as the Wuhan Institute of Virology.",
+  "claim_kind": "scientific_or_health_fact",
+  "authority_situation": "multiple_legitimate_authorities",
+  "confidence": 0.5,
+  "top3": [
+   {
+    "publisher": "Office of the Director of National Intelligence (US Intelligence Community assessment on COVID-19 origins)",
+    "domain": "dni.gov",
+    "social_account": "twitter.com/ODNIgov",
+    "type": "government",
+    "why": "The declassified US IC assessments (2021, 2023) directly addressed the bioweapon question and concluded the virus was not developed as a biological weapon."
+   },
+   {
+    "publisher": "World Health Organization (SAGO / WHO-China joint origins study)",
+    "domain": "who.int",
+    "social_account": "twitter.com/WHO",
+    "type": "intergovernmental",
+    "why": "WHO convened the official international investigations into the origins of SARS-CoV-2, including the Scientific Advisory Group for the Origins of Novel Pathogens (SAGO)."
+   },
+   {
+    "publisher": "Nature Medicine (Andersen et al., 'The proximal origin of SARS-CoV-2')",
+    "domain": "nature.com",
+    "social_account": "twitter.com/NatureMedicine",
+    "type": "research",
+    "why": "This is the original genomic analysis concluding that SARS-CoV-2 is not a laboratory construct or purposefully manipulated virus."
+   }
+  ],
+  "keys_docs_in_pool": {
+   "dni.gov": 1,
+   "nature.com": 0,
+   "twitter.com/naturemedicine": 0,
+   "twitter.com/odnigov": 0,
+   "twitter.com/who": 0,
+   "who.int": 3
+  }
+ },
+ "llm_note": null,
+ "authority": {
+  "B": {
+   "label": "B  Generic credibility prior",
+   "desc": "claim-independent domain type",
+   "top": [
+    {
+     "url": "cidrap.umn.edu/covid-19/scientists-exactly-zero-evidence-covid-19-came-lab",
+     "hybrid_rank": 7,
+     "relevance": 0.722,
+     "prior": 0.8,
+     "final": 1.522,
+     "rank": 1,
+     "moved": 6,
+     "publisher": "umn.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Since the COVID-19 pandemic began, the Internet has been teeming with provocative conspiracy theories that the novel cor",
+     "evidence_marker": false
+    },
+    {
+     "url": "foxnews.com/politics/coronavirus-wuhan-lab-china-compete-us-sources",
+     "hybrid_rank": 4,
+     "relevance": 0.804,
+     "prior": 0.6,
+     "final": 1.404,
+     "rank": 2,
+     "moved": 2,
+     "publisher": "foxnews.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Get all the latest news on coronavirus and more delivered daily to your inbox.",
+     "evidence_marker": false
+    },
+    {
+     "url": "who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf",
+     "hybrid_rank": 27,
+     "relevance": 0.315,
+     "prior": 1.0,
+     "final": 1.315,
+     "rank": 3,
+     "moved": 24,
+     "publisher": "who.int",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); publisher predicted by the LLM as an authority",
+     "title_guess": "THE SIGNS, SYMPTOMS, DISEASE PROGRESSION AND SEVERITY FOR COUNTRIES WITH IMPORTED CASES AND/OR OUTBREAKS OF COVID-19 RES",
+     "evidence_marker": false
+    },
+    {
+     "url": "dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf",
+     "hybrid_rank": 31,
+     "relevance": 0.303,
+     "prior": 1.0,
+     "final": 1.303,
+     "rank": 4,
+     "moved": 27,
+     "publisher": "dni.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The IC assesses that SARS-CoV-2, the virus that causes COVID-19, probably emerged and infected humans through an initial",
+     "evidence_marker": false
+    },
+    {
+     "url": "forbes.com/sites/jackbrewster/2020/05/10/a-timeline-of-the-covid-19-wuhan-lab-origin-theory",
+     "hybrid_rank": 1,
+     "relevance": 1.0,
+     "prior": 0.3,
+     "final": 1.3,
+     "rank": 5,
+     "moved": -4,
+     "publisher": "forbes.com",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explo",
+     "evidence_marker": false
+    },
+    {
+     "url": "bbc.com/news/world-us-canada-52496098",
+     "hybrid_rank": 8,
+     "relevance": 0.669,
+     "prior": 0.6,
+     "final": 1.269,
+     "rank": 6,
+     "moved": 2,
+     "publisher": "bbc.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Coronavirus: Trump stands by China lab origin theory for virus US President Donald Trump has appeared to undercut his ow",
+     "evidence_marker": false
+    },
+    {
+     "url": "scmp.com/news/china/society/article/3079391/bat-virus-bioweapon-what-science-says-about-covid-19-origins",
+     "hybrid_rank": 9,
+     "relevance": 0.66,
+     "prior": 0.6,
+     "final": 1.26,
+     "rank": 7,
+     "moved": 2,
+     "publisher": "scmp.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Bat virus? Bioweapon?",
+     "evidence_marker": false
+    },
+    {
+     "url": "bbc.co.uk/news/world-us-canada-52496098",
+     "hybrid_rank": 11,
+     "relevance": 0.653,
+     "prior": 0.6,
+     "final": 1.253,
+     "rank": 8,
+     "moved": 3,
+     "publisher": "bbc.co.uk",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Coronavirus: Trump stands by China lab origin theory for virus US President Donald Trump has appeared to undercut his ow",
+     "evidence_marker": false
+    },
+    {
+     "url": "bbc.com/news/science-environment-52318539",
+     "hybrid_rank": 12,
+     "relevance": 0.594,
+     "prior": 0.6,
+     "final": 1.194,
+     "rank": 9,
+     "moved": 3,
+     "publisher": "bbc.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Coronavirus: Is there any evidence for lab release theory?",
+     "evidence_marker": false
+    },
+    {
+     "url": "thebulletin.org/2020/03/why-do-politicians-keep-breathing-life-into-the-false-conspiracy-theory-that-the-coronavirus-is-a-bioweapon",
+     "hybrid_rank": 2,
+     "relevance": 0.862,
+     "prior": 0.3,
+     "final": 1.162,
+     "rank": 10,
+     "moved": -8,
+     "publisher": "thebulletin.org",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "Editor’s note: Don’t miss our special report, produced in collaboration with The New Yorker magazine, on the questionabl",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 4,
+   "n_from_below_50": 0,
+   "best_evidence_rank_in_pool": 59
+  },
+  "C": {
+   "label": "C  Heuristic claim-specific prior",
+   "desc": "generic + claim-entity / claim-country rules",
+   "top": [
+    {
+     "url": "cidrap.umn.edu/covid-19/scientists-exactly-zero-evidence-covid-19-came-lab",
+     "hybrid_rank": 7,
+     "relevance": 0.722,
+     "prior": 0.8,
+     "final": 1.522,
+     "rank": 1,
+     "moved": 6,
+     "publisher": "umn.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Since the COVID-19 pandemic began, the Internet has been teeming with provocative conspiracy theories that the novel cor",
+     "evidence_marker": false
+    },
+    {
+     "url": "foxnews.com/politics/coronavirus-wuhan-lab-china-compete-us-sources",
+     "hybrid_rank": 4,
+     "relevance": 0.804,
+     "prior": 0.6,
+     "final": 1.404,
+     "rank": 2,
+     "moved": 2,
+     "publisher": "foxnews.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Get all the latest news on coronavirus and more delivered daily to your inbox.",
+     "evidence_marker": false
+    },
+    {
+     "url": "who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf",
+     "hybrid_rank": 27,
+     "relevance": 0.315,
+     "prior": 1.0,
+     "final": 1.315,
+     "rank": 3,
+     "moved": 24,
+     "publisher": "who.int",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); publisher predicted by the LLM as an authority",
+     "title_guess": "THE SIGNS, SYMPTOMS, DISEASE PROGRESSION AND SEVERITY FOR COUNTRIES WITH IMPORTED CASES AND/OR OUTBREAKS OF COVID-19 RES",
+     "evidence_marker": false
+    },
+    {
+     "url": "dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf",
+     "hybrid_rank": 31,
+     "relevance": 0.303,
+     "prior": 1.0,
+     "final": 1.303,
+     "rank": 4,
+     "moved": 27,
+     "publisher": "dni.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The IC assesses that SARS-CoV-2, the virus that causes COVID-19, probably emerged and infected humans through an initial",
+     "evidence_marker": false
+    },
+    {
+     "url": "forbes.com/sites/jackbrewster/2020/05/10/a-timeline-of-the-covid-19-wuhan-lab-origin-theory",
+     "hybrid_rank": 1,
+     "relevance": 1.0,
+     "prior": 0.3,
+     "final": 1.3,
+     "rank": 5,
+     "moved": -4,
+     "publisher": "forbes.com",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explo",
+     "evidence_marker": false
+    },
+    {
+     "url": "bbc.com/news/world-us-canada-52496098",
+     "hybrid_rank": 8,
+     "relevance": 0.669,
+     "prior": 0.6,
+     "final": 1.269,
+     "rank": 6,
+     "moved": 2,
+     "publisher": "bbc.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Coronavirus: Trump stands by China lab origin theory for virus US President Donald Trump has appeared to undercut his ow",
+     "evidence_marker": false
+    },
+    {
+     "url": "scmp.com/news/china/society/article/3079391/bat-virus-bioweapon-what-science-says-about-covid-19-origins",
+     "hybrid_rank": 9,
+     "relevance": 0.66,
+     "prior": 0.6,
+     "final": 1.26,
+     "rank": 7,
+     "moved": 2,
+     "publisher": "scmp.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Bat virus? Bioweapon?",
+     "evidence_marker": false
+    },
+    {
+     "url": "bbc.co.uk/news/world-us-canada-52496098",
+     "hybrid_rank": 11,
+     "relevance": 0.653,
+     "prior": 0.6,
+     "final": 1.253,
+     "rank": 8,
+     "moved": 3,
+     "publisher": "bbc.co.uk",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Coronavirus: Trump stands by China lab origin theory for virus US President Donald Trump has appeared to undercut his ow",
+     "evidence_marker": false
+    },
+    {
+     "url": "bbc.com/news/science-environment-52318539",
+     "hybrid_rank": 12,
+     "relevance": 0.594,
+     "prior": 0.6,
+     "final": 1.194,
+     "rank": 9,
+     "moved": 3,
+     "publisher": "bbc.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Coronavirus: Is there any evidence for lab release theory?",
+     "evidence_marker": false
+    },
+    {
+     "url": "thebulletin.org/2020/03/why-do-politicians-keep-breathing-life-into-the-false-conspiracy-theory-that-the-coronavirus-is-a-bioweapon",
+     "hybrid_rank": 2,
+     "relevance": 0.862,
+     "prior": 0.3,
+     "final": 1.162,
+     "rank": 10,
+     "moved": -8,
+     "publisher": "thebulletin.org",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "Editor’s note: Don’t miss our special report, produced in collaboration with The New Yorker magazine, on the questionabl",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 4,
+   "n_from_below_50": 0,
+   "best_evidence_rank_in_pool": 58
+  },
+  "D": {
+   "label": "D  LLM authority prior",
+   "desc": "stored Claude Opus 5.5 top-3 publishers (Sept 2026), binary",
+   "top": [
+    {
+     "url": "who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf",
+     "hybrid_rank": 27,
+     "relevance": 0.315,
+     "prior": 1.0,
+     "final": 1.315,
+     "rank": 1,
+     "moved": 26,
+     "publisher": "who.int",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); publisher predicted by the LLM as an authority",
+     "title_guess": "THE SIGNS, SYMPTOMS, DISEASE PROGRESSION AND SEVERITY FOR COUNTRIES WITH IMPORTED CASES AND/OR OUTBREAKS OF COVID-19 RES",
+     "evidence_marker": false
+    },
+    {
+     "url": "dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf",
+     "hybrid_rank": 31,
+     "relevance": 0.303,
+     "prior": 1.0,
+     "final": 1.303,
+     "rank": 2,
+     "moved": 29,
+     "publisher": "dni.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The IC assesses that SARS-CoV-2, the virus that causes COVID-19, probably emerged and infected humans through an initial",
+     "evidence_marker": false
+    },
+    {
+     "url": "who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions",
+     "hybrid_rank": 85,
+     "relevance": 0.034,
+     "prior": 1.0,
+     "final": 1.034,
+     "rank": 3,
+     "moved": 82,
+     "publisher": "who.int",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); publisher predicted by the LLM as an authority",
+     "title_guess": "This scientific brief (text below) is outdated.",
+     "evidence_marker": false
+    },
+    {
+     "url": "afro.who.int/news/first-case-covid-19-confirmed-ethiopia",
+     "hybrid_rank": 95,
+     "relevance": 0.015,
+     "prior": 1.0,
+     "final": 1.015,
+     "rank": 4,
+     "moved": 91,
+     "publisher": "who.int",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); publisher predicted by the LLM as an authority",
+     "title_guess": "March 13, 2020, The Federal Ministry of Health has confirmed a coronavirus disease (COVID-19) case in Addis Ababa, Ethiopia.",
+     "evidence_marker": false
+    },
+    {
+     "url": "forbes.com/sites/jackbrewster/2020/05/10/a-timeline-of-the-covid-19-wuhan-lab-origin-theory",
+     "hybrid_rank": 1,
+     "relevance": 1.0,
+     "prior": 0.0,
+     "final": 1.0,
+     "rank": 5,
+     "moved": -4,
+     "publisher": "forbes.com",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "The theory COVID-19 originated in a laboratory in Wuhan, China — and not naturally in wildlife — has emerged as an explo",
+     "evidence_marker": false
+    },
+    {
+     "url": "thebulletin.org/2020/03/why-do-politicians-keep-breathing-life-into-the-false-conspiracy-theory-that-the-coronavirus-is-a-bioweapon",
+     "hybrid_rank": 2,
+     "relevance": 0.862,
+     "prior": 0.0,
+     "final": 0.862,
+     "rank": 6,
+     "moved": -4,
+     "publisher": "thebulletin.org",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "Editor’s note: Don’t miss our special report, produced in collaboration with The New Yorker magazine, on the questionabl",
+     "evidence_marker": false
+    },
+    {
+     "url": "snopes.com/news/2020/04/01/covid-19-bioweapon",
+     "hybrid_rank": 3,
+     "relevance": 0.823,
+     "prior": 0.0,
+     "final": 0.823,
+     "rank": 7,
+     "moved": -4,
+     "publisher": "snopes.com",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "An increasingly resilient class of coronavirus rumors asserts that SARS-CoV-2, the novel coronavirus that causes the dis",
+     "evidence_marker": false
+    },
+    {
+     "url": "foxnews.com/politics/coronavirus-wuhan-lab-china-compete-us-sources",
+     "hybrid_rank": 4,
+     "relevance": 0.804,
+     "prior": 0.0,
+     "final": 0.804,
+     "rank": 8,
+     "moved": -4,
+     "publisher": "foxnews.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "Get all the latest news on coronavirus and more delivered daily to your inbox.",
+     "evidence_marker": false
+    },
+    {
+     "url": "peoplesworld.org/article/why-do-politicians-push-false-bioweapon-conspiracy-theories-on-coronavirus",
+     "hybrid_rank": 5,
+     "relevance": 0.792,
+     "prior": 0.0,
+     "final": 0.792,
+     "rank": 9,
+     "moved": -4,
+     "publisher": "peoplesworld.org",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "You’ve probably heard the rumor: The new coronavirus is a bioweapon.",
+     "evidence_marker": false
+    },
+    {
+     "url": "defenseone.com/technology/2020/03/iran-and-russian-media-push-bioweapon-conspiracies-amid-covid19-outbreak/163669",
+     "hybrid_rank": 6,
+     "relevance": 0.788,
+     "prior": 0.0,
+     "final": 0.788,
+     "rank": 10,
+     "moved": -4,
+     "publisher": "defenseone.com",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "Iranian, Russian, Chinese Media Push COVID-19 ‘Bioweapon’ Conspiracies Disinformation about the coronavirus is spreading",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 4,
+   "n_from_below_50": 2,
+   "best_evidence_rank_in_pool": 28
+  }
+ },
+ "final_system": "D",
+ "evidence_note": "Evidence marker = an AVeriTeC dev annotator evidence URL present (non-empty) in this claim's store. It is RELEVANCE/citation evidence used only for evaluation; it is never an input to any ranking, and it is NOT a claim-specific authority label."
+}

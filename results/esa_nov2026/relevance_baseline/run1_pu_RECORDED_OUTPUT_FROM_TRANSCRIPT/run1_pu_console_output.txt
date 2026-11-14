@@ -1,0 +1,52 @@
+PROVENANCE: verbatim console output of the ORIGINAL 2026-11-08 PU relevance-baseline run (run1_pu),
+as printed in the original Claude Code session and preserved in its transcript.
+Transcript: RECOVERY_STAGING_2026-11-13/_preserved_sources/claude_transcripts/36c390a8-5477-4d08-86bb-934d3928613e.jsonl
+Tool-result timestamp (UTC): 2026-11-08T14:42:20.635Z
+SHA-256 of the excerpt text below: 10f16d9ed606d0b4ab63d67ed87238c4d9689dba3c410acda54614b3175ecb6e
+The run's output FILES (relevance_baseline_report.json sha 0f49c165..., per_claim.csv, models/*.joblib,
+feature_cache/) were LOST in the 2026-11-13 deletion and are NOT restored. This excerpt is a record, not the artifact.
+Labels are weak-positive RELEVANCE proxies (AVeriTeC TRAIN evidence URLs), NOT authority labels.
+====================================================================================================
+-> C:\Users\Lenovo\Downloads\capstone\Source_Aware_Misinformation_Detector\results\esa_nov2026\relevance_baseline\run1_pu\relevance_baseline_report.json
+exit=0
+1:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+.:
+total 532
+drwxr-xr-x 1 Lenovo 197121      0 Nov  8 20:12 .
+drwxr-xr-x 1 Lenovo 197121      0 Nov  8 17:53 ..
+drwxr-xr-x 1 Lenovo 197121      0 Nov  8 20:12 feature_cache
+drwxr-xr-x 1 Lenovo 197121      0 Nov  8 20:12 models
+-rw-r--r-- 1 Lenovo 197121  28443 Nov  8 20:12 per_claim.csv
+-rw-r--r-- 1 Lenovo 197121   8750 Nov  8 20:12 relevance_baseline_report.json
+-rw-r--r-- 1 Lenovo 197121  36923 Nov  8 20:12 run_stdout.log
+-rw-r--r-- 1 Lenovo 197121 383216 Nov  8 20:12 unlabelled_samples.json
+
+models:
+total 756
+drwxr-xr-x 1 Lenovo 197121      0 Nov  8 20:12 .
+drwxr-xr-x 1 Lenovo 197121      0 Nov  8 20:12 ..
+-rw-r--r-- 1 Lenovo 197121   2313 Nov  8 20:12 M1_logreg.joblib
+-rw-r--r-- 1 Lenovo 197121 742280 Nov  8 20:12 M2_hist_gbdt.joblib
+-rw-r--r-- 1 Lenovo 197121  14602 Nov  8 20:12 M3_logreg_minilm.joblib
+unlabelled_sampling {"policy": "Per FIT claim only: U = all non-empty documents in the claim's deduplicated knowledge-store corpus (build_corpus) whose url_norm is not a labelled evidence URL. Candidates are sorted by url_norm, then min(N_UNLABELLED_PER_CLAIM, |U|) are drawn uniformly without replacement with random.Random(SEED_UNLABELLED * 100_003 + train_idx). No rank-based (top-100 / hard-negative) selection.", "seed": 2052, "n_per_claim": 30, "all_fit_samples_sha256": "090ccf6fdc5897b939b486bdea835e570c5abbbc16c6def20c486b5b8623dd77"}
+fit_data {"fit_claims_with_docs": 179, "fit_claims_with_>=1_labelled": 131, "n_fit_pairs": 5587, "n_labelled_s1": 217, "n_unlabelled_sampled_s0": 5370}
+selected_on_validation "M2_hist_gbdt"
+environment {"python": "3.13.2", "sklearn": "1.6.1", "numpy": "2.2.3", "runtime_s": 8310}
+===== training_fit_claims
+pool_coverage_upper_bound {"claims_in_split": 179, "claims_with_nonempty_docs": 179, "eligible_claims_(>=1_labelled_doc)": 131, "pool_coverage_claim_level_(max_claim_R@100)": "85/131 = 0.649", "pool_coverage_doc_level_(max_doc_R@100)": "102/217 = 0.470"}
+hybrid_rrf_baseline {"claim_R@1": "7/131 = 0.053", "claim_R@5": "20/131 = 0.153", "claim_R@10": "35/131 = 0.267", "claim_R@20": "53/131 = 0.405", "doc_R@10_micro": "35/217 = 0.161", "MRR@100": "15.30/131 = 0.117", "labelled_P@10_lower_bound": "35/1310 = 0.027", "n_eval_claims": 131}
+M1_logreg {"claim_R@1": "2/131 = 0.015", "claim_R@5": "19/131 = 0.145", "claim_R@10": "28/131 = 0.214", "claim_R@20": "45/131 = 0.344", "doc_R@10_micro": "28/217 = 0.129", "MRR@100": "10.80/131 = 0.082", "labelled_P@10_lower_bound": "28/1310 = 0.021", "n_eval_claims": 131}
+M2_hist_gbdt {"claim_R@1": "59/131 = 0.450", "claim_R@5": "84/131 = 0.641", "claim_R@10": "85/131 = 0.649", "claim_R@20": "85/131 = 0.649", "doc_R@10_micro": "101/217 = 0.465", "MRR@100": "69.92/131 = 0.534", "labelled_P@10_lower_bound": "101/1310 = 0.077", "n_eval_claims": 131}
+M3_logreg_minilm {"claim_R@1": "5/131 = 0.038", "claim_R@5": "19/131 = 0.145", "claim_R@10": "30/131 = 0.229", "claim_R@20": "50/131 = 0.382", "doc_R@10_micro": "31/217 = 0.143", "MRR@100": "13.34/131 = 0.102", "labelled_P@10_lower_bound": "31/1310 = 0.024", "n_eval_claims": 131}
+===== validation
+pool_coverage_upper_bound {"claims_in_split": 60, "claims_with_nonempty_docs": 60, "eligible_claims_(>=1_labelled_doc)": 37, "pool_coverage_claim_level_(max_claim_R@100)": "29/37 = 0.784", "pool_coverage_doc_level_(max_doc_R@100)": "39/64 = 0.609"}
+hybrid_rrf_baseline {"claim_R@1": "2/37 = 0.054", "claim_R@5": "6/37 = 0.162", "claim_R@10": "11/37 = 0.297", "claim_R@20": "15/37 = 0.405", "doc_R@10_micro": "13/64 = 0.203", "MRR@100": "4.82/37 = 0.130", "labelled_P@10_lower_bound": "13/370 = 0.035", "n_eval_claims": 37}
+M1_logreg {"claim_R@1": "1/37 = 0.027", "claim_R@5": "2/37 = 0.054", "claim_R@10": "7/37 = 0.189", "claim_R@20": "12/37 = 0.324", "doc_R@10_micro": "9/64 = 0.141", "MRR@100": "2.58/37 = 0.070", "labelled_P@10_lower_bound": "9/370 = 0.024", "n_eval_claims": 37}
+M2_hist_gbdt {"claim_R@1": "3/37 = 0.081", "claim_R@5": "7/37 = 0.189", "claim_R@10": "9/37 = 0.243", "claim_R@20": "14/37 = 0.378", "doc_R@10_micro": "10/64 = 0.156", "MRR@100": "5.76/37 = 0.156", "labelled_P@10_lower_bound": "10/370 = 0.027", "n_eval_claims": 37}
+M3_logreg_minilm {"claim_R@1": "0/37 = 0.000", "claim_R@5": "3/37 = 0.081", "claim_R@10": "3/37 = 0.081", "claim_R@20": "8/37 = 0.216", "doc_R@10_micro": "4/64 = 0.062", "MRR@100": "1.78/37 = 0.048", "labelled_P@10_lower_bound": "4/370 = 0.011", "n_eval_claims": 37}
+===== test
+pool_coverage_upper_bound {"claims_in_split": 61, "claims_with_nonempty_docs": 61, "eligible_claims_(>=1_labelled_doc)": 42, "pool_coverage_claim_level_(max_claim_R@100)": "30/42 = 0.714", "pool_coverage_doc_level_(max_doc_R@100)": "38/62 = 0.613"}
+hybrid_rrf_baseline {"claim_R@1": "4/42 = 0.095", "claim_R@5": "10/42 = 0.238", "claim_R@10": "13/42 = 0.310", "claim_R@20": "16/42 = 0.381", "doc_R@10_micro": "13/62 = 0.210", "MRR@100": "6.82/42 = 0.162", "labelled_P@10_lower_bound": "13/420 = 0.031", "n_eval_claims": 42}
+M1_logreg {"claim_R@1": "2/42 = 0.048", "claim_R@5": "6/42 = 0.143", "claim_R@10": "10/42 = 0.238", "claim_R@20": "18/42 = 0.429", "doc_R@10_micro": "11/62 = 0.177", "MRR@100": "4.89/42 = 0.117", "labelled_P@10_lower_bound": "11/420 = 0.026", "n_eval_claims": 42, "vs_hybrid_hit@10_mcnemar": {"wins": 3, "losses": 6, "p_exact": 0.5078, "role": "secondary/exploratory, uncorrected"}}
+M2_hist_gbdt {"claim_R@1": "6/42 = 0.143", "claim_R@5": "11/42 = 0.262", "claim_R@10": "12/42 = 0.286", "claim_R@20": "14/42 = 0.333", "doc_R@10_micro": "12/62 = 0.194", "MRR@100": "8.55/42 = 0.204", "labelled_P@10_lower_bound": "12/420 = 0.029", "n_eval_claims": 42, "vs_hybrid_hit@10_mcnemar": {"wins": 0, "losses": 1, "p_exact": 1.0, "role": "PRIMARY (selected on validation)"}}
+M3_logreg_minilm {"claim_R@1": "1/42 = 0.024", "claim_R@5": "5/42 = 0.119", "claim_R@10": "8/42 = 0.190", "claim_R@20": "11/42 = 0.262", "doc_R@10_micro": "9/62 = 0.145", "MRR@100": "3.42/42 = 0.081", "labelled_P@10_lower_bound": "9/420 = 0.021", "n_eval_claims": 42, "vs_hybrid_hit@10_mcnemar": {"wins": 4, "losses": 9, "p_exact": 0.2668, "role": "secondary/exploratory, uncorrected"}}

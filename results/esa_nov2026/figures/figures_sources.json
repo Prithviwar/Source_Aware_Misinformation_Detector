@@ -1,0 +1,6 @@
+{
+ "fig1_heldout_recall_at_10.png": "results/source_targeted/results_heldout.json table.*.GoldR@10; results/heldout/validation_heldout.json primary_endpoint",
+ "fig2_heldout_recall_curves.png": "results/source_targeted/results_heldout.json table.*.GoldR@K",
+ "fig3_recall_ceiling_by_depth.png": "results\\esa_nov2026\\recall_ceiling\\recall_ceiling.json splits.heldout200.stage2_retrieval.hybrid.@K.claim_recall",
+ "fig4_pu_baseline_test_recall10.png": "results\\esa_nov2026\\relevance_baseline\\run1_pu_RECORDED_OUTPUT_FROM_TRANSCRIPT\\run1_pu_console_output.txt (recorded original console output)"
+}

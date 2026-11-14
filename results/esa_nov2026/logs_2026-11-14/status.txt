@@ -1,0 +1,5 @@
+reproduce exit 0
+ceiling exit 0
+promotion exit 0
+split exit 0
+synthetic exit 0

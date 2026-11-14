@@ -1,0 +1,28 @@
+hash gate: PASS
+  ok  experiments/validation_heldout.py
+  ok  experiments/source_targeted.py
+  ok  experiments/source_targeted_eval.py
+  ok  experiments/score_heldout_primary.py
+  ok  results/source_targeted/rankings_heldout.jsonl.gz
+  ok  experiments/authority_resolution.py
+  ok  experiments/authority_retrieval.py
+  ok  experiments/baseline_retrieval.py
+re-scoring dev120 vs results\source_targeted\results_dev.json: PASS (all values identical) (447s)
+  A (hybrid)                   R@10 0.242 (published 0.242)  n=99
+  B (hybrid+generic)           R@10 0.212 (published 0.212)  n=99
+  C (hybrid+heuristic)         R@10 0.232 (published 0.232)  n=99
+  D (hybrid+llm_authority)     R@10 0.343 (published 0.343)  n=99
+  bm25 (bm25)                  R@10 0.111 (published 0.111)  n=99
+  dense (dense)                R@10 0.242 (published 0.242)  n=99
+re-scoring heldout200 vs results\source_targeted\results_heldout.json: PASS (all values identical) (512s)
+  A (hybrid)                   R@10 0.251 (published 0.251)  n=167
+  B (hybrid+generic)           R@10 0.263 (published 0.263)  n=167
+  C (hybrid+heuristic)         R@10 0.275 (published 0.275)  n=167
+  D (hybrid+llm_authority)     R@10 0.293 (published 0.293)  n=167
+  bm25 (bm25)                  R@10 0.18 (published 0.18)  n=167
+  dense (dense)                R@10 0.251 (published 0.251)  n=167
+-> C:\Users\Lenovo\Downloads\capstone\Source_Aware_Misinformation_Detector\results\esa_nov2026\reproduction\reproduction_check.json
+
+real	16m25.712s
+user	0m0.000s
+sys	0m0.093s

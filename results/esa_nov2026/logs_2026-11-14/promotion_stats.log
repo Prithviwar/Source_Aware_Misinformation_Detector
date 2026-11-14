@@ -1,0 +1,13 @@
+== heldout200 (n = 167 claims with reachable gold) ==
+  B_generic    promoted-into-top10 docs 861 (non-gold 841); from below rank 50: 91 (non-gold 90); claims with >=5 promoted non-gold: 106; gold displaced from top-10: 13; best-gold-rank W/L/T 48/60/59
+  C_heuristic  promoted-into-top10 docs 834 (non-gold 814); from below rank 50: 95 (non-gold 94); claims with >=5 promoted non-gold: 102; gold displaced from top-10: 11; best-gold-rank W/L/T 49/59/59
+  D_llm        promoted-into-top10 docs 570 (non-gold 554); from below rank 50: 267 (non-gold 263); claims with >=5 promoted non-gold: 56; gold displaced from top-10: 6; best-gold-rank W/L/T 20/52/95
+== dev120 (n = 99 claims with reachable gold) ==
+  B_generic    promoted-into-top10 docs 518 (non-gold 511); from below rank 50: 76 (non-gold 75); claims with >=5 promoted non-gold: 65; gold displaced from top-10: 8; best-gold-rank W/L/T 21/46/32
+  C_heuristic  promoted-into-top10 docs 494 (non-gold 486); from below rank 50: 72 (non-gold 71); claims with >=5 promoted non-gold: 64; gold displaced from top-10: 7; best-gold-rank W/L/T 23/43/33
+  D_llm        promoted-into-top10 docs 289 (non-gold 272); from below rank 50: 145 (non-gold 139); claims with >=5 promoted non-gold: 27; gold displaced from top-10: 5; best-gold-rank W/L/T 18/26/55
+-> C:\Users\Lenovo\Downloads\capstone\Source_Aware_Misinformation_Detector\results\esa_nov2026\authority\promotion_stats.json
+
+real	10m37.187s
+user	0m0.031s
+sys	0m0.093s

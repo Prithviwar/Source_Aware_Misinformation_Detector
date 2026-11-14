@@ -1,0 +1,13 @@
+{
+ "computed_at": "2026-11-14T09:50:58",
+ "n_claims": 320,
+ "n_docs_raw": 328129,
+ "n_docs_retrievable": 257369,
+ "size_gb": 1.450800843,
+ "retrievable_per_claim": {
+  "min": 305,
+  "median": 763,
+  "max": 1639
+ },
+ "note": "AVeriTeC dev per-claim knowledge stores for the 120 dev-sample + 200 held-out claims (data/raw/averitec/ks_sample). 'retrievable' = non-empty text after URL de-duplication (baseline_retrieval.retrieval_corpus). The reserved-180 store (~139,397 docs) is NOT on disk."
+}

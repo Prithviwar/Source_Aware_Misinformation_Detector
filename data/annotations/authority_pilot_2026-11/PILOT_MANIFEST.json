@@ -1,0 +1,60 @@
+{
+ "built_at": "2026-11-14T09:30:57",
+ "seed": 2060,
+ "claims": [
+  1,
+  5,
+  18,
+  50,
+  64,
+  213,
+  238,
+  264,
+  275,
+  306,
+  308,
+  348,
+  354,
+  382,
+  391,
+  396,
+  425,
+  428,
+  438,
+  459
+ ],
+ "n_pairs": 200,
+ "source_pool": "frozen hybrid RRF top-10 (results/rankings_hybrid.jsonl.gz, dev sample)",
+ "split_policy": "PILOT ONLY: dev-sample claims; never train/evaluate the final model on these labels",
+ "hidden_from_annotators": [
+  "AVeriTeC verdict/label",
+  "justification",
+  "questions/answers",
+  "fact-check article",
+  "evidence indicator",
+  "retrieval rank/score",
+  "model predictions"
+ ],
+ "sha256": {
+  "pilot_adjudication_template.csv": "5614406240cfd179abb6ceec7d101a2455e95ac11a3b5e0661ba771d23375053",
+  "pilot_annotator_A.csv": "2d8f65a413a67222f1a7885f471ae933fb97f500c8980ff69b094b58532b6d12",
+  "pilot_annotator_B.csv": "2d8f65a413a67222f1a7885f471ae933fb97f500c8980ff69b094b58532b6d12"
+ },
+ "labels_present": false,
+ "note": "Sheets are BLANK. No human or model labels have been created.",
+ "sha256_before_redaction": {
+  "pilot_adjudication_template.csv": "5614406240cfd179abb6ceec7d101a2455e95ac11a3b5e0661ba771d23375053",
+  "pilot_annotator_A.csv": "27e397a921175d25c5ae8000fea927469ab044ac4cdfd1d442513053881bded3",
+  "pilot_annotator_B.csv": "27e397a921175d25c5ae8000fea927469ab044ac4cdfd1d442513053881bded3"
+ },
+ "redaction": {
+  "date": "2026-11-14",
+  "replacement": "[REDACTED_EMAIL]",
+  "scope": "email addresses quoted inside doc_excerpt (AVeriTeC web-page text); 2 per annotator sheet",
+  "files": [
+   "pilot_annotator_A.csv",
+   "pilot_annotator_B.csv"
+  ],
+  "originals": "kept in a local-only backup outside the repository (not published)"
+ }
+}
