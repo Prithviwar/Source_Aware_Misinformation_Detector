@@ -1,0 +1,830 @@
+{
+ "note": "Read-only reproduction check. No frozen file is modified. No LLM call.",
+ "hash_gate": {
+  "all_match": true,
+  "files": [
+   {
+    "file": "experiments/validation_heldout.py",
+    "recorded": "304984b62945def7ecbfeb49a7c5c4e4ff68b4d13f080e4bed9465a6235dfbc5",
+    "observed": "304984b62945def7ecbfeb49a7c5c4e4ff68b4d13f080e4bed9465a6235dfbc5",
+    "mode": "lf",
+    "match": true,
+    "recorded_in": "docs/validation_preregistration.md L76"
+   },
+   {
+    "file": "experiments/source_targeted.py",
+    "recorded": "6ec3172da035e815b275224742f9bf0a64482b955748c5dfaafeab85dcbba223",
+    "observed": "6ec3172da035e815b275224742f9bf0a64482b955748c5dfaafeab85dcbba223",
+    "mode": "lf",
+    "match": true,
+    "recorded_in": "docs/source_targeted_preregistration.md L66"
+   },
+   {
+    "file": "experiments/source_targeted_eval.py",
+    "recorded": "a686a075471b2fcb0ed5658a2fb372fc384d8f4f3437512e44f87fb386379e04",
+    "observed": "a686a075471b2fcb0ed5658a2fb372fc384d8f4f3437512e44f87fb386379e04",
+    "mode": "lf",
+    "match": true,
+    "recorded_in": "docs/source_targeted_preregistration.md L67"
+   },
+   {
+    "file": "experiments/score_heldout_primary.py",
+    "recorded": "114bf0cac69cce3d43f718360852568199f5af4abb660a85cf924a4f7d046ad2",
+    "observed": "114bf0cac69cce3d43f718360852568199f5af4abb660a85cf924a4f7d046ad2",
+    "mode": "lf",
+    "match": true,
+    "recorded_in": "docs/source_targeted_preregistration.md L83"
+   },
+   {
+    "file": "results/source_targeted/rankings_heldout.jsonl.gz",
+    "recorded": "9105a5da66a287de70fdc6e7e9b5135200589d58c542d61787e7ed883cb66558",
+    "observed": "9105a5da66a287de70fdc6e7e9b5135200589d58c542d61787e7ed883cb66558",
+    "mode": "raw",
+    "match": true,
+    "recorded_in": "docs/source_targeted_preregistration.md L85"
+   },
+   {
+    "file": "experiments/authority_resolution.py",
+    "recorded": "58714a83...0e97",
+    "observed_raw": "58714a83459b833c23471847f89f89392a1100ac99c93ac79e46dccfafae0e97",
+    "observed_lf": "f54061449d1ab0beb5c1f68eb71702c73d90de4d04e0afc7b3ddf21cb51ee337",
+    "match": true,
+    "recorded_in": "docs/validation_preregistration.md L78"
+   },
+   {
+    "file": "experiments/authority_retrieval.py",
+    "recorded": "ac4c2e80...9312",
+    "observed_raw": "ac4c2e8031685dcdfcc66c84316dbe9254c9796031d525ab0a842870488e9312",
+    "observed_lf": "f907fa81f70f55c889e47c28270a115802488efb1433945d3d6b6b61d58ccb02",
+    "match": true,
+    "recorded_in": "docs/validation_preregistration.md L78"
+   },
+   {
+    "file": "experiments/baseline_retrieval.py",
+    "recorded": "2730f0b3...bd9b",
+    "observed_raw": "0289713cc1a5c408f0189ee3d9cb6a117ab28431563d65f44514ea9108e04490",
+    "observed_lf": "2730f0b30b395d01d120b3fedc0d2510ef7dc612fd7f66afd190026d86d1bd9b",
+    "match": true,
+    "recorded_in": "docs/validation_preregistration.md L78"
+   }
+  ]
+ },
+ "rescoring": {
+  "dev120": {
+   "all_match": true,
+   "reference": "results\\source_targeted\\results_dev.json",
+   "systems": {
+    "A (hybrid)": {
+     "GoldR@1": {
+      "recomputed": 0.04,
+      "published": 0.04,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.081,
+      "published": 0.081,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.141,
+      "published": 0.141,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.242,
+      "published": 0.242,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.364,
+      "published": 0.364,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.535,
+      "published": 0.535,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.717,
+      "published": 0.717,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.101,
+      "published": 0.101,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.717,
+      "published": 0.717,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.519,
+      "published": 0.519,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 99,
+      "published": 99,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 162,
+      "published": 162,
+      "match": true
+     }
+    },
+    "B (hybrid+generic)": {
+     "GoldR@1": {
+      "recomputed": 0.02,
+      "published": 0.02,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.091,
+      "published": 0.091,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.131,
+      "published": 0.131,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.212,
+      "published": 0.212,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.283,
+      "published": 0.283,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.505,
+      "published": 0.505,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.717,
+      "published": 0.717,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.085,
+      "published": 0.085,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.717,
+      "published": 0.717,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.519,
+      "published": 0.519,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 99,
+      "published": 99,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 162,
+      "published": 162,
+      "match": true
+     }
+    },
+    "C (hybrid+heuristic)": {
+     "GoldR@1": {
+      "recomputed": 0.03,
+      "published": 0.03,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.101,
+      "published": 0.101,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.152,
+      "published": 0.152,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.232,
+      "published": 0.232,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.293,
+      "published": 0.293,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.515,
+      "published": 0.515,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.717,
+      "published": 0.717,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.098,
+      "published": 0.098,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.717,
+      "published": 0.717,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.519,
+      "published": 0.519,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 99,
+      "published": 99,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 162,
+      "published": 162,
+      "match": true
+     }
+    },
+    "D (hybrid+llm_authority)": {
+     "GoldR@1": {
+      "recomputed": 0.111,
+      "published": 0.111,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.172,
+      "published": 0.172,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.242,
+      "published": 0.242,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.343,
+      "published": 0.343,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.444,
+      "published": 0.444,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.586,
+      "published": 0.586,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.717,
+      "published": 0.717,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.178,
+      "published": 0.178,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.717,
+      "published": 0.717,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.519,
+      "published": 0.519,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 99,
+      "published": 99,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 162,
+      "published": 162,
+      "match": true
+     }
+    },
+    "bm25 (bm25)": {
+     "GoldR@1": {
+      "recomputed": 0.03,
+      "published": 0.03,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.061,
+      "published": 0.061,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.081,
+      "published": 0.081,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.111,
+      "published": 0.111,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.242,
+      "published": 0.242,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.465,
+      "published": 0.465,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.556,
+      "published": 0.556,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.07,
+      "published": 0.07,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.556,
+      "published": 0.556,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.389,
+      "published": 0.389,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 99,
+      "published": 99,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 162,
+      "published": 162,
+      "match": true
+     }
+    },
+    "dense (dense)": {
+     "GoldR@1": {
+      "recomputed": 0.051,
+      "published": 0.051,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.121,
+      "published": 0.121,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.152,
+      "published": 0.152,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.242,
+      "published": 0.242,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.333,
+      "published": 0.333,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.566,
+      "published": 0.566,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.646,
+      "published": 0.646,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.112,
+      "published": 0.112,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.646,
+      "published": 0.646,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.494,
+      "published": 0.494,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 99,
+      "published": 99,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 162,
+      "published": 162,
+      "match": true
+     }
+    }
+   }
+  },
+  "heldout200": {
+   "all_match": true,
+   "reference": "results\\source_targeted\\results_heldout.json",
+   "systems": {
+    "A (hybrid)": {
+     "GoldR@1": {
+      "recomputed": 0.06,
+      "published": 0.06,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.126,
+      "published": 0.126,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.156,
+      "published": 0.156,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.251,
+      "published": 0.251,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.383,
+      "published": 0.383,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.563,
+      "published": 0.563,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.671,
+      "published": 0.671,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.125,
+      "published": 0.125,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.671,
+      "published": 0.671,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.505,
+      "published": 0.505,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 167,
+      "published": 167,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 305,
+      "published": 305,
+      "match": true
+     }
+    },
+    "B (hybrid+generic)": {
+     "GoldR@1": {
+      "recomputed": 0.024,
+      "published": 0.024,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.084,
+      "published": 0.084,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.174,
+      "published": 0.174,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.263,
+      "published": 0.263,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.383,
+      "published": 0.383,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.569,
+      "published": 0.569,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.671,
+      "published": 0.671,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.099,
+      "published": 0.099,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.671,
+      "published": 0.671,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.505,
+      "published": 0.505,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 167,
+      "published": 167,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 305,
+      "published": 305,
+      "match": true
+     }
+    },
+    "C (hybrid+heuristic)": {
+     "GoldR@1": {
+      "recomputed": 0.03,
+      "published": 0.03,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.096,
+      "published": 0.096,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.186,
+      "published": 0.186,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.275,
+      "published": 0.275,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.407,
+      "published": 0.407,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.569,
+      "published": 0.569,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.671,
+      "published": 0.671,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.109,
+      "published": 0.109,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.671,
+      "published": 0.671,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.505,
+      "published": 0.505,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 167,
+      "published": 167,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 305,
+      "published": 305,
+      "match": true
+     }
+    },
+    "D (hybrid+llm_authority)": {
+     "GoldR@1": {
+      "recomputed": 0.066,
+      "published": 0.066,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.144,
+      "published": 0.144,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.198,
+      "published": 0.198,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.293,
+      "published": 0.293,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.437,
+      "published": 0.437,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.581,
+      "published": 0.581,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.671,
+      "published": 0.671,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.138,
+      "published": 0.138,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.671,
+      "published": 0.671,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.505,
+      "published": 0.505,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 167,
+      "published": 167,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 305,
+      "published": 305,
+      "match": true
+     }
+    },
+    "bm25 (bm25)": {
+     "GoldR@1": {
+      "recomputed": 0.036,
+      "published": 0.036,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.084,
+      "published": 0.084,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.132,
+      "published": 0.132,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.18,
+      "published": 0.18,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.251,
+      "published": 0.251,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.443,
+      "published": 0.443,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.599,
+      "published": 0.599,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.085,
+      "published": 0.085,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.599,
+      "published": 0.599,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.426,
+      "published": 0.426,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 167,
+      "published": 167,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 305,
+      "published": 305,
+      "match": true
+     }
+    },
+    "dense (dense)": {
+     "GoldR@1": {
+      "recomputed": 0.06,
+      "published": 0.06,
+      "match": true
+     },
+     "GoldR@3": {
+      "recomputed": 0.15,
+      "published": 0.15,
+      "match": true
+     },
+     "GoldR@5": {
+      "recomputed": 0.18,
+      "published": 0.18,
+      "match": true
+     },
+     "GoldR@10": {
+      "recomputed": 0.251,
+      "published": 0.251,
+      "match": true
+     },
+     "GoldR@20": {
+      "recomputed": 0.353,
+      "published": 0.353,
+      "match": true
+     },
+     "GoldR@50": {
+      "recomputed": 0.539,
+      "published": 0.539,
+      "match": true
+     },
+     "GoldR@100": {
+      "recomputed": 0.701,
+      "published": 0.701,
+      "match": true
+     },
+     "GoldMRR@100": {
+      "recomputed": 0.13,
+      "published": 0.13,
+      "match": true
+     },
+     "Gold_claim_coverage": {
+      "recomputed": 0.701,
+      "published": 0.701,
+      "match": true
+     },
+     "Gold_doc_coverage": {
+      "recomputed": 0.485,
+      "published": 0.485,
+      "match": true
+     },
+     "n_gold_claims": {
+      "recomputed": 167,
+      "published": 167,
+      "match": true
+     },
+     "n_gold_docs": {
+      "recomputed": 305,
+      "published": 305,
+      "match": true
+     }
+    }
+   }
+  }
+ }
+}

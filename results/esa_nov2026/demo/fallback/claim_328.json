@@ -1,0 +1,1122 @@
+{
+ "claim_id": 328,
+ "split": "heldout200",
+ "mode": "frozen",
+ "k": 10,
+ "claim": {
+  "claim": "24 of every 100 kids in US schools speak Spanish.",
+  "speaker_or_entity": "Joe Biden",
+  "claim_date": "16-9-2020",
+  "location_ISO_code": "US",
+  "reporting_source": null
+ },
+ "processing": {
+  "normalized_query": "24 of every 100 kids in US schools speak Spanish.",
+  "bm25_tokens": [
+   "24",
+   "every",
+   "100",
+   "kids",
+   "us",
+   "schools",
+   "speak",
+   "spanish"
+  ],
+  "dense_input": "24 of every 100 kids in US schools speak Spanish.",
+  "entities": [
+   {
+    "mention": "Joe Biden",
+    "label": "SPEAKER"
+   }
+  ],
+  "entity_keys": [
+   "biden",
+   "joebiden"
+  ],
+  "country_iso": "US"
+ },
+ "n_candidates": 864,
+ "live_meta": null,
+ "retrieval": {
+  "bm25": {
+   "label": "BM25 (lexical)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 5.7613,
+     "publisher": "trufluencykids.com",
+     "title_guess": "If you do not speak Spanish, then it’s quite hard to help your child learn it!",
+     "url": "trufluencykids.com/tips-to-help-child-learn-spanish",
+     "rank_bm25": 1,
+     "rank_dense": 47,
+     "rank_hybrid": 1,
+     "matched_terms": [
+      "every",
+      "100",
+      "kids",
+      "us",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "If you do not speak Spanish, then it’s quite hard to help your child learn it! Maybe your children are in dual language, and you worry that they’ll forget all their Spanish this summer. Or, you wish with all your might that you were bilingual, but you’re one o",
+     "evidence_marker": false
+    },
+    {
+     "rank": 2,
+     "score": 5.7229,
+     "publisher": "fdlreporter.com",
+     "title_guess": "From schools to law enforcement to the court system, as the Spanish-speaking population in Fond du Lac County climbs, so",
+     "url": "fdlreporter.com/story/news/2017/03/28/bridging-language-barrier-key-schools-courts/99454780",
+     "rank_bm25": 2,
+     "rank_dense": 216,
+     "rank_hybrid": 14,
+     "matched_terms": [
+      "24",
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "From schools to law enforcement to the court system, as the Spanish-speaking population in Fond du Lac County climbs, so does the increasing demand for interpreters. FOND DU LAC - Pedro Arellano III has heard stories from children of migrant workers on the mov",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 5.3667,
+     "publisher": "usatoday.com",
+     "title_guess": "The USA TODAY Network is launching a series on the Latino community in the USA called Hecho en USA, or made in America.",
+     "url": "usatoday.com/in-depth/news/education/2020/01/06/english-language-learners-benefit-from-dual-language-immersion-bilingual-education/4058632002",
+     "rank_bm25": 3,
+     "rank_dense": 75,
+     "rank_hybrid": 6,
+     "matched_terms": [
+      "24",
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "The USA TODAY Network is launching a series on the Latino community in the USA called Hecho en USA, or made in America. Roughly 80% of all Latinos living in the USA are American citizens, but media coverage of Hispanics tends to focus on immigration and crime,",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 5.1112,
+     "publisher": "chicagoreporter.com",
+     "title_guess": "Two years ago, Chicago Public Schools officials got some pointed criticism in a report the district commissioned on educ",
+     "url": "chicagoreporter.com/english-learners-often-go-without-required-help-at-chicago-schools",
+     "rank_bm25": 4,
+     "rank_dense": 189,
+     "rank_hybrid": 15,
+     "matched_terms": [
+      "every",
+      "100",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "Two years ago, Chicago Public Schools officials got some pointed criticism in a report the district commissioned on educating the growing percentage of schoolchildren who are English learners. The report noted that CPS had a long history of ignoring advice on ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 5.0297,
+     "publisher": "hickeyseverywhere.com",
+     "title_guess": "For the sake of keeping this post factual, here is some interesting data.",
+     "url": "hickeyseverywhere.com/public-schools-in-spain-vs-the-us",
+     "rank_bm25": 5,
+     "rank_dense": 222,
+     "rank_hybrid": 21,
+     "matched_terms": [
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "spanish"
+     ],
+     "snippet": "For the sake of keeping this post factual, here is some interesting data. These figures are TOTALS from 2 different Spanish public schools for 2 children over the span of 1 and a half school years: - Fundraisers I’ve been asked to participate in = 0 - Dress up",
+     "evidence_marker": false
+    },
+    {
+     "rank": 6,
+     "score": 4.88,
+     "publisher": "american.edu",
+     "title_guess": "Approximately 5 million students in the United States are English language learners, and the number of English language",
+     "url": "soeonline.american.edu/blog/benefits-of-bilingual-education",
+     "rank_bm25": 6,
+     "rank_dense": 81,
+     "rank_hybrid": 10,
+     "matched_terms": [
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "Approximately 5 million students in the United States are English language learners, and the number of English language learners (ELLs) in the US public school system continues to rise steadily, especially in more urbanized school districts. According to the N",
+     "evidence_marker": false
+    },
+    {
+     "rank": 7,
+     "score": 4.814,
+     "publisher": "vanderbilt.edu",
+     "title_guess": "What should teachers understand in order to address student diversity in their classrooms?",
+     "url": "iris.peabody.vanderbilt.edu/module/div/cresource/q2/p04",
+     "rank_bm25": 7,
+     "rank_dense": 48,
+     "rank_hybrid": 3,
+     "matched_terms": [
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "What should teachers understand in order to address student diversity in their classrooms? Teachers lead classrooms with a mix of students who may be fluent in English, learning English as a second language, or bilingual. One in five students in the United Sta",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 4.6959,
+     "publisher": "theatlantic.com",
+     "title_guess": "The Intrusion of White Families Into Bilingual Schools Will the growing demand for multilingual early-childhood programs",
+     "url": "theatlantic.com/education/archive/2017/12/the-middle-class-takeover-of-bilingual-schools/549278",
+     "rank_bm25": 8,
+     "rank_dense": 109,
+     "rank_hybrid": 12,
+     "matched_terms": [
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "The Intrusion of White Families Into Bilingual Schools Will the growing demand for multilingual early-childhood programs push out the students these programs were designed to serve? Stephanie Lugardo’s second-grade classroom at Academia Antonia Alonso in Wilmi",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 4.6101,
+     "publisher": "apmreports.org",
+     "title_guess": "Many kids struggle with reading – and children of color are far less likely to get the help they need A false assumption",
+     "url": "apmreports.org/episode/2020/08/06/what-the-words-say",
+     "rank_bm25": 9,
+     "rank_dense": 452,
+     "rank_hybrid": 39,
+     "matched_terms": [
+      "24",
+      "every",
+      "kids",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "Many kids struggle with reading – and children of color are far less likely to get the help they need A false assumption about what it takes to be a skilled reader has created deep inequalities among U.S. children, putting many on a difficult path in life. Son",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 4.5329,
+     "publisher": "aft.org",
+     "title_guess": "In the United States, bilingual education continues to provoke fierce debate.",
+     "url": "aft.org/ae/fall2015/goldenberg_wagner",
+     "rank_bm25": 10,
+     "rank_dense": 65,
+     "rank_hybrid": 8,
+     "matched_terms": [
+      "24",
+      "100",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "In the United States, bilingual education continues to provoke fierce debate. It seems that nearly everyone—from educators to policymakers to parents with school-age children to those without children—has a strong opinion on whether children with little fluenc",
+     "evidence_marker": false
+    }
+   ]
+  },
+  "dense": {
+   "label": "MiniLM dense (semantic)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 0.7019,
+     "publisher": "theconversation.com",
+     "title_guess": "More than 1 in 10 of the nation’s approximately 50 million public school students speak a native language other than Eng",
+     "url": "theconversation.com/1-in-10-us-students-are-english-learners-143324",
+     "rank_bm25": 417,
+     "rank_dense": 1,
+     "rank_hybrid": 24,
+     "matched_terms": [
+      "speak",
+      "spanish"
+     ],
+     "snippet": "More than 1 in 10 of the nation’s approximately 50 million public school students speak a native language other than English, according to the latest federal data. Roughly 3 in 4 of these English learners speak Spanish. The percentage of U.S. students who are ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 2,
+     "score": 0.6875,
+     "publisher": "edweek.org",
+     "title_guess": "Spanish remains the language most frequently spoken by English-learners in U.S.",
+     "url": "edweek.org/teaching-learning/u-s-schools-see-surge-in-number-of-arabic-and-chinese-speaking-english-learners/2020/01",
+     "rank_bm25": 453,
+     "rank_dense": 2,
+     "rank_hybrid": 25,
+     "matched_terms": [
+      "schools",
+      "spanish"
+     ],
+     "snippet": "Spanish remains the language most frequently spoken by English-learners in U.S. schools by a wide margin, with roughly 76 percent of the nation’s 5 million English-learners speaking Spanish, but the numbers for several other languages are surging. Overall, Spa",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 0.6716,
+     "publisher": "cal.org",
+     "title_guess": "Heritage Briefs Collection ©2013 Center for Applied Linguistics December 2013 Spanish Heritage Language Schools in the U",
+     "url": "cal.org/heritage/pdfs/briefs/spanish-heritage-language-schools-in-the-us.pdf",
+     "rank_bm25": 261,
+     "rank_dense": 3,
+     "rank_hybrid": 20,
+     "matched_terms": [
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "Heritage Briefs Collection ©2013 Center for Applied Linguistics December 2013 Spanish Heritage Language Schools in the United States With over 329 million speakers in approximately 44 countries, Spanish is the second-most spoken language in the world (Lewis, 2",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 0.6553,
+     "publisher": "pewresearch.org",
+     "title_guess": "With more than 37 million speakers, Spanish is by far the most spoken non-English language in the U.S.",
+     "url": "pewresearch.org/short-reads/2013/09/05/what-is-the-future-of-spanish-in-the-united-states",
+     "rank_bm25": 384,
+     "rank_dense": 4,
+     "rank_hybrid": 28,
+     "matched_terms": [
+      "speak",
+      "spanish"
+     ],
+     "snippet": "With more than 37 million speakers, Spanish is by far the most spoken non-English language in the U.S. today among people ages 5 and older. It is also one of the fastest-growing, with the number of speakers up 233% since 1980, when there were 11 million Spanis",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 0.6508,
+     "publisher": "edweek.org",
+     "title_guess": "School districts across the country are offering students a broad array of target languages to learn in dual-language programs.",
+     "url": "edweek.org/teaching-learning/spanish-dominates-dual-language-programs-but-schools-offer-diverse-options/2020/01",
+     "rank_bm25": 489,
+     "rank_dense": 5,
+     "rank_hybrid": 35,
+     "matched_terms": [
+      "schools",
+      "spanish"
+     ],
+     "snippet": "School districts across the country are offering students a broad array of target languages to learn in dual-language programs. Schools now offer dual-language education in 18 languages, according to newly released data from the U.S. Department of Education. T",
+     "evidence_marker": false
+    },
+    {
+     "rank": 6,
+     "score": 0.6397,
+     "publisher": "fluencycorp.com",
+     "title_guess": "If you’ve been thinking about learning Spanish, you’ll be joining a growing trend.",
+     "url": "fluencycorp.com/trends-in-the-use-of-the-spanish-language",
+     "rank_bm25": 411,
+     "rank_dense": 6,
+     "rank_hybrid": 34,
+     "matched_terms": [
+      "us",
+      "spanish"
+     ],
+     "snippet": "If you’ve been thinking about learning Spanish, you’ll be joining a growing trend. Almost 21.9 million people around the world are formally studying Spanish as a foreign language. Those numbers come from Spanish in the World 2019, the yearbook from Instituto C",
+     "evidence_marker": false
+    },
+    {
+     "rank": 7,
+     "score": 0.6383,
+     "publisher": "nypost.com",
+     "title_guess": "The United States now has more Spanish speakers than Spain — and the second most in the world, according to a new study.",
+     "url": "nypost.com/2015/06/29/us-has-more-spanish-speakers-than-spain",
+     "rank_bm25": 180,
+     "rank_dense": 7,
+     "rank_hybrid": 18,
+     "matched_terms": [
+      "us",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "The United States now has more Spanish speakers than Spain — and the second most in the world, according to a new study. A report published by the renowned Instituto Cervantes research center says there are now an estimated 52.6 million people in the US who ca",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 0.6379,
+     "publisher": "aecf.org",
+     "title_guess": "The Number of Bilingual Kids in America Continues to Rise In 2016, 22% of children in the United States — slightly more",
+     "url": "aecf.org/blog/the-number-of-bilingual-kids-in-america-continues-to-rise",
+     "rank_bm25": 59,
+     "rank_dense": 8,
+     "rank_hybrid": 7,
+     "matched_terms": [
+      "kids",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "The Number of Bilingual Kids in America Continues to Rise In 2016, 22% of children in the United States — slightly more than 12 million kids total — spoke a language other than English at home. This rate has risen 2%, by 1.2 million kids, in the last decade. A",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 0.6323,
+     "publisher": "redalyc.org",
+     "title_guess": "Spanish Language Education in the United States: Beginning, Present, and Future Enseñanza del español en Estados Unidos:",
+     "url": "redalyc.org/journal/2550/255057349007/html",
+     "rank_bm25": 299,
+     "rank_dense": 9,
+     "rank_hybrid": 33,
+     "matched_terms": [
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "Spanish Language Education in the United States: Beginning, Present, and Future Enseñanza del español en Estados Unidos: origen, presente y futuro Enseignement de l’espagnol aux États-Unis: origines, actualité , avenir Spanish Language Education in the United ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 0.6224,
+     "publisher": "swarthmore.edu",
+     "title_guess": "Spanish is the official language of 20 countries and is spoken by more than 500 million people around the world.",
+     "url": "swarthmore.edu/spanish",
+     "rank_bm25": 645,
+     "rank_dense": 10,
+     "rank_hybrid": 46,
+     "matched_terms": [
+      "spanish"
+     ],
+     "snippet": "Spanish is the official language of 20 countries and is spoken by more than 500 million people around the world. With more than 50 million native speakers and second-language speakers, the United States now has the second largest Spanish-speaking population in",
+     "evidence_marker": false
+    }
+   ]
+  },
+  "hybrid": {
+   "label": "Hybrid RRF (k=60)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 0.0257,
+     "publisher": "trufluencykids.com",
+     "title_guess": "If you do not speak Spanish, then it’s quite hard to help your child learn it!",
+     "url": "trufluencykids.com/tips-to-help-child-learn-spanish",
+     "rank_bm25": 1,
+     "rank_dense": 47,
+     "rank_hybrid": 1,
+     "matched_terms": [
+      "every",
+      "100",
+      "kids",
+      "us",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "If you do not speak Spanish, then it’s quite hard to help your child learn it! Maybe your children are in dual language, and you worry that they’ll forget all their Spanish this summer. Or, you wish with all your might that you were bilingual, but you’re one o",
+     "evidence_marker": false
+    },
+    {
+     "rank": 2,
+     "score": 0.0252,
+     "publisher": "ucanr.edu",
+     "title_guess": "Most Hispanic parents speak Spanish to their children, but this is less the case in later immigrant generations Overall,",
+     "url": "ucanr.edu/sites/news/all_uc_anr_blogs?blogtag=reading&blogasset=75643",
+     "rank_bm25": 20,
+     "rank_dense": 19,
+     "rank_hybrid": 2,
+     "matched_terms": [
+      "24",
+      "kids",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "Most Hispanic parents speak Spanish to their children, but this is less the case in later immigrant generations Overall, 85% of Latino parents say they speak Spanish to their children, according to the Center's 2015 National Survey of Latinos. Among immigrant ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 0.0242,
+     "publisher": "vanderbilt.edu",
+     "title_guess": "What should teachers understand in order to address student diversity in their classrooms?",
+     "url": "iris.peabody.vanderbilt.edu/module/div/cresource/q2/p04",
+     "rank_bm25": 7,
+     "rank_dense": 48,
+     "rank_hybrid": 3,
+     "matched_terms": [
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "What should teachers understand in order to address student diversity in their classrooms? Teachers lead classrooms with a mix of students who may be fluent in English, learning English as a second language, or bilingual. One in five students in the United Sta",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 0.0238,
+     "publisher": "cincinnatispanishschool.com",
+     "title_guess": "100% immersion taught by experienced, native instructors in a small class setting, this is a fun and social way to learn Spanish.",
+     "url": "cincinnatispanishschool.com",
+     "rank_bm25": 14,
+     "rank_dense": 37,
+     "rank_hybrid": 4,
+     "matched_terms": [
+      "24",
+      "every",
+      "100",
+      "us",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "100% immersion taught by experienced, native instructors in a small class setting, this is a fun and social way to learn Spanish. Classes at your child’s school or at our location, children learn Spanish while having fun with experienced & enthusiastic native ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 0.0237,
+     "publisher": "virginiamercury.com",
+     "title_guess": "‘My community doesn’t have a voice’: Are Virginia schools meeting the needs of an increasing Hispanic population?",
+     "url": "virginiamercury.com/2019/09/16/my-community-doesnt-have-a-voice-are-virginia-schools-meeting-the-needs-of-an-increasing-hispanic-population",
+     "rank_bm25": 16,
+     "rank_dense": 35,
+     "rank_hybrid": 5,
+     "matched_terms": [
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "‘My community doesn’t have a voice’: Are Virginia schools meeting the needs of an increasing Hispanic population? E.S.H. Greene Elementary in Richmond has the largest concentration of Hispanic students in the state. Over the last five years, Jimmy Trujillo’s s",
+     "evidence_marker": false
+    },
+    {
+     "rank": 6,
+     "score": 0.0233,
+     "publisher": "usatoday.com",
+     "title_guess": "The USA TODAY Network is launching a series on the Latino community in the USA called Hecho en USA, or made in America.",
+     "url": "usatoday.com/in-depth/news/education/2020/01/06/english-language-learners-benefit-from-dual-language-immersion-bilingual-education/4058632002",
+     "rank_bm25": 3,
+     "rank_dense": 75,
+     "rank_hybrid": 6,
+     "matched_terms": [
+      "24",
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "The USA TODAY Network is launching a series on the Latino community in the USA called Hecho en USA, or made in America. Roughly 80% of all Latinos living in the USA are American citizens, but media coverage of Hispanics tends to focus on immigration and crime,",
+     "evidence_marker": false
+    },
+    {
+     "rank": 7,
+     "score": 0.0231,
+     "publisher": "aecf.org",
+     "title_guess": "The Number of Bilingual Kids in America Continues to Rise In 2016, 22% of children in the United States — slightly more",
+     "url": "aecf.org/blog/the-number-of-bilingual-kids-in-america-continues-to-rise",
+     "rank_bm25": 59,
+     "rank_dense": 8,
+     "rank_hybrid": 7,
+     "matched_terms": [
+      "kids",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "The Number of Bilingual Kids in America Continues to Rise In 2016, 22% of children in the United States — slightly more than 12 million kids total — spoke a language other than English at home. This rate has risen 2%, by 1.2 million kids, in the last decade. A",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 0.0223,
+     "publisher": "aft.org",
+     "title_guess": "In the United States, bilingual education continues to provoke fierce debate.",
+     "url": "aft.org/ae/fall2015/goldenberg_wagner",
+     "rank_bm25": 10,
+     "rank_dense": 65,
+     "rank_hybrid": 8,
+     "matched_terms": [
+      "24",
+      "100",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "In the United States, bilingual education continues to provoke fierce debate. It seems that nearly everyone—from educators to policymakers to parents with school-age children to those without children—has a strong opinion on whether children with little fluenc",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 0.0222,
+     "publisher": "npr.org",
+     "title_guess": "English Language Learners: How Your State Is Doing About 1 out of every 10 public school students in the United States r",
+     "url": "npr.org/sections/ed/2017/02/23/512451228/5-million-english-language-learners-a-vast-pool-of-talent-at-risk",
+     "rank_bm25": 13,
+     "rank_dense": 57,
+     "rank_hybrid": 9,
+     "matched_terms": [
+      "every",
+      "kids",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "English Language Learners: How Your State Is Doing About 1 out of every 10 public school students in the United States right now is learning to speak English. They're called ELLs, for \"English Language Learners.\" There are nearly 5 million of them, and educati",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 0.0222,
+     "publisher": "american.edu",
+     "title_guess": "Approximately 5 million students in the United States are English language learners, and the number of English language",
+     "url": "soeonline.american.edu/blog/benefits-of-bilingual-education",
+     "rank_bm25": 6,
+     "rank_dense": 81,
+     "rank_hybrid": 10,
+     "matched_terms": [
+      "every",
+      "kids",
+      "us",
+      "schools",
+      "speak",
+      "spanish"
+     ],
+     "snippet": "Approximately 5 million students in the United States are English language learners, and the number of English language learners (ELLs) in the US public school system continues to rise steadily, especially in more urbanized school districts. According to the N",
+     "evidence_marker": false
+    }
+   ]
+  }
+ },
+ "overlap": {
+  "BM25 & MiniLM": 0,
+  "BM25 & Hybrid": 5,
+  "MiniLM & Hybrid": 1,
+  "all three": 0
+ },
+ "best_evidence_rank": {
+  "bm25": 65,
+  "dense": 63,
+  "hybrid": 43
+ },
+ "n_evidence_reachable": 2,
+ "n_evidence_web": 2,
+ "llm_prediction": {
+  "provenance": "stored file results/heldout/authority_raw.jsonl (generated Sept 2026; NOT re-generated in this demo)",
+  "fact_at_issue": "Whether about 24% of students in US public schools speak Spanish (e.g., Hispanic students or Spanish-speaking English learners), as Joe Biden said on 16 September 2020.",
+  "claim_kind": "official_statistic_or_data",
+  "authority_situation": "multiple_legitimate_authorities",
+  "confidence": 0.6,
+  "top3": [
+   {
+    "publisher": "National Center for Education Statistics (US Department of Education)",
+    "domain": "nces.ed.gov",
+    "social_account": "twitter.com/EdNCES",
+    "type": "government",
+    "why": "Publishes official data on public school enrollment by race/ethnicity (Hispanic about 27%) and on English learners by home language (Spanish-speaking ELs about 7-8% of students)."
+   },
+   {
+    "publisher": "US Census Bureau (American Community Survey)",
+    "domain": "census.gov",
+    "social_account": "twitter.com/uscensusbureau",
+    "type": "government",
+    "why": "Primary source for data on the language children speak at home, including Spanish-speaking school-age children."
+   },
+   {
+    "publisher": "Office of English Language Acquisition (US Department of Education)",
+    "domain": "ncela.ed.gov",
+    "social_account": null,
+    "type": "government",
+    "why": "Publishes official data on English learners and their home languages, most of whom speak Spanish."
+   }
+  ],
+  "keys_docs_in_pool": {
+   "census.gov": 0,
+   "ed.gov": 9,
+   "twitter.com/ednces": 0,
+   "twitter.com/uscensusbureau": 0
+  }
+ },
+ "llm_note": null,
+ "authority": {
+  "B": {
+   "label": "B  Generic credibility prior",
+   "desc": "claim-independent domain type",
+   "top": [
+    {
+     "url": "ucanr.edu/sites/news/all_uc_anr_blogs?blogtag=reading&blogasset=75643",
+     "hybrid_rank": 2,
+     "relevance": 0.958,
+     "prior": 0.8,
+     "final": 1.758,
+     "rank": 1,
+     "moved": 1,
+     "publisher": "ucanr.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Most Hispanic parents speak Spanish to their children, but this is less the case in later immigrant generations Overall,",
+     "evidence_marker": false
+    },
+    {
+     "url": "iris.peabody.vanderbilt.edu/module/div/cresource/q2/p04",
+     "hybrid_rank": 3,
+     "relevance": 0.886,
+     "prior": 0.8,
+     "final": 1.686,
+     "rank": 2,
+     "moved": 1,
+     "publisher": "vanderbilt.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "What should teachers understand in order to address student diversity in their classrooms?",
+     "evidence_marker": false
+    },
+    {
+     "url": "soeonline.american.edu/blog/benefits-of-bilingual-education",
+     "hybrid_rank": 10,
+     "relevance": 0.744,
+     "prior": 0.8,
+     "final": 1.544,
+     "rank": 3,
+     "moved": 7,
+     "publisher": "american.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Approximately 5 million students in the United States are English language learners, and the number of English language",
+     "evidence_marker": false
+    },
+    {
+     "url": "ccis.ucsd.edu/_files/wp106.pdf",
+     "hybrid_rank": 11,
+     "relevance": 0.733,
+     "prior": 0.8,
+     "final": 1.533,
+     "rank": 4,
+     "moved": 7,
+     "publisher": "ucsd.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Princeton University and University of California, San Diego Learning In Two Languages: Spanish-English Immersion in U.S.",
+     "evidence_marker": false
+    },
+    {
+     "url": "usatoday.com/in-depth/news/education/2020/01/06/english-language-learners-benefit-from-dual-language-immersion-bilingual-education/4058632002",
+     "hybrid_rank": 6,
+     "relevance": 0.82,
+     "prior": 0.6,
+     "final": 1.42,
+     "rank": 5,
+     "moved": 1,
+     "publisher": "usatoday.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "The USA TODAY Network is launching a series on the Latino community in the USA called Hecho en USA, or made in America.",
+     "evidence_marker": false
+    },
+    {
+     "url": "npr.org/sections/ed/2017/02/23/512451228/5-million-english-language-learners-a-vast-pool-of-talent-at-risk",
+     "hybrid_rank": 9,
+     "relevance": 0.745,
+     "prior": 0.6,
+     "final": 1.345,
+     "rank": 6,
+     "moved": 3,
+     "publisher": "npr.org",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "English Language Learners: How Your State Is Doing About 1 out of every 10 public school students in the United States r",
+     "evidence_marker": false
+    },
+    {
+     "url": "claudeg.people.stanford.edu/sites/g/files/sbiybj25156/files/media/file/variability-in-community.pdf",
+     "hybrid_rank": 17,
+     "relevance": 0.531,
+     "prior": 0.8,
+     "final": 1.331,
+     "rank": 7,
+     "moved": 10,
+     "publisher": "stanford.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "College of Education, University of Texas, Austin, TX, USA School of Education, Stanford University and California State",
+     "evidence_marker": false
+    },
+    {
+     "url": "files.eric.ed.gov/fulltext/ED571839.pdf",
+     "hybrid_rank": 38,
+     "relevance": 0.327,
+     "prior": 1.0,
+     "final": 1.327,
+     "rank": 8,
+     "moved": 30,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Students who take advanced courses in high school are more likely to enroll and persist in college.",
+     "evidence_marker": false
+    },
+    {
+     "url": "www2.ed.gov/datastory/el-characteristics/index.html",
+     "hybrid_rank": 40,
+     "relevance": 0.309,
+     "prior": 1.0,
+     "final": 1.309,
+     "rank": 9,
+     "moved": 31,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "English learners (ELs) are a growing part of the K–12 student population.",
+     "evidence_marker": false
+    },
+    {
+     "url": "trufluencykids.com/tips-to-help-child-learn-spanish",
+     "hybrid_rank": 1,
+     "relevance": 1.0,
+     "prior": 0.3,
+     "final": 1.3,
+     "rank": 10,
+     "moved": -9,
+     "publisher": "trufluencykids.com",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "If you do not speak Spanish, then it’s quite hard to help your child learn it!",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 4,
+   "n_from_below_50": 0,
+   "best_evidence_rank_in_pool": 11
+  },
+  "C": {
+   "label": "C  Heuristic claim-specific prior",
+   "desc": "generic + claim-entity / claim-country rules",
+   "top": [
+    {
+     "url": "ucanr.edu/sites/news/all_uc_anr_blogs?blogtag=reading&blogasset=75643",
+     "hybrid_rank": 2,
+     "relevance": 0.958,
+     "prior": 0.8,
+     "final": 1.758,
+     "rank": 1,
+     "moved": 1,
+     "publisher": "ucanr.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Most Hispanic parents speak Spanish to their children, but this is less the case in later immigrant generations Overall,",
+     "evidence_marker": false
+    },
+    {
+     "url": "iris.peabody.vanderbilt.edu/module/div/cresource/q2/p04",
+     "hybrid_rank": 3,
+     "relevance": 0.886,
+     "prior": 0.8,
+     "final": 1.686,
+     "rank": 2,
+     "moved": 1,
+     "publisher": "vanderbilt.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "What should teachers understand in order to address student diversity in their classrooms?",
+     "evidence_marker": false
+    },
+    {
+     "url": "soeonline.american.edu/blog/benefits-of-bilingual-education",
+     "hybrid_rank": 10,
+     "relevance": 0.744,
+     "prior": 0.8,
+     "final": 1.544,
+     "rank": 3,
+     "moved": 7,
+     "publisher": "american.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Approximately 5 million students in the United States are English language learners, and the number of English language",
+     "evidence_marker": false
+    },
+    {
+     "url": "ccis.ucsd.edu/_files/wp106.pdf",
+     "hybrid_rank": 11,
+     "relevance": 0.733,
+     "prior": 0.8,
+     "final": 1.533,
+     "rank": 4,
+     "moved": 7,
+     "publisher": "ucsd.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Princeton University and University of California, San Diego Learning In Two Languages: Spanish-English Immersion in U.S.",
+     "evidence_marker": false
+    },
+    {
+     "url": "usatoday.com/in-depth/news/education/2020/01/06/english-language-learners-benefit-from-dual-language-immersion-bilingual-education/4058632002",
+     "hybrid_rank": 6,
+     "relevance": 0.82,
+     "prior": 0.6,
+     "final": 1.42,
+     "rank": 5,
+     "moved": 1,
+     "publisher": "usatoday.com",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "The USA TODAY Network is launching a series on the Latino community in the USA called Hecho en USA, or made in America.",
+     "evidence_marker": false
+    },
+    {
+     "url": "npr.org/sections/ed/2017/02/23/512451228/5-million-english-language-learners-a-vast-pool-of-talent-at-risk",
+     "hybrid_rank": 9,
+     "relevance": 0.745,
+     "prior": 0.6,
+     "final": 1.345,
+     "rank": 6,
+     "moved": 3,
+     "publisher": "npr.org",
+     "domain_type": "Major news outlet",
+     "why": "Major news outlet (generic 0.6)",
+     "title_guess": "English Language Learners: How Your State Is Doing About 1 out of every 10 public school students in the United States r",
+     "evidence_marker": false
+    },
+    {
+     "url": "claudeg.people.stanford.edu/sites/g/files/sbiybj25156/files/media/file/variability-in-community.pdf",
+     "hybrid_rank": 17,
+     "relevance": 0.531,
+     "prior": 0.8,
+     "final": 1.331,
+     "rank": 7,
+     "moved": 10,
+     "publisher": "stanford.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "College of Education, University of Texas, Austin, TX, USA School of Education, Stanford University and California State",
+     "evidence_marker": false
+    },
+    {
+     "url": "files.eric.ed.gov/fulltext/ED571839.pdf",
+     "hybrid_rank": 38,
+     "relevance": 0.327,
+     "prior": 1.0,
+     "final": 1.327,
+     "rank": 8,
+     "moved": 30,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Students who take advanced courses in high school are more likely to enroll and persist in college.",
+     "evidence_marker": false
+    },
+    {
+     "url": "www2.ed.gov/datastory/el-characteristics/index.html",
+     "hybrid_rank": 40,
+     "relevance": 0.309,
+     "prior": 1.0,
+     "final": 1.309,
+     "rank": 9,
+     "moved": 31,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "English learners (ELs) are a growing part of the K–12 student population.",
+     "evidence_marker": false
+    },
+    {
+     "url": "trufluencykids.com/tips-to-help-child-learn-spanish",
+     "hybrid_rank": 1,
+     "relevance": 1.0,
+     "prior": 0.3,
+     "final": 1.3,
+     "rank": 10,
+     "moved": -9,
+     "publisher": "trufluencykids.com",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "If you do not speak Spanish, then it’s quite hard to help your child learn it!",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 4,
+   "n_from_below_50": 0,
+   "best_evidence_rank_in_pool": 11
+  },
+  "D": {
+   "label": "D  LLM authority prior",
+   "desc": "stored Claude Opus 5.5 top-3 publishers (Sept 2026), binary",
+   "top": [
+    {
+     "url": "files.eric.ed.gov/fulltext/ED571839.pdf",
+     "hybrid_rank": 38,
+     "relevance": 0.327,
+     "prior": 1.0,
+     "final": 1.327,
+     "rank": 1,
+     "moved": 37,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Students who take advanced courses in high school are more likely to enroll and persist in college.",
+     "evidence_marker": false
+    },
+    {
+     "url": "www2.ed.gov/datastory/el-characteristics/index.html",
+     "hybrid_rank": 40,
+     "relevance": 0.309,
+     "prior": 1.0,
+     "final": 1.309,
+     "rank": 2,
+     "moved": 38,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "English learners (ELs) are a growing part of the K–12 student population.",
+     "evidence_marker": false
+    },
+    {
+     "url": "nces.ed.gov/programs/coe/indicator/cgf",
+     "hybrid_rank": 43,
+     "relevance": 0.297,
+     "prior": 1.0,
+     "final": 1.297,
+     "rank": 3,
+     "moved": 40,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The percentage of public school students in the United States who were English learners (ELs) was higher in fall 2020 (1",
+     "evidence_marker": true
+    },
+    {
+     "url": "files.eric.ed.gov/fulltext/ED483076.pdf",
+     "hybrid_rank": 47,
+     "relevance": 0.262,
+     "prior": 1.0,
+     "final": 1.262,
+     "rank": 4,
+     "moved": 43,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "In the United States, many languages other than English have always been spoken, and in recent years this is increasingly the case.",
+     "evidence_marker": false
+    },
+    {
+     "url": "nces.ed.gov/blogs/nces/post/diversity-in-home-languages-examining-english-learners-in-u-s-public-schools",
+     "hybrid_rank": 69,
+     "relevance": 0.15,
+     "prior": 1.0,
+     "final": 1.15,
+     "rank": 5,
+     "moved": 64,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "More than 4.9 million English learners (EL) were enrolled in U.S.",
+     "evidence_marker": false
+    },
+    {
+     "url": "www2.ed.gov/about/offices/list/oela/newcomers-toolkit/ncomertoolkit.pdf",
+     "hybrid_rank": 82,
+     "relevance": 0.063,
+     "prior": 1.0,
+     "final": 1.063,
+     "rank": 6,
+     "moved": 76,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "This report was produced by the National Center for English Language Acquisition (NCELA) under U.S.",
+     "evidence_marker": false
+    },
+    {
+     "url": "eric.ed.gov?id=ED519664",
+     "hybrid_rank": 83,
+     "relevance": 0.053,
+     "prior": 1.0,
+     "final": 1.053,
+     "rank": 7,
+     "moved": 76,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Overcoming Language and Cultural Barriers in School: Helping Hispanic Students Acquire Success in Elementary School Rese",
+     "evidence_marker": false
+    },
+    {
+     "url": "nces.ed.gov/programs/coe/pdf/Indicator_CGF/coe_cgf_2017_05.pdf",
+     "hybrid_rank": 84,
+     "relevance": 0.05,
+     "prior": 1.0,
+     "final": 1.05,
+     "rank": 8,
+     "moved": 76,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The percentage of public school students in the United States who were English language learners (ELLs) was higher in sc",
+     "evidence_marker": false
+    },
+    {
+     "url": "www2.ed.gov/ocr/letters/colleague-el-201501.pdf",
+     "hybrid_rank": 94,
+     "relevance": 0.01,
+     "prior": 1.0,
+     "final": 1.01,
+     "rank": 9,
+     "moved": 85,
+     "publisher": "ed.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Forty years ago, the Supreme Court of the United States determined that in order for public schools to comply with their",
+     "evidence_marker": false
+    },
+    {
+     "url": "trufluencykids.com/tips-to-help-child-learn-spanish",
+     "hybrid_rank": 1,
+     "relevance": 1.0,
+     "prior": 0.0,
+     "final": 1.0,
+     "rank": 10,
+     "moved": -9,
+     "publisher": "trufluencykids.com",
+     "domain_type": "Other / unknown",
+     "why": "Other / unknown (generic 0.3)",
+     "title_guess": "If you do not speak Spanish, then it’s quite hard to help your child learn it!",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 9,
+   "n_from_below_50": 5,
+   "best_evidence_rank_in_pool": 3
+  }
+ },
+ "final_system": "D",
+ "evidence_note": "Evidence marker = an AVeriTeC dev annotator evidence URL present (non-empty) in this claim's store. It is RELEVANCE/citation evidence used only for evaluation; it is never an input to any ranking, and it is NOT a claim-specific authority label."
+}

@@ -1,0 +1,80 @@
+{
+ "run_at": "2026-11-14T11:00:10",
+ "all_pass": true,
+ "n_pass": 9,
+ "n": 9,
+ "results": [
+  {
+   "test": "allowed claim set is exactly 120 dev + 200 held-out",
+   "status": "PASS",
+   "detail": {
+    "dev120": 120,
+    "heldout200": 200
+   },
+   "s": 0.0
+  },
+  {
+   "test": "reserved / unknown claim ids are refused before any file is opened",
+   "status": "PASS",
+   "detail": "claim 0 refused",
+   "s": 0.7
+  },
+  {
+   "test": "rerank_components gives the same order as the frozen authority_retrieval.rerank (B, C, D; 5 claims)",
+   "status": "PASS",
+   "detail": "15/15 rankings identical",
+   "s": 8.1
+  },
+  {
+   "test": "claim 268 (frozen): documented ranks reproduced (evidence hybrid 28 -> D 1; B lifts senate.gov to 2)",
+   "status": "PASS",
+   "detail": {
+    "best_evidence_rank": {
+     "bm25": 45,
+     "dense": 44,
+     "hybrid": 28
+    },
+    "D_best": 1
+   },
+   "s": 0.6
+  },
+  {
+   "test": "evidence markers never influence rankings (show_gold on/off give identical outputs)",
+   "status": "PASS",
+   "detail": "identical",
+   "s": 0.4
+  },
+  {
+   "test": "claim with no predicted authority in pool (claim 2): D equals hybrid order",
+   "status": "PASS",
+   "detail": "D == hybrid",
+   "s": 0.3
+  },
+  {
+   "test": "custom-query mode turns the LLM prior OFF and says why",
+   "status": "PASS",
+   "detail": "D absent, C used as final ranking",
+   "s": 0.1
+  },
+  {
+   "test": "empty custom query is rejected with a readable message",
+   "status": "PASS",
+   "detail": "Custom query mode needs some query text.",
+   "s": 0.0
+  },
+  {
+   "test": "every suggested demo claim runs in frozen mode",
+   "status": "PASS",
+   "detail": {
+    "268": "hybrid 28 -> D 1",
+    "328": "hybrid 43 -> D 3",
+    "89": "hybrid 21 -> D 10",
+    "464": "hybrid 18 -> D 1",
+    "436": "hybrid 1 -> D 16",
+    "326": "hybrid 24 -> D 28",
+    "2": "hybrid 17 -> D 17"
+   },
+   "s": 1.9
+  }
+ ]
+}

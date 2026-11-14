@@ -1,0 +1,114 @@
+{
+ "run_at": "2026-11-14T11:00:25",
+ "all_pass": true,
+ "n_pass": 21,
+ "n": 21,
+ "total_s": 13,
+ "results": [
+  {
+   "test": "app starts without exception",
+   "status": "PASS",
+   "detail": "10s; exceptions=0"
+  },
+  {
+   "test": "knowledge-store stats shown in sidebar",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 268 run: no exception",
+   "status": "PASS",
+   "detail": "2s"
+  },
+  {
+   "test": "claim 268: 'Step 1' rendered",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 268: 'Step 2' rendered",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 268: 'Step 3' rendered",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 268: 'Step 4' rendered",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 268: 'Step 5' rendered",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 268: retrieval + authority dataframes rendered (>= 7)",
+   "status": "PASS",
+   "detail": "12 dataframes"
+  },
+  {
+   "test": "claim 268: stored LLM prediction labelled NOT live",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 268: best evidence rank metric 45 / 44 / 28",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 268: D ranks the executive order first (from hybrid rank 28)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "all URL links are well-formed https links",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "all rows carry a publisher/source name",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "evaluation tab: primary test p = 0.167 shown",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "PU tab: 13/42 and 12/42 shown",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "PU tab: 'NOT an authority model' banner",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "custom query: no exception",
+   "status": "PASS",
+   "detail": "0s"
+  },
+  {
+   "test": "custom query: LLM prior OFF with explanation",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "empty custom query: readable warning, no crash",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "test": "claim 436 (failure case) runs",
+   "status": "PASS",
+   "detail": ""
+  }
+ ]
+}

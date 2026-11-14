@@ -1,0 +1,23 @@
+{
+ "started": "2026-11-14T10:11:07",
+ "url": "http://localhost:8501",
+ "steps": [
+  {
+   "app_ready_s": 9.8
+  },
+  {
+   "claim_268_run_s": 4.8
+  }
+ ],
+ "finished": "2026-11-14T10:11:36",
+ "files": [
+  "01_start.png",
+  "02_claim268_full.png",
+  "03_step3_retrieval.png",
+  "04_step4_authority.png",
+  "05_step5_final.png",
+  "06_authority_D_tab.png",
+  "07_evaluation_tab.png",
+  "08_pu_tab.png"
+ ]
+}

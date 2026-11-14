@@ -1,0 +1,1133 @@
+{
+ "claim_id": 436,
+ "split": "heldout200",
+ "mode": "frozen",
+ "k": 10,
+ "claim": {
+  "claim": "The US military will check purity and distribute COVID-19 vaccines in US.",
+  "speaker_or_entity": null,
+  "claim_date": "1-9-2020",
+  "location_ISO_code": "US",
+  "reporting_source": "Facebook"
+ },
+ "processing": {
+  "normalized_query": "The US military will check purity and distribute COVID-19 vaccines in US.",
+  "bm25_tokens": [
+   "us",
+   "military",
+   "check",
+   "purity",
+   "distribute",
+   "covid",
+   "19",
+   "vaccines"
+  ],
+  "dense_input": "The US military will check purity and distribute COVID-19 vaccines in US.",
+  "entities": [
+   {
+    "mention": "COVID-19",
+    "label": "ORG"
+   }
+  ],
+  "entity_keys": [
+   "covid",
+   "covid19"
+  ],
+  "country_iso": "US"
+ },
+ "n_candidates": 699,
+ "live_meta": null,
+ "retrieval": {
+  "bm25": {
+   "label": "BM25 (lexical)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 9.2885,
+     "publisher": "boomlive.in",
+     "title_guess": "Misleading List Of Donald Trump's Achievements Viral On Social Media A post being shared on social media lists nine alle",
+     "url": "boomlive.in/world/misleading-list-of-donald-trumps-achievements-viral-on-social-media-8593",
+     "rank_bm25": 1,
+     "rank_dense": 300,
+     "rank_hybrid": 31,
+     "matched_terms": [
+      "us",
+      "military",
+      "check",
+      "purity",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Misleading List Of Donald Trump's Achievements Viral On Social Media A post being shared on social media lists nine alleged achievements credited to President Donald Trump. A post shared thousands of times on Facebook lists nine alleged achievements credited t",
+     "evidence_marker": false
+    },
+    {
+     "rank": 2,
+     "score": 7.7246,
+     "publisher": "factcheck.org",
+     "title_guess": "As scientists work to find a safe vaccine for COVID-19, President Donald Trump and his Democratic challenger, Joe Biden,",
+     "url": "factcheck.org/2020/08/dueling-trump-biden-claims-on-covid-19-vaccination-distribution",
+     "rank_bm25": 2,
+     "rank_dense": 45,
+     "rank_hybrid": 7,
+     "matched_terms": [
+      "us",
+      "military",
+      "check",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "As scientists work to find a safe vaccine for COVID-19, President Donald Trump and his Democratic challenger, Joe Biden, have made competing claims about the administration’s plans to carry out the daunting task of distributing hundreds of millions of vaccine ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 7.6254,
+     "publisher": "greenfield.com",
+     "title_guess": "Longhorn has selected Greenfield Global’s Pharmco brand high purity reagent alcohol to quickly distribute its PrimeStore MTM® worldwide.",
+     "url": "greenfield.com/news/2020/longhorn-vaccines-and-diagnostics-llc-and-greenfield-global-inc-partner-to-accelerate-covid-19-testing-and-detection",
+     "rank_bm25": 3,
+     "rank_dense": 98,
+     "rank_hybrid": 16,
+     "matched_terms": [
+      "us",
+      "purity",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Longhorn has selected Greenfield Global’s Pharmco brand high purity reagent alcohol to quickly distribute its PrimeStore MTM® worldwide. BROOKFIELD, Conn., June 15, 2020 /PRNewswire/ — Longhorn Vaccines & Diagnostics, an innovative molecular tool, assay and va",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 5.847,
+     "publisher": "futurity.org",
+     "title_guess": "Once a COVID-19 vaccine is proven to be both safe and effective, governments, industry, and health care providers will f",
+     "url": "futurity.org/covid-19-vaccine-distribution-2412272",
+     "rank_bm25": 4,
+     "rank_dense": 73,
+     "rank_hybrid": 11,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Once a COVID-19 vaccine is proven to be both safe and effective, governments, industry, and health care providers will face the considerable task of figuring out how to distribute the vaccine fairly and efficiently. This is precisely the sort of challenge Juli",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 5.7449,
+     "publisher": "mcclatchydc.com",
+     "title_guess": "Officials dispute Trump’s claim that military is preparing COVID vaccine distribution President Donald Trump says the U.S.",
+     "url": "mcclatchydc.com/news/coronavirus/article244555822.html",
+     "rank_bm25": 5,
+     "rank_dense": 6,
+     "rank_hybrid": 1,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Officials dispute Trump’s claim that military is preparing COVID vaccine distribution President Donald Trump says the U.S. military has an elaborate plan to distribute a coronavirus vaccine across the country at rapid speed. But defense and administration offi",
+     "evidence_marker": true
+    },
+    {
+     "rank": 6,
+     "score": 5.6394,
+     "publisher": "military.com",
+     "title_guess": "Critical decisions on who will be first to get a possible COVID-19 vaccine have yet to be made, according to the directo",
+     "url": "military.com/daily-news/2020/08/10/us-troops-may-not-get-priority-covid-19-vaccine-after-all.html",
+     "rank_bm25": 6,
+     "rank_dense": 14,
+     "rank_hybrid": 2,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Critical decisions on who will be first to get a possible COVID-19 vaccine have yet to be made, according to the director of Operation Warp Speed, the whole-of-government effort to develop and distribute a safe and effective immunization. Despite early indicat",
+     "evidence_marker": false
+    },
+    {
+     "rank": 7,
+     "score": 5.6314,
+     "publisher": "tricare.mil",
+     "title_guess": "It's still important to follow CDC guidelines to help stop the spread of COVID-19.",
+     "url": "tricare.mil/coronavirus",
+     "rank_bm25": 7,
+     "rank_dense": 112,
+     "rank_hybrid": 24,
+     "matched_terms": [
+      "us",
+      "military",
+      "check",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "It's still important to follow CDC guidelines to help stop the spread of COVID-19. The more steps you and your family can take to prevent the spread of COVID-19, the safer you'll be. It’s also important to identify the symptoms of COVID-19 and know when to see",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 5.6114,
+     "publisher": "health.mil",
+     "title_guess": "As we move toward a third year of the COVID-19 pandemic, the virus has changed many of our daily routines in ways no one",
+     "url": "health.mil/News/Articles/2020/05/22/COVID-19-lifestyle-tips-to-stay-healthy-during-the-pandemic",
+     "rank_bm25": 8,
+     "rank_dense": 235,
+     "rank_hybrid": 40,
+     "matched_terms": [
+      "us",
+      "military",
+      "check",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "As we move toward a third year of the COVID-19 pandemic, the virus has changed many of our daily routines in ways no one anticipated and that have become the new normal. Many of us are still spending a lot of time at home to minimize exposure to the virus that",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 5.5157,
+     "publisher": "nih.gov",
+     "title_guess": "Vaccines are a unique class of pharmaceutical products that meet the statutory definitions of both a drug and a biologic",
+     "url": "ncbi.nlm.nih.gov/pmc/articles/PMC7152312",
+     "rank_bm25": 9,
+     "rank_dense": 193,
+     "rank_hybrid": 36,
+     "matched_terms": [
+      "us",
+      "purity",
+      "distribute",
+      "vaccines"
+     ],
+     "snippet": "Vaccines are a unique class of pharmaceutical products that meet the statutory definitions of both a drug and a biological product.1, 2 The Food, Drug, and Cosmetic Act (FD&C Act) defines drugs, in part, by their intended use as “articles intended for use in t",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 5.2783,
+     "publisher": "ncsu.edu",
+     "title_guess": "Original article by Matt Shipman of NC State University Communications We do not yet have a vaccine that can be used to",
+     "url": "ise.ncsu.edu/blog/2020/07/30/why-we-should-already-be-planning-for-covid-19-vaccine-distribution",
+     "rank_bm25": 10,
+     "rank_dense": 35,
+     "rank_hybrid": 10,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Original article by Matt Shipman of NC State University Communications We do not yet have a vaccine that can be used to help protect people from contracting COVID-19. However, once a vaccine is proven to be both safe and effective, governments, industry and he",
+     "evidence_marker": false
+    }
+   ]
+  },
+  "dense": {
+   "label": "MiniLM dense (semantic)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 0.712,
+     "publisher": "af.mil",
+     "title_guess": "SUBJECT: Mandatory Coronavirus Disease 2019 Vaccination of Department of Defense To defend this Nation, we need a healthy and ready force.",
+     "url": "jble.af.mil/Portals/46/Mandatory%20Coronavirus%20Disease%202019%20Vaccination%20of%20Department%20of%20Defense%20Service%20Members%20OSD007764-21%20FOD%20Final%20.pdf",
+     "rank_bm25": 118,
+     "rank_dense": 1,
+     "rank_hybrid": 17,
+     "matched_terms": [
+      "military",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "SUBJECT: Mandatory Coronavirus Disease 2019 Vaccination of Department of Defense To defend this Nation, we need a healthy and ready force. After careful consultation with medical experts and military leadership, and with the support of the President, I have de",
+     "evidence_marker": false
+    },
+    {
+     "rank": 2,
+     "score": 0.7097,
+     "publisher": "pacom.mil",
+     "title_guess": "** Video: Defense Leaders Brief on COVID-19 Vaccine Distribution (U.S.",
+     "url": "pacom.mil/About-USINDOPACOM/US-Indo-Pacom-COVID-19-Information",
+     "rank_bm25": 260,
+     "rank_dense": 2,
+     "rank_hybrid": 28,
+     "matched_terms": [
+      "military",
+      "covid",
+      "19"
+     ],
+     "snippet": "** Video: Defense Leaders Brief on COVID-19 Vaccine Distribution (U.S. Defense News) ** The Department of Defense (DoD) is implementing Force Health Protection actions. These actions are necessary to ensure mission readiness for our forces and their families. ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 0.689,
+     "publisher": "nga.org",
+     "title_guess": "The emergence of the COVID-19 pandemic has created unprecedented public health challenges and spurred a global race to d",
+     "url": "nga.org/publications/covid-19-vaccine-considerations-mass-distribution",
+     "rank_bm25": 34,
+     "rank_dense": 3,
+     "rank_hybrid": 3,
+     "matched_terms": [
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "The emergence of the COVID-19 pandemic has created unprecedented public health challenges and spurred a global race to develop and distribute one or more viable vaccines. The challenge of vaccine development is matched by the challenge of vaccine distribution;",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 0.688,
+     "publisher": "nihb.org",
+     "title_guess": "U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES |",
+     "url": "nihb.org/covid-19/wp-content/uploads/2020/08/Fact-sheet-operation-warp-speed.pdf",
+     "rank_bm25": 127,
+     "rank_dense": 4,
+     "rank_hybrid": 23,
+     "matched_terms": [
+      "us",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES | PAGE 1 Operation Warp Speed (OWS) aims to begin delivery of 300 million doses of a safe, effective vaccine for COVID-19 by January 2021, as part of a broader strategy to accelerate the development, manufacturing, ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 0.673,
+     "publisher": "gao.gov",
+     "title_guess": "Science & Tech Spotlight: COVID-19 Vaccine Development [Updated on June 29, 2021] [This is an update to the previous COV",
+     "url": "gao.gov/products/gao-20-583sp",
+     "rank_bm25": 198,
+     "rank_dense": 5,
+     "rank_hybrid": 27,
+     "matched_terms": [
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Science & Tech Spotlight: COVID-19 Vaccine Development [Updated on June 29, 2021] [This is an update to the previous COVID-19 vaccine development spotlight. It was updated to include new and updated information on the federal effort to support the development,",
+     "evidence_marker": false
+    },
+    {
+     "rank": 6,
+     "score": 0.6684,
+     "publisher": "mcclatchydc.com",
+     "title_guess": "Officials dispute Trump’s claim that military is preparing COVID vaccine distribution President Donald Trump says the U.S.",
+     "url": "mcclatchydc.com/news/coronavirus/article244555822.html",
+     "rank_bm25": 5,
+     "rank_dense": 6,
+     "rank_hybrid": 1,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Officials dispute Trump’s claim that military is preparing COVID vaccine distribution President Donald Trump says the U.S. military has an elaborate plan to distribute a coronavirus vaccine across the country at rapid speed. But defense and administration offi",
+     "evidence_marker": true
+    },
+    {
+     "rank": 7,
+     "score": 0.664,
+     "publisher": "canada.ca",
+     "title_guess": "Faced with the novel coronavirus (COVID-19) spread, the Department of National Defence (DND) and the Canadian Armed Forc",
+     "url": "canada.ca/en/department-national-defence/campaigns/covid-19-military-response.html",
+     "rank_bm25": 31,
+     "rank_dense": 7,
+     "rank_hybrid": 6,
+     "matched_terms": [
+      "us",
+      "military",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Faced with the novel coronavirus (COVID-19) spread, the Department of National Defence (DND) and the Canadian Armed Forces (CAF) took unprecedented measures to protect the health and well-being of its members, prevent the spread of this disease, and maintain e",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 0.664,
+     "publisher": "defense.gov",
+     "title_guess": "The U.S. Department of Health and Human Services and the Department of Defense (DOD) today announced an agreement with U.S.-based Pfizer Inc.",
+     "url": "defense.gov/News/Releases/Release/Article/2310994/us-government-engages-pfizer-to-produce-millions-of-doses-of-covid-19-vaccine",
+     "rank_bm25": 223,
+     "rank_dense": 8,
+     "rank_hybrid": 39,
+     "matched_terms": [
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "The U.S. Department of Health and Human Services and the Department of Defense (DOD) today announced an agreement with U.S.-based Pfizer Inc. for large-scale production and nationwide delivery of 100 million doses of a COVID-19 vaccine in the United States fol",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 0.6544,
+     "publisher": "brookings.edu",
+     "title_guess": "With the saga over the U.S.S.",
+     "url": "brookings.edu/articles/covid-19-and-military-readiness-preparing-for-the-long-game",
+     "rank_bm25": 248,
+     "rank_dense": 9,
+     "rank_hybrid": 44,
+     "matched_terms": [
+      "military",
+      "covid",
+      "19"
+     ],
+     "snippet": "With the saga over the U.S.S. Teddy Roosevelt aircraft carrier starting to fade from the headlines, a larger question about the American armed forces and COVID-19 remains. How will we keep our military combat-ready, and thus fully capable of deterrence globall",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 0.6536,
+     "publisher": "nationalacademies.org",
+     "title_guess": "Resources, Responsibilities, and Dynamics in the Military’s Vaccine Mission The process of acquiring and maintaining the",
+     "url": "nap.nationalacademies.org/read/10483/chapter/4",
+     "rank_bm25": 172,
+     "rank_dense": 10,
+     "rank_hybrid": 34,
+     "matched_terms": [
+      "military",
+      "purity",
+      "vaccines"
+     ],
+     "snippet": "Resources, Responsibilities, and Dynamics in the Military’s Vaccine Mission The process of acquiring and maintaining the availability of vaccines for use by the U.S. military is supported by an intricate, multitiered, and continually changing Department of Def",
+     "evidence_marker": false
+    }
+   ]
+  },
+  "hybrid": {
+   "label": "Hybrid RRF (k=60)",
+   "top": [
+    {
+     "rank": 1,
+     "score": 0.0305,
+     "publisher": "mcclatchydc.com",
+     "title_guess": "Officials dispute Trump’s claim that military is preparing COVID vaccine distribution President Donald Trump says the U.S.",
+     "url": "mcclatchydc.com/news/coronavirus/article244555822.html",
+     "rank_bm25": 5,
+     "rank_dense": 6,
+     "rank_hybrid": 1,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Officials dispute Trump’s claim that military is preparing COVID vaccine distribution President Donald Trump says the U.S. military has an elaborate plan to distribute a coronavirus vaccine across the country at rapid speed. But defense and administration offi",
+     "evidence_marker": true
+    },
+    {
+     "rank": 2,
+     "score": 0.0287,
+     "publisher": "military.com",
+     "title_guess": "Critical decisions on who will be first to get a possible COVID-19 vaccine have yet to be made, according to the directo",
+     "url": "military.com/daily-news/2020/08/10/us-troops-may-not-get-priority-covid-19-vaccine-after-all.html",
+     "rank_bm25": 6,
+     "rank_dense": 14,
+     "rank_hybrid": 2,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Critical decisions on who will be first to get a possible COVID-19 vaccine have yet to be made, according to the director of Operation Warp Speed, the whole-of-government effort to develop and distribute a safe and effective immunization. Despite early indicat",
+     "evidence_marker": false
+    },
+    {
+     "rank": 3,
+     "score": 0.0265,
+     "publisher": "nga.org",
+     "title_guess": "The emergence of the COVID-19 pandemic has created unprecedented public health challenges and spurred a global race to d",
+     "url": "nga.org/publications/covid-19-vaccine-considerations-mass-distribution",
+     "rank_bm25": 34,
+     "rank_dense": 3,
+     "rank_hybrid": 3,
+     "matched_terms": [
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "The emergence of the COVID-19 pandemic has created unprecedented public health challenges and spurred a global race to develop and distribute one or more viable vaccines. The challenge of vaccine development is matched by the challenge of vaccine distribution;",
+     "evidence_marker": false
+    },
+    {
+     "rank": 4,
+     "score": 0.0261,
+     "publisher": "ussc.edu.au",
+     "title_guess": "- The US federal government has been slow to confront the COVID-19 pandemic, but the US military will assume a much larg",
+     "url": "ussc.edu.au/the-us-military-role-in-covid-19",
+     "rank_bm25": 11,
+     "rank_dense": 23,
+     "rank_hybrid": 4,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "- The US federal government has been slow to confront the COVID-19 pandemic, but the US military will assume a much larger role as the virus and its impact spread to other states. - The National Guard will likely contribute tens of thousands of troops to the r",
+     "evidence_marker": false
+    },
+    {
+     "rank": 5,
+     "score": 0.0261,
+     "publisher": "defense.gov",
+     "title_guess": "The global race to field a lifesaving COVID-19 vaccine may be nearing its last lap, as the Army aims for a vaccine by th",
+     "url": "defense.gov/News/News-Stories/Article/Article/2204940/army-targets-covid-19-vaccine-by-end-of-year",
+     "rank_bm25": 23,
+     "rank_dense": 11,
+     "rank_hybrid": 5,
+     "matched_terms": [
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "The global race to field a lifesaving COVID-19 vaccine may be nearing its last lap, as the Army aims for a vaccine by the end of this year, the force's top medical research officer said. If all goes as planned, human testing will begin in late summer, Army Bri",
+     "evidence_marker": false
+    },
+    {
+     "rank": 6,
+     "score": 0.0259,
+     "publisher": "canada.ca",
+     "title_guess": "Faced with the novel coronavirus (COVID-19) spread, the Department of National Defence (DND) and the Canadian Armed Forc",
+     "url": "canada.ca/en/department-national-defence/campaigns/covid-19-military-response.html",
+     "rank_bm25": 31,
+     "rank_dense": 7,
+     "rank_hybrid": 6,
+     "matched_terms": [
+      "us",
+      "military",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Faced with the novel coronavirus (COVID-19) spread, the Department of National Defence (DND) and the Canadian Armed Forces (CAF) took unprecedented measures to protect the health and well-being of its members, prevent the spread of this disease, and maintain e",
+     "evidence_marker": false
+    },
+    {
+     "rank": 7,
+     "score": 0.0257,
+     "publisher": "factcheck.org",
+     "title_guess": "As scientists work to find a safe vaccine for COVID-19, President Donald Trump and his Democratic challenger, Joe Biden,",
+     "url": "factcheck.org/2020/08/dueling-trump-biden-claims-on-covid-19-vaccination-distribution",
+     "rank_bm25": 2,
+     "rank_dense": 45,
+     "rank_hybrid": 7,
+     "matched_terms": [
+      "us",
+      "military",
+      "check",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "As scientists work to find a safe vaccine for COVID-19, President Donald Trump and his Democratic challenger, Joe Biden, have made competing claims about the administration’s plans to carry out the daunting task of distributing hundreds of millions of vaccine ",
+     "evidence_marker": false
+    },
+    {
+     "rank": 8,
+     "score": 0.0252,
+     "publisher": "senate.gov",
+     "title_guess": "Van Hollen, Merkley, Murray, Colleagues Push Trump Administration for Detailed COVID-19 Vaccine Strategy Senators call f",
+     "url": "vanhollen.senate.gov/news/press-releases/van-hollen-merkley-murray-colleagues-push-trump-administration-for-detailed-covid-19-vaccine-strategy",
+     "rank_bm25": 24,
+     "rank_dense": 15,
+     "rank_hybrid": 8,
+     "matched_terms": [
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Van Hollen, Merkley, Murray, Colleagues Push Trump Administration for Detailed COVID-19 Vaccine Strategy Senators call for plan to avoid repeat of testing, PPE failures when a vaccine is ready for production, distribution U.S. Senators Chris Van Hollen (D-MD),",
+     "evidence_marker": false
+    },
+    {
+     "rank": 9,
+     "score": 0.025,
+     "publisher": "jhu.edu",
+     "title_guess": "With something in the order of 150 COVID-19 vaccine candidates now in different stages of testing and development, a glo",
+     "url": "hub.jhu.edu/2020/07/01/covid-vaccine-ethics-faden",
+     "rank_bm25": 12,
+     "rank_dense": 30,
+     "rank_hybrid": 9,
+     "matched_terms": [
+      "us",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "With something in the order of 150 COVID-19 vaccine candidates now in different stages of testing and development, a global public health strategy needs to be thinking several steps ahead, beyond the science. Once a vaccine is proven safe and effective, how wi",
+     "evidence_marker": false
+    },
+    {
+     "rank": 10,
+     "score": 0.0248,
+     "publisher": "ncsu.edu",
+     "title_guess": "Original article by Matt Shipman of NC State University Communications We do not yet have a vaccine that can be used to",
+     "url": "ise.ncsu.edu/blog/2020/07/30/why-we-should-already-be-planning-for-covid-19-vaccine-distribution",
+     "rank_bm25": 10,
+     "rank_dense": 35,
+     "rank_hybrid": 10,
+     "matched_terms": [
+      "us",
+      "military",
+      "distribute",
+      "covid",
+      "19",
+      "vaccines"
+     ],
+     "snippet": "Original article by Matt Shipman of NC State University Communications We do not yet have a vaccine that can be used to help protect people from contracting COVID-19. However, once a vaccine is proven to be both safe and effective, governments, industry and he",
+     "evidence_marker": false
+    }
+   ]
+  }
+ },
+ "overlap": {
+  "BM25 & MiniLM": 1,
+  "BM25 & Hybrid": 4,
+  "MiniLM & Hybrid": 3,
+  "all three": 1
+ },
+ "best_evidence_rank": {
+  "bm25": 5,
+  "dense": 6,
+  "hybrid": 1
+ },
+ "n_evidence_reachable": 1,
+ "n_evidence_web": 1,
+ "llm_prediction": {
+  "provenance": "stored file results/heldout/authority_raw.jsonl (generated Sept 2026; NOT re-generated in this demo)",
+  "fact_at_issue": "Whether the US military was assigned to check the purity (quality control) of COVID-19 vaccines and distribute them in the United States under Operation Warp Speed.",
+  "claim_kind": "action_or_policy_of_org",
+  "authority_situation": "multiple_legitimate_authorities",
+  "confidence": 0.55,
+  "top3": [
+   {
+    "publisher": "US Department of Defense",
+    "domain": "defense.gov",
+    "social_account": "twitter.com/DeptofDefense",
+    "type": "government",
+    "why": "DoD co-led Operation Warp Speed logistics and can state the military's actual role in vaccine distribution and quality checks."
+   },
+   {
+    "publisher": "US Department of Health and Human Services",
+    "domain": "hhs.gov",
+    "social_account": "twitter.com/HHSGov",
+    "type": "government",
+    "why": "HHS led Operation Warp Speed and published its distribution strategy, which set out the respective roles of the CDC, McKesson and the DoD."
+   },
+   {
+    "publisher": "Centers for Disease Control and Prevention",
+    "domain": "cdc.gov",
+    "social_account": "twitter.com/CDCgov",
+    "type": "government",
+    "why": "The CDC was responsible for vaccine distribution planning with states and published the COVID-19 vaccination program playbook."
+   }
+  ],
+  "keys_docs_in_pool": {
+   "cdc.gov": 7,
+   "defense.gov": 6,
+   "hhs.gov": 2,
+   "twitter.com/cdcgov": 0,
+   "twitter.com/deptofdefense": 0,
+   "twitter.com/hhsgov": 0
+  }
+ },
+ "llm_note": null,
+ "authority": {
+  "B": {
+   "label": "B  Generic credibility prior",
+   "desc": "claim-independent domain type",
+   "top": [
+    {
+     "url": "defense.gov/News/News-Stories/Article/Article/2204940/army-targets-covid-19-vaccine-by-end-of-year",
+     "hybrid_rank": 5,
+     "relevance": 0.754,
+     "prior": 1.0,
+     "final": 1.754,
+     "rank": 1,
+     "moved": 4,
+     "publisher": "defense.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The global race to field a lifesaving COVID-19 vaccine may be nearing its last lap, as the Army aims for a vaccine by th",
+     "evidence_marker": false
+    },
+    {
+     "url": "vanhollen.senate.gov/news/press-releases/van-hollen-merkley-murray-colleagues-push-trump-administration-for-detailed-covid-19-vaccine-strategy",
+     "hybrid_rank": 8,
+     "relevance": 0.704,
+     "prior": 1.0,
+     "final": 1.704,
+     "rank": 2,
+     "moved": 6,
+     "publisher": "senate.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country",
+     "title_guess": "Van Hollen, Merkley, Murray, Colleagues Push Trump Administration for Detailed COVID-19 Vaccine Strategy Senators call f",
+     "evidence_marker": false
+    },
+    {
+     "url": "defense.gov/News/News-Stories/Article/Article/2311177/operation-warp-speed-on-track-for-end-of-year-vaccine-delivery",
+     "hybrid_rank": 12,
+     "relevance": 0.572,
+     "prior": 1.0,
+     "final": 1.572,
+     "rank": 3,
+     "moved": 9,
+     "publisher": "defense.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Operation Warp Speed is a public-private partnership whose goal is to deliver 300 hundred million doses of safe and effe",
+     "evidence_marker": false
+    },
+    {
+     "url": "ussc.edu.au/the-us-military-role-in-covid-19",
+     "hybrid_rank": 4,
+     "relevance": 0.754,
+     "prior": 0.8,
+     "final": 1.554,
+     "rank": 4,
+     "moved": 0,
+     "publisher": "ussc.edu.au",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "- The US federal government has been slow to confront the COVID-19 pandemic, but the US military will assume a much larg",
+     "evidence_marker": false
+    },
+    {
+     "url": "ncbi.nlm.nih.gov/pmc/articles/PMC7327159",
+     "hybrid_rank": 14,
+     "relevance": 0.55,
+     "prior": 1.0,
+     "final": 1.55,
+     "rank": 5,
+     "moved": 9,
+     "publisher": "nih.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country",
+     "title_guess": "SARS-CoV-2 (COVID-19) Vaccine Development and Production: An Ethical Way Forward The world awaits a SARS-CoV-2 virus (i.",
+     "evidence_marker": false
+    },
+    {
+     "url": "jble.af.mil/Portals/46/Mandatory%20Coronavirus%20Disease%202019%20Vaccination%20of%20Department%20of%20Defense%20Service%20Members%20OSD007764-21%20FOD%20Final%20.pdf",
+     "hybrid_rank": 17,
+     "relevance": 0.524,
+     "prior": 1.0,
+     "final": 1.524,
+     "rank": 6,
+     "moved": 11,
+     "publisher": "af.mil",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country",
+     "title_guess": "SUBJECT: Mandatory Coronavirus Disease 2019 Vaccination of Department of Defense To defend this Nation, we need a healthy and ready force.",
+     "evidence_marker": false
+    },
+    {
+     "url": "hub.jhu.edu/2020/07/01/covid-vaccine-ethics-faden",
+     "hybrid_rank": 9,
+     "relevance": 0.691,
+     "prior": 0.8,
+     "final": 1.491,
+     "rank": 7,
+     "moved": 2,
+     "publisher": "jhu.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "With something in the order of 150 COVID-19 vaccine candidates now in different stages of testing and development, a glo",
+     "evidence_marker": false
+    },
+    {
+     "url": "nih.gov/about-nih/who-we-are/nih-director/testimony-operation-warp-speed-researching-manufacturing-distributing-safe-effective-coronavirus-vaccine",
+     "hybrid_rank": 19,
+     "relevance": 0.486,
+     "prior": 1.0,
+     "final": 1.486,
+     "rank": 8,
+     "moved": 11,
+     "publisher": "nih.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country",
+     "title_guess": "Testimony on Operation Warp Speed: Researching, Manufacturing, & Distributing a Safe & Effective Coronavirus Vaccine Wit",
+     "evidence_marker": false
+    },
+    {
+     "url": "ise.ncsu.edu/blog/2020/07/30/why-we-should-already-be-planning-for-covid-19-vaccine-distribution",
+     "hybrid_rank": 10,
+     "relevance": 0.681,
+     "prior": 0.8,
+     "final": 1.481,
+     "rank": 9,
+     "moved": 1,
+     "publisher": "ncsu.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Original article by Matt Shipman of NC State University Communications We do not yet have a vaccine that can be used to",
+     "evidence_marker": false
+    },
+    {
+     "url": "hhs.gov/sites/default/files/pfizer-inc-covid-19-vaccine-contract.pdf",
+     "hybrid_rank": 22,
+     "relevance": 0.467,
+     "prior": 1.0,
+     "final": 1.467,
+     "rank": 10,
+     "moved": 12,
+     "publisher": "hhs.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "SUBJECT: Technical Direction Letter for Medical CRBN Defense Consortium (MCDC), Request for Prototype Proposals (RPP) 20",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 5,
+   "n_from_below_50": 0,
+   "best_evidence_rank_in_pool": 21
+  },
+  "C": {
+   "label": "C  Heuristic claim-specific prior",
+   "desc": "generic + claim-entity / claim-country rules",
+   "top": [
+    {
+     "url": "defense.gov/News/News-Stories/Article/Article/2204940/army-targets-covid-19-vaccine-by-end-of-year",
+     "hybrid_rank": 5,
+     "relevance": 0.754,
+     "prior": 1.0,
+     "final": 1.754,
+     "rank": 1,
+     "moved": 4,
+     "publisher": "defense.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The global race to field a lifesaving COVID-19 vaccine may be nearing its last lap, as the Army aims for a vaccine by th",
+     "evidence_marker": false
+    },
+    {
+     "url": "vanhollen.senate.gov/news/press-releases/van-hollen-merkley-murray-colleagues-push-trump-administration-for-detailed-covid-19-vaccine-strategy",
+     "hybrid_rank": 8,
+     "relevance": 0.704,
+     "prior": 1.0,
+     "final": 1.704,
+     "rank": 2,
+     "moved": 6,
+     "publisher": "senate.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country",
+     "title_guess": "Van Hollen, Merkley, Murray, Colleagues Push Trump Administration for Detailed COVID-19 Vaccine Strategy Senators call f",
+     "evidence_marker": false
+    },
+    {
+     "url": "defense.gov/News/News-Stories/Article/Article/2311177/operation-warp-speed-on-track-for-end-of-year-vaccine-delivery",
+     "hybrid_rank": 12,
+     "relevance": 0.572,
+     "prior": 1.0,
+     "final": 1.572,
+     "rank": 3,
+     "moved": 9,
+     "publisher": "defense.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Operation Warp Speed is a public-private partnership whose goal is to deliver 300 hundred million doses of safe and effe",
+     "evidence_marker": false
+    },
+    {
+     "url": "ussc.edu.au/the-us-military-role-in-covid-19",
+     "hybrid_rank": 4,
+     "relevance": 0.754,
+     "prior": 0.8,
+     "final": 1.554,
+     "rank": 4,
+     "moved": 0,
+     "publisher": "ussc.edu.au",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "- The US federal government has been slow to confront the COVID-19 pandemic, but the US military will assume a much larg",
+     "evidence_marker": false
+    },
+    {
+     "url": "ncbi.nlm.nih.gov/pmc/articles/PMC7327159",
+     "hybrid_rank": 14,
+     "relevance": 0.55,
+     "prior": 1.0,
+     "final": 1.55,
+     "rank": 5,
+     "moved": 9,
+     "publisher": "nih.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country",
+     "title_guess": "SARS-CoV-2 (COVID-19) Vaccine Development and Production: An Ethical Way Forward The world awaits a SARS-CoV-2 virus (i.",
+     "evidence_marker": false
+    },
+    {
+     "url": "jble.af.mil/Portals/46/Mandatory%20Coronavirus%20Disease%202019%20Vaccination%20of%20Department%20of%20Defense%20Service%20Members%20OSD007764-21%20FOD%20Final%20.pdf",
+     "hybrid_rank": 17,
+     "relevance": 0.524,
+     "prior": 1.0,
+     "final": 1.524,
+     "rank": 6,
+     "moved": 11,
+     "publisher": "af.mil",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country",
+     "title_guess": "SUBJECT: Mandatory Coronavirus Disease 2019 Vaccination of Department of Defense To defend this Nation, we need a healthy and ready force.",
+     "evidence_marker": false
+    },
+    {
+     "url": "hub.jhu.edu/2020/07/01/covid-vaccine-ethics-faden",
+     "hybrid_rank": 9,
+     "relevance": 0.691,
+     "prior": 0.8,
+     "final": 1.491,
+     "rank": 7,
+     "moved": 2,
+     "publisher": "jhu.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "With something in the order of 150 COVID-19 vaccine candidates now in different stages of testing and development, a glo",
+     "evidence_marker": false
+    },
+    {
+     "url": "nih.gov/about-nih/who-we-are/nih-director/testimony-operation-warp-speed-researching-manufacturing-distributing-safe-effective-coronavirus-vaccine",
+     "hybrid_rank": 19,
+     "relevance": 0.486,
+     "prior": 1.0,
+     "final": 1.486,
+     "rank": 8,
+     "moved": 11,
+     "publisher": "nih.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country",
+     "title_guess": "Testimony on Operation Warp Speed: Researching, Manufacturing, & Distributing a Safe & Effective Coronavirus Vaccine Wit",
+     "evidence_marker": false
+    },
+    {
+     "url": "ise.ncsu.edu/blog/2020/07/30/why-we-should-already-be-planning-for-covid-19-vaccine-distribution",
+     "hybrid_rank": 10,
+     "relevance": 0.681,
+     "prior": 0.8,
+     "final": 1.481,
+     "rank": 9,
+     "moved": 1,
+     "publisher": "ncsu.edu",
+     "domain_type": "Academic / journal",
+     "why": "Academic / journal (generic 0.8)",
+     "title_guess": "Original article by Matt Shipman of NC State University Communications We do not yet have a vaccine that can be used to",
+     "evidence_marker": false
+    },
+    {
+     "url": "hhs.gov/sites/default/files/pfizer-inc-covid-19-vaccine-contract.pdf",
+     "hybrid_rank": 22,
+     "relevance": 0.467,
+     "prior": 1.0,
+     "final": 1.467,
+     "rank": 10,
+     "moved": 12,
+     "publisher": "hhs.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "SUBJECT: Technical Direction Letter for Medical CRBN Defense Consortium (MCDC), Request for Prototype Proposals (RPP) 20",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 5,
+   "n_from_below_50": 0,
+   "best_evidence_rank_in_pool": 21
+  },
+  "D": {
+   "label": "D  LLM authority prior",
+   "desc": "stored Claude Opus 5.5 top-3 publishers (Sept 2026), binary",
+   "top": [
+    {
+     "url": "defense.gov/News/News-Stories/Article/Article/2204940/army-targets-covid-19-vaccine-by-end-of-year",
+     "hybrid_rank": 5,
+     "relevance": 0.754,
+     "prior": 1.0,
+     "final": 1.754,
+     "rank": 1,
+     "moved": 4,
+     "publisher": "defense.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The global race to field a lifesaving COVID-19 vaccine may be nearing its last lap, as the Army aims for a vaccine by th",
+     "evidence_marker": false
+    },
+    {
+     "url": "defense.gov/News/News-Stories/Article/Article/2311177/operation-warp-speed-on-track-for-end-of-year-vaccine-delivery",
+     "hybrid_rank": 12,
+     "relevance": 0.572,
+     "prior": 1.0,
+     "final": 1.572,
+     "rank": 2,
+     "moved": 10,
+     "publisher": "defense.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Operation Warp Speed is a public-private partnership whose goal is to deliver 300 hundred million doses of safe and effe",
+     "evidence_marker": false
+    },
+    {
+     "url": "hhs.gov/sites/default/files/pfizer-inc-covid-19-vaccine-contract.pdf",
+     "hybrid_rank": 22,
+     "relevance": 0.467,
+     "prior": 1.0,
+     "final": 1.467,
+     "rank": 3,
+     "moved": 19,
+     "publisher": "hhs.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "SUBJECT: Technical Direction Letter for Medical CRBN Defense Consortium (MCDC), Request for Prototype Proposals (RPP) 20",
+     "evidence_marker": false
+    },
+    {
+     "url": "hhs.gov/sites/default/files/novavax-covid-19-vaccine-contract.pdf",
+     "hybrid_rank": 29,
+     "relevance": 0.367,
+     "prior": 1.0,
+     "final": 1.367,
+     "rank": 4,
+     "moved": 25,
+     "publisher": "hhs.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "SUBJECT: Technical Direction Letter for Medical CRBN Defense Consortium (MCDC), Request for Prototype Proposals (RPP) 20",
+     "evidence_marker": false
+    },
+    {
+     "url": "www2a.cdc.gov/vaccines/iis/iisstandards/vaccines.asp?rpt=mvx",
+     "hybrid_rank": 32,
+     "relevance": 0.342,
+     "prior": 1.0,
+     "final": 1.342,
+     "rank": 5,
+     "moved": 27,
+     "publisher": "cdc.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The CDC's National Center for Immunization and Respiratory Diseases (NCIRD) developed and maintains HL7 Table 0227, Manu",
+     "evidence_marker": false
+    },
+    {
+     "url": "defense.gov/News/Releases/Release/Article/2310994/us-government-engages-pfizer-to-produce-millions-of-doses-of-covid-19-vaccine",
+     "hybrid_rank": 39,
+     "relevance": 0.314,
+     "prior": 1.0,
+     "final": 1.314,
+     "rank": 6,
+     "moved": 33,
+     "publisher": "defense.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "The U.S. Department of Health and Human Services and the Department of Defense (DOD) today announced an agreement with U.S.-based Pfizer Inc.",
+     "evidence_marker": false
+    },
+    {
+     "url": "cdc.gov/vaccines/hcp/conversations/ensuring-safe-vaccines.html",
+     "hybrid_rank": 41,
+     "relevance": 0.3,
+     "prior": 1.0,
+     "final": 1.3,
+     "rank": 7,
+     "moved": 34,
+     "publisher": "cdc.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Ensuring the Safety of Vaccines in the United States The U.S.",
+     "evidence_marker": false
+    },
+    {
+     "url": "defense.gov/News/Releases/Release/Article/2313808/trump-administration-collaborates-with-mckesson-for-covid-19-vaccine-distributi",
+     "hybrid_rank": 46,
+     "relevance": 0.275,
+     "prior": 1.0,
+     "final": 1.275,
+     "rank": 8,
+     "moved": 38,
+     "publisher": "defense.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "Under the leadership of President Trump, the U.S.",
+     "evidence_marker": false
+    },
+    {
+     "url": "cdc.gov/vaccines/adults/pay-for-vaccines.html",
+     "hybrid_rank": 49,
+     "relevance": 0.248,
+     "prior": 1.0,
+     "final": 1.248,
+     "rank": 9,
+     "moved": 40,
+     "publisher": "cdc.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "CDC’s Bridge Access Program temporarily provides no-cost COVID-19 vaccines for adults without health insurance and adult",
+     "evidence_marker": false
+    },
+    {
+     "url": "cdc.gov/coronavirus/2019-ncov/vaccines/index.html",
+     "hybrid_rank": 52,
+     "relevance": 0.212,
+     "prior": 1.0,
+     "final": 1.212,
+     "rank": 10,
+     "moved": 42,
+     "publisher": "cdc.gov",
+     "domain_type": "Government / intergovernmental",
+     "why": "Government / intergovernmental (generic 1.0); government of the claim's country; publisher predicted by the LLM as an authority",
+     "title_guess": "CDC has updated select ways to operate healthcare systems effectively in response to COVID-19 vaccination.",
+     "evidence_marker": false
+    }
+   ],
+   "n_from_below_k": 9,
+   "n_from_below_50": 1,
+   "best_evidence_rank_in_pool": 16
+  }
+ },
+ "final_system": "D",
+ "evidence_note": "Evidence marker = an AVeriTeC dev annotator evidence URL present (non-empty) in this claim's store. It is RELEVANCE/citation evidence used only for evaluation; it is never an input to any ranking, and it is NOT a claim-specific authority label."
+}

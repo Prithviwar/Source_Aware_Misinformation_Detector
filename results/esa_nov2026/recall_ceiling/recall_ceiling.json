@@ -1,0 +1,755 @@
+{
+ "status": "NEW descriptive measurement from frozen rankings (exploratory; sets already used; not preregistered)",
+ "definitions": "(per split; c ranges over claims, G(c) = reachable gold docs of claim c,\nW(c) = all web gold URLs of claim c, top_K(c) = first K documents of a ranking):\n  collection coverage (claim)  = |{c : G(c) != {}}| / |{c : W(c) != {}}|\n  collection coverage (doc)    = sum |G(c)| / sum |W(c)|\n  claim-level Recall@K         = |{c in C_eval : G(c) & top_K(c) != {}}| / |C_eval|,  C_eval = {c : G(c) != {}}\n                                 (= the project's historical R@K / hit rate)\n  document-level Recall@K      = sum_c |G(c) & top_K(c)| / sum_c |G(c)|    (micro)\n  macro document Recall@K      = mean_c |G(c) & top_K(c)| / |G(c)|\n  end-to-end claim Recall@K    = same as claim-level but denominator {c : W(c) != {}} (counts collection loss)\n  candidate-pool coverage      = claim-level Recall@100 of the hybrid ranking (the frozen rerank pool)\n                                 = the ceiling for ANY reranker of that pool (rerank-only oracle)",
+ "historical_reconstructed_for_comparison_only": {
+  "source": "storage/recovery_staging/bottleneck_analysis/files/docs/authority_resolution_bottleneck_analysis.md (lines ~246-252); RESEARCH_PROPOSAL_INFORMATION_PACKAGE.md L185",
+  "status": "RECONSTRUCTED, UNVERIFIED (lines 51-856 of the reconstructed report were never independently checked)",
+  "held-out hybrid coverage": {
+   "top100": 0.671,
+   "top200": 0.85,
+   "top300": 0.922
+  }
+ },
+ "splits": {
+  "heldout200": {
+   "split": "heldout200",
+   "n_claims": 200,
+   "stage1_collection": {
+    "claims_with_web_gold": 192,
+    "claims_with_reachable_gold": 167,
+    "claim_coverage": "167/192 = 0.870",
+    "web_gold_urls": 422,
+    "reachable_gold_urls": 305,
+    "doc_coverage": "305/422 = 0.723",
+    "claims_without_any_web_gold": 8,
+    "note": "reachable = gold URL present in the claim's knowledge store with non-empty text"
+   },
+   "candidates_per_claim": {
+    "min": 417,
+    "median": 781.5,
+    "max": 1639
+   },
+   "stage2_retrieval": {
+    "bm25": {
+     "@1": {
+      "claim_recall": 0.036,
+      "claim_hits": "6/167",
+      "doc_recall_micro": 0.02,
+      "doc_found": "6/305",
+      "doc_recall_macro": 0.023,
+      "end_to_end_claim_recall": "6/192 = 0.031"
+     },
+     "@5": {
+      "claim_recall": 0.132,
+      "claim_hits": "22/167",
+      "doc_recall_micro": 0.072,
+      "doc_found": "22/305",
+      "doc_recall_macro": 0.084,
+      "end_to_end_claim_recall": "22/192 = 0.115"
+     },
+     "@10": {
+      "claim_recall": 0.18,
+      "claim_hits": "30/167",
+      "doc_recall_micro": 0.102,
+      "doc_found": "31/305",
+      "doc_recall_macro": 0.114,
+      "end_to_end_claim_recall": "30/192 = 0.156"
+     },
+     "@20": {
+      "claim_recall": 0.251,
+      "claim_hits": "42/167",
+      "doc_recall_micro": 0.154,
+      "doc_found": "47/305",
+      "doc_recall_macro": 0.166,
+      "end_to_end_claim_recall": "42/192 = 0.219"
+     },
+     "@50": {
+      "claim_recall": 0.443,
+      "claim_hits": "74/167",
+      "doc_recall_micro": 0.308,
+      "doc_found": "94/305",
+      "doc_recall_macro": 0.327,
+      "end_to_end_claim_recall": "74/192 = 0.385"
+     },
+     "@100": {
+      "claim_recall": 0.599,
+      "claim_hits": "100/167",
+      "doc_recall_micro": 0.426,
+      "doc_found": "130/305",
+      "doc_recall_macro": 0.454,
+      "end_to_end_claim_recall": "100/192 = 0.521"
+     },
+     "@200": {
+      "claim_recall": 0.743,
+      "claim_hits": "124/167",
+      "doc_recall_micro": 0.57,
+      "doc_found": "174/305",
+      "doc_recall_macro": 0.606,
+      "end_to_end_claim_recall": "124/192 = 0.646"
+     },
+     "@300": {
+      "claim_recall": 0.85,
+      "claim_hits": "142/167",
+      "doc_recall_micro": 0.708,
+      "doc_found": "216/305",
+      "doc_recall_macro": 0.739,
+      "end_to_end_claim_recall": "142/192 = 0.740"
+     },
+     "@500": {
+      "claim_recall": 0.934,
+      "claim_hits": "156/167",
+      "doc_recall_micro": 0.826,
+      "doc_found": "252/305",
+      "doc_recall_macro": 0.85,
+      "end_to_end_claim_recall": "156/192 = 0.812"
+     },
+     "@all": {
+      "claim_recall": 1.0,
+      "claim_hits": "167/167",
+      "doc_recall_micro": 1.0,
+      "doc_found": "305/305",
+      "doc_recall_macro": 1.0,
+      "end_to_end_claim_recall": "167/192 = 0.870"
+     }
+    },
+    "dense": {
+     "@1": {
+      "claim_recall": 0.06,
+      "claim_hits": "10/167",
+      "doc_recall_micro": 0.033,
+      "doc_found": "10/305",
+      "doc_recall_macro": 0.039,
+      "end_to_end_claim_recall": "10/192 = 0.052"
+     },
+     "@5": {
+      "claim_recall": 0.18,
+      "claim_hits": "30/167",
+      "doc_recall_micro": 0.102,
+      "doc_found": "31/305",
+      "doc_recall_macro": 0.122,
+      "end_to_end_claim_recall": "30/192 = 0.156"
+     },
+     "@10": {
+      "claim_recall": 0.251,
+      "claim_hits": "42/167",
+      "doc_recall_micro": 0.141,
+      "doc_found": "43/305",
+      "doc_recall_macro": 0.175,
+      "end_to_end_claim_recall": "42/192 = 0.219"
+     },
+     "@20": {
+      "claim_recall": 0.353,
+      "claim_hits": "59/167",
+      "doc_recall_micro": 0.216,
+      "doc_found": "66/305",
+      "doc_recall_macro": 0.253,
+      "end_to_end_claim_recall": "59/192 = 0.307"
+     },
+     "@50": {
+      "claim_recall": 0.539,
+      "claim_hits": "90/167",
+      "doc_recall_micro": 0.357,
+      "doc_found": "109/305",
+      "doc_recall_macro": 0.41,
+      "end_to_end_claim_recall": "90/192 = 0.469"
+     },
+     "@100": {
+      "claim_recall": 0.701,
+      "claim_hits": "117/167",
+      "doc_recall_micro": 0.485,
+      "doc_found": "148/305",
+      "doc_recall_macro": 0.537,
+      "end_to_end_claim_recall": "117/192 = 0.609"
+     },
+     "@200": {
+      "claim_recall": 0.904,
+      "claim_hits": "151/167",
+      "doc_recall_micro": 0.705,
+      "doc_found": "215/305",
+      "doc_recall_macro": 0.76,
+      "end_to_end_claim_recall": "151/192 = 0.786"
+     },
+     "@300": {
+      "claim_recall": 0.94,
+      "claim_hits": "157/167",
+      "doc_recall_micro": 0.774,
+      "doc_found": "236/305",
+      "doc_recall_macro": 0.82,
+      "end_to_end_claim_recall": "157/192 = 0.818"
+     },
+     "@500": {
+      "claim_recall": 0.964,
+      "claim_hits": "161/167",
+      "doc_recall_micro": 0.872,
+      "doc_found": "266/305",
+      "doc_recall_macro": 0.902,
+      "end_to_end_claim_recall": "161/192 = 0.839"
+     },
+     "@all": {
+      "claim_recall": 1.0,
+      "claim_hits": "167/167",
+      "doc_recall_micro": 1.0,
+      "doc_found": "305/305",
+      "doc_recall_macro": 1.0,
+      "end_to_end_claim_recall": "167/192 = 0.870"
+     }
+    },
+    "hybrid": {
+     "@1": {
+      "claim_recall": 0.06,
+      "claim_hits": "10/167",
+      "doc_recall_micro": 0.033,
+      "doc_found": "10/305",
+      "doc_recall_macro": 0.041,
+      "end_to_end_claim_recall": "10/192 = 0.052"
+     },
+     "@5": {
+      "claim_recall": 0.156,
+      "claim_hits": "26/167",
+      "doc_recall_micro": 0.089,
+      "doc_found": "27/305",
+      "doc_recall_macro": 0.118,
+      "end_to_end_claim_recall": "26/192 = 0.135"
+     },
+     "@10": {
+      "claim_recall": 0.251,
+      "claim_hits": "42/167",
+      "doc_recall_micro": 0.148,
+      "doc_found": "45/305",
+      "doc_recall_macro": 0.181,
+      "end_to_end_claim_recall": "42/192 = 0.219"
+     },
+     "@20": {
+      "claim_recall": 0.383,
+      "claim_hits": "64/167",
+      "doc_recall_micro": 0.23,
+      "doc_found": "70/305",
+      "doc_recall_macro": 0.267,
+      "end_to_end_claim_recall": "64/192 = 0.333"
+     },
+     "@50": {
+      "claim_recall": 0.563,
+      "claim_hits": "94/167",
+      "doc_recall_micro": 0.393,
+      "doc_found": "120/305",
+      "doc_recall_macro": 0.428,
+      "end_to_end_claim_recall": "94/192 = 0.490"
+     },
+     "@100": {
+      "claim_recall": 0.671,
+      "claim_hits": "112/167",
+      "doc_recall_micro": 0.505,
+      "doc_found": "154/305",
+      "doc_recall_macro": 0.538,
+      "end_to_end_claim_recall": "112/192 = 0.583"
+     },
+     "@200": {
+      "claim_recall": 0.85,
+      "claim_hits": "142/167",
+      "doc_recall_micro": 0.692,
+      "doc_found": "211/305",
+      "doc_recall_macro": 0.727,
+      "end_to_end_claim_recall": "142/192 = 0.740"
+     },
+     "@300": {
+      "claim_recall": 0.922,
+      "claim_hits": "154/167",
+      "doc_recall_micro": 0.787,
+      "doc_found": "240/305",
+      "doc_recall_macro": 0.82,
+      "end_to_end_claim_recall": "154/192 = 0.802"
+     },
+     "@500": {
+      "claim_recall": 0.964,
+      "claim_hits": "161/167",
+      "doc_recall_micro": 0.872,
+      "doc_found": "266/305",
+      "doc_recall_macro": 0.902,
+      "end_to_end_claim_recall": "161/192 = 0.839"
+     },
+     "@all": {
+      "claim_recall": 1.0,
+      "claim_hits": "167/167",
+      "doc_recall_micro": 1.0,
+      "doc_found": "305/305",
+      "doc_recall_macro": 1.0,
+      "end_to_end_claim_recall": "167/192 = 0.870"
+     }
+    }
+   },
+   "stage3_candidate_pool": {
+    "pool": "hybrid top-100 (frozen rerank pool)",
+    "claim_coverage": "112/167 = 0.671",
+    "meaning": "maximum claim-level Recall@K any reranker of this pool can reach (rerank-only oracle)",
+    "claims_lost_before_reranking": 55
+   },
+   "stage4_authority_classification_proxy": {
+    "target": "publisher keys of ALL AVeriTeC gold URLs (news / fact-check publishers included) - a PROXY; no human claim-specific authority labels exist, so true authority accuracy cannot be measured",
+    "n": 192,
+    "top1_match": "56/192 = 0.292",
+    "top3_match": "75/192 = 0.391",
+    "claims_where_a_predicted_publisher_has_a_doc_in_pool": "113/167"
+   },
+   "stage5_final_ranking": {
+    "A_hybrid": {
+     "@1": {
+      "claim_recall": "10/167 = 0.060",
+      "fraction_of_pool_ceiling": 0.089,
+      "doc_recall_micro": "10/305 = 0.033"
+     },
+     "@5": {
+      "claim_recall": "26/167 = 0.156",
+      "fraction_of_pool_ceiling": 0.232,
+      "doc_recall_micro": "27/305 = 0.089"
+     },
+     "@10": {
+      "claim_recall": "42/167 = 0.251",
+      "fraction_of_pool_ceiling": 0.375,
+      "doc_recall_micro": "45/305 = 0.148"
+     },
+     "@20": {
+      "claim_recall": "64/167 = 0.383",
+      "fraction_of_pool_ceiling": 0.571,
+      "doc_recall_micro": "70/305 = 0.230"
+     }
+    },
+    "B_generic": {
+     "@1": {
+      "claim_recall": "4/167 = 0.024",
+      "fraction_of_pool_ceiling": 0.036,
+      "doc_recall_micro": "4/305 = 0.013"
+     },
+     "@5": {
+      "claim_recall": "29/167 = 0.174",
+      "fraction_of_pool_ceiling": 0.259,
+      "doc_recall_micro": "31/305 = 0.102"
+     },
+     "@10": {
+      "claim_recall": "44/167 = 0.263",
+      "fraction_of_pool_ceiling": 0.393,
+      "doc_recall_micro": "49/305 = 0.161"
+     },
+     "@20": {
+      "claim_recall": "64/167 = 0.383",
+      "fraction_of_pool_ceiling": 0.571,
+      "doc_recall_micro": "71/305 = 0.233"
+     }
+    },
+    "C_heuristic": {
+     "@1": {
+      "claim_recall": "5/167 = 0.030",
+      "fraction_of_pool_ceiling": 0.045,
+      "doc_recall_micro": "5/305 = 0.016"
+     },
+     "@5": {
+      "claim_recall": "31/167 = 0.186",
+      "fraction_of_pool_ceiling": 0.277,
+      "doc_recall_micro": "33/305 = 0.108"
+     },
+     "@10": {
+      "claim_recall": "46/167 = 0.275",
+      "fraction_of_pool_ceiling": 0.411,
+      "doc_recall_micro": "51/305 = 0.167"
+     },
+     "@20": {
+      "claim_recall": "68/167 = 0.407",
+      "fraction_of_pool_ceiling": 0.607,
+      "doc_recall_micro": "75/305 = 0.246"
+     }
+    },
+    "D_llm": {
+     "@1": {
+      "claim_recall": "11/167 = 0.066",
+      "fraction_of_pool_ceiling": 0.098,
+      "doc_recall_micro": "11/305 = 0.036"
+     },
+     "@5": {
+      "claim_recall": "33/167 = 0.198",
+      "fraction_of_pool_ceiling": 0.295,
+      "doc_recall_micro": "35/305 = 0.115"
+     },
+     "@10": {
+      "claim_recall": "49/167 = 0.293",
+      "fraction_of_pool_ceiling": 0.438,
+      "doc_recall_micro": "55/305 = 0.180"
+     },
+     "@20": {
+      "claim_recall": "73/167 = 0.437",
+      "fraction_of_pool_ceiling": 0.652,
+      "doc_recall_micro": "82/305 = 0.269"
+     }
+    }
+   }
+  },
+  "dev120": {
+   "split": "dev120",
+   "n_claims": 120,
+   "stage1_collection": {
+    "claims_with_web_gold": 119,
+    "claims_with_reachable_gold": 99,
+    "claim_coverage": "99/119 = 0.832",
+    "web_gold_urls": 226,
+    "reachable_gold_urls": 162,
+    "doc_coverage": "162/226 = 0.717",
+    "claims_without_any_web_gold": 1,
+    "note": "reachable = gold URL present in the claim's knowledge store with non-empty text"
+   },
+   "candidates_per_claim": {
+    "min": 305,
+    "median": 740.0,
+    "max": 1420
+   },
+   "stage2_retrieval": {
+    "bm25": {
+     "@1": {
+      "claim_recall": 0.03,
+      "claim_hits": "3/99",
+      "doc_recall_micro": 0.019,
+      "doc_found": "3/162",
+      "doc_recall_macro": 0.025,
+      "end_to_end_claim_recall": "3/119 = 0.025"
+     },
+     "@5": {
+      "claim_recall": 0.081,
+      "claim_hits": "8/99",
+      "doc_recall_micro": 0.049,
+      "doc_found": "8/162",
+      "doc_recall_macro": 0.069,
+      "end_to_end_claim_recall": "8/119 = 0.067"
+     },
+     "@10": {
+      "claim_recall": 0.111,
+      "claim_hits": "11/99",
+      "doc_recall_micro": 0.068,
+      "doc_found": "11/162",
+      "doc_recall_macro": 0.094,
+      "end_to_end_claim_recall": "11/119 = 0.092"
+     },
+     "@20": {
+      "claim_recall": 0.242,
+      "claim_hits": "24/99",
+      "doc_recall_micro": 0.154,
+      "doc_found": "25/162",
+      "doc_recall_macro": 0.17,
+      "end_to_end_claim_recall": "24/119 = 0.202"
+     },
+     "@50": {
+      "claim_recall": 0.465,
+      "claim_hits": "46/99",
+      "doc_recall_micro": 0.309,
+      "doc_found": "50/162",
+      "doc_recall_macro": 0.353,
+      "end_to_end_claim_recall": "46/119 = 0.387"
+     },
+     "@100": {
+      "claim_recall": 0.556,
+      "claim_hits": "55/99",
+      "doc_recall_micro": 0.389,
+      "doc_found": "63/162",
+      "doc_recall_macro": 0.441,
+      "end_to_end_claim_recall": "55/119 = 0.462"
+     },
+     "@200": {
+      "claim_recall": 0.697,
+      "claim_hits": "69/99",
+      "doc_recall_micro": 0.525,
+      "doc_found": "85/162",
+      "doc_recall_macro": 0.563,
+      "end_to_end_claim_recall": "69/119 = 0.580"
+     },
+     "@300": {
+      "claim_recall": 0.758,
+      "claim_hits": "75/99",
+      "doc_recall_micro": 0.599,
+      "doc_found": "97/162",
+      "doc_recall_macro": 0.647,
+      "end_to_end_claim_recall": "75/119 = 0.630"
+     },
+     "@500": {
+      "claim_recall": 0.909,
+      "claim_hits": "90/99",
+      "doc_recall_micro": 0.79,
+      "doc_found": "128/162",
+      "doc_recall_macro": 0.829,
+      "end_to_end_claim_recall": "90/119 = 0.756"
+     },
+     "@all": {
+      "claim_recall": 1.0,
+      "claim_hits": "99/99",
+      "doc_recall_micro": 1.0,
+      "doc_found": "162/162",
+      "doc_recall_macro": 1.0,
+      "end_to_end_claim_recall": "99/119 = 0.832"
+     }
+    },
+    "dense": {
+     "@1": {
+      "claim_recall": 0.051,
+      "claim_hits": "5/99",
+      "doc_recall_micro": 0.031,
+      "doc_found": "5/162",
+      "doc_recall_macro": 0.043,
+      "end_to_end_claim_recall": "5/119 = 0.042"
+     },
+     "@5": {
+      "claim_recall": 0.152,
+      "claim_hits": "15/99",
+      "doc_recall_micro": 0.099,
+      "doc_found": "16/162",
+      "doc_recall_macro": 0.102,
+      "end_to_end_claim_recall": "15/119 = 0.126"
+     },
+     "@10": {
+      "claim_recall": 0.242,
+      "claim_hits": "24/99",
+      "doc_recall_micro": 0.154,
+      "doc_found": "25/162",
+      "doc_recall_macro": 0.162,
+      "end_to_end_claim_recall": "24/119 = 0.202"
+     },
+     "@20": {
+      "claim_recall": 0.333,
+      "claim_hits": "33/99",
+      "doc_recall_micro": 0.222,
+      "doc_found": "36/162",
+      "doc_recall_macro": 0.239,
+      "end_to_end_claim_recall": "33/119 = 0.277"
+     },
+     "@50": {
+      "claim_recall": 0.566,
+      "claim_hits": "56/99",
+      "doc_recall_micro": 0.377,
+      "doc_found": "61/162",
+      "doc_recall_macro": 0.411,
+      "end_to_end_claim_recall": "56/119 = 0.471"
+     },
+     "@100": {
+      "claim_recall": 0.646,
+      "claim_hits": "64/99",
+      "doc_recall_micro": 0.494,
+      "doc_found": "80/162",
+      "doc_recall_macro": 0.525,
+      "end_to_end_claim_recall": "64/119 = 0.538"
+     },
+     "@200": {
+      "claim_recall": 0.788,
+      "claim_hits": "78/99",
+      "doc_recall_micro": 0.66,
+      "doc_found": "107/162",
+      "doc_recall_macro": 0.691,
+      "end_to_end_claim_recall": "78/119 = 0.655"
+     },
+     "@300": {
+      "claim_recall": 0.838,
+      "claim_hits": "83/99",
+      "doc_recall_micro": 0.741,
+      "doc_found": "120/162",
+      "doc_recall_macro": 0.757,
+      "end_to_end_claim_recall": "83/119 = 0.697"
+     },
+     "@500": {
+      "claim_recall": 0.939,
+      "claim_hits": "93/99",
+      "doc_recall_micro": 0.864,
+      "doc_found": "140/162",
+      "doc_recall_macro": 0.885,
+      "end_to_end_claim_recall": "93/119 = 0.782"
+     },
+     "@all": {
+      "claim_recall": 1.0,
+      "claim_hits": "99/99",
+      "doc_recall_micro": 1.0,
+      "doc_found": "162/162",
+      "doc_recall_macro": 1.0,
+      "end_to_end_claim_recall": "99/119 = 0.832"
+     }
+    },
+    "hybrid": {
+     "@1": {
+      "claim_recall": 0.04,
+      "claim_hits": "4/99",
+      "doc_recall_micro": 0.025,
+      "doc_found": "4/162",
+      "doc_recall_macro": 0.04,
+      "end_to_end_claim_recall": "4/119 = 0.034"
+     },
+     "@5": {
+      "claim_recall": 0.141,
+      "claim_hits": "14/99",
+      "doc_recall_micro": 0.086,
+      "doc_found": "14/162",
+      "doc_recall_macro": 0.109,
+      "end_to_end_claim_recall": "14/119 = 0.118"
+     },
+     "@10": {
+      "claim_recall": 0.242,
+      "claim_hits": "24/99",
+      "doc_recall_micro": 0.148,
+      "doc_found": "24/162",
+      "doc_recall_macro": 0.162,
+      "end_to_end_claim_recall": "24/119 = 0.202"
+     },
+     "@20": {
+      "claim_recall": 0.364,
+      "claim_hits": "36/99",
+      "doc_recall_micro": 0.235,
+      "doc_found": "38/162",
+      "doc_recall_macro": 0.248,
+      "end_to_end_claim_recall": "36/119 = 0.303"
+     },
+     "@50": {
+      "claim_recall": 0.535,
+      "claim_hits": "53/99",
+      "doc_recall_micro": 0.364,
+      "doc_found": "59/162",
+      "doc_recall_macro": 0.398,
+      "end_to_end_claim_recall": "53/119 = 0.445"
+     },
+     "@100": {
+      "claim_recall": 0.717,
+      "claim_hits": "71/99",
+      "doc_recall_micro": 0.519,
+      "doc_found": "84/162",
+      "doc_recall_macro": 0.563,
+      "end_to_end_claim_recall": "71/119 = 0.597"
+     },
+     "@200": {
+      "claim_recall": 0.818,
+      "claim_hits": "81/99",
+      "doc_recall_micro": 0.679,
+      "doc_found": "110/162",
+      "doc_recall_macro": 0.714,
+      "end_to_end_claim_recall": "81/119 = 0.681"
+     },
+     "@300": {
+      "claim_recall": 0.859,
+      "claim_hits": "85/99",
+      "doc_recall_micro": 0.741,
+      "doc_found": "120/162",
+      "doc_recall_macro": 0.772,
+      "end_to_end_claim_recall": "85/119 = 0.714"
+     },
+     "@500": {
+      "claim_recall": 0.919,
+      "claim_hits": "91/99",
+      "doc_recall_micro": 0.827,
+      "doc_found": "134/162",
+      "doc_recall_macro": 0.859,
+      "end_to_end_claim_recall": "91/119 = 0.765"
+     },
+     "@all": {
+      "claim_recall": 1.0,
+      "claim_hits": "99/99",
+      "doc_recall_micro": 1.0,
+      "doc_found": "162/162",
+      "doc_recall_macro": 1.0,
+      "end_to_end_claim_recall": "99/119 = 0.832"
+     }
+    }
+   },
+   "stage3_candidate_pool": {
+    "pool": "hybrid top-100 (frozen rerank pool)",
+    "claim_coverage": "71/99 = 0.717",
+    "meaning": "maximum claim-level Recall@K any reranker of this pool can reach (rerank-only oracle)",
+    "claims_lost_before_reranking": 28
+   },
+   "stage4_authority_classification_proxy": {
+    "target": "publisher keys of ALL AVeriTeC gold URLs (news / fact-check publishers included) - a PROXY; no human claim-specific authority labels exist, so true authority accuracy cannot be measured",
+    "n": 117,
+    "top1_match": "45/117 = 0.385",
+    "top3_match": "56/117 = 0.479",
+    "claims_where_a_predicted_publisher_has_a_doc_in_pool": "69/99"
+   },
+   "stage5_final_ranking": {
+    "A_hybrid": {
+     "@1": {
+      "claim_recall": "4/99 = 0.040",
+      "fraction_of_pool_ceiling": 0.056,
+      "doc_recall_micro": "4/162 = 0.025"
+     },
+     "@5": {
+      "claim_recall": "14/99 = 0.141",
+      "fraction_of_pool_ceiling": 0.197,
+      "doc_recall_micro": "14/162 = 0.086"
+     },
+     "@10": {
+      "claim_recall": "24/99 = 0.242",
+      "fraction_of_pool_ceiling": 0.338,
+      "doc_recall_micro": "24/162 = 0.148"
+     },
+     "@20": {
+      "claim_recall": "36/99 = 0.364",
+      "fraction_of_pool_ceiling": 0.507,
+      "doc_recall_micro": "38/162 = 0.235"
+     }
+    },
+    "B_generic": {
+     "@1": {
+      "claim_recall": "2/99 = 0.020",
+      "fraction_of_pool_ceiling": 0.028,
+      "doc_recall_micro": "2/162 = 0.012"
+     },
+     "@5": {
+      "claim_recall": "13/99 = 0.131",
+      "fraction_of_pool_ceiling": 0.183,
+      "doc_recall_micro": "13/162 = 0.080"
+     },
+     "@10": {
+      "claim_recall": "21/99 = 0.212",
+      "fraction_of_pool_ceiling": 0.296,
+      "doc_recall_micro": "22/162 = 0.136"
+     },
+     "@20": {
+      "claim_recall": "28/99 = 0.283",
+      "fraction_of_pool_ceiling": 0.394,
+      "doc_recall_micro": "30/162 = 0.185"
+     }
+    },
+    "C_heuristic": {
+     "@1": {
+      "claim_recall": "3/99 = 0.030",
+      "fraction_of_pool_ceiling": 0.042,
+      "doc_recall_micro": "3/162 = 0.019"
+     },
+     "@5": {
+      "claim_recall": "15/99 = 0.152",
+      "fraction_of_pool_ceiling": 0.211,
+      "doc_recall_micro": "15/162 = 0.093"
+     },
+     "@10": {
+      "claim_recall": "23/99 = 0.232",
+      "fraction_of_pool_ceiling": 0.324,
+      "doc_recall_micro": "24/162 = 0.148"
+     },
+     "@20": {
+      "claim_recall": "29/99 = 0.293",
+      "fraction_of_pool_ceiling": 0.408,
+      "doc_recall_micro": "31/162 = 0.191"
+     }
+    },
+    "D_llm": {
+     "@1": {
+      "claim_recall": "11/99 = 0.111",
+      "fraction_of_pool_ceiling": 0.155,
+      "doc_recall_micro": "11/162 = 0.068"
+     },
+     "@5": {
+      "claim_recall": "24/99 = 0.242",
+      "fraction_of_pool_ceiling": 0.338,
+      "doc_recall_micro": "24/162 = 0.148"
+     },
+     "@10": {
+      "claim_recall": "34/99 = 0.343",
+      "fraction_of_pool_ceiling": 0.479,
+      "doc_recall_micro": "35/162 = 0.216"
+     },
+     "@20": {
+      "claim_recall": "44/99 = 0.444",
+      "fraction_of_pool_ceiling": 0.62,
+      "doc_recall_micro": "48/162 = 0.296"
+     }
+    }
+   }
+  }
+ }
+}

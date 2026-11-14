@@ -1,0 +1,221 @@
+{
+ "status": "SYNTHETIC SMOKE TEST - numbers are meaningless",
+ "split_sha256": "SYNTHETIC",
+ "label_note": "PU labels. s=1: AVeriTeC evidence-URL match with non-empty text = WEAK POSITIVE relevance proxy (not a human-verified authority label). All other documents are UNLABELLED, never confirmed negatives. Recall, MRR and pool coverage count only labelled documents. 'labelled_P@10' counts unlabelled documents as non-hits, so it is a LOWER BOUND on true precision@10, and only if labelled documents are truly relevant. It also favours models that imitate fact-checker citation choices. No average precision is reported, because ranking-wide AP with unlabelled-as-negative has no valid bound interpretation.",
+ "pu_assumptions_and_limitations": [
+  "SCAR (selected completely at random): labelled documents are assumed to be a random sample of all relevant documents. This is very likely violated. Fact-checkers prefer some source types (official pages, news, fact-check sites) and pages they could find with their own searches, so the model learns 'what fact-checkers cite', not relevance in general.",
+  "Incomplete positives: most relevant pages in a knowledge store are never cited, so the unlabelled sample contains relevant documents (label noise in the s=0 class). Recall against labelled documents underestimates the true recall of relevant documents.",
+  "Knowledge-store construction: AVeriTeC stores were built partly from queries derived from the gold evidence, so retrieval features may be easier on this data than on open-web retrieval.",
+  "Empty-text evidence documents (scrape failures) cannot be labelled and are excluded. Claims whose evidence has no text are not eligible for evaluation.",
+  "class_weight='balanced' reweights s=1 vs s=0. It changes calibration, not the validity of ranking under SCAR."
+ ],
+ "unlabelled_sampling": {
+  "policy": "Per FIT claim only: U = all non-empty documents in the claim's deduplicated knowledge-store corpus (build_corpus) whose url_norm is not a labelled evidence URL. Candidates are sorted by url_norm, then min(N_UNLABELLED_PER_CLAIM, |U|) are drawn uniformly without replacement with random.Random(SEED_UNLABELLED * 100_003 + train_idx). No rank-based (top-100 / hard-negative) selection.",
+  "seed": 2052,
+  "n_per_claim": 30,
+  "all_fit_samples_sha256": "83f1a70031ee04168ac4797054481f081248bcfde53cd9a5cf8dab277ac196ad"
+ },
+ "fit_data": {
+  "fit_claims_with_docs": 10,
+  "fit_claims_with_>=1_labelled": 10,
+  "n_fit_pairs": 320,
+  "n_labelled_s1": 20,
+  "n_unlabelled_sampled_s0": 300
+ },
+ "features": [
+  "bm25_score",
+  "bm25_score_rel",
+  "bm25_rank_log",
+  "dense_cos",
+  "dense_rank_log",
+  "rrf_score",
+  "hybrid_rank_log",
+  "doc_len_log",
+  "term_overlap_frac",
+  "number_overlap_frac",
+  "url_generic_prior",
+  "url_is_gov",
+  "url_is_pdf",
+  "url_path_depth",
+  "url_is_social",
+  "url_entity_match",
+  "url_claim_country_gov",
+  "minilm_product_384 (M3 only)"
+ ],
+ "candidate_pool": "hybrid RRF top-100; identical for all systems and claims",
+ "training_fit_claims": {
+  "pool_coverage_upper_bound": {
+   "claims_in_split": 10,
+   "claims_with_nonempty_docs": 10,
+   "eligible_claims_(>=1_labelled_doc)": 10,
+   "pool_coverage_claim_level_(max_claim_R@100)": "10/10 = 1.000",
+   "pool_coverage_doc_level_(max_doc_R@100)": "20/20 = 1.000"
+  },
+  "hybrid_rrf_baseline": {
+   "claim_R@1": "5/10 = 0.500",
+   "claim_R@5": "10/10 = 1.000",
+   "claim_R@10": "10/10 = 1.000",
+   "claim_R@20": "10/10 = 1.000",
+   "doc_R@10_micro": "20/20 = 1.000",
+   "MRR@100": "7.50/10 = 0.750",
+   "labelled_P@10_lower_bound": "20/100 = 0.200",
+   "n_eval_claims": 10
+  },
+  "M1_logreg": {
+   "claim_R@1": "5/10 = 0.500",
+   "claim_R@5": "10/10 = 1.000",
+   "claim_R@10": "10/10 = 1.000",
+   "claim_R@20": "10/10 = 1.000",
+   "doc_R@10_micro": "20/20 = 1.000",
+   "MRR@100": "7.50/10 = 0.750",
+   "labelled_P@10_lower_bound": "20/100 = 0.200",
+   "n_eval_claims": 10
+  },
+  "M2_hist_gbdt": {
+   "claim_R@1": "9/10 = 0.900",
+   "claim_R@5": "10/10 = 1.000",
+   "claim_R@10": "10/10 = 1.000",
+   "claim_R@20": "10/10 = 1.000",
+   "doc_R@10_micro": "20/20 = 1.000",
+   "MRR@100": "9.50/10 = 0.950",
+   "labelled_P@10_lower_bound": "20/100 = 0.200",
+   "n_eval_claims": 10
+  },
+  "M3_logreg_minilm": {
+   "claim_R@1": "6/10 = 0.600",
+   "claim_R@5": "10/10 = 1.000",
+   "claim_R@10": "10/10 = 1.000",
+   "claim_R@20": "10/10 = 1.000",
+   "doc_R@10_micro": "20/20 = 1.000",
+   "MRR@100": "8.00/10 = 0.800",
+   "labelled_P@10_lower_bound": "20/100 = 0.200",
+   "n_eval_claims": 10
+  }
+ },
+ "training_note": "IN-SAMPLE: these claims' labelled documents were used for fitting; scores are optimistic.",
+ "validation": {
+  "pool_coverage_upper_bound": {
+   "claims_in_split": 4,
+   "claims_with_nonempty_docs": 4,
+   "eligible_claims_(>=1_labelled_doc)": 4,
+   "pool_coverage_claim_level_(max_claim_R@100)": "4/4 = 1.000",
+   "pool_coverage_doc_level_(max_doc_R@100)": "8/8 = 1.000"
+  },
+  "hybrid_rrf_baseline": {
+   "claim_R@1": "4/4 = 1.000",
+   "claim_R@5": "4/4 = 1.000",
+   "claim_R@10": "4/4 = 1.000",
+   "claim_R@20": "4/4 = 1.000",
+   "doc_R@10_micro": "8/8 = 1.000",
+   "MRR@100": "4.00/4 = 1.000",
+   "labelled_P@10_lower_bound": "8/40 = 0.200",
+   "n_eval_claims": 4
+  },
+  "M1_logreg": {
+   "claim_R@1": "4/4 = 1.000",
+   "claim_R@5": "4/4 = 1.000",
+   "claim_R@10": "4/4 = 1.000",
+   "claim_R@20": "4/4 = 1.000",
+   "doc_R@10_micro": "8/8 = 1.000",
+   "MRR@100": "4.00/4 = 1.000",
+   "labelled_P@10_lower_bound": "8/40 = 0.200",
+   "n_eval_claims": 4
+  },
+  "M2_hist_gbdt": {
+   "claim_R@1": "1/4 = 0.250",
+   "claim_R@5": "4/4 = 1.000",
+   "claim_R@10": "4/4 = 1.000",
+   "claim_R@20": "4/4 = 1.000",
+   "doc_R@10_micro": "8/8 = 1.000",
+   "MRR@100": "2.50/4 = 0.625",
+   "labelled_P@10_lower_bound": "8/40 = 0.200",
+   "n_eval_claims": 4
+  },
+  "M3_logreg_minilm": {
+   "claim_R@1": "3/4 = 0.750",
+   "claim_R@5": "4/4 = 1.000",
+   "claim_R@10": "4/4 = 1.000",
+   "claim_R@20": "4/4 = 1.000",
+   "doc_R@10_micro": "8/8 = 1.000",
+   "MRR@100": "3.50/4 = 0.875",
+   "labelled_P@10_lower_bound": "8/40 = 0.200",
+   "n_eval_claims": 4
+  }
+ },
+ "selected_on_validation": "M1_logreg",
+ "selection_rule": "max validation claim_R@10; ties -> simpler model (M1 < M2 < M3)",
+ "test": {
+  "pool_coverage_upper_bound": {
+   "claims_in_split": 4,
+   "claims_with_nonempty_docs": 4,
+   "eligible_claims_(>=1_labelled_doc)": 4,
+   "pool_coverage_claim_level_(max_claim_R@100)": "4/4 = 1.000",
+   "pool_coverage_doc_level_(max_doc_R@100)": "8/8 = 1.000"
+  },
+  "hybrid_rrf_baseline": {
+   "claim_R@1": "3/4 = 0.750",
+   "claim_R@5": "4/4 = 1.000",
+   "claim_R@10": "4/4 = 1.000",
+   "claim_R@20": "4/4 = 1.000",
+   "doc_R@10_micro": "8/8 = 1.000",
+   "MRR@100": "3.50/4 = 0.875",
+   "labelled_P@10_lower_bound": "8/40 = 0.200",
+   "n_eval_claims": 4
+  },
+  "M1_logreg": {
+   "claim_R@1": "3/4 = 0.750",
+   "claim_R@5": "4/4 = 1.000",
+   "claim_R@10": "4/4 = 1.000",
+   "claim_R@20": "4/4 = 1.000",
+   "doc_R@10_micro": "8/8 = 1.000",
+   "MRR@100": "3.50/4 = 0.875",
+   "labelled_P@10_lower_bound": "8/40 = 0.200",
+   "n_eval_claims": 4,
+   "vs_hybrid_hit@10_mcnemar": {
+    "wins": 0,
+    "losses": 0,
+    "p_exact": 1.0,
+    "role": "PRIMARY (selected on validation)"
+   }
+  },
+  "M2_hist_gbdt": {
+   "claim_R@1": "3/4 = 0.750",
+   "claim_R@5": "4/4 = 1.000",
+   "claim_R@10": "4/4 = 1.000",
+   "claim_R@20": "4/4 = 1.000",
+   "doc_R@10_micro": "8/8 = 1.000",
+   "MRR@100": "3.50/4 = 0.875",
+   "labelled_P@10_lower_bound": "8/40 = 0.200",
+   "n_eval_claims": 4,
+   "vs_hybrid_hit@10_mcnemar": {
+    "wins": 0,
+    "losses": 0,
+    "p_exact": 1.0,
+    "role": "secondary/exploratory, uncorrected"
+   }
+  },
+  "M3_logreg_minilm": {
+   "claim_R@1": "2/4 = 0.500",
+   "claim_R@5": "4/4 = 1.000",
+   "claim_R@10": "4/4 = 1.000",
+   "claim_R@20": "4/4 = 1.000",
+   "doc_R@10_micro": "8/8 = 1.000",
+   "MRR@100": "3.00/4 = 0.750",
+   "labelled_P@10_lower_bound": "8/40 = 0.200",
+   "n_eval_claims": 4,
+   "vs_hybrid_hit@10_mcnemar": {
+    "wins": 0,
+    "losses": 0,
+    "p_exact": 1.0,
+    "role": "secondary/exploratory, uncorrected"
+   }
+  }
+ },
+ "test_note": "single test pass after model selection on validation",
+ "environment": {
+  "python": "3.13.2",
+  "sklearn": "1.6.1",
+  "numpy": "2.2.3",
+  "runtime_s": 389
+ }
+}

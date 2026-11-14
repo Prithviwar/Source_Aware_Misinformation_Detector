@@ -4,3 +4,13 @@ results/rankings_*.jsonl.gz
 __pycache__/
 *.pyc
 .venv/
+
+# --- added 2026-11-14 (Phase-I publication) ---
+# secrets / local environment
+.env
+.env.*
+# annotation answer keys must never be visible to annotators (public repo)
+data/annotations/**/_KEY_DO_NOT_GIVE_TO_ANNOTATORS/
+# trained model binaries and feature caches (re-creatable; pickled binaries do not belong in Git)
+*.joblib
+results/esa_nov2026/relevance_baseline/**/feature_cache/
