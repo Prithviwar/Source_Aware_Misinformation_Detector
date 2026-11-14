@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.1.0",
+  "description": "Human label for one claim-publisher pair. AI-generated labels are not valid here. The label describes first-hand standing, never claim veracity, general reliability, page relevance or page support.",
+  "final": ["FIRST_HAND_AUTHORITY", "NOT_FIRST_HAND_AUTHORITY", "CANNOT_JUDGE", null],
+  "final_null_means": "Unresolved annotator disagreement; never used as a training target.",
+  "basis": ["INSTITUTIONAL_ACT", "OFFICIAL_RECORD", "ORIGINAL_RESEARCH", "DIRECT_OBSERVATION"],
+  "not_fha_reason": ["REPORTS_OTHERS_ACT", "EXPERT_COMMENTARY", "REPUBLISHER_OR_AGGREGATOR", "UNRELATED", "OTHER"],
+  "cannot_judge_reason": ["UNKNOWN_ENTITY", "AMBIGUOUS_PROPOSITION", "ROLE_CHANGED", "INSUFFICIENT_EVIDENCE"],
+  "flags": ["INTERESTED_PARTY", "PARTIAL_ASPECT", "CLAIM_FAMILIAR"],
+  "required_when": {
+    "basis": "final == FIRST_HAND_AUTHORITY",
+    "not_fha_reason": "final == NOT_FIRST_HAND_AUTHORITY",
+    "cannot_judge_reason": "final == CANNOT_JUDGE"
+  },
+  "annotation_fields": ["annotator", "final", "basis", "confidence"],
+  "cannot_judge_policies": {
+    "exclude": "CANNOT_JUDGE and unresolved pairs get no target (proposed main analysis)",
+    "as_negative": "sensitivity analysis only",
+    "as_positive": "sensitivity analysis only"
+  }
+}

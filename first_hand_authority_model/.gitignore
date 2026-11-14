@@ -1,0 +1,61 @@
+# --- Secrets, credentials, environment files ---
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*token*.json
+.netrc
+
+# --- Virtual environments and tooling caches ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.vscode/
+.idea/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Data: never commit datasets, annotations or held-out material ---
+# Real data, human annotation records, identifiable information, reserved or
+# held-out test data must stay out of version control. Only placeholders are kept.
+data/*
+!data/.gitkeep
+annotations/
+*annotation*.csv
+*annotation*.jsonl
+*annotations*.xlsx
+*.jsonl
+*.jsonl.gz
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+
+# --- Generated outputs and trained models (reproducible; large) ---
+# Runs are regenerated from code + config; trained models are packaged separately.
+outputs/*
+!outputs/.gitkeep
+models/*
+!models/.gitkeep
+TEST_OPENED.lock
+
+# --- Frozen experiment material must never be copied here ---
+Source_Aware_Misinformation_Detector/

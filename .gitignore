@@ -1,16 +1,87 @@
-# raw downloads and knowledge-store extracts (large, re-creatable via experiments/*.py)
-data/raw/
-results/rankings_*.jsonl.gz
-__pycache__/
-*.pyc
-.venv/
+# Root .gitignore for the capstone workspace.
+# Each project keeps its own .gitignore as well (Source_Aware_Misinformation_Detector/.gitignore,
+# first_hand_authority_model/.gitignore); Git applies those inside their folders.
+# Rules here are deliberately targeted: no blanket *.csv / *.json / *.gz / *.zip rules, because Project A
+# tracks result tables, frozen rankings and a few small archives.
 
-# --- added 2026-11-14 (Phase-I publication) ---
-# secrets / local environment
+# --- Secrets, credentials, local environment ---
 .env
 .env.*
-# annotation answer keys must never be visible to annotators (public repo)
-data/annotations/**/_KEY_DO_NOT_GIVE_TO_ANNOTATORS/
-# trained model binaries and feature caches (re-creatable; pickled binaries do not belong in Git)
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+credentials*.json
+*secret*.json
+*token*.json
+
+# --- Python caches and virtual environments ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# --- OS / editor / temporary files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.swp
+~$*
+.vscode/
+.idea/
+*claude-notify-signals*
+
+# --- Private annotation keys and sealed / hidden evaluation labels ---
+**/_KEY_DO_NOT_GIVE_TO_ANNOTATORS/
+*reserved180_gold*
+**/ks_reserved180/
+
+# --- Model weights, pickles and caches ---
 *.joblib
-results/esa_nov2026/relevance_baseline/**/feature_cache/
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+**/feature_cache/
+**/hf_cache/
+
+# --- Raw datasets and large downloads ---
+Source_Aware_Misinformation_Detector/data/raw/
+Source_Aware_Misinformation_Detector/results/rankings_*.jsonl.gz
+storage/datasets/*
+!storage/datasets/README_RECOVERY_NOTE.md
+
+# --- Backups and archives (local-only) ---
+storage/backups/
+*.bundle
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# --- Recovery staging: private or redundant material stays local ---
+# Claude session transcripts, scratchpads, recycle-bin metadata (private conversation data)
+RECOVERY_STAGING_2026-11-13/_preserved_sources/
+# byte-identical duplicates of the live Project A / Project B files (Project B copy has its own .git)
+RECOVERY_STAGING_2026-11-13/reconstructed/project_A/
+RECOVERY_STAGING_2026-11-13/reconstructed/project_A_final/
+RECOVERY_STAGING_2026-11-13/reconstructed/project_B/
+
+# --- Personal data ---
+# Updated review deck contains team SRNs; keep all review decks out of Git
+Source_Aware_Misinformation_Detector/docs/monday_review_2026-11-16/*.pptx
+*.pptx
+# duplicate full-page screenshot (local only)
+Source_Aware_Misinformation_Detector/results/esa_nov2026/demo/screenshots/02_claim268_full.png

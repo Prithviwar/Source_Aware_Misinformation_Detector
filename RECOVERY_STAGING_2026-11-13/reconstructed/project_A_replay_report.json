@@ -1,0 +1,520 @@
+{
+ "files": [
+  {
+   "path": "docs/ESA_DEMO_SCRIPT.md",
+   "steps": 3,
+   "final_sha256": "8c65d541ff59754f84c784a18d0f2ccd8c0ea51cc4cff8a62a8df90d0b0739b7",
+   "bytes": 7089,
+   "verdict": "FINAL HASH MATCHES TRANSCRIPT RECORD",
+   "recorded": [
+    "8c65d541ff59754f84c784a18d0f2ccd8c0ea51cc4cff8a62a8df90d0b0739b7"
+   ],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:25:45",
+     "action": "Write[108]",
+     "sha256_after": "bcacd2b00115319d45aab6afdf32aad230327bc751a79ea758864ffd5911a6d9",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T07:31:15",
+     "action": "shell sed[117]",
+     "sha256_after": "787266e24031f91273f208acf9550f3c266158aa24f22f80935cf3f765228e39",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T14:45:28",
+     "action": "shell py-c[175]",
+     "sha256_after": "8c65d541ff59754f84c784a18d0f2ccd8c0ea51cc4cff8a62a8df90d0b0739b7",
+     "matches_record": true
+    }
+   ]
+  },
+  {
+   "path": "docs/ESA_IMPLEMENTATION_AND_EXPERIMENT_REPORT.md",
+   "steps": 5,
+   "final_sha256": "2e40e919b56b634fbd96209bafe3f17027e55e4a6d0779cfc545e9c4a438d84f",
+   "bytes": 41244,
+   "verdict": "FINAL HASH MATCHES TRANSCRIPT RECORD",
+   "recorded": [
+    "2e40e919b56b634fbd96209bafe3f17027e55e4a6d0779cfc545e9c4a438d84f",
+    "8e8a3f0bc76e93bfcf476ea61057fc5b01dcff49c2ee356137ef19207e5f8e6e"
+   ],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:24:43",
+     "action": "Write[102]",
+     "sha256_after": "0088715159d42e68f23b0c9c2e452910cbd7468f24776f1defb27c7034b2f2e1",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T07:24:53",
+     "action": "Edit[103]",
+     "sha256_after": "b37eb64ad0ad3cfd2847e5a1d67936f2f59142ecb150e71ff704e0aa8575567e",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T07:31:15",
+     "action": "shell sed[117]",
+     "sha256_after": "1db46738e74faf0de509c14f76c7b462b3c79fddd74030f2131f9231c4c3b29f",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T14:45:08",
+     "action": "shell update_report.py[171]",
+     "sha256_after": "8e8a3f0bc76e93bfcf476ea61057fc5b01dcff49c2ee356137ef19207e5f8e6e",
+     "matches_record": true
+    },
+    {
+     "ts": "2026-11-09T06:01:16",
+     "action": "shell fix_ad.py[189]",
+     "sha256_after": "2e40e919b56b634fbd96209bafe3f17027e55e4a6d0779cfc545e9c4a438d84f",
+     "matches_record": true
+    }
+   ]
+  },
+  {
+   "path": "docs/ESA_PROPOSED_AUTHORITY_MODEL_ARCHITECTURE.md",
+   "steps": 1,
+   "final_sha256": "eac42026a0f6ab3991592af06386cfb32f5d0d9f2305ad51d7dfcfcaed528ad3",
+   "bytes": 7170,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:22:36",
+     "action": "Write[100]",
+     "sha256_after": "eac42026a0f6ab3991592af06386cfb32f5d0d9f2305ad51d7dfcfcaed528ad3",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "docs/RESEARCH_PROPOSAL_INFORMATION_PACKAGE.md",
+   "steps": 2,
+   "final_sha256": "df4e9e8aa267045bd3e9b96abfa9a244b325322f6faa0abec72b927a2799adce",
+   "bytes": 42267,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-07T04:12:51",
+     "action": "Write[877]",
+     "sha256_after": "f34a26e646a17f028e736795a2fa41dba9508fab85310fe81d545f603a183bd0",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-07T04:13:00",
+     "action": "shell sed[878]",
+     "sha256_after": "df4e9e8aa267045bd3e9b96abfa9a244b325322f6faa0abec72b927a2799adce",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "docs/authority_resolution_bottleneck_analysis.md",
+   "steps": 2,
+   "final_sha256": "0fcd49b54fe0179302068196115a2ebe70e78d9bcd5183b2fa33d1a237e8fbcb",
+   "bytes": 53687,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-10-28T06:55:32",
+     "action": "Write[284]",
+     "sha256_after": "c57e284b6684d840a427e7c0e8c1de343ab14bfcadd9860734ea0ed91ef649b7",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:55:40",
+     "action": "Edit[285]",
+     "sha256_after": "0fcd49b54fe0179302068196115a2ebe70e78d9bcd5183b2fa33d1a237e8fbcb",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "docs/authority_resolution_diagnostic_audit.md",
+   "steps": 2,
+   "final_sha256": "5c0b9ef85b2017a62564274c7c76077ff9872944a7e3b03093cb9e27572cb812",
+   "bytes": 24226,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-10-28T12:19:37",
+     "action": "Write[313]",
+     "sha256_after": "d58bb2862310d8a528e604162294029a0d15b0fa7b9ebb62d5970b830e1da22b",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T12:19:50",
+     "action": "Edit[316]",
+     "sha256_after": "5c0b9ef85b2017a62564274c7c76077ff9872944a7e3b03093cb9e27572cb812",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "docs/proposals/verdict_classifier_training_proposal_DRAFT.md",
+   "steps": 1,
+   "final_sha256": "0efa473ab5dfe8913fa40a1e189109b95acf7cd42431d00a43903fe142905150",
+   "bytes": 22806,
+   "verdict": "FINAL HASH MATCHES TRANSCRIPT RECORD",
+   "recorded": [
+    "0efa473ab5dfe8913fa40a1e189109b95acf7cd42431d00a43903fe142905150"
+   ],
+   "chronology": [
+    {
+     "ts": "2026-11-02T12:25:36",
+     "action": "Write[577]",
+     "sha256_after": "0efa473ab5dfe8913fa40a1e189109b95acf7cd42431d00a43903fe142905150",
+     "matches_record": true
+    }
+   ]
+  },
+  {
+   "path": "experiments/authority_bottleneck_diagnostics.py",
+   "steps": 9,
+   "final_sha256": "66a962c0e95259af52b895bc950f7aa71671e4f95bbfd100886900de363cb23b",
+   "bytes": 39420,
+   "verdict": "FINAL HASH MATCHES TRANSCRIPT RECORD",
+   "recorded": [
+    "66a962c0e95259af52b895bc950f7aa71671e4f95bbfd100886900de363cb23b"
+   ],
+   "chronology": [
+    {
+     "ts": "2026-10-28T06:40:28",
+     "action": "Write[240]",
+     "sha256_after": "c30a38e154e72c8f36d3a870a2e7cd61c30cbe225e5a4ada3ac5c342844d1017",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:40:38",
+     "action": "Edit[241]",
+     "sha256_after": "1906d1b87e373643cdd8b3464057dcfec94bef8b0f8d252dcabb98d7ee353a2a",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:41:38",
+     "action": "shell sed[245]",
+     "sha256_after": "2f26bfa27c9a5beba0394b5215ffcfd6975939b249a25723a3d81c421e107fa0",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:44:50",
+     "action": "Edit[256]",
+     "sha256_after": "301fac1d7f2303b313cbe0735bff51e54915f6d34ba6cadd0e7970dd48293b92",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:44:52",
+     "action": "Edit[257]",
+     "sha256_after": "9c7a97dbb4471cba9bad02c71e5598e5ccbef9e50a38fdefec1a86c8a9b870ec",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:45:06",
+     "action": "shell sed[262]",
+     "sha256_after": "c49fb66edc69a75e396f48ddde7461c546b78aefc557a8c44edeb83b7fcbbf26",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:45:19",
+     "action": "Edit[265]",
+     "sha256_after": "de8c5e279281307fb8ed981f9c9209cd183af7e5119e95f8a62e80302187b0b4",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:49:48",
+     "action": "Edit[274]",
+     "sha256_after": "b1a4a25a53558656b94034de542a80213544cb9608cd49b3cdcf1ee1261e1cc6",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T06:49:51",
+     "action": "Edit[275]",
+     "sha256_after": "66a962c0e95259af52b895bc950f7aa71671e4f95bbfd100886900de363cb23b",
+     "matches_record": true
+    }
+   ]
+  },
+  {
+   "path": "experiments/authority_diagnostic_audit.py",
+   "steps": 5,
+   "final_sha256": "6e2f47531c5aba32c1be82ff018d3a32d459fbb12847f3c17e0916ff6c3423df",
+   "bytes": 27709,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-10-28T12:06:46",
+     "action": "Write[292]",
+     "sha256_after": "11c913c207706727788ef83abf1e419f0927b965d36f5118a7509b5b1157b7dd",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T12:07:07",
+     "action": "Edit[295]",
+     "sha256_after": "d3209df86193c35f9c3c788651b5e8f77753e4baf7f2596b9ad7144351220f47",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T12:07:18",
+     "action": "Edit[299]",
+     "sha256_after": "fdc72944e14b0a396c09aab5374b49b0753dc26dfed17d2920cd68df5672fa46",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T12:11:41",
+     "action": "Edit[308]",
+     "sha256_after": "a92a3b15b5032b87685b6110bb3bb57381620ab0313662960219b96e6b76b4d9",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-10-28T12:14:47",
+     "action": "shell py[312]",
+     "sha256_after": "6e2f47531c5aba32c1be82ff018d3a32d459fbb12847f3c17e0916ff6c3423df",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/authority_promotion_stats.py",
+   "steps": 1,
+   "final_sha256": "cddf7c478b15c5b8881ab24113bad4d99a9a48e3a3a62c71a910c0c5c9622638",
+   "bytes": 5454,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:12:41",
+     "action": "Write[93]",
+     "sha256_after": "cddf7c478b15c5b8881ab24113bad4d99a9a48e3a3a62c71a910c0c5c9622638",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/demo.py",
+   "steps": 3,
+   "final_sha256": "07793d918fbd804a27f9d1089d68826bce627c5d40cbc04133f9f4f2703e3a72",
+   "bytes": 21086,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:00:14",
+     "action": "Write[77]",
+     "sha256_after": "12aa622d7b4c1a0744b667b41cd7454bf1b2691e80e9d459ad5e4f47f928e379",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T07:01:16",
+     "action": "shell py[79]",
+     "sha256_after": "280d3d3f66aa8f4746aa177f598492dfcbb938409be0606f0cc2bfbf456cb032",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T07:22:01",
+     "action": "Edit[96] (CRLF file)",
+     "sha256_after": "07793d918fbd804a27f9d1089d68826bce627c5d40cbc04133f9f4f2703e3a72",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/esa_common.py",
+   "steps": 1,
+   "final_sha256": "61606f30c2a8d26d2277e8848bbe1c3fd36d14dd1502a8c5fa009ea3eaeeaa8b",
+   "bytes": 4060,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T06:48:02",
+     "action": "Write[73]",
+     "sha256_after": "61606f30c2a8d26d2277e8848bbe1c3fd36d14dd1502a8c5fa009ea3eaeeaa8b",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/recall_ceiling.py",
+   "steps": 1,
+   "final_sha256": "7a11d46e4d88917e613b7db1e3b2800596ee57cab8b52c2327c7b28f3fd399e0",
+   "bytes": 9230,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:02:29",
+     "action": "Write[80]",
+     "sha256_after": "7a11d46e4d88917e613b7db1e3b2800596ee57cab8b52c2327c7b28f3fd399e0",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/relevance_baseline/extract_train_ks_sample.py",
+   "steps": 3,
+   "final_sha256": "cdfdc5f68e69316eac9b44f02aaa79ea1b2f20099e7b313da4db2077e27f11a4",
+   "bytes": 5596,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:03:55",
+     "action": "Write[87]",
+     "sha256_after": "a6d018eee3949604bf5e745e8b58a4a1757ddef3abc5fa4ea6d4cb7c098bb6a7",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T07:32:49",
+     "action": "shell py[121]",
+     "sha256_after": "cdfdc5f68e69316eac9b44f02aaa79ea1b2f20099e7b313da4db2077e27f11a4",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T07:32:59",
+     "action": "Edit[122] (CRLF file)",
+     "sha256_after": "cdfdc5f68e69316eac9b44f02aaa79ea1b2f20099e7b313da4db2077e27f11a4",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/relevance_baseline/features.py",
+   "steps": 1,
+   "final_sha256": "6376c228a830b7638f63514a75200a2c591e1a38030965d419453f89a4c19661",
+   "bytes": 4752,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:04:28",
+     "action": "Write[88]",
+     "sha256_after": "6376c228a830b7638f63514a75200a2c591e1a38030965d419453f89a4c19661",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/relevance_baseline/make_train_split.py",
+   "steps": 1,
+   "final_sha256": "cd40b40b278b253f3a478faf0bf40efbaf962d08ba891b7799cddb578f50bcbb",
+   "bytes": 3400,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:03:41",
+     "action": "Write[86]",
+     "sha256_after": "cd40b40b278b253f3a478faf0bf40efbaf962d08ba891b7799cddb578f50bcbb",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/relevance_baseline/rb_common.py",
+   "steps": 2,
+   "final_sha256": "cd929b1c05f146f103123f454daa36bc63b2f67ba9584891652d1d56015554eb",
+   "bytes": 3558,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:03:26",
+     "action": "Write[85]",
+     "sha256_after": "cb74af917cef7ca15a2ff024e0e7ef80919c930b053be2b144315ecc4cfc94de",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T12:18:37",
+     "action": "shell py[144]",
+     "sha256_after": "cd929b1c05f146f103123f454daa36bc63b2f67ba9584891652d1d56015554eb",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/relevance_baseline/train_relevance.py",
+   "steps": 3,
+   "final_sha256": "b134fc84b12f87a2b265412831a1ebdf21d9c1e0ad4f239028b68a9671ddaa27",
+   "bytes": 16988,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:05:03",
+     "action": "Write[89]",
+     "sha256_after": "28affc89a05dda19853828e2096fb5cdad3127ac05ddb968f35cd9071a5a2324",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T07:34:07",
+     "action": "shell py[129]",
+     "sha256_after": "81af4366c5e08ce4df5dd1cd6adfb4c4da41a16f9d0606925b991f31028ea854",
+     "matches_record": false
+    },
+    {
+     "ts": "2026-11-08T12:19:34",
+     "action": "Write[145]",
+     "sha256_after": "b134fc84b12f87a2b265412831a1ebdf21d9c1e0ad4f239028b68a9671ddaa27",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/relevance_baseline/verify_extraction.py",
+   "steps": 1,
+   "final_sha256": "88694e4c5ff76058e652e9c7e3a047b9a5c67cfd92e2b10e5844c93a3dc862f7",
+   "bytes": 6136,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T07:33:38",
+     "action": "Write[127]",
+     "sha256_after": "88694e4c5ff76058e652e9c7e3a047b9a5c67cfd92e2b10e5844c93a3dc862f7",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/relevance_baseline/verify_unlabelled_sampling.py",
+   "steps": 1,
+   "final_sha256": "2a4d4c349be239e3c33d52c29500577631a8e6a5ee3f4cd4464d928909b0c329",
+   "bytes": 3372,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T12:19:50",
+     "action": "Write[146]",
+     "sha256_after": "2a4d4c349be239e3c33d52c29500577631a8e6a5ee3f4cd4464d928909b0c329",
+     "matches_record": false
+    }
+   ]
+  },
+  {
+   "path": "experiments/esa_nov2026/reproduce_check.py",
+   "steps": 1,
+   "final_sha256": "d678907a961701d77519cc8bd25cf7f79992b9540a75a05d25970c8aeb0cef0e",
+   "bytes": 8546,
+   "verdict": "no recorded hash",
+   "recorded": [],
+   "chronology": [
+    {
+     "ts": "2026-11-08T06:48:46",
+     "action": "Write[75]",
+     "sha256_after": "d678907a961701d77519cc8bd25cf7f79992b9540a75a05d25970c8aeb0cef0e",
+     "matches_record": false
+    }
+   ]
+  }
+ ],
+ "warnings": [
+  "EDIT NOT APPLIED (old_string missing) experiments/esa_nov2026/relevance_baseline/extract_train_ks_sample.py [122] 2026-11-08T07:32:59.655Z"
+ ]
+}

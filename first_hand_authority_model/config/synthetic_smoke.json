@@ -1,0 +1,54 @@
+{
+  "_comment": "SYNTHETIC SMOKE TEST ONLY. Exercises the pipeline mechanics on generated fixtures. The decision values below are PLACEHOLDERS chosen to make the code run; they are NOT approved research decisions and nothing produced with this config is empirical evidence.",
+  "config_version": "0.1.0",
+  "mode": "synthetic_smoke",
+  "decisions": {
+    "positive_bases": ["INSTITUTIONAL_ACT", "OFFICIAL_RECORD", "ORIGINAL_RESEARCH"],
+    "record_keeper_rule": "PLACEHOLDER",
+    "quotation_rule": "PLACEHOLDER",
+    "self_report_rule": "PLACEHOLDER",
+    "cannot_judge_policy": "exclude",
+    "candidate_source": "PLACEHOLDER",
+    "merge_corporate_families": true,
+    "hub_max_claim_share": 0.5,
+    "temporal_split_required": false,
+    "available_features": "ALL_SCHEMA_FEATURES",
+    "score_limited_pairs": true,
+    "annotator_feature_diagnostic_allowed": false,
+    "per_claim_weighting": false,
+    "delta_min_auprc": 0.05,
+    "min_annotator_agreement": "PLACEHOLDER",
+    "calibration_acceptable": {"slope": [0.8, 1.2], "intercept": [-0.2, 0.2]}
+  },
+  "split": {
+    "seed": 20261029,
+    "frac_train": 0.6,
+    "frac_val": 0.2,
+    "frac_test": 0.2,
+    "test_unit_fraction": 0.5,
+    "val_unit_fraction": 0.5,
+    "near_duplicate_jaccard": 0.8
+  },
+  "model": {
+    "C_grid": [0.1, 1.0, 10.0],
+    "min_count_grid": [1, 5],
+    "inner_folds": 3,
+    "class_weight": null,
+    "type_prior_alpha": 1.0,
+    "calibration": "platt_if_outside_acceptable"
+  },
+  "evaluation": {
+    "primary_metric": "auprc",
+    "primary_comparison": ["claim_conditioned_lr", "publisher_only_lr"],
+    "secondary_comparisons": [["claim_conditioned_lr", "role_rules"], ["role_rules", "type_prior"], ["publisher_only_lr", "type_prior"]],
+    "bootstrap_n": 300,
+    "bootstrap_seed": 7,
+    "bootstrap_schemes": ["two_way", "claim", "publisher"],
+    "max_degenerate_share": 0.05,
+    "ranking_k": [1, 3]
+  },
+  "paths": {
+    "role_rules": "config/role_rules.draft.json",
+    "alias_map": null
+  }
+}

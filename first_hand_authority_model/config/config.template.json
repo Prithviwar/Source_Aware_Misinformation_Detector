@@ -1,0 +1,54 @@
+{
+  "_comment": "Copy to config/config.json for a real run. Every entry under 'decisions' is a mentor/project-owner decision; null = unresolved. A real-mode run refuses to start while any decision is null. See docs/DECISIONS.md for options.",
+  "config_version": "0.1.0",
+  "mode": "real",
+  "decisions": {
+    "positive_bases": null,
+    "record_keeper_rule": null,
+    "quotation_rule": null,
+    "self_report_rule": null,
+    "cannot_judge_policy": null,
+    "candidate_source": null,
+    "merge_corporate_families": null,
+    "hub_max_claim_share": null,
+    "temporal_split_required": null,
+    "available_features": null,
+    "score_limited_pairs": null,
+    "annotator_feature_diagnostic_allowed": null,
+    "per_claim_weighting": null,
+    "delta_min_auprc": null,
+    "min_annotator_agreement": null,
+    "calibration_acceptable": null
+  },
+  "split": {
+    "seed": 20261029,
+    "frac_train": 0.6,
+    "frac_val": 0.2,
+    "frac_test": 0.2,
+    "test_unit_fraction": 0.5,
+    "val_unit_fraction": 0.5,
+    "near_duplicate_jaccard": 0.8
+  },
+  "model": {
+    "C_grid": [0.01, 0.1, 1.0, 10.0],
+    "min_count_grid": [1, 3, 5],
+    "inner_folds": 3,
+    "class_weight": null,
+    "type_prior_alpha": 1.0,
+    "calibration": "platt_if_outside_acceptable"
+  },
+  "evaluation": {
+    "primary_metric": "auprc",
+    "primary_comparison": ["claim_conditioned_lr", "publisher_only_lr"],
+    "secondary_comparisons": [["claim_conditioned_lr", "role_rules"], ["role_rules", "type_prior"], ["publisher_only_lr", "type_prior"]],
+    "bootstrap_n": 2000,
+    "bootstrap_seed": 7,
+    "bootstrap_schemes": ["two_way", "claim", "publisher"],
+    "max_degenerate_share": 0.05,
+    "ranking_k": [1, 3]
+  },
+  "paths": {
+    "role_rules": "config/role_rules.draft.json",
+    "alias_map": null
+  }
+}

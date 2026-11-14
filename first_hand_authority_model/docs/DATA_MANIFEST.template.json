@@ -1,0 +1,26 @@
+{
+  "_comment": "Fill in only after dataset construction is authorised. A real training run refuses to start unless authorised=true, is_synthetic=false and every field below is filled.",
+  "dataset_name": null,
+  "dataset_version": null,
+  "authorised": false,
+  "authorised_by": null,
+  "authorised_date": null,
+  "is_synthetic": true,
+  "provenance": null,
+  "usage_rights": null,
+  "candidate_source": null,
+  "label_source": null,
+  "guideline_version": null,
+  "annotators": null,
+  "agreement": null,
+  "frozen_artifact_hashes": {
+    "feature_schema": null,
+    "label_schema": null,
+    "publisher_type_map": null,
+    "topic_taxonomy": null,
+    "topic_remit_map": null,
+    "role_rules": null
+  },
+  "kb_snapshot_dates": null,
+  "excluded_sources": ["Source_Aware_Misinformation_Detector frozen artifacts, reserved claims, gold labels, probes and scoring materials"]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "DRAFT_UNAPPROVED",
+  "_comment": "Baseline 1 rule table. Must be reviewed, approved and frozen (status APPROVED, hash recorded) BEFORE any real labels are seen. The OFFICIAL_STATISTIC row assumes the designated record-keeper rule, which is an open mentor decision; under the 'any official publisher' rule EXECUTIVE_GOV and REGULATOR would be added.",
+  "self_act_actions": ["POLICY_DECISION", "LEGAL_RULING", "OWN_CONDUCT"],
+  "responsibility": {
+    "OFFICIAL_STATISTIC": ["STATISTICS_OFFICE"],
+    "LEGAL_RULING": ["COURT"],
+    "POLICY_DECISION": ["EXECUTIVE_GOV", "LEGISLATURE", "REGULATOR"],
+    "RESEARCH_FINDING": ["JOURNAL", "RESEARCH_ORG"]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1.0",
+  "description": "Input features for one claim-publisher pair. Values are supplied by upstream extractors that are NOT part of this package. Every feature must be present; use a sentinel rather than omitting it.",
+  "sentinels": {
+    "UNKNOWN": "The extractor ran but could not determine the value (e.g. entity not in the knowledge base).",
+    "NOT_COMPUTED": "No extractor exists or it was not run for this pair. Never replaced by a guessed value."
+  },
+  "features": {
+    "action_type": {
+      "group": "claim",
+      "levels": ["POLICY_DECISION", "LEGAL_RULING", "OFFICIAL_STATISTIC", "RESEARCH_FINDING", "EVENT_OCCURRENCE", "OWN_CONDUCT", "UTTERANCE", "OTHER"],
+      "populated_by": "claim-type classifier (not built; needs labelled training claims)",
+      "flags": ["SUB", "ANN"]
+    },
+    "claim_scope": {
+      "group": "claim",
+      "levels": ["SUBNATIONAL", "NATIONAL", "INTERNATIONAL"],
+      "populated_by": "location code plus place names (not built)",
+      "flags": ["SUB"]
+    },
+    "claim_topic": {
+      "group": "claim",
+      "levels": null,
+      "levels_note": "Topic taxonomy is an unresolved decision. Until frozen, any UPPER_SNAKE_CASE token is accepted and a validation warning is raised.",
+      "populated_by": "topic classifier over a frozen taxonomy (not built)",
+      "flags": ["SUB", "ANN", "RES"]
+    },
+    "publisher_type": {
+      "group": "publisher",
+      "levels": ["EXECUTIVE_GOV", "LEGISLATURE", "COURT", "STATISTICS_OFFICE", "REGULATOR", "INTERGOVERNMENTAL", "RESEARCH_ORG", "JOURNAL", "COMPANY", "NGO", "NEWS", "FACT_CHECKER", "INDIVIDUAL", "OTHER"],
+      "populated_by": "knowledge-base 'instance of' plus a type map frozen before labelling (map not written)",
+      "flags": ["EXT", "RES"]
+    },
+    "publisher_jurisdiction_level": {
+      "group": "publisher",
+      "levels": ["SUBNATIONAL", "NATIONAL", "INTERNATIONAL", "NONE"],
+      "populated_by": "knowledge-base jurisdiction statements",
+      "flags": ["EXT"]
+    },
+    "actor_relation": {
+      "group": "interaction",
+      "levels": ["SAME_ENTITY", "PARENT", "SUBSIDIARY", "NONE"],
+      "populated_by": "actor extraction + entity linking + knowledge-base organisation relations (not built)",
+      "flags": ["SUB", "EXT", "ANN"]
+    },
+    "speaker_relation": {
+      "group": "interaction",
+      "levels": ["SAME_ENTITY", "PARENT", "SUBSIDIARY", "NONE"],
+      "populated_by": "speaker entity linking + knowledge base (not built)",
+      "flags": ["SUB", "EXT"]
+    },
+    "jurisdiction_match": {
+      "group": "interaction",
+      "levels": ["SAME", "ENCOMPASSING", "NARROWER", "DIFFERENT", "NOT_APPLICABLE"],
+      "populated_by": "claim location vs. knowledge-base jurisdiction",
+      "flags": ["EXT"]
+    },
+    "remit_match": {
+      "group": "interaction",
+      "levels": ["YES", "NO"],
+      "populated_by": "claim topic vs. publisher mandate through a frozen topic-remit map (map not written)",
+      "flags": ["EXT", "RES", "ANN"]
+    }
+  },
+  "eligibility": {
+    "active_at_claim_date": {
+      "levels": ["YES", "NO"],
+      "rule": "NO => pair is INELIGIBLE and never scored; UNKNOWN/NOT_COMPUTED => scored normally and noted",
+      "flags": ["EXT"]
+    }
+  },
+  "relation_features": ["actor_relation", "speaker_relation", "jurisdiction_match", "remit_match"],
+  "derived_interactions": [["action_type", "publisher_type"]],
+  "prohibited_keys": [
+    "verdict", "label_veracity", "claim_label", "justification", "gold_evidence", "gold_url", "gold_urls",
+    "gold_publisher", "qa_pairs", "questions", "answers", "retrieval_rank", "search_rank", "rank",
+    "retrieval_score", "retrieval_frequency", "pool_count", "popularity", "traffic_rank", "pagerank",
+    "domain_suffix", "tld", "page_relevance", "page_support", "annotator_proposition",
+    "frozen_prediction", "authority_prediction", "domain_overrides"
+  ]
+}
